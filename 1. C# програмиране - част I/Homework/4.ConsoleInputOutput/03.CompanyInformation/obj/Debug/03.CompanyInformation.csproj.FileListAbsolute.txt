@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\03.CompanyInformation\bin\Debug\03.CompanyInformation.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\03.CompanyInformation\bin\Debug\03.CompanyInformation.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\03.CompanyInformation\obj\Debug\03.CompanyInformation.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\03.CompanyInformation\obj\Debug\03.CompanyInformation.pdb

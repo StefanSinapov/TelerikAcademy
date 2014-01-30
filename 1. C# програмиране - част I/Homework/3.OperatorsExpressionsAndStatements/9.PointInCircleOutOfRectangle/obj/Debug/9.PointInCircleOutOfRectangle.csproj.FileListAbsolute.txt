@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\9.PointInCircleOutOfRectangle\bin\Debug\9.PointInCircleOutOfRectangle.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\9.PointInCircleOutOfRectangle\bin\Debug\9.PointInCircleOutOfRectangle.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\9.PointInCircleOutOfRectangle\obj\Debug\9.PointInCircleOutOfRectangle.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\9.PointInCircleOutOfRectangle\obj\Debug\9.PointInCircleOutOfRectangle.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\9.PointInCircleOutOfRectangle\obj\Debug\9.PointInCircleOutOfRectangle.pdb

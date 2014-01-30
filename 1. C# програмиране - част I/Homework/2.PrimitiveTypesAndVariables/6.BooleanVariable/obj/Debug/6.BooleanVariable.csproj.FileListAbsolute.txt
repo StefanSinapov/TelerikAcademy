@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\6.BooleanVariable\bin\Debug\6.BooleanVariable.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\6.BooleanVariable\bin\Debug\6.BooleanVariable.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\6.BooleanVariable\obj\Debug\6.BooleanVariable.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\6.BooleanVariable\obj\Debug\6.BooleanVariable.pdb

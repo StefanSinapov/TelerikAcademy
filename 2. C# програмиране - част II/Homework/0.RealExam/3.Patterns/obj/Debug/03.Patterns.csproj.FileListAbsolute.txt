@@ -1,0 +1,2 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\3.Patterns\obj\Debug\3.Patterns.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\3.Patterns\obj\Debug\3.Patterns.pdb

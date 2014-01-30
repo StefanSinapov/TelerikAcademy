@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FighterAttack\bin\Debug\1.FighterAttack.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FighterAttack\bin\Debug\1.FighterAttack.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FighterAttack\bin\Debug\1.FighterAttack.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FighterAttack\obj\Debug\1.FighterAttack.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FighterAttack\obj\Debug\1.FighterAttack.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FighterAttack\obj\Debug\1.FighterAttack.pdb

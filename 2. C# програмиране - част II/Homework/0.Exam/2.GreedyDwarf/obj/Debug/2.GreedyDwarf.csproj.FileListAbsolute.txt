@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.GreedyDwarf\bin\Debug\2.GreedyDwarf.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.GreedyDwarf\bin\Debug\2.GreedyDwarf.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.GreedyDwarf\obj\Debug\2.GreedyDwarf.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.GreedyDwarf\obj\Debug\2.GreedyDwarf.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.GreedyDwarf\obj\Debug\2.GreedyDwarf.pdb

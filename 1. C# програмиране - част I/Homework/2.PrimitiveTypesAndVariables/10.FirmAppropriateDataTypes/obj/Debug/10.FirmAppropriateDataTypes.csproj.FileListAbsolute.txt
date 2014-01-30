@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\10.FirmAppropriateDataTypes\bin\Debug\10.FirmAppropriateDataTypes.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\10.FirmAppropriateDataTypes\bin\Debug\10.FirmAppropriateDataTypes.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\10.FirmAppropriateDataTypes\obj\Debug\10.FirmAppropriateDataTypes.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\10.FirmAppropriateDataTypes\obj\Debug\10.FirmAppropriateDataTypes.pdb

@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\03.DayOfTheWeek\bin\Debug\03.DayOfTheWeek.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\03.DayOfTheWeek\bin\Debug\03.DayOfTheWeek.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\03.DayOfTheWeek\obj\Debug\03.DayOfTheWeek.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\03.DayOfTheWeek\obj\Debug\03.DayOfTheWeek.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\03.DayOfTheWeek\obj\Debug\03.DayOfTheWeek.pdb

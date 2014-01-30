@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\04.SurfaceOfTriangle\bin\Debug\04.SurfaceOfTriangle.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\04.SurfaceOfTriangle\bin\Debug\04.SurfaceOfTriangle.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\04.SurfaceOfTriangle\obj\Debug\04.SurfaceOfTriangle.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\04.SurfaceOfTriangle\obj\Debug\04.SurfaceOfTriangle.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\04.SurfaceOfTriangle\obj\Debug\04.SurfaceOfTriangle.pdb

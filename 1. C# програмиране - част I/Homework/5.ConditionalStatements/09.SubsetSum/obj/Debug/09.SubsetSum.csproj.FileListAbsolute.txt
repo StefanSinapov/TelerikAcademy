@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\09.SubsetSum\bin\Debug\09.SubsetSum.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\09.SubsetSum\bin\Debug\09.SubsetSum.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\09.SubsetSum\bin\Debug\09.SubsetSum.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\09.SubsetSum\obj\Debug\09.SubsetSum.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\09.SubsetSum\obj\Debug\09.SubsetSum.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\09.SubsetSum\obj\Debug\09.SubsetSum.pdb

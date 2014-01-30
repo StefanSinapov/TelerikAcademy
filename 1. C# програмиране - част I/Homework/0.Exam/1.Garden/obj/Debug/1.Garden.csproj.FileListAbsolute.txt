@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.Garden\bin\Debug\1.Garden.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.Garden\bin\Debug\1.Garden.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.Garden\bin\Debug\1.Garden.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.Garden\obj\Debug\1.Garden.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.Garden\obj\Debug\1.Garden.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.Garden\obj\Debug\1.Garden.pdb

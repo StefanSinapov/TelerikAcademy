@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\05.PrintDigitName\bin\Debug\05.PrintDigitName.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\05.PrintDigitName\bin\Debug\05.PrintDigitName.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\05.PrintDigitName\obj\Debug\05.PrintDigitName.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\05.PrintDigitName\obj\Debug\05.PrintDigitName.pdb

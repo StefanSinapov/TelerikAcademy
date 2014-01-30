@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\24. Sort Alphabetical\bin\Debug\_24.Sort_Alphabetical.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\24. Sort Alphabetical\bin\Debug\_24.Sort_Alphabetical.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\24. Sort Alphabetical\bin\Debug\_24.Sort_Alphabetical.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\24. Sort Alphabetical\obj\Debug\_24.Sort_Alphabetical.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\24. Sort Alphabetical\obj\Debug\_24.Sort_Alphabetical.pdb

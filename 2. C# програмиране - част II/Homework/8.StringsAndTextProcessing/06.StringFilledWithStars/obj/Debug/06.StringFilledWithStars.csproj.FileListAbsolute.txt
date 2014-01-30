@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\06.StringFilledWithStars\bin\Debug\06.StringFilledWithStars.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\06.StringFilledWithStars\bin\Debug\06.StringFilledWithStars.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\06.StringFilledWithStars\obj\Debug\06.StringFilledWithStars.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\06.StringFilledWithStars\obj\Debug\06.StringFilledWithStars.pdb

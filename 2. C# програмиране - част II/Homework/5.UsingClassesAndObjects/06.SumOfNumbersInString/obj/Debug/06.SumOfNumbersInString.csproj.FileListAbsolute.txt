@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\06.SumOfNumbersInString\bin\Debug\06.SumOfNumbersInString.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\06.SumOfNumbersInString\bin\Debug\06.SumOfNumbersInString.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\06.SumOfNumbersInString\obj\Debug\06.SumOfNumbersInString.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\06.SumOfNumbersInString\obj\Debug\06.SumOfNumbersInString.pdb

@@ -1,0 +1,10 @@
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\Combinations\bin\Debug\Combinations.exe.config
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\Combinations\bin\Debug\Combinations.exe
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\Combinations\bin\Debug\Combinations.pdb
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\Combinations\obj\Debug\Combinations.exe
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\Combinations\obj\Debug\Combinations.pdb
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\Combinations\obj\Debug\Combinations.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\Combinations\bin\Debug\Combinations.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\Combinations\obj\Debug\Combinations.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\Combinations\obj\Debug\Combinations.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\Combinations\obj\Debug\Combinations.csprojResolveAssemblyReference.cache

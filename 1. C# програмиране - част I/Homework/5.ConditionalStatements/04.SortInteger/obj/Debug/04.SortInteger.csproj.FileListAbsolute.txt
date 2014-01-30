@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\04.SortInteger\bin\Debug\04.SortInteger.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\04.SortInteger\bin\Debug\04.SortInteger.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\04.SortInteger\obj\Debug\04.SortInteger.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\04.SortInteger\obj\Debug\04.SortInteger.pdb

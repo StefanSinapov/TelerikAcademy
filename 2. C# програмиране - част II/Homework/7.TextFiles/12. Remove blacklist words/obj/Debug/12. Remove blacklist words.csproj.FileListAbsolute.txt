@@ -1,0 +1,1 @@
+D:\Documents\Telerik Academy\Курсове\2. C# програмиране - част II\Homework\7.TextFiles\12. Remove blacklist words\bin\Debug\_12.Remove_blacklist_words.exe.config

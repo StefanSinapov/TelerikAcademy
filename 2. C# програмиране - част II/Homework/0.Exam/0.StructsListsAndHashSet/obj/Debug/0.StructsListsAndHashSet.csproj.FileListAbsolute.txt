@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\0.StructsListsAndHashSet\bin\Debug\0.StructsListsAndHashSet.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\0.StructsListsAndHashSet\bin\Debug\0.StructsListsAndHashSet.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\0.StructsListsAndHashSet\obj\Debug\0.StructsListsAndHashSet.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\0.StructsListsAndHashSet\obj\Debug\0.StructsListsAndHashSet.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\0.StructsListsAndHashSet\obj\Debug\0.StructsListsAndHashSet.pdb

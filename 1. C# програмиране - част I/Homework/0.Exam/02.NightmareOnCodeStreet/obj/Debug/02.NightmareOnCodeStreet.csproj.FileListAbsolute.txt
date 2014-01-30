@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\02.NightmareOnCodeStreet\bin\Debug\02.NightmareOnCodeStreet.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\02.NightmareOnCodeStreet\bin\Debug\02.NightmareOnCodeStreet.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\02.NightmareOnCodeStreet\obj\Debug\02.NightmareOnCodeStreet.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\02.NightmareOnCodeStreet\obj\Debug\02.NightmareOnCodeStreet.pdb

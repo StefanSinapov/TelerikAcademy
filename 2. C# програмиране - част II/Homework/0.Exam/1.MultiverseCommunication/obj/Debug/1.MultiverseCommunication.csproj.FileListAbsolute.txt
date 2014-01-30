@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.MultiverseCommunication\obj\Debug\1.MultiverseCommunication.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.MultiverseCommunication\bin\Debug\1.MultiverseCommunication.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.MultiverseCommunication\bin\Debug\1.MultiverseCommunication.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.MultiverseCommunication\obj\Debug\1.MultiverseCommunication.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.MultiverseCommunication\obj\Debug\1.MultiverseCommunication.pdb

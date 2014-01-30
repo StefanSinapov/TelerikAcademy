@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\12.Matrix\bin\Debug\12.Matrix.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\12.Matrix\bin\Debug\12.Matrix.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\12.Matrix\bin\Debug\12.Matrix.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\12.Matrix\obj\Debug\12.Matrix.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\12.Matrix\obj\Debug\12.Matrix.pdb

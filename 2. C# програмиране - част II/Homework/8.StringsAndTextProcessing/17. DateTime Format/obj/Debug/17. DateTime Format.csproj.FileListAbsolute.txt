@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\17. DateTime Format\bin\Debug\_17.DateTime_Format.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\17. DateTime Format\bin\Debug\_17.DateTime_Format.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\17. DateTime Format\bin\Debug\_17.DateTime_Format.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\17. DateTime Format\obj\Debug\_17.DateTime_Format.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\17. DateTime Format\obj\Debug\_17.DateTime_Format.pdb

@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\10.SequenceOfGivenSum\bin\Debug\10.SequenceOfGivenSum.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\10.SequenceOfGivenSum\bin\Debug\10.SequenceOfGivenSum.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\10.SequenceOfGivenSum\bin\Debug\10.SequenceOfGivenSum.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\10.SequenceOfGivenSum\obj\Debug\10.SequenceOfGivenSum.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\10.SequenceOfGivenSum\obj\Debug\10.SequenceOfGivenSum.pdb

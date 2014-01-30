@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\08.GreatestCommonDivisor\bin\Debug\08.GreatestCommonDivisor.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\08.GreatestCommonDivisor\bin\Debug\08.GreatestCommonDivisor.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\08.GreatestCommonDivisor\bin\Debug\08.GreatestCommonDivisor.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\08.GreatestCommonDivisor\obj\Debug\08.GreatestCommonDivisor.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\08.GreatestCommonDivisor\obj\Debug\08.GreatestCommonDivisor.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\08.GreatestCommonDivisor\obj\Debug\08.GreatestCommonDivisor.pdb

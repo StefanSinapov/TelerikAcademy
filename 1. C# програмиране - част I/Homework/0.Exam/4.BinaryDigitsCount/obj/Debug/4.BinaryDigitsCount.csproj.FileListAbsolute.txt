@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\4.BinaryDigitsCount\bin\Debug\4.BinaryDigitsCount.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\4.BinaryDigitsCount\bin\Debug\4.BinaryDigitsCount.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\4.BinaryDigitsCount\obj\Debug\4.BinaryDigitsCount.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\4.BinaryDigitsCount\obj\Debug\4.BinaryDigitsCount.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\4.BinaryDigitsCount\obj\Debug\4.BinaryDigitsCount.pdb

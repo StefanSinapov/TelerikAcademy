@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\0.DemosInLection\bin\Debug\0.DemosInLection.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\0.DemosInLection\bin\Debug\0.DemosInLection.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\0.DemosInLection\bin\Debug\0.DemosInLection.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\0.DemosInLection\obj\Debug\0.Demo.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\0.DemosInLection\obj\Debug\0.DemosInLection.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\0.DemosInLection\obj\Debug\0.DemosInLection.pdb

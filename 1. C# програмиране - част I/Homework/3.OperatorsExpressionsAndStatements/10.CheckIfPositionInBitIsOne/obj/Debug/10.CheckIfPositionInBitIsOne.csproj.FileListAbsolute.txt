@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\10.CheckIfPositionInBitIsOne\bin\Debug\10.CheckIfPositionInBitIsOne.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\10.CheckIfPositionInBitIsOne\bin\Debug\10.CheckIfPositionInBitIsOne.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\10.CheckIfPositionInBitIsOne\obj\Debug\10.CheckIfPositionInBitIsOne.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\10.CheckIfPositionInBitIsOne\obj\Debug\10.CheckIfPositionInBitIsOne.pdb

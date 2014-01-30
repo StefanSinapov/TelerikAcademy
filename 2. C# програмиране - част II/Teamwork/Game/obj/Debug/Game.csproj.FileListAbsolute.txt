@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\ThorShip\ThorShip\Game\bin\Debug\Game.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\ThorShip\ThorShip\Game\bin\Debug\Game.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\ThorShip\ThorShip\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\ThorShip\ThorShip\Game\obj\Debug\Game.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\ThorShip\ThorShip\Game\obj\Debug\Game.pdb

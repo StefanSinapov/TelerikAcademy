@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\07.SumOfFirstNFibonacci\bin\Debug\07.SumOfFirstNFibonacci.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\07.SumOfFirstNFibonacci\bin\Debug\07.SumOfFirstNFibonacci.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\07.SumOfFirstNFibonacci\bin\Debug\07.SumOfFirstNFibonacci.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\07.SumOfFirstNFibonacci\obj\Debug\07.SumOfFirstNFibonacci.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\07.SumOfFirstNFibonacci\obj\Debug\07.SumOfFirstNFibonacci.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\07.SumOfFirstNFibonacci\obj\Debug\07.SumOfFirstNFibonacci.pdb

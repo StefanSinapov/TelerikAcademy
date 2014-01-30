@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\03.CheckBrackets\bin\Debug\03.CheckBrackets.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\03.CheckBrackets\bin\Debug\03.CheckBrackets.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\03.CheckBrackets\obj\Debug\03.CheckBrackets.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\03.CheckBrackets\obj\Debug\03.CheckBrackets.pdb

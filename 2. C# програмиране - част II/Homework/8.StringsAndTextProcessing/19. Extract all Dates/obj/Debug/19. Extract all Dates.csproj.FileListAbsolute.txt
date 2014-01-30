@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\19. Extract all Dates\bin\Debug\_19.Extract_all_Dates.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\19. Extract all Dates\bin\Debug\_19.Extract_all_Dates.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\19. Extract all Dates\bin\Debug\_19.Extract_all_Dates.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\19. Extract all Dates\obj\Debug\_19.Extract_all_Dates.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\19. Extract all Dates\obj\Debug\_19.Extract_all_Dates.pdb

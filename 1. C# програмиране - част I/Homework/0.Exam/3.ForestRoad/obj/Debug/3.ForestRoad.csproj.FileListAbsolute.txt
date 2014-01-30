@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3.ForestRoad\bin\Debug\3.ForestRoad.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3.ForestRoad\bin\Debug\3.ForestRoad.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3.ForestRoad\obj\Debug\3.ForestRoad.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3.ForestRoad\obj\Debug\3.ForestRoad.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3.ForestRoad\obj\Debug\3.ForestRoad.pdb

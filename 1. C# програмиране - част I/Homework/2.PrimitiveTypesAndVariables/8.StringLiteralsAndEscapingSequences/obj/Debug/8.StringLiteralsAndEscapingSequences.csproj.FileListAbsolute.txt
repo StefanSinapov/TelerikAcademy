@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\8.StringLiteralsAndEscapingSequences\bin\Debug\8.StringLiteralsAndEscapingSequences.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\8.StringLiteralsAndEscapingSequences\bin\Debug\8.StringLiteralsAndEscapingSequences.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\8.StringLiteralsAndEscapingSequences\obj\Debug\8.StringLiteralsAndEscapingSequences.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\8.StringLiteralsAndEscapingSequences\obj\Debug\8.StringLiteralsAndEscapingSequences.pdb

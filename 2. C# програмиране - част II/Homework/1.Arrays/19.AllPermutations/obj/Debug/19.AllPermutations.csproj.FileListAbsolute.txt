@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\19.AllPermutations\bin\Debug\19.AllPermutations.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\19.AllPermutations\bin\Debug\19.AllPermutations.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\19.AllPermutations\bin\Debug\19.AllPermutations.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\19.AllPermutations\obj\Debug\19.AllPermutations.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\19.AllPermutations\obj\Debug\19.AllPermutations.pdb

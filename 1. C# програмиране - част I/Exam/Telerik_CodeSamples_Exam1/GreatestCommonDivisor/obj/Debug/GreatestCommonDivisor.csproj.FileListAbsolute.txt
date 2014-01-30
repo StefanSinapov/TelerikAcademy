@@ -1,0 +1,9 @@
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.exe.config
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.exe
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.pdb
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.csprojResolveAssemblyReference.cache
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.exe
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\GreatestCommonDivisor\bin\Debug\GreatestCommonDivisor.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\GreatestCommonDivisor\obj\Debug\GreatestCommonDivisor.pdb

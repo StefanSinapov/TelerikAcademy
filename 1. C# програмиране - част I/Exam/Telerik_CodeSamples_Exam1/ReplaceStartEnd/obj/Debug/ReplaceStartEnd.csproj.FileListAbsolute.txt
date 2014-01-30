@@ -1,0 +1,8 @@
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\ReplaceStartEnd\bin\Debug\ReplaceStartEnd.exe.config
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\ReplaceStartEnd\bin\Debug\ReplaceStartEnd.exe
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\ReplaceStartEnd\bin\Debug\ReplaceStartEnd.pdb
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\ReplaceStartEnd\obj\Debug\ReplaceStartEnd.exe
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\ReplaceStartEnd\obj\Debug\ReplaceStartEnd.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\ReplaceStartEnd\bin\Debug\ReplaceStartEnd.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\ReplaceStartEnd\obj\Debug\ReplaceStartEnd.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\ReplaceStartEnd\obj\Debug\ReplaceStartEnd.pdb

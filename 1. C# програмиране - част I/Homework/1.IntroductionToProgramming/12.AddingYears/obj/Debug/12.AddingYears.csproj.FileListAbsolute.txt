@@ -1,0 +1,5 @@
+c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\12.AddingYears\bin\Debug\12.AddingYears.exe
+c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\12.AddingYears\bin\Debug\12.AddingYears.pdb
+c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\12.AddingYears\obj\Debug\12.AddingYears.exe
+c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\12.AddingYears\obj\Debug\12.AddingYears.pdb
+c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\12.AddingYears\obj\Debug\12.AddingYears.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\9.PrintIsoscelesTriangle\obj\Debug\9.PrintIsoscelesTriangle.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\9.PrintIsoscelesTriangle\obj\Debug\9.PrintIsoscelesTriangle.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\9.PrintIsoscelesTriangle\bin\Debug\9.PrintIsoscelesTriangle.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\9.PrintIsoscelesTriangle\bin\Debug\9.PrintIsoscelesTriangle.pdb

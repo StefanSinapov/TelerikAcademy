@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.Lines\bin\Debug\5.Lines.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.Lines\bin\Debug\5.Lines.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.Lines\bin\Debug\5.Lines.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.Lines\obj\Debug\5.Lines.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.Lines\obj\Debug\5.Lines.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.Lines\obj\Debug\5.Lines.pdb

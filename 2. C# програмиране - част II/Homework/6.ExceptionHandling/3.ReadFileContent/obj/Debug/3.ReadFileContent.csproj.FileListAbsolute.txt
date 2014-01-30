@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\6.ExceptionHandling\3.ReadFileContent\bin\Debug\3.ReadFileContent.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\6.ExceptionHandling\3.ReadFileContent\bin\Debug\3.ReadFileContent.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\6.ExceptionHandling\3.ReadFileContent\obj\Debug\3.ReadFileContent.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\6.ExceptionHandling\3.ReadFileContent\obj\Debug\3.ReadFileContent.pdb

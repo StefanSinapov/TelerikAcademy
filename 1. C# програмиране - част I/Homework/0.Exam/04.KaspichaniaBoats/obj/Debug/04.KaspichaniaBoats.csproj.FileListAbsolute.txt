@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\04.KaspichaniaBoats\bin\Debug\04.KaspichaniaBoats.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\04.KaspichaniaBoats\bin\Debug\04.KaspichaniaBoats.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\04.KaspichaniaBoats\bin\Debug\04.KaspichaniaBoats.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\04.KaspichaniaBoats\obj\Debug\04.KaspichaniaBoats.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\04.KaspichaniaBoats\obj\Debug\04.KaspichaniaBoats.pdb

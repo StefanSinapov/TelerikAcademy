@@ -1,0 +1,2 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\5.FindTheThirdBit\obj\Debug\5.FindTheThirdBit.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\5.FindTheThirdBit\obj\Debug\5.FindTheThirdBit.pdb

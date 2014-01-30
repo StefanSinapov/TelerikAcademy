@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.DrunkenNumbers\bin\Debug\2.DrunkenNumbers.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.DrunkenNumbers\bin\Debug\2.DrunkenNumbers.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.DrunkenNumbers\bin\Debug\2.DrunkenNumbers.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.DrunkenNumbers\obj\Debug\2.DrunkenNumbers.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.DrunkenNumbers\obj\Debug\2.DrunkenNumbers.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.DrunkenNumbers\obj\Debug\2.DrunkenNumbers.pdb

@@ -1,0 +1,1 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\06.QuadraticEquation\bin\Debug\06.QuadraticEquation.exe.config

@@ -1,0 +1,1 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\09. Replace forbidden words\bin\Debug\_09.Replace_forbidden_words.exe.config

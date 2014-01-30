@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\01.PrintNumbersOneToN\bin\Debug\01.PrintNumbersOneToN.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\01.PrintNumbersOneToN\bin\Debug\01.PrintNumbersOneToN.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\01.PrintNumbersOneToN\obj\Debug\01.PrintNumbersOneToN.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\01.PrintNumbersOneToN\obj\Debug\01.PrintNumbersOneToN.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\01.PrintNumbersOneToN\obj\Debug\01.PrintNumbersOneToN.pdb

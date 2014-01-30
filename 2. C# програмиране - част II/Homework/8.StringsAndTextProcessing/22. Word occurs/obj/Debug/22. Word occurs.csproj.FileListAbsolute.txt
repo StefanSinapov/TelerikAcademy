@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\22. Word occurs\bin\Debug\_22.Word_occurs.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\22. Word occurs\bin\Debug\_22.Word_occurs.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\22. Word occurs\bin\Debug\_22.Word_occurs.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\22. Word occurs\obj\Debug\_22.Word_occurs.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\22. Word occurs\obj\Debug\_22.Word_occurs.pdb

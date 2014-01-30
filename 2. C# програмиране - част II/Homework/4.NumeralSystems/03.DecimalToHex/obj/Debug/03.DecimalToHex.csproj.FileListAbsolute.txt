@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\03.DecimalToHex\bin\Debug\03.DecimalToHex.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\03.DecimalToHex\bin\Debug\03.DecimalToHex.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\03.DecimalToHex\obj\Debug\03.DecimalToHex.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\03.DecimalToHex\obj\Debug\03.DecimalToHex.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\03.DecimalToHex\obj\Debug\03.DecimalToHex.csprojResolveAssemblyReference.cache

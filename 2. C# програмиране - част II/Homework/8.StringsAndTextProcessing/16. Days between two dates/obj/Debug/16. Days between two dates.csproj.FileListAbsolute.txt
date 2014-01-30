@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\16. Days between two dates\bin\Debug\_16.Days_between_two_dates.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\16. Days between two dates\bin\Debug\_16.Days_between_two_dates.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\16. Days between two dates\bin\Debug\_16.Days_between_two_dates.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\16. Days between two dates\obj\Debug\_16.Days_between_two_dates.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\16. Days between two dates\obj\Debug\_16.Days_between_two_dates.pdb

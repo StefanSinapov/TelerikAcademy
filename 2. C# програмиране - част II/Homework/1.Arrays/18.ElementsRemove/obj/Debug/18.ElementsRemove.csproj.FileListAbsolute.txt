@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\18.ElementsRemove\bin\Debug\18.ElementsRemove.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\18.ElementsRemove\bin\Debug\18.ElementsRemove.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\18.ElementsRemove\bin\Debug\18.ElementsRemove.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\18.ElementsRemove\obj\Debug\18.ElementsRemove.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\18.ElementsRemove\obj\Debug\18.ElementsRemove.pdb

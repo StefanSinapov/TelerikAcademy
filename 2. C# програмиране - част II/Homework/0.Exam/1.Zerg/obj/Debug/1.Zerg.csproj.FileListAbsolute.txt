@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.Zerg\bin\Debug\1.Zerg.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.Zerg\bin\Debug\1.Zerg.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.Zerg\obj\Debug\1.Zerg.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.Zerg\obj\Debug\1.Zerg.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.Zerg\obj\Debug\1.Zerg.pdb

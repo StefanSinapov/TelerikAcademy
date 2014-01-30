@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\10.SumOfProgression\bin\Debug\10.SumOfProgression.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\10.SumOfProgression\bin\Debug\10.SumOfProgression.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\10.SumOfProgression\bin\Debug\10.SumOfProgression.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\10.SumOfProgression\obj\Debug\10.SumOfProgression.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\10.SumOfProgression\obj\Debug\10.SumOfProgression.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\10.SumOfProgression\obj\Debug\10.SumOfProgression.csprojResolveAssemblyReference.cache

@@ -1,0 +1,1 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\08.SentencesContainingGivenWord\bin\Debug\08.SentencesContainingGivenWord.exe.config

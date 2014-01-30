@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.MissCat2011\bin\Debug\2.MissCat2011.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.MissCat2011\bin\Debug\2.MissCat2011.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.MissCat2011\bin\Debug\2.MissCat2011.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.MissCat2011\obj\Debug\2.MissCat2011.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.MissCat2011\obj\Debug\2.MissCat2011.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.MissCat2011\obj\Debug\2.MissCat2011.pdb

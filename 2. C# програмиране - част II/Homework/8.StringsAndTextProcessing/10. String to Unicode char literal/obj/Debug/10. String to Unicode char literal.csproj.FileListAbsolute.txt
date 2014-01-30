@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\10. String to Unicode char literal\bin\Debug\_10.String_to_Unicode_char_literal.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\10. String to Unicode char literal\bin\Debug\_10.String_to_Unicode_char_literal.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\10. String to Unicode char literal\bin\Debug\_10.String_to_Unicode_char_literal.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\10. String to Unicode char literal\obj\Debug\10. String to Unicode char literal.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\10. String to Unicode char literal\obj\Debug\_10.String_to_Unicode_char_literal.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\10. String to Unicode char literal\obj\Debug\_10.String_to_Unicode_char_literal.pdb

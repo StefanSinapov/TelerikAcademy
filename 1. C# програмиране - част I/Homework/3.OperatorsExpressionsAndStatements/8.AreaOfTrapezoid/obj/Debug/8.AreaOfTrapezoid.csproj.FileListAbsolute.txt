@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\8.AreaOfTrapezoid\bin\Debug\8.AreaOfTrapezoid.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\8.AreaOfTrapezoid\bin\Debug\8.AreaOfTrapezoid.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\8.AreaOfTrapezoid\obj\Debug\8.AreaOfTrapezoid.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\8.AreaOfTrapezoid\obj\Debug\8.AreaOfTrapezoid.pdb

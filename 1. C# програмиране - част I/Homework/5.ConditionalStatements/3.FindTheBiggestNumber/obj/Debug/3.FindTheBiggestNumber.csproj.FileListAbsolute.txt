@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\3.FindTheBiggestNumber\bin\Debug\3.FindTheBiggestNumber.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\3.FindTheBiggestNumber\bin\Debug\3.FindTheBiggestNumber.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\3.FindTheBiggestNumber\bin\Debug\3.FindTheBiggestNumber.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\3.FindTheBiggestNumber\obj\Debug\3.FindTheBiggestNumber.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\3.FindTheBiggestNumber\obj\Debug\3.FindTheBiggestNumber.pdb

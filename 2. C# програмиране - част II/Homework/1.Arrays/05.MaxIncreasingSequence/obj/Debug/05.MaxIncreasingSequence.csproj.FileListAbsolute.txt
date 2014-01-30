@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\05.MaxIncreasingSequence\bin\Debug\05.MaxIncreasingSequence.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\05.MaxIncreasingSequence\bin\Debug\05.MaxIncreasingSequence.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\05.MaxIncreasingSequence\bin\Debug\05.MaxIncreasingSequence.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\05.MaxIncreasingSequence\obj\Debug\05.MaxIncreasingSequence.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\05.MaxIncreasingSequence\obj\Debug\05.MaxIncreasingSequence.pdb

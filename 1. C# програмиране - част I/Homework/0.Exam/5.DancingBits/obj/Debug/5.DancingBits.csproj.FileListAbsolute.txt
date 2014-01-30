@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.DancingBits\bin\Debug\5.DancingBits.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.DancingBits\bin\Debug\5.DancingBits.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.DancingBits\bin\Debug\5.DancingBits.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.DancingBits\obj\Debug\5.DancingBits.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.DancingBits\obj\Debug\5.DancingBits.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.DancingBits\obj\Debug\5.DancingBits.pdb

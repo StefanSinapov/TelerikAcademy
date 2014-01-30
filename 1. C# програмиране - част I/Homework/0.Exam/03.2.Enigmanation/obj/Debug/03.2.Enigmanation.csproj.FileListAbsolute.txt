@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\03.2.Enigmanation\bin\Debug\03.2.Enigmanation.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\03.2.Enigmanation\bin\Debug\03.2.Enigmanation.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\03.2.Enigmanation\bin\Debug\03.2.Enigmanation.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\03.2.Enigmanation\obj\Debug\03.2.Enigmanation.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\03.2.Enigmanation\obj\Debug\03.2.Enigmanation.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\03.2.Enigmanation\obj\Debug\03.2.Enigmanation.pdb

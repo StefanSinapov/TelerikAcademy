@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.KaspichanNumbers\bin\Debug\1.KaspichanNumbers.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.KaspichanNumbers\bin\Debug\1.KaspichanNumbers.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.KaspichanNumbers\obj\Debug\1.KaspichanNumbers.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.KaspichanNumbers\obj\Debug\1.KaspichanNumbers.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\1.KaspichanNumbers\obj\Debug\1.KaspichanNumbers.pdb

@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\05.GameOfPage\bin\Debug\05.GameOfPage.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\05.GameOfPage\bin\Debug\05.GameOfPage.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\05.GameOfPage\bin\Debug\05.GameOfPage.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\05.GameOfPage\obj\Debug\05.GameOfPage.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\05.GameOfPage\obj\Debug\05.GameOfPage.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\05.GameOfPage\obj\Debug\05.GameOfPage.pdb

@@ -1,0 +1,7 @@
+tag -> 13 time(s).
+HTML -> 3 time(s).
+h1 -> 2 time(s).
+text -> 2 time(s).
+html -> 1 time(s).
+start -> 1 time(s).
+end -> 1 time(s).

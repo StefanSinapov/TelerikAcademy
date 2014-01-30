@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\1.OddOrEvenCheck\bin\Debug\1.OddOrEvenCheck.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\1.OddOrEvenCheck\bin\Debug\1.OddOrEvenCheck.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\1.OddOrEvenCheck\obj\Debug\1.OddOrEvenCheck.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\1.OddOrEvenCheck\obj\Debug\1.OddOrEvenCheck.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\1.OddOrEvenCheck\obj\Debug\1.OddOrEvenCheck.pdb

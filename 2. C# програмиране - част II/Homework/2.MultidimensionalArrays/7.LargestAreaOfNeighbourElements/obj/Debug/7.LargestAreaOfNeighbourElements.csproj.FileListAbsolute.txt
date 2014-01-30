@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\7.LargestAreaOfNeighbourElements\bin\Debug\7.LargestAreaOfNeighbourElements.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\7.LargestAreaOfNeighbourElements\bin\Debug\7.LargestAreaOfNeighbourElements.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\7.LargestAreaOfNeighbourElements\bin\Debug\7.LargestAreaOfNeighbourElements.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\7.LargestAreaOfNeighbourElements\obj\Debug\7.LargestAreaOfNeighbourElements.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\7.LargestAreaOfNeighbourElements\obj\Debug\7.LargestAreaOfNeighbourElements.pdb

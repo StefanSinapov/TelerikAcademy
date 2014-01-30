@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\08.UserInput\bin\Debug\08.UserInput.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\08.UserInput\bin\Debug\08.UserInput.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\08.UserInput\obj\Debug\08.UserInput.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\08.UserInput\obj\Debug\08.UserInput.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\08.UserInput\obj\Debug\08.UserInput.pdb

@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\01.ReadAndPrintSumOfNumbers\bin\Debug\01.ReadAndPrintSumOfNumbers.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\01.ReadAndPrintSumOfNumbers\bin\Debug\01.ReadAndPrintSumOfNumbers.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\01.ReadAndPrintSumOfNumbers\bin\Debug\01.ReadAndPrintSumOfNumbers.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\01.ReadAndPrintSumOfNumbers\obj\Debug\01.ReadAndPrintSumOfNumbers.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\01.ReadAndPrintSumOfNumbers\obj\Debug\01.ReadAndPrintSumOfNumbers.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\01.ReadAndPrintSumOfNumbers\obj\Debug\01.ReadAndPrintSumOfNumbers.pdb

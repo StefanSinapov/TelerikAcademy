@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\07.SelectSort\bin\Debug\07.SelectSort.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\07.SelectSort\bin\Debug\07.SelectSort.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\07.SelectSort\bin\Debug\07.SelectSort.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\07.SelectSort\obj\Debug\07.SelectSort.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\07.SelectSort\obj\Debug\07.SelectSort.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\07.SelectSort\obj\Debug\07.SelectSort.pdb

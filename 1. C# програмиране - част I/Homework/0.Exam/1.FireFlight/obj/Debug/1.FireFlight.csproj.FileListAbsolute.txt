@@ -1,0 +1,6 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FireFlight\bin\Debug\1.FireFlight.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FireFlight\bin\Debug\1.FireFlight.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FireFlight\bin\Debug\1.FireFlight.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FireFlight\obj\Debug\1.FireFlight.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FireFlight\obj\Debug\1.FireFlight.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.FireFlight\obj\Debug\1.FireFlight.pdb

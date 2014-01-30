@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\05.Workdays\bin\Debug\05.Workdays.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\05.Workdays\bin\Debug\05.Workdays.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\05.Workdays\obj\Debug\05.Workdays.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\05.Workdays\obj\Debug\05.Workdays.pdb

@@ -1,0 +1,10 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.ExceptionHandling\02.ReadNumber\bin\Debug\02.ReadNumber.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.ExceptionHandling\02.ReadNumber\bin\Debug\02.ReadNumber.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.ExceptionHandling\02.ReadNumber\obj\Debug\02.ReadNumber.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.ExceptionHandling\02.ReadNumber\obj\Debug\02.ReadNumber.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.ExceptionHandling\02.ReadNumber\obj\Debug\02.ReadNumber.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\6.ExceptionHandling\02.ReadNumber\obj\Debug\02.ReadNumber.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\6.ExceptionHandling\02.ReadNumber\obj\Debug\02.ReadNumber.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\6.ExceptionHandling\02.ReadNumber\obj\Debug\02.ReadNumber.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\6.ExceptionHandling\02.ReadNumber\bin\Debug\02.ReadNumber.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\6.ExceptionHandling\02.ReadNumber\bin\Debug\02.ReadNumber.pdb

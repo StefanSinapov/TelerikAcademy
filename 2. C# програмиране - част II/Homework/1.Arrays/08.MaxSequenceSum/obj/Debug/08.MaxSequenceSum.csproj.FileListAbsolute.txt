@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\08.MaxSequenceSum\bin\Debug\08.MaxSequenceSum.exe.config
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\08.MaxSequenceSum\bin\Debug\08.MaxSequenceSum.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\08.MaxSequenceSum\bin\Debug\08.MaxSequenceSum.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\08.MaxSequenceSum\obj\Debug\08.MaxSequenceSum.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\08.MaxSequenceSum\obj\Debug\08.MaxSequenceSum.pdb

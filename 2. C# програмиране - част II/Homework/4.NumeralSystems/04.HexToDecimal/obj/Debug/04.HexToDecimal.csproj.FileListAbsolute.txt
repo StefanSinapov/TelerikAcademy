@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\04.HexToDecimal\bin\Debug\04.HexToDecimal.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\04.HexToDecimal\bin\Debug\04.HexToDecimal.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\04.HexToDecimal\obj\Debug\04.HexToDecimal.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\04.HexToDecimal\obj\Debug\04.HexToDecimal.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\04.HexToDecimal\obj\Debug\04.HexToDecimal.pdb

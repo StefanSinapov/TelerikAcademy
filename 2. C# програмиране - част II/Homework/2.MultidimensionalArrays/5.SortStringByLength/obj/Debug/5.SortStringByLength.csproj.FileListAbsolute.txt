@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\5.SortStringByLength\bin\Debug\5.SortStringByLength.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\5.SortStringByLength\bin\Debug\5.SortStringByLength.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\5.SortStringByLength\obj\Debug\5.SortStringByLength.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\5.SortStringByLength\obj\Debug\5.SortStringByLength.pdb

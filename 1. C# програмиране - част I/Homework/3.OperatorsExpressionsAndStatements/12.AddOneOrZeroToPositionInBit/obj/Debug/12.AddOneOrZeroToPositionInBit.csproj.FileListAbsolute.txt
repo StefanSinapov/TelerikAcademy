@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\12.AddOneOrZeroToPositionInBit\bin\Debug\12.AddOneOrZeroToPositionInBit.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\12.AddOneOrZeroToPositionInBit\bin\Debug\12.AddOneOrZeroToPositionInBit.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\12.AddOneOrZeroToPositionInBit\obj\Debug\12.AddOneOrZeroToPositionInBit.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\12.AddOneOrZeroToPositionInBit\obj\Debug\12.AddOneOrZeroToPositionInBit.pdb

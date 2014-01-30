@@ -1,0 +1,5 @@
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\LeastCommonMajority\bin\Debug\LeastCommonMajority.exe.config
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\LeastCommonMajority\bin\Debug\LeastCommonMajority.exe
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\LeastCommonMajority\bin\Debug\LeastCommonMajority.pdb
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\LeastCommonMajority\obj\Debug\LeastCommonMajority.exe
+D:\Files\CSharp\Telerik_CodeSamples_Exam1\LeastCommonMajority\obj\Debug\LeastCommonMajority.pdb

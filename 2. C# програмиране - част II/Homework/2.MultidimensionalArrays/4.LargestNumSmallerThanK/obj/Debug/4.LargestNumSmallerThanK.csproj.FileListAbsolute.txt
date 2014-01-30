@@ -1,0 +1,4 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\4.LargestNumSmallerThanK\bin\Debug\4.LargestNumSmallerThanK.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\4.LargestNumSmallerThanK\bin\Debug\4.LargestNumSmallerThanK.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\4.LargestNumSmallerThanK\obj\Debug\4.LargestNumSmallerThanK.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\4.LargestNumSmallerThanK\obj\Debug\4.LargestNumSmallerThanK.pdb

@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\07.GreatestNumber\bin\Debug\07.GreatestNumber.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\07.GreatestNumber\bin\Debug\07.GreatestNumber.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\07.GreatestNumber\obj\Debug\07.GreatestNumber.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\07.GreatestNumber\obj\Debug\07.GreatestNumber.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\07.GreatestNumber\obj\Debug\07.GreatestNumber.pdb

@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\1.ArrayWithMultipliedIndex\bin\Debug\1.ArrayWithMultipliedIndex.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\1.ArrayWithMultipliedIndex\bin\Debug\1.ArrayWithMultipliedIndex.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\1.ArrayWithMultipliedIndex\obj\Debug\1.ArrayWithMultipliedIndex.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\1.ArrayWithMultipliedIndex\obj\Debug\1.ArrayWithMultipliedIndex.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\1.ArrayWithMultipliedIndex\obj\Debug\1.ArrayWithMultipliedIndex.pdb

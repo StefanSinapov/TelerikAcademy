@@ -1,0 +1,5 @@
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\2.ReadAndCompareArrays\bin\Debug\2.ReadAndCompareArrays.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\2.ReadAndCompareArrays\bin\Debug\2.ReadAndCompareArrays.pdb
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\2.ReadAndCompareArrays\obj\Debug\02.ReadAndCompareArrays.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\2.ReadAndCompareArrays\obj\Debug\2.ReadAndCompareArrays.exe
+D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\2.ReadAndCompareArrays\obj\Debug\2.ReadAndCompareArrays.pdb
