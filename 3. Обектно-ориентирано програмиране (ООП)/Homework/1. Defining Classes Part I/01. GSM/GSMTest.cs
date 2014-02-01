@@ -15,7 +15,7 @@ using System.Collections.Generic;
 class GSMTest
 {
 
-	static void Main()
+	public static void Test()
 	{
 		List<GSM> mobilePhones = new List<GSM>();
 

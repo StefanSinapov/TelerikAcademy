@@ -18,9 +18,9 @@ class Battery
 	}
 	public Battery(Type model, uint? hoursIdle=null, uint? hoursTalk=null)
 	{
-		this.model = model;
-		this.hoursIdle = hoursIdle;
-		this.hoursTalk = hoursTalk;
+		this.Model = model;
+		this.HoursIdle = hoursIdle;
+		this.HoursTalk = hoursTalk;
 	}
 
 	//Enumeration
