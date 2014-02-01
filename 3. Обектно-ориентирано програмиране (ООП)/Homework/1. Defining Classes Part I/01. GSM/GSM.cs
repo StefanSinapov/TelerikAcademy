@@ -1,5 +1,4 @@
-﻿
-/*
+﻿/*
  * 2.Define several constructors for the defined classes that
  * take different sets of arguments (the full information for the class or part of it).
  * Assume that model and manufacturer are mandatory (the others are optional).
@@ -12,11 +11,18 @@
  * Ensure all fields hold correct data at any given time.
  * 
  * 6. Add a static field and a property IPhone4S in the GSM class to hold the
- * information about iPhone 4S.
-
+ * information about iPhone 4S
+ * 
+ * 9. Add a property CallHistory in the GSM class to hold a list of the performed calls. 
+ * Try to use the system class List<Call>.
+ * 10.Add methods in the GSM class for adding and deleting calls from the calls history. 
+ * Add a method to clear the call history.
+ * 11.Add a method that calculates the total price of the calls in the call history. 
+ * Assume the price per minute is fixed and is provided as a parameter.
  */
 using System;
 using System.Text;
+using System.Collections.Generic;
 class GSM
 {
 	//Static field
@@ -29,6 +35,7 @@ class GSM
 	private string owner = null;
 	private Battery battery = null;
 	private Display display = null;
+	private List<Call> callHistory= new List<Call>();
 
 	//Constructors
 	public GSM(string model, string manufacturer)
@@ -53,7 +60,7 @@ class GSM
 		get { return this.model; }
 		set
 		{
-			if(string.IsNullOrEmpty(value))
+			if (string.IsNullOrEmpty(value))
 			{
 				throw new ArgumentNullException("Model can't be null");
 			}
@@ -99,7 +106,17 @@ class GSM
 	{
 		get { return iPhone4S; }
 	}
-
+	public List<Call> CallHistory
+	{
+		get
+		{
+			return this.callHistory;
+		}
+		set
+		{
+			callHistory = value;
+		}
+	}
 
 	//Override
 	public override string ToString()
@@ -108,17 +125,64 @@ class GSM
 		mobileInfo.AppendLine("------GSM------");
 		mobileInfo.AppendLine("Model: " + this.model);
 		mobileInfo.AppendLine("Manufacturer: " + this.manufacturer);
-		if(this.owner!=null)
+		if (this.owner != null)
 		{
 			mobileInfo.AppendLine("Owner: " + this.owner);
 		}
-		if(this.price!=null && this.price>0)
+		if (this.price != null && this.price > 0)
 		{
 			mobileInfo.AppendLine("Price: " + this.price);
 		}
 		//Todo add ToString override for battery and display
 
 		return mobileInfo.ToString();
+	}
+
+	//Methods
+	public void AddCall(Call call)
+	{
+		this.callHistory.Add(call);
+	}
+	public void DeleteCall(Call call)
+	{
+		if (call == null)
+			throw new ArgumentNullException("Cant remove null call");
+		
+		//foreach (var allCalls in this.callHistory)
+		//{
+		//	if (call.PhoneNumber == allCalls.PhoneNumber && call.Durration==allCalls.Durration && call.Date==allCalls.Date)
+		//	{
+		//		this.callHistory.Remove(allCalls);
+		//	}
+		//}
+		for (int i = 0; i < this.callHistory.Count; i++)
+		{
+			if (call.PhoneNumber == callHistory[i].PhoneNumber && call.Durration==callHistory[i].Durration && call.Date==callHistory[i].Date)
+			{
+				this.callHistory.RemoveAt(i);
+			}
+		}
+	}
+	public void ClearCalls()
+	{
+		this.callHistory.Clear();
+	}
+	public decimal CalculateCallsPrice(decimal pricePerMinute)
+	{
+		decimal result = 0m;
+		foreach (var call in this.CallHistory)
+		{
+			result += (call.Durration * pricePerMinute);
+		}
+		return result;
+	}
+	public void PrintCallHistory()
+	{
+		Console.WriteLine("-------------Call History ------------");
+		foreach (var call in this.CallHistory)
+		{
+			Console.WriteLine(call);
+		}
 	}
 }
 
