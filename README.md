@@ -12,7 +12,7 @@ Telerik Academy 2013-2014
 * Loops 
 
 
-##C# - Part II
+##[C# - Part II](2.%20C%23%20програмиране%20-%20част%20II)
 1. Arrays - (conditions)
 * Multidimensional Arrays - (conditions)
 * Methods - (conditions)
@@ -24,13 +24,13 @@ Telerik Academy 2013-2014
 * Teamwork - Console game 
 
 
-##C# - Object-Oriented Programming
-1. Defining classes - Part I - (conditions) 
-* Defining classes - Part II - (conditions) 
+##[C# - Object-Oriented Programming](3.%20Обектно-ориентирано%20програмиране%20(ООП))
+1. Defining classes - Part I (conditions) 
+* [Defining classes - Part II](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/2.%20Defining%20Classes%20Part%20II) 
 * Extension Methods, Delegates, Lambda and LINQ - (conditions) 
 * OOP Fundamental Principles - Part I - (conditions)
 * OOP Fundamental Principles - Part II - (conditions) 
 * Common Type System - (conditions)
 * Design Patterns
-* Practical Workshop - Academy Popcorn API - (conditions) 
-* Teamwork - UI Business Application 
+* Practical Workshop - (conditions) 
+* Teamwork - RPG Game 
