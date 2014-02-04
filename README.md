@@ -4,8 +4,8 @@ Telerik Academy 2013-2014
 #Programming with C#
 
 ###[C# - Part I](1.%20C%23%20програмиране%20-%20част%20I)
-1. [Introduction to Programming](1.%20C%23%20програмиране%20-%20част%20I/Homework/1IntroductionToProgramming) 
-* [Primitive Data Types and Variables](1.%20C%23%20програмиране%20-%20част%20I/Homework/2.PrimitiveDataTypesAndVariables)
+1. [Introduction to Programming](1.%20C%23%20програмиране%20-%20част%20I/Homework/1.IntroductionToProgramming) 
+* [Primitive Data Types and Variables](1.%20C%23%20програмиране%20-%20част%20I/Homework/2.PrimitiveTypesAndVariables)
 * [Operators, Expressions and Statements](1.%20C%23%20програмиране%20-%20част%20I/Homework/3.OperatorsExpressionsAndStatements)
 * [Console Input/Output](1.%20C%23%20програмиране%20-%20част%20I/Homework/4.ConsoleInputOutput)
 * [Conditional Statements](1.%20C%23%20програмиране%20-%20част%20I/Homework/5.ConditionalStatements)
