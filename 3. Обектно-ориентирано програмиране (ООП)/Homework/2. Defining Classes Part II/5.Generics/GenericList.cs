@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Generics
 {
-	public class GenericList<T> where T:IComparable
+	public class GenericList<T>
 	{
 		//Constant Fields
 		private const int DefaultCapacity = 1;
@@ -51,7 +51,7 @@ namespace Generics
 
 			Array.Copy(this.elements, index + 1, this.elements, index, this.Count - index);
 
-			//this.elements[this.Count] = default(T); ??
+			//this.elements[this.Count] = default(T); 
 		}
 
 		//Private Method
