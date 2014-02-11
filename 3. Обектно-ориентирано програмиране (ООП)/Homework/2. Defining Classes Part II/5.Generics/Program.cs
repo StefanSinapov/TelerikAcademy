@@ -19,6 +19,45 @@ namespace Generics
 	{
 		static void Main()
 		{
+			GenericList<int> elements = new GenericList<int>();
+
+			// Empty list
+			Console.WriteLine(elements);
+			Console.WriteLine("Count: {0}", elements.Count);
+			Console.WriteLine("Capacity: {0}", elements.Capacity);
+
+			// Auto-grow functionality
+			elements = new GenericList<int>(3);
+			elements.Add(1);
+			elements.Add(2);
+			elements.Add(3);
+			elements.Add(4);
+
+			Console.WriteLine("\n" + elements);
+			Console.WriteLine("Count: {0}", elements.Count);
+			Console.WriteLine("Capacity: {0}", elements.Capacity);
+
+			// Insert, RemoveAt
+			elements.Clear();
+
+			elements.InsertAt(0, 4);
+			elements.InsertAt(0, 3);
+			elements.InsertAt(0, 2);
+			elements.InsertAt(0, 1);
+
+			elements.RemoveAt(0);
+			elements.RemoveAt(elements.Count - 1);
+
+			Console.WriteLine("\n" + elements);
+			Console.WriteLine("Count: {0}", elements.Count);
+			Console.WriteLine("Capacity: {0}", elements.Capacity);
+
+			// IndexOf
+			Console.WriteLine("Index of element 3: {0}", elements.IndexOf(3));
+
+			// Max, Min
+			Console.WriteLine("\nMin: {0}", elements.Min());
+			Console.WriteLine("Max: {0}", elements.Max());
 		}
 	}
 }

@@ -8,7 +8,7 @@
 using System;
 using Attribute;
 
-[Version("1.0 (Beta)")]
+[Version("1.0.1 (Beta)")]
 class Program
 {
     static void Main()
