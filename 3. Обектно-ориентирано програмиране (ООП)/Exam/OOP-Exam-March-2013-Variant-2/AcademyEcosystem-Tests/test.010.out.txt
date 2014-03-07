@@ -1,0 +1,11 @@
+Boar B ate 10 from Zombie Joro
+Wolf W ate 10 from Zombie Joro
+Boar B ate 2 from Grass (5,5)
+Boar B ate 2 from Grass (5,5)
+Boar B ate 2 from Grass (5,5)
+Boar B ate 2 from Grass (5,5)
+Boar B ate 2 from Grass (5,5)
+Boar B ate 2 from Grass (5,5)
+Grass (5,5) is dead ;(
+Boar B ate 4 from Wolf W
+Wolf W is dead ;(

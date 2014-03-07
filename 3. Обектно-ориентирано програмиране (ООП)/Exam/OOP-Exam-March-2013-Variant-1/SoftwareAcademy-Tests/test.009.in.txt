@@ -1,0 +1,20 @@
+CourseFactory f = new CourseFactory();
+ITeacher joro = f.CreateTeacher("Joro");
+ILocalCourse php = f.CreateLocalCourse("PHP", joro, "Enterprise");
+php.AddTopic("Intro PHP");
+php.AddTopic("PHP Core");
+php.AddTopic("PHP Advanced Topics");
+php.AddTopic("PHP Exam");
+Console.WriteLine(php);
+CourseFactory f2 = new CourseFactory();
+IOffsiteCourse cpp = f2.CreateOffsiteCourse("C++", null, "Ultimate");
+cpp.AddTopic("Intro C++");
+cpp.AddTopic("C++ Core");
+cpp.AddTopic("C++ Advanced Topics");
+cpp.AddTopic("C++ Exam");
+Console.WriteLine(cpp);
+joro.AddCourse(cpp);
+joro.AddCourse(php);
+joro.AddCourse(cpp);
+Console.WriteLine(joro);
+

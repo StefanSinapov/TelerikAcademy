@@ -1,0 +1,1 @@
+LocalCourse: Name=PHP; Teacher=Joro; Topics=[Intro PHP]; Lab=Enterprise

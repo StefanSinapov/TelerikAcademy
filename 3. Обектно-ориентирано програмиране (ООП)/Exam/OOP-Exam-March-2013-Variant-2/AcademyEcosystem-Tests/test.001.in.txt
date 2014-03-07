@@ -1,0 +1,4 @@
+birth wolf W (0,0)
+birth deer D (1,1)
+go W (1,1)
+end

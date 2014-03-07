@@ -1,0 +1,8 @@
+birth wolf W (0,0)
+birth boar B (10,10)
+go W (5,5)
+birth tree (6,6)
+go B (6,6)
+go W (6,6)
+go B (6,6)
+end

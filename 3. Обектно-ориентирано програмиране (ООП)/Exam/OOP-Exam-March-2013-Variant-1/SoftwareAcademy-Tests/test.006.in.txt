@@ -1,0 +1,6 @@
+CourseFactory f = new CourseFactory();
+ITeacher joro = f.CreateTeacher("Joro");
+ICourse c = f.CreateLocalCourse("PHP", joro, "Enterprise");
+c.AddTopic("Intro PHP");
+Console.WriteLine(c);
+

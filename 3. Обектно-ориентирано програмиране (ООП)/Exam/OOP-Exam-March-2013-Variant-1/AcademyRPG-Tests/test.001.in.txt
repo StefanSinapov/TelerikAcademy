@@ -1,0 +1,5 @@
+create guard G (0,0) 1
+create knight K (0,0) 2
+K attack
+K attack
+end

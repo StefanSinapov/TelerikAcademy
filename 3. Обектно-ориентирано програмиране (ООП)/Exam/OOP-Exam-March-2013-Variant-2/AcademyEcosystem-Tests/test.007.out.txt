@@ -1,0 +1,4 @@
+Boar B ate 2 from Tree (6,6)
+Boar B ate 2 from Tree (6,6)
+Boar B ate 4 from Wolf W
+Wolf W is dead ;(

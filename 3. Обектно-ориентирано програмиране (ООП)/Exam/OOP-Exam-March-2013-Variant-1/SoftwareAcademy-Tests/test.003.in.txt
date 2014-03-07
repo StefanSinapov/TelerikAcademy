@@ -1,0 +1,5 @@
+CourseFactory factory = new CourseFactory();
+ITeacher nakov = factory.CreateTeacher("Nakov");
+nakov.Name = "Svetlin Nakov";
+Console.WriteLine(nakov);
+

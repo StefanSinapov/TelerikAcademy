@@ -1,0 +1,5 @@
+Knight K is now at position (0,0)
+Guard G attacked Knight K and did 0 damage
+Knight K attacked Guard G and did 80 damage
+Guard G attacked Knight K and did 0 damage
+Knight K attacked Guard G and did 20 damage

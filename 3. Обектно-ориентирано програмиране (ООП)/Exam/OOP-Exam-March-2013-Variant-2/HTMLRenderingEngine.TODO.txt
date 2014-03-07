@@ -1,0 +1,22 @@
+На задачата "HTML Renderer" трябва да се изкара още един базов интерфейс, защото сега TextContent, ChildElements и AddElement нямат смисъл за таблиците:
+
+  public interface IElement
+  {
+    string Name { get; }
+    void Render(StringBuilder output);
+    string ToString();
+  }
+
+  public interface ISimpleElement : IElement
+  {
+    string TextContent { get; set; }
+    IEnumerable<IElement> ChildElements { get; }
+    void AddElement(IElement element);
+  }
+
+  public interface ITable : IElement
+  {
+    int Rows { get; }
+    int Cols { get; }
+    IElement this[int row, int col] { get; set; }
+  }

@@ -1,0 +1,7 @@
+create giant GiantOne (0,0)
+create giant GiantTwo (0,0)
+GiantOne attack
+create guard G (0,0) 1
+GiantOne attack
+GiantTwo attack
+end

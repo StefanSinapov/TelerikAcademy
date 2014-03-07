@@ -1,0 +1,10 @@
+create ninja N (0,0) 1
+create rock 30 (0,0)
+create tree 10 (1,1)
+N gather
+N go (1,1)
+N gather
+create guard G (1,1) 2
+G attack
+N attack
+end

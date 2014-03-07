@@ -1,0 +1,10 @@
+create giant Giant (0,0)
+create guard Guard (0,0) 1
+Guard attack
+Giant attack
+create house (0,0) 1
+Guard attack
+Giant go (1,1)
+Guard go (1,1)
+Giant attack
+end

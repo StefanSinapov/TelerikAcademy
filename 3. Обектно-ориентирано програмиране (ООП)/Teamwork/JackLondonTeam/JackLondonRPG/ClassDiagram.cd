@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JackLondonRPG.GameEngine">
+    <Position X="4.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAQAEAAAQQAAAAAAAIAAAAAACAwAACAAAAAQAI=</HashCode>
+      <FileName>GameEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.Ship">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAIAAABACAAAAAAAAAQQAAAEAAQAAgAEgACAIAA=</HashCode>
+      <FileName>Ship.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="JackLondonRPG.Captain">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Captain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="JackLondonRPG.Stat&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAQAAABgAgAAAAAAAIAAABA=</HashCode>
+      <FileName>Stat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="JackLondonRPG.Cannon" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAgAgAAAAAAAAAQQAIAEAAAAAAAQAAAAEAA=</HashCode>
+      <FileName>Cannon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="JackLondonRPG.Wall" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAABACAAAAAAAAAQQAAAEAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Wall.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="JackLondonRPG.AttackEvent">
+    <Position X="10.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAGAAAABgAAAIAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AttackEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.GameEvent">
+    <Position X="8" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameEvent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="JackLondonRPG.DamageEvent">
+    <Position X="8.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DamageEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.Merchant">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAIAAAAAAAAAAgAgAAAAAAAAAAAAABAAAAAQAEA=</HashCode>
+      <FileName>Merchant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.Repairman">
+    <Position X="2.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEEA=</HashCode>
+      <FileName>Repairman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.NPC">
+    <Position X="1.75" Y="8.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAYAAAAGAAAAABAAAAAAAEA=</HashCode>
+      <FileName>NPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.Skill">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAgIAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.PassiveSkill">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PassiveSkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.ActiveSkill">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ActiveSkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.Fireball">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAIA=</HashCode>
+      <FileName>Fireball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.Fog">
+    <Position X="5.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAQAAAAAAAAIA=</HashCode>
+      <FileName>Fog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.FortifyDamage">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>FortifyDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.FortifyPrecision">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>FortifyPrecision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.HullBreaker">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAIA=</HashCode>
+      <FileName>HullBreaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.InvalidTargetException">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvalidTargetException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.RandomGenerator">
+    <Position X="11.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAA=</HashCode>
+      <FileName>RandomGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.BattleEngine">
+    <Position X="6" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBAQAAAAFAAAAAAAACIAAAAAAgAgAAAAAAAAAAA=</HashCode>
+      <FileName>BattleEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.Opponent">
+    <Position X="10" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAQAAAAAAAIAAAAAAIIAAAAAAAAAAA=</HashCode>
+      <FileName>Opponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.UpgradeEvent&lt;T&gt;">
+    <Position X="10.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UpgradeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.NPCEngine">
+    <Position X="6" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAIAAABAAAAAAAABAAA=</HashCode>
+      <FileName>NPCEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.ConsoleVisualizer">
+    <Position X="13.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAABAAACCQBAAAAAAIAAIAIEAAAAgAAAIAAAA=</HashCode>
+      <FileName>ConsoleVisualizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JackLondonRPG.Program">
+    <Position X="4.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="JackLondonRPG.IAttacker">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAttacker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="JackLondonRPG.IAttackable">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAttackable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="JackLondonRPG.IDamageable">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>IDamagable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="JackLondonRPG.IUpgradable&lt;T&gt;">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAgAgAAAAAAAIAAAAA=</HashCode>
+      <FileName>IUpgradable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="JackLondonRPG.IDrawable">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDrawable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="JackLondonRPG.IIdentifiable">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IIdentifiable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

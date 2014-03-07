@@ -1,0 +1,8 @@
+birth boar B (0,0)
+birth tree (0,0)
+birth deer D (1,1)
+birth bush (1,1)
+go B (0,0)
+go B (1,1)
+go B (1,1)
+end

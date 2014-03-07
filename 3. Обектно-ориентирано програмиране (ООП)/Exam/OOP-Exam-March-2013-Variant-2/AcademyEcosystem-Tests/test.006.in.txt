@@ -1,0 +1,8 @@
+birth grass (-1,-1)
+birth lion L (1,1)
+birth deer D (2,2)
+go D (-1,-1)
+go L (-1,-1)
+birth deer anotherDeer (-2,-2)
+go anotherDeer (-1,-1)
+end

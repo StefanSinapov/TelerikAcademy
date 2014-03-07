@@ -1,0 +1,10 @@
+create house (0,0) 1
+create guard GOne (0,0) 1
+create guard GTwo (0,0) 2
+GTwo attack
+GTwo attack
+GTwo attack
+GTwo attack
+GTwo attack
+end
+

@@ -1,0 +1,6 @@
+create ninja N (0,0) 1
+create guard G (0,0) 2
+G attack
+G attack
+N attack
+end

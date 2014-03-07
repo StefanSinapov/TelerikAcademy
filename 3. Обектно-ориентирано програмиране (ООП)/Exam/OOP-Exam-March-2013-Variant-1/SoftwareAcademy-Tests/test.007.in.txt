@@ -1,0 +1,12 @@
+CourseFactory f = new CourseFactory();
+ITeacher joro = f.CreateTeacher("Joro");
+ICourse php = f.CreateLocalCourse("PHP", joro, "Enterprise");
+php.AddTopic("Intro PHP");
+php.AddTopic("PHP Core");
+php.AddTopic("PHP Advanced Topics");
+php.AddTopic("PHP Exam");
+Console.WriteLine(php);
+ICourse cpp = f.CreateOffsiteCourse("C++", joro, "Ultimate");
+Console.WriteLine(cpp);
+Console.WriteLine(joro);
+

@@ -1,0 +1,4 @@
+Wolf wfirst ate 4 from Wolf wsecond
+Wolf wfirst ate 3 from Deer d
+Wolf wsecond is dead ;(
+Deer d is dead ;(

@@ -1,0 +1,15 @@
+IElementFactory htmlFactory = new HTMLElementFactory();
+ITable innnerTable = htmlFactory.CreateTable(2, 2);
+innnerTable[0, 0] = htmlFactory.CreateElement(null, "cell00");
+innnerTable[0, 1] = htmlFactory.CreateElement("p", "cell01");
+innnerTable[1, 0] = htmlFactory.CreateElement("br");
+innnerTable[1, 1] = htmlFactory.CreateElement("hr", null);
+ITable outerTable = htmlFactory.CreateTable(2, 3);
+outerTable[0, 0] = htmlFactory.CreateElement(null, "out00");
+outerTable[0, 1] = htmlFactory.CreateElement("p", "out01");
+outerTable[0, 2] = innnerTable;
+outerTable[1, 0] = htmlFactory.CreateElement("b", "out10");
+outerTable[1, 1] = innnerTable;
+outerTable[1, 2] = innnerTable;
+Console.WriteLine(outerTable);
+

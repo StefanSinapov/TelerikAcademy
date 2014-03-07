@@ -1,0 +1,13 @@
+birth grass (10,10)
+birth deer D (0,0)
+go D (10,10)
+go D (10,10)
+go D (10,10)
+go D (10,10)
+go D (10,10)
+go D (10,10)
+go D (10,10)
+go D (10,10)
+go D (10,10)
+go D (10,10)
+end

@@ -1,0 +1,5 @@
+Boar B ate 2 from Tree (0,0)
+Boar B ate 2 from Bush (1,1)
+Boar B ate 3 from Deer D
+Deer D is dead ;(
+Boar B ate 2 from Bush (1,1)

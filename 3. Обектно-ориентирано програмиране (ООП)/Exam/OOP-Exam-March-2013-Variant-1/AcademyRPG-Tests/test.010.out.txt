@@ -1,0 +1,5 @@
+Ninja N gathered 15 Stone from Rock
+Ninja N is now at position (1,1)
+Ninja N gathered 10 Lumber from Tree
+Guard G attacked Ninja N and did 0 damage
+Ninja N attacked Guard G and did 20 damage

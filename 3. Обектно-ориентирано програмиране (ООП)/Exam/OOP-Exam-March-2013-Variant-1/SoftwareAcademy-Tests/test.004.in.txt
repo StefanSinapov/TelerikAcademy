@@ -1,0 +1,4 @@
+CourseFactory f = new CourseFactory();
+ICourse c = f.CreateLocalCourse("Java", null, "Big Hall");
+Console.WriteLine(c);
+

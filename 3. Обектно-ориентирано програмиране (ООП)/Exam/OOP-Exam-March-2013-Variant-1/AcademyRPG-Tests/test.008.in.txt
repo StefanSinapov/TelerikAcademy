@@ -1,0 +1,9 @@
+create rock 10 (0,0)
+create rock 10 (1,1)
+create giant G (0,0)
+G gather
+G go (1,1)
+G gather
+create knight K (1,1) 1
+G attack
+end

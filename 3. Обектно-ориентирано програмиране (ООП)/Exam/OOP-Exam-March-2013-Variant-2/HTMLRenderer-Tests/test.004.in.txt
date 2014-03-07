@@ -1,0 +1,8 @@
+IElementFactory htmlFactory = new HTMLElementFactory();
+IElement html = htmlFactory.CreateElement("html");
+IElement h1 = htmlFactory.CreateElement("h1", "Welcome!");
+html.AddElement(h1);
+IElement p = htmlFactory.CreateElement("p", "I am a paragraph");
+html.AddElement(p);
+Console.WriteLine(html);
+

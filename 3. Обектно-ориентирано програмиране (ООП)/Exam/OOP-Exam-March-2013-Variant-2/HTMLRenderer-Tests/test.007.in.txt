@@ -1,0 +1,12 @@
+IElementFactory htmlFactory = new HTMLElementFactory();
+IElement html = htmlFactory.CreateElement("html");
+ITable table = htmlFactory.CreateTable(1, 3);
+table[0, 0] = htmlFactory.CreateElement(null, "cell00");
+table[0, 1] = htmlFactory.CreateElement("p", "cell01");
+table[0, 0] = htmlFactory.CreateElement(null, "changed00");
+table[0, 2] = table[0, 0];
+html.AddElement(table);
+html.AddElement(htmlFactory.CreateElement("div", "footer"));
+table[0, 1].TextContent = "changed01";
+Console.WriteLine(html);
+

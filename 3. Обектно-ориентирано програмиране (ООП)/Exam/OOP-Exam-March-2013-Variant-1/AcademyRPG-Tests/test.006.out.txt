@@ -1,0 +1,4 @@
+No targets to attack at Guard Guard's position
+Giant Giant attacked Guard Guard and did 100 damage
+Giant Giant is now at position (1,1)
+No targets to attack at Giant Giant's position

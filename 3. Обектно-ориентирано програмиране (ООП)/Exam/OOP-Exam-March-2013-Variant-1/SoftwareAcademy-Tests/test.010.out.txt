@@ -1,0 +1,23 @@
+Teacher: Name=Joro
+Teacher: Name=George
+LocalCourse: Name=PHP; Teacher=George; Lab=Enterprise
+LocalCourse: Name=PHP; Teacher=George; Topics=[Intro PHP, PHP Core, PHP Advanced Topics, PHP Exam]; Lab=Enterprise
+OffsiteCourse: Name=C++; Teacher=George; Town=Ultimate
+OffsiteCourse: Name=C++; Teacher=George; Topics=[Intro C++, C++ Core, C++ Advanced Topics, C++ Exam]; Town=Ultimate
+Teacher: Name=George; Courses=[C++]
+Teacher: Name=George; Courses=[C++, PHP, C++]
+Teacher: Name=Nakov
+Teacher: Name=Svetlin Nakov
+LocalCourse: Name=OOP; Lab=Light
+LocalCourse: Name=OOP; Teacher=Svetlin Nakov; Lab=Light
+LocalCourse: Name=OOP; Teacher=Svetlin Nakov; Topics=[Using Classes and Objects, Defining Classes, OOP Principles, Teamwork, Exam Preparation]; Lab=Light
+OffsiteCourse: Name=HTML; Teacher=Svetlin Nakov; Topics=[Using Classes and Objects]; Town=Plovdiv
+OffsiteCourse: Name=HTML; Teacher=Svetlin Nakov; Topics=[Using Classes and Objects, Defining Classes, OOP Principles]; Town=Plovdiv
+OffsiteCourse: Name=HTML; Teacher=Svetlin Nakov; Topics=[Using Classes and Objects, Defining Classes, OOP Principles, Teamwork, Exam Preparation]; Town=Plovdiv
+Teacher: Name=Svetlin Nakov; Courses=[OOP, HTML]
+LocalCourse: Name=Object-Oriented Programming; Teacher=George Georgiev; Topics=[Using Classes and Objects, Defining Classes, OOP Principles, Teamwork, Exam Preparation, Practical Exam]; Lab=Enterprise
+OffsiteCourse: Name=HTML Basics; Teacher=George Georgiev; Topics=[Using Classes and Objects, Defining Classes, OOP Principles, Teamwork, Exam Preparation, Practical Exam]; Town=Varna
+LocalCourse: Name=CSS; Lab=Ultimate
+Teacher: Name=George; Courses=[C++, PHP, C++, Object-Oriented Programming, Object-Oriented Programming, CSS, Object-Oriented Programming, Object-Oriented Programming, CSS]
+LocalCourse: Name=PHP Avdanced Course; Teacher=Svetlin Nakov; Topics=[Intro PHP, PHP Core, PHP Advanced Topics, PHP Exam, Final PHP Topic]; Lab=The Very Big Lab
+OffsiteCourse: Name=PHP Avdanced Course; Topics=[Using Classes and Objects, Defining Classes, OOP Principles, Teamwork, Exam Preparation, Practical Exam, Final HTML Topic]; Town=The Very Big Lab

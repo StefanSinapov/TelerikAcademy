@@ -1,0 +1,4 @@
+Giant G gathered 5 Stone from Rock
+Giant G is now at position (1,1)
+Giant G gathered 5 Stone from Rock
+Giant G attacked Knight K and did 100 damage

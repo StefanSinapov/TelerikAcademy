@@ -1,0 +1,3 @@
+LocalCourse: Name=PHP; Teacher=Joro; Topics=[Intro PHP, PHP Core, PHP Advanced Topics, PHP Exam]; Lab=Enterprise
+OffsiteCourse: Name=C++; Topics=[Intro C++, C++ Core, C++ Advanced Topics, C++ Exam]; Town=Ultimate
+Teacher: Name=Joro; Courses=[C++, PHP, C++]

@@ -1,0 +1,3 @@
+Guard G attacked Ninja N and did 0 damage
+Guard G attacked Ninja N and did 0 damage
+Ninja N attacked Guard G and did 0 damage

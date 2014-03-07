@@ -1,0 +1,8 @@
+birth wolf wfirst (0,0)
+birth wolf wsecond (1,1)
+birth deer d (1,1)
+go wfirst (1,1)
+birth bush (3,3)
+birth deer dother (3,3)
+go wsecond (3,3)
+end

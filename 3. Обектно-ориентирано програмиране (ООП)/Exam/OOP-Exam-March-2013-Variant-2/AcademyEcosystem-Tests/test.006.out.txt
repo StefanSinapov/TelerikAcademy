@@ -1,0 +1,4 @@
+Deer D ate 1 from Grass (-1,-1)
+Lion L ate 3 from Deer D
+Deer D is dead ;(
+Deer anotherDeer ate 1 from Grass (-1,-1)

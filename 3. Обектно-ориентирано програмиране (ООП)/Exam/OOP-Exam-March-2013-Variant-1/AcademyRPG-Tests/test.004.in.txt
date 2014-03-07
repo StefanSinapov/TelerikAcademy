@@ -1,0 +1,10 @@
+create house (0,0) 1
+create house (0,0) 2
+create knight K (0,0) 1
+K attack
+K attack
+K attack
+K attack
+K attack
+K attack
+end

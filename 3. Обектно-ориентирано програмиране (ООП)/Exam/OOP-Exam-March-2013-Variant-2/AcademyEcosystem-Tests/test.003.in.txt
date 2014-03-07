@@ -1,0 +1,7 @@
+birth lion L (0,0)
+birth wolf wfirst (1,1)
+birth wolf wsecond (2,2)
+go L (1,1)
+sleep L 10
+go wsecond (1,1)
+end

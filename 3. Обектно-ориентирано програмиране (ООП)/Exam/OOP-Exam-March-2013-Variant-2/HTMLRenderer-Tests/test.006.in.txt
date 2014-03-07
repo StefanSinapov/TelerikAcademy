@@ -1,0 +1,9 @@
+IElementFactory htmlFactory = new HTMLElementFactory();
+IElement html = htmlFactory.CreateElement("html");
+ITable table = htmlFactory.CreateTable(2, 1);
+table[1, 0] = htmlFactory.CreateElement("p", "cell10");
+table[0, 0] = htmlFactory.CreateElement(null, "cell00");
+html.AddElement(table);
+html.AddElement(table);
+Console.WriteLine(html);
+

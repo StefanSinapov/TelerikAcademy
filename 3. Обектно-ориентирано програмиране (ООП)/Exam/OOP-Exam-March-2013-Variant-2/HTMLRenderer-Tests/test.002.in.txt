@@ -1,0 +1,4 @@
+IElementFactory f = new HTMLElementFactory();
+IElement element = f.CreateElement(null, "some text");
+Console.WriteLine(element);
+

@@ -1,0 +1,2 @@
+Knight K attacked Guard G and did 80 damage
+Knight K attacked Guard G and did 20 damage
