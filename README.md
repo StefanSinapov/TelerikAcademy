@@ -31,6 +31,7 @@ Telerik Academy 2013-2014
 * OOP Fundamental Principles - Part I - (conditions)
 * OOP Fundamental Principles - Part II - (conditions) 
 * Common Type System - (conditions)
-* Design Patterns
-* Practical Workshop - (conditions) 
+* ~~Design Patterns~~
+* Workshop - Particle System (conditions) 
 * Teamwork - RPG Game 
+* Exam - Preparation
