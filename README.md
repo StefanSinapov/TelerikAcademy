@@ -11,7 +11,6 @@ Telerik Academy 2013-2014
 * [Conditional Statements](1.%20C%23%20програмиране%20-%20част%20I/Homework/5.ConditionalStatements)
 * [Loops](1.%20C%23%20програмиране%20-%20част%20I/Homework/6.Loops)
 
-
 ###[C# - Part II](2.%20C%23%20програмиране%20-%20част%20II)
 1. [Arrays](2.%20C%23%20програмиране%20-%20част%20II/Homework/1.Arrays)
 * [Multidimensional Arrays](2.%20C%23%20програмиране%20-%20част%20II/Homework/2.MultidimensionalArrays)
@@ -22,7 +21,6 @@ Telerik Academy 2013-2014
 * [Text Files](2.%20C%23%20програмиране%20-%20част%20II/Homework/7.TextFiles) 
 * [Strings and Text Processing](2.%20C%23%20програмиране%20-%20част%20II/Homework/8.StringsAndTextProcessing) 
 * [Teamwork - Console game](2.%20C%23%20програмиране%20-%20част%20II/Teamwork)
-
 
 ###[C# - Object-Oriented Programming](3.%20Обектно-ориентирано%20програмиране%20(ООП))
 1. [Defining classes - Part I](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/1.%20Defining%20Classes%20Part%20I) 
@@ -35,3 +33,12 @@ Telerik Academy 2013-2014
 * Workshop - Particle System (conditions) 
 * Teamwork - RPG Game 
 * Exam - Preparation
+
+
+
+#Web Design & Development#
+
+###[HTML Basics](4.%20HTML)
+1. [HTML Fundamentals](4.%20HTML/Homework/1.%20HTML%20Fundamentals) - ([conditions](4.%20HTML/Homework/1.%20HTML%20Fundamentals/README.md))
+* [HTML Tables](4.%20HTML/Homework/2.%20HTML%20Tables) - ([conditions](4.%20HTML/Homework/2.%20HTML%20Tables/README.md))
+
