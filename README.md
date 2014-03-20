@@ -41,4 +41,5 @@ Telerik Academy 2013-2014
 ###[HTML Basics](4.%20HTML)
 1. [HTML Fundamentals](4.%20HTML/Homework/1.%20HTML%20Fundamentals) - ([conditions](4.%20HTML/Homework/1.%20HTML%20Fundamentals/README.md))
 * [HTML Tables](4.%20HTML/Homework/2.%20HTML%20Tables) - ([conditions](4.%20HTML/Homework/2.%20HTML%20Tables/README.md))
-
+* [HTML Forms](4.%20HTML/Homework/3.%20HTML%20Forms) - ([conditions](4.%20HTML/Homework/3.%20HTML%20Forms/README.md))
+* [Semantic Web](4.%20HTML/Homework/4.%20Semantic%20Web) - ([conditions](4.%20HTML/Homework/4.%20Semantic%20Web/README.md))
