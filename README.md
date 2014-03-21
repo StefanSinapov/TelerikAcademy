@@ -25,14 +25,14 @@ Telerik Academy 2013-2014
 ###[C# - Object-Oriented Programming](3.%20Обектно-ориентирано%20програмиране%20(ООП))
 1. [Defining classes - Part I](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/1.%20Defining%20Classes%20Part%20I) 
 * [Defining classes - Part II](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/2.%20Defining%20Classes%20Part%20II) 
-* Extension Methods, Delegates, Lambda and LINQ - (conditions) 
-* OOP Fundamental Principles - Part I - (conditions)
-* OOP Fundamental Principles - Part II - (conditions) 
-* Common Type System - (conditions)
+* [Extension Methods, Delegates, Lambda and LINQ](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/3.ExtensionDelgatesLambdaLINQ) - ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/3.ExtensionDelgatesLambdaLINQ/README.md)) 
+* [OOP Fundamental Principles - Part I](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/4.%20OOP%20Principles%20Part%20I) - ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/4.%20OOP%20Principles%20Part%20I/README.md))
+* [OOP Fundamental Principles - Part II](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/5.%20OOP%20Principles%20Part%20II) - ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/5.%20OOP%20Principles%20Part%20II/README.md)) 
+* [Common Type System](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/6.CommonTypeSystem) - ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/6.CommonTypeSystem/README.md))
 * ~~Design Patterns~~
-* Workshop - Particle System (conditions) 
-* Teamwork - RPG Game 
-* Exam - Preparation
+* [Workshop - Particle System](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/7.%20Workshop) ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/7.%20Workshop/README.md)) 
+* Teamwork - [RPG Game](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Teamwork/JackLondonTeam)
+* [Exam](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Exam/REAL) - [Preparation](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/0.%20ExamPreparation)
 
 
 
