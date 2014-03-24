@@ -1,30 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Tables</title>
+        <meta charset="utf-8" />
+        <title>2. Table of Letters</title>
+
+        <style>
+            table, td {
+                border: 1px solid #808080;
+            }
+
+            table td {
+                padding: 2px 6px 2px 6px;
+                text-align: center;
+            }
+
+            .left {
+                text-align: left;
+            }
+
+            .rightDown {
+                vertical-align: bottom;
+                text-align: right;
+            }
+        </style>
     </head>
     <body>
-        <table border="1px" ;>
+        <table>
             <thead>
                 <tr>
-                    <th colspan="3">Title goes here
-                    </th>
+                    <td colspan="3">Title goes here</td>
                     <td>A</td>
-                    <td>B</td>
+                    <td class="rightDown">B</td>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="3">C</td>
+                    <td class="left" rowspan="3">C</td>
                     <td>D</td>
                     <td>E</td>
                     <td>F</td>
-                    <td>G</td>
+                    <td class="rightDown">G</td>
                 </tr>
                 <tr>
                     <td>H</td>
                     <td colspan="2">I</td>
-                    <td rowspan="2">J</td>
+                    <td class="rightDown" rowspan="2">J</td>
                 </tr>
                 <tr>
                     <td>K</td>
@@ -32,7 +52,7 @@
                     <td>M</td>
                 </tr>
                 <tr>
-                    <td>N</td>
+                    <td class="rightDown">N</td>
                     <td colspan="4">O</td>
                 </tr>
             </tbody>
