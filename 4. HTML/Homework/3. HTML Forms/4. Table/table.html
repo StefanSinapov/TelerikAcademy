@@ -3,31 +3,161 @@
     <head>
         <title>Advanced Table</title>
         <meta charset="utf-8">
+        <link href="styles/styles.css" rel="stylesheet" />
     </head>
     
     <body>
         <form>
-            <table border="1">
+            <table>
                 <thead>
-                    <tr>
+                    <tr class="tableHeaderTitleBarText">
                         <th colspan="6">Drag a column header and drop it here to group by that column</th>
                     </tr>
-                    <tr>
-                        <th>ProductID</th>
-                        <th>Product name</th>
-                        <th>Unit Price</th>
-                        <th>Quantity per unit</th>
-                        <th>Units in stock</th>
+					
+                    <tr class="tableHeaderColumnContainer">
+                        <th class="productIdColumnContainer">ProductID</th>
+                        <th class="productNameColumnContainer">Product name</th>
+                        <th class="unitPriceColumnContainer">Unit price</th>
+                        <th class="quantityColumnContainer">Quantity per unit</th>
+                        <th class="unitsColumnContainer">Unit in stock</th>
                         <th>Discontinued</th>
+                    </tr>
+					
+					<tr class="tableHeaderInputsColumns">
+                        <th><input type="text" name="product-id" pattern="/d+" /></th>
+                        <th><input type="text" name="product-name" /></th>
+                        <th><input type="text" name="unit-price" pattern="/d+" /><a href="#"><img src="images/0.png" alt="reset" width="22" height="22" /></a></th>
+                        <th><input type="text" name="quantity" pattern="/d+" /></th>
+                        <th><input type="text" name="units-in-stock" pattern="/d+" /><a href="#"><img src="images/0.png" alt="reset" width="22" height="22" /></a></th>
+                        <th><input type="checkbox" disabled /><a href="#"><img src="images/0.png" alt="reset" width="22" height="22" /></a></th>
                     </tr>
                 </thead>
                 
                 <tfoot>
-                
+					<tr>
+						<td colspan="6">
+                            <ul>
+                                <li><a href="#" class="imageHref"><img src="images/1.png" alt="First page" width="22" height="22" /></a></li>
+                                <li><a href="#" class="imageHref"><img src="images/2.png" alt="Previous page" width="22" height="22" /></a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li><a href="#">7</a></li>
+                                <li><a href="#">8</a></li>
+                                <li><a href="#">9</a></li>
+                                <li><a href="#">10</a></li>
+                                <li>...</li>
+                                <li><a href="#" class="imageHref"><img src="images/3.png" alt="Next page" width="22" height="22" /></a></li>
+                                <li><a href="#" class="imageHref"><img src="images/4.png" alt="Last page" width="22" height="22" /></a></li>
+                            </ul>
+
+                            <span class="pageSizeContainer">
+                                Page Size:
+                                <select>
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="30">30</option>
+                                </select>
+                            </span>
+
+                            <span class="itemsOfPagesTextContainer">3351104 items of 33511 pages</span>
+                        </td>
+                    </tr>   
                 </tfoot>
                 
                 <tbody>
-                
+					<tr>
+						<td>1</td>
+						<td>Chai</td>
+						<td>$18.00</td>
+						<td>10 boxes x 20 bags</td>
+						<td>39</td>
+						<td><input type="checkbox" disabled /></td>
+					</tr>
+					
+					<tr>
+						<td>2</td>
+						<td>Chang</td>
+						<td>$19.00</td>
+						<td>24 - 12 oz bottles</td>
+						<td>17</td>
+						<td><input type="checkbox" disabled /></td>
+					</tr>
+					
+					<tr>
+						<td>3</td>
+						<td>Aniseed Syrup</td>
+						<td>$10.00</td>
+						<td>12 - 550 ml bottles</td>
+						<td>13</td>
+						<td><input type="checkbox" disabled /></td>
+					</tr>
+					
+					<tr>
+						<td>4</td>
+						<td>Chef Anton's Cajun Seasoning</td>
+						<td>$22.00</td>
+						<td>48 - 6 oz jars</td>
+						<td>53</td>
+						<td><input type="checkbox" disabled /></td>
+					</tr>
+					
+					<tr>
+						<td>5</td>
+						<td>Chef Anton's Gymbo Mix</td>
+						<td>$21.35</td>
+						<td>36 boxes</td>
+						<td>0</td>
+						<td><input type="checkbox" checked=checked disabled /></td>
+					</tr>
+					
+					<tr>
+						<td>6</td>
+						<td>Grandma's Boysenberry Spread</td>
+						<td>$25.00</td>
+						<td>12 - 8 oz jars</td>
+						<td>120</td>
+						<td><input type="checkbox" disabled /></td>
+					</tr>
+					
+					<tr>
+						<td>7</td>
+						<td>Uncle Bob's Organic Dried Pears</td>
+						<td>$30.00</td>
+						<td>12 - 1 lb pkgs.</td>
+						<td>15</td>
+						<td><input type="checkbox" disabled /></td>
+					</tr>
+					
+					<tr>
+						<td>8</td>
+						<td>Northwoods Cranberry Sauce</td>
+						<td>$40.00</td>
+						<td>12 - 12 oz jars</td>
+						<td>6</td>
+						<td><input type="checkbox" disabled /></td>
+					</tr>
+					
+					<tr>
+						<td>9</td>
+						<td>Mishi Kobe Niku</td>
+						<td>$97.00</td>
+						<td>18 - 500 g pkgs.</td>
+						<td>29</td>
+						<td><input type="checkbox" checked=checked disabled /></td>
+					</tr>
+					
+					<tr>
+						<td>10</td>
+						<td>Ikura</td>
+						<td>$31.00</td>
+						<td>12 - 200 ml jars</td>
+						<td>31</td>
+						<td><input type="checkbox" disabled /></td>
+					</tr>
                 </tbody>
             </table>
         </form>
