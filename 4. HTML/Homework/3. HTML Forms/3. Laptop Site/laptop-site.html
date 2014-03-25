@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Laptop site</title>
+        
+        <style>
+            
+            nav {
+                border-bottom: 2px solid #808080;
+                margin-bottom: 10px;
+                
+            }
+            
+            nav ul {
+                text-align: center;
+                padding: 3px;
+                margin: 0;
+            }
+            
+            li {
+                display: inline;
+                list-style-type: none;
+                padding: 3px;
+            }
+            
+            
+            nav li {
+                font-weight: bold;
+                font-family: Arial;
+                font-size: 1.2em;
+                
+            }
+            
+            nav li a {
+                color: #00AEF0;
+            }
+            
+            article fieldset {
+                position: relative;
+                overflow: hidden;
+                width: 505px;
+                height: 450px;
+            }
+            
+            
+            section fieldset {
+                width: 220px;
+                height: 130px;
+                float: left;
+                
+            }
+            
+            section fieldset img {
+                float: left;
+                width: 110px;
+                height: 70px;
+            }
+            
+            section ul, section li {
+                display: inline;
+                list-style-type: none;
+                padding: 3px;
+            }
+            
+            section fieldset ul {
+                
+            }
+            
+            section li {
+                float: left;
+                padding: 10px;
+            }
+            
+            aside {
+                position: absolute;
+                top: 160px;
+                right: -30px;
+                bottom: 10px;
+                width: 350px;
+                text-align: center;
+                
+            }
+            
+            aside div {
+                margin-bottom: 5px;
+            }
+            
+            aside input[type=range] {
+                width: 160px 
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <form>
+            <fieldset>
+                <nav>
+                    <ul>
+                        <li><a href="#">Apple</a></li>
+                        <li><a href="#">Toshiba</a></li>
+                        <li><a href="#">Lenovo</a></li>
+                        <li><a href="#">Dell</a></li>
+                        <li><a href="#">Asus</a></li>
+                        <li><a href="#">Acer</a></li>
+                        <li><a href="#">HP</a></li>
+                    </ul>
+                </nav>
+                
+                <article>
+                    <fieldset>
+                        <section>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <img src="images/laptop.png" alt="Apple MacBook Air" width="110" height="70" />
+                                <ul>
+                                    <li>64GB SSD</li>
+                                    <li>2GB DDR</li>
+                                    <li>1300 USD</li>
+                                    <li>Intel Core i5</li>
+                                    
+                                </ul>
+                            </fieldset>
+                        </section>
+
+                        <section>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <img src="images/laptop.png" alt="Apple MacBook Air" width="110" height="70" />
+                                <ul>
+                                    <li>64GB SSD</li>
+                                    <li>2GB DDR</li>
+                                    <li>1300 USD</li>
+                                    <li>Intel Core i5</li>
+                                </ul>
+                            </fieldset>
+                        </section>
+
+                        <section>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <img src="images/laptop.png" alt="Apple MacBook Air" width="110" height="70" />
+                                <ul>
+                                    <li>64GB SSD</li>
+                                    <li>2GB DDR</li>
+                                    <li>1300 USD</li>
+                                    <li>Intel Core i5</li>
+                                </ul>
+                            </fieldset>
+                        </section>
+
+                        <section>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <img src="images/laptop.png" alt="Apple MacBook Air" width="110" height="70" />
+                                <ul>
+                                    <li>64GB SSD</li>
+                                    <li>2GB DDR</li>
+                                    <li>1300 USD</li>
+                                    <li>Intel Core i5</li>
+                                </ul>
+                            </fieldset>
+                        </section>
+
+                        <section>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <img src="images/laptop.png" alt="Apple MacBook Air" width="110" height="70" />
+                                <ul>
+                                    <li>64GB SSD</li>
+                                    <li>2GB DDR</li>
+                                    <li>1300 USD</li>
+                                    <li>Intel Core i5</li>
+                                </ul>
+                            </fieldset>
+                        </section>
+
+                        <section>
+                            <fieldset>
+                                <legend>Apple MacBook Air</legend>
+                                <img src="images/laptop.png" alt="Apple MacBook Air" width="110" height="70" />
+                                <ul>
+                                    <li>64GB SSD</li>
+                                    <li>2GB DDR</li>
+                                    <li>1300 USD</li>
+                                    <li>Intel Core i5</li>
+                                </ul>
+                            </fieldset>
+                        </section>
+                    </fieldset>
+                </article>
+
+                <aside>
+                    <div>
+                        <label for="min-price">Min price:</label>
+                        500 USD <br/>
+                        <input type="range" name="min-price" id="min-price" value="500" min="0" max="1000" />
+                    </div>
+
+                    <div>
+                        <label for="max-price">Max price:</label>
+                        1500 USD <br/>
+                        <input type="range" name="max-price" id="max-price" value="1500" min="0" max="3000" />
+                    </div>
+
+                    <div>
+                        <label for="min-ram">Min RAM:</label>
+                        4 GB <br/>
+                        <input type="range" name="min-ram" id="min-ram" value="4" min="0" max="8" />
+                    </div>
+
+                    <div>
+                        <label for="max-ram">Max RAM:</label>
+                        16 GB <br/>
+                        <input type="range" name="max-ram" id="max-ram" value="16" min="0" max="32" />
+                    </div>
+                </aside>
+            </fieldset>
+        </form>
+    </body>
+</html>
