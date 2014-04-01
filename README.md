@@ -3,7 +3,7 @@ Telerik Academy 2013-2014
 
 #Programming with C#
 
-###[C# - Part I](1.%20C%23%20програмиране%20-%20част%20I)
+###[C# - Part I](1.%20C%23%20програмиране%20-%20част%20I) ([notes](http://www.evernote.com/shard/s60/sh/f131361d-2c39-4eb6-baad-e23398217902/b7fb7d0c3ae35d7e35d2842248539796))
 1. [Introduction to Programming](1.%20C%23%20програмиране%20-%20част%20I/Homework/1.IntroductionToProgramming) 
 * [Primitive Data Types and Variables](1.%20C%23%20програмиране%20-%20част%20I/Homework/2.PrimitiveTypesAndVariables)
 * [Operators, Expressions and Statements](1.%20C%23%20програмиране%20-%20част%20I/Homework/3.OperatorsExpressionsAndStatements)
@@ -11,7 +11,7 @@ Telerik Academy 2013-2014
 * [Conditional Statements](1.%20C%23%20програмиране%20-%20част%20I/Homework/5.ConditionalStatements)
 * [Loops](1.%20C%23%20програмиране%20-%20част%20I/Homework/6.Loops)
 
-###[C# - Part II](2.%20C%23%20програмиране%20-%20част%20II)
+###[C# - Part II](2.%20C%23%20програмиране%20-%20част%20II) ([notes](http://www.evernote.com/shard/s60/sh/bd20534c-155d-4d63-aee9-2e98f276b34e/e51dd621be40466bd56a549c597d5aee))
 1. [Arrays](2.%20C%23%20програмиране%20-%20част%20II/Homework/1.Arrays)
 * [Multidimensional Arrays](2.%20C%23%20програмиране%20-%20част%20II/Homework/2.MultidimensionalArrays)
 * [Methods](2.%20C%23%20програмиране%20-%20част%20II/Homework/3.Methods)
@@ -22,7 +22,7 @@ Telerik Academy 2013-2014
 * [Strings and Text Processing](2.%20C%23%20програмиране%20-%20част%20II/Homework/8.StringsAndTextProcessing) 
 * [Teamwork - Console game](2.%20C%23%20програмиране%20-%20част%20II/Teamwork)
 
-###[C# - Object-Oriented Programming](3.%20Обектно-ориентирано%20програмиране%20(ООП))
+###[C# - Object-Oriented Programming](3.%20Обектно-ориентирано%20програмиране%20(ООП)) ([notes](http://www.evernote.com/shard/s60/sh/dc761682-6944-40e5-875e-bb43594034b7/b3ba1767085ccb6c637f90ae9367b777))
 1. [Defining classes - Part I](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/1.%20Defining%20Classes%20Part%20I) 
 * [Defining classes - Part II](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/2.%20Defining%20Classes%20Part%20II) 
 * [Extension Methods, Delegates, Lambda and LINQ](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/3.ExtensionDelgatesLambdaLINQ) - ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/3.ExtensionDelgatesLambdaLINQ/README.md)) 
@@ -38,7 +38,7 @@ Telerik Academy 2013-2014
 
 #Web Design & Development#
 
-###[HTML Basics](4.%20HTML)
+###[HTML Basics](4.%20HTML) ([notes](http://www.evernote.com/shard/s60/sh/1ff0621d-8bda-40fe-98e0-a3e383ffc8e7/99b0b597358094917651b23f2504ebd7))
 1. [HTML Fundamentals](4.%20HTML/Homework/1.%20HTML%20Fundamentals) - ([conditions](4.%20HTML/Homework/1.%20HTML%20Fundamentals/README.md))
 * [HTML Tables](4.%20HTML/Homework/2.%20HTML%20Tables) - ([conditions](4.%20HTML/Homework/2.%20HTML%20Tables/README.md))
 * [HTML Forms](4.%20HTML/Homework/3.%20HTML%20Forms) - ([conditions](4.%20HTML/Homework/3.%20HTML%20Forms/README.md))
