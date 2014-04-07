@@ -46,3 +46,4 @@ Telerik Academy 2013-2014
 
 ###[CSS](5.%20CSS) ([notes](http://www.evernote.com/shard/s60/sh/5762afed-d5f3-4345-a9b9-500e9b3f4a2e/d1bb7bbee3661ba29025046cca904cd3))
 1. [CSS Overview](5.%20CSS/Homework/1.%20CSS%20Overview) - ([conditions](5.%20CSS/Homework/1.%20CSS%20Overview/README.md))
+* [CSS Presentation](5.%20CSS/Homework/2.%20CSS%20Presentation) - ([conditions](5.%20CSS/Homework/2.%20CSS%20Presentation/README.md))
