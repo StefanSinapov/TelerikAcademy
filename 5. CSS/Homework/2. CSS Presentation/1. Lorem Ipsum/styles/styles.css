@@ -1,0 +1,22 @@
+#008aff
+#0089ff
+
+body, h1, p, ul, li { margin: 0; padding: 0; }
+
+article p
+{
+	color: #0094ff;
+	font-family: Consolas;
+	font-size: 17px;
+}
+
+article p::first-line 
+{
+    font-weight: bold;
+}
+
+
+article p::first-letter {
+    font-family: 'Edwardian Script ITC';
+    font-size: 2.1em;
+}
