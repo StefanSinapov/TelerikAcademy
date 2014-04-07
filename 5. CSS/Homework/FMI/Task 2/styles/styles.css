@@ -1,0 +1,83 @@
+table
+{
+	border: 2px solid #808080;
+}
+thead tr th {
+	border-bottom: 2px solid #808080;
+}
+
+nav ul {
+	text-align: center;
+	padding: 3px;
+	margin: 0;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	padding: 3px;
+}
+
+
+nav li {
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 1.2em;
+
+}
+
+nav li a {
+	color: #00AEF0;
+}
+
+article fieldset {
+	display: block;
+	overflow: hidden;
+	width: 505px;
+	height: 450px;
+}
+
+
+section fieldset {
+	width: 220px;
+	height: 130px;
+	float: left;
+
+}
+
+section fieldset img {
+	float: left;
+	width: 110px;
+	height: 70px;
+}
+
+section ul, section li {
+	display: inline;
+	list-style-type: none;
+	padding: 3px;
+}
+
+section fieldset ul {
+
+}
+
+section li {
+	float: left;
+	padding: 10px;
+}
+
+aside div {
+	margin-bottom: 5px;
+}
+article 
+{
+	display: block;
+	width: 550px;
+	padding: 5px;
+}
+
+aside {
+	display: inline-block;
+	
+}
+

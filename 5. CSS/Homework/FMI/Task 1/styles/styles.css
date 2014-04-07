@@ -1,0 +1,59 @@
+body, h1, p, ul, li 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: lightblue;
+	font-family: Arial;
+	font-size: 0.8em;
+	padding: 4px;
+}
+header nav ul
+{
+	list-style-type:none;
+	overflow:hidden;
+}
+
+nav li
+{
+	float:left;
+}
+
+nav a
+{
+	display:block;
+	width:140px;
+}
+nav
+{
+	padding-bottom: 20px;
+}
+header h2
+{
+	margin: 0;
+	font-style: italic
+}
+section#profile p
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+section#info p
+{
+	padding-left: 10px;
+	padding-bottom: 1px;
+	font-style: italic;
+}
+
+section#friends
+{
+	padding-left: 10px;
+}
+
+#friends dt
+{
+	font-style: italic;
+}
