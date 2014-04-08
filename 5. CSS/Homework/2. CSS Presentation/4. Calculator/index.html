@@ -6,16 +6,173 @@
 		<link type="text/css" rel="stylesheet" href="styles/styles.css">
 	</head>
 	<body>
-		<section class="calculator">
-			<div class="window-title">Calculator
-				<div class="window-buttons">
-					<ul>
-						<li class="inline min-button">min</li>
-						<li class="inline max-button">max</li>
-						<li class="inline exit-button">exit</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-	</body>
+    <div id="main-content">
+        <img id="calculatorIcon" src="http://s28.postimg.org/depwh2pm5/Calculator_Windows_7_Icon.png" alt="Calculator Icon" />
+        <span title="CalculatorTitle">Calculator</span>
+        <div id="window-buttons">
+            <button id="minimize"></button>
+            <!--
+            -->
+            <button id="maximize" disabled></button>
+            <!--
+            -->
+            <button id="close">X</button>
+        </div>
+        <div id="calc">
+            <ul>
+                <li><button>View</button></li>
+                <li><button>Edit</button></li>
+                <li><button>Help</button></li>
+            </ul>
+            <input type="text" name="result" value="8854455" />
+            <div id="binResult">
+                <ul>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                </ul>
+                <ul class="bitCounter">
+                    <li>63</li>
+                    <li>47</li>
+                    <li>32</li>
+                </ul>
+                <ul>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>1000</li>
+                    <li>0111</li>
+                    <li>0001</li>
+                    <li>1011</li>
+                    <li>1011</li>
+                    <li>0111</li>
+                </ul>
+                <ul class="bitCounter">
+                    <li>31</li>
+                    <li>15</li>
+                    <li>0</li>
+                </ul>
+            </div>
+            <div id="btnMath">
+                
+                <button disabled>&nbsp;</button>
+                <button class="shortNameButton">Mod</button>
+                <button class="HexCode" disabled>A</button>
+                <button class="memory">MC</button>
+                <button class="memory">MR</button>
+                <button class="memory">MS</button>
+                <button class="memory">M&#43;</button>
+                <button class="memory">M&#45;</button>
+                <br />
+                <button class="mathSign">&#40;</button>
+                <button class="mathSign">&#41;</button>
+                <button class="HexCode" disabled>B</button>
+                <button class="mathSign" id="Arrow">&#8592;</button>
+                <button class="shortNameButton">CE</button>
+                <button class="shortNameButton">C</button>
+                <button class="mathSign">&plusmn;</button>
+                <button disabled>&radic;</button>
+                <br />
+                <button class="shortNameButton">RoL</button>
+                <button class="shortNameButton">RoR</button>
+                <button class="HexCode" disabled>C</button>
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="mathSign">&#47;</button>
+                <button disabled>&#37;</button>
+                <br />
+                <button class="shortNameButton">Or</button>
+                <button class="shortNameButton">Xor</button>
+                <button class="HexCode" disabled>D</button>
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="mathSign" id="Asterisk">&#42;</button>
+                <button disabled>1&#47;<span class="fraction">x</span></button>
+                <br />
+                <button class="shortNameButton">Lsh</button>
+                <button class="shortNameButton">Rsh</button>
+                <button class="HexCode" disabled>E</button>
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="mathSign">&#45;</button>
+                <button class="mathSign" id="equals">&#61;</button>
+                <br />
+                <button class="shortNameButton">Not</button>
+                <button class="shortNameButton">And</button>
+                <button class="HexCode" disabled>F</button>
+                <button id="zero" class="number">0</button>
+                <button disabled>&#46;</button>
+                <button class="mathSign">&#43;</button>
+            </div>
+
+            <fieldset>
+                <ul>
+                    <li>
+                        <label for="Hex">
+                            <input type="radio" id="Hex" name="NumeralSystem" value="ASD" />
+                            Hex
+                        </label>
+                    </li>
+                    <li>
+
+                        <label for="Dec">
+                            <input type="radio" id="Dec" name="NumeralSystem" value="Dec" checked />
+                            Dec
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Oct">
+                            <input type="radio" id="Oct" name="NumeralSystem" value="Oct" />
+                            Oct
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Bin">
+                            <input type="radio" id="Bin" name="NumeralSystem" value="Bin" />
+                            Bin
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <ul>
+                    <li>
+                        <label for="Qword">
+                            <input type="radio" id="Qword" name="Word" value="Qword" checked />
+                            Qword
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Dword">
+                            <input type="radio" id="Dword" name="Word" value="Dword" />
+                            Dword
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Word">
+                            <input type="radio" id="Word" name="Word" value="Word" />
+                            Word
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Byte">
+                            <input type="radio" id="Byte" name="Word" value="Byte" />
+                            Byte
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+
 </html>
