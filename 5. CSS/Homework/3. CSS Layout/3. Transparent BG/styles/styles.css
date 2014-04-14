@@ -1,0 +1,113 @@
+html, body, main, section, input, p, h1, strong
+{
+	margin: 0;
+	padding: 0;
+}
+
+main
+{
+	
+	font-size: 16px;
+	font-family: sans-serif;
+	border: 1px solid #806850;
+	border-radius: 7px;
+	width: 660px;
+	background-color: #3b3b3b;
+}
+
+#login
+{
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	padding-left: 13px;
+	padding-top: 8px;
+	height: 60px;
+	
+	background: rgb(59,59,59);
+	background: -moz-linear-gradient(top, rgba(59,59,59,1) 0%, rgba(49,49,49,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(59,59,59,1)), color-stop(100%,rgba(49,49,49,1)));
+	background: -webkit-linear-gradient(top, rgba(59,59,59,1) 0%,rgba(49,49,49,1) 100%);
+	background: -o-linear-gradient(top, rgba(59,59,59,1) 0%,rgba(49,49,49,1) 100%);
+	background: -ms-linear-gradient(top, rgba(59,59,59,1) 0%,rgba(49,49,49,1) 100%);
+	background: linear-gradient(to bottom, rgba(59,59,59,1) 0%,rgba(49,49,49,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#313131',GradientType=0 );
+}
+
+#login label, input, button
+{
+	position: relative;
+	bottom: 12px;
+	left: 8px;
+	margin: 10px;
+}
+#login label
+{
+	color: white;
+	font-weight: 800;
+	font-family: serif;
+	font-size: 1.3em;
+}
+#login input
+{
+	height: 20px;
+}
+#login button
+{
+	height: 28px;
+	width: 57px;
+	border: 1px solid white;
+	border-radius: 10px;
+	color: white;
+	background: url(../images/button.png) no-repeat;
+	background-color: #c90104;
+}
+
+#login input::-webkit-input-placeholder
+{
+    color: black;
+	padding-left: 10px;
+}
+#login input:-moz-placeholder
+{
+	color: black;
+	padding-left: 10px;
+}
+#login input::-moz-placeholder
+{
+	color: black;
+	padding-left: 10px;
+}
+#login input:-ms-input-placeholder
+{
+	color: black;
+	padding-left: 10px;
+}
+
+#about
+{
+	height: 230px;
+	padding: 10px;
+}
+#about h1
+{
+	padding-top: 9px;
+	padding-bottom: 14px;
+	color: #fdd416;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 1.9em;
+	
+}
+
+#about  p:first-of-type
+{
+	padding-right: 80px
+}
+#about p
+{
+	line-height: 130%;
+	padding-right: 55px;
+	color: #a4a4a4;
+	font-size: 0.9em;
+	
+}

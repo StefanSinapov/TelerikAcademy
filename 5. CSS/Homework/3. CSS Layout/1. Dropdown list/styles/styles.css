@@ -1,0 +1,30 @@
+
+.main-menu li, .sub-menu li
+{
+	list-style-type: none;
+	display: block;
+}
+.main-menu
+{
+	cursor: pointer;
+}
+.sub-menu 
+{
+	display: none;
+	color: gray;
+	padding-left: 10px;
+	text-decoration: none;
+}
+.main-menu li:hover
+{
+	text-decoration: underline;
+}
+
+.main-menu ul li:hover .sub-menu
+{
+	display: block;
+	text-decoration: none;
+}
+
+<!-- TODO: fix text-decoration in sub-menu -->
+
