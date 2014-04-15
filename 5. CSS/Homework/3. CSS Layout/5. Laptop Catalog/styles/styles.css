@@ -1,0 +1,91 @@
+html, body, header, nav, ul, li, form, input, hr
+{
+	margin: 0;
+	padding: 0;
+} 
+
+body
+{
+	font-size: 18px;
+	width: 860px;
+	height: 470px;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-family: Tahoma;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+header nav ul
+{
+	
+	text-align: center;
+	padding-top: 10px;
+}
+header nav ul li
+{
+	display: inline-block;
+	font-size: 1.1em;
+	font-weight: bold;
+
+}
+header nav ul li a
+{
+	color: #00AEF0;
+}
+header hr
+{
+	border: 1px solid black;
+	margin: 10px;
+}
+
+
+fieldset
+{
+	border: 2px solid black;
+}
+
+section
+{
+	width: 570px;
+	height: 400px;
+	display: inline-block;
+	border: 2px solid black;
+	margin: 10px;
+	margin-top: 0px;
+}
+section article img
+{
+	float: left;
+	margin-right: 3px;
+}
+section article li
+{
+	display: inline;
+	padding: 5px;
+}
+section article
+{
+	width: 280px;
+	height: 60px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+aside
+{
+	display: inline-block;
+	position: relative;
+	bottom: 80px;
+	left: 30px;
+	text-align: center;
+}
+
+aside input[type="range"]
+{
+	width: 200px;
+}

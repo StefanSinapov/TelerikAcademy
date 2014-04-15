@@ -1,0 +1,108 @@
+body, header, nav, article, aside, div, ul, li, img
+{
+	margin: 0;
+	padding: 0;
+}
+
+ul
+{
+	list-style-type: none;
+	
+}
+
+body
+{
+	width: 615px;
+	height: 340px;
+	
+	border: 1px solid #295a68;
+	border-radius: 5px;
+	
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-size: 16px;	
+	color: #969fa0;
+	background-color: #1e3741;
+}
+
+
+#site-header nav li 
+{
+	display: inline;
+	
+	letter-spacing: normal;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 0.7em;
+	font-weight: bold;
+	background-color: #4b5f67;
+}
+#site-header nav ul
+{
+	letter-spacing: -0.19em;
+	margin: 12px;
+	color: #8aaab3;
+}
+#site-header nav a
+{
+	text-decoration: none;
+	color: inherit;
+}
+#site-header nav a:hover
+{
+	text-decoration: underline;
+	color: inherit;
+}
+#site-header nav .current li
+{
+	color: white;
+	background-color: transparent;
+}
+
+#site-content
+{
+	width: 340px;
+	height: 250px;
+	
+	position: relative;
+	left: 260px;
+	top: 10px;
+	
+	border: 1px solid #102a35;
+	background-color: gray;
+}
+
+#site-aside li
+{
+	display: block;
+	width: 230px;
+	height: auto;
+	
+	font-size: 0.78em;
+	font-weight: bold;
+	padding: 10px;
+	
+	border-top: 1px solid #3a4f58;
+}
+#site-aside
+{
+	position: relative;
+	bottom: 250px;
+	width: 250px;
+	margin-top: 10px;
+	
+}
+
+#site-aside li.current
+{
+	color: white;
+	background-color: #00968c;
+}
+
+#site-aside li:hover
+{
+	color: white;
+	background-color: #00968c;
+}
