@@ -48,3 +48,4 @@ Telerik Academy 2013-2014
 1. [CSS Overview](5.%20CSS/Homework/1.%20CSS%20Overview) - ([conditions](5.%20CSS/Homework/1.%20CSS%20Overview/README.md))
 * [CSS Presentation](5.%20CSS/Homework/2.%20CSS%20Presentation) - ([conditions](5.%20CSS/Homework/2.%20CSS%20Presentation/README.md))
 * [CSS Layout](5.%20CSS/Homework/3.%20CSS%20Layout) - ([conditions](5.%20CSS/Homework/3.%20CSS%20Layout/README.md))
+* [LESS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/5.%20CSS/Homework/4.%20LESS) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/5.%20CSS/Homework/4.%20LESS/README.md))
