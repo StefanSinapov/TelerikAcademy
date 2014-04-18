@@ -1,0 +1,115 @@
+html, body, div, aside, ul, li
+{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper
+{
+	width: 960px;
+	font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+	font-size: 16px;
+	margin: 10px 20px;
+}
+
+#wrapper ul 
+{
+	list-style-type: none;
+}
+#wrapper .sidebar ul
+{
+	display: none;
+}
+
+#wrapper .sidebar li a
+{
+	text-decoration: none;
+	color:black;
+}
+
+#wrapper .sidebar > li
+{
+	font-size: 1.4em;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	
+	border-bottom: 1px solid #9D00FF;
+	
+	position: relative;
+}
+
+#wrapper .sidebar > li:first-of-type
+{
+
+}
+#wrapper .sidebar > li:last-of-type
+{
+	border-bottom: none;
+}
+#wrapper .sidebar > li:hover
+{
+	border: 1px solid #9D00FF;
+	border-radius: 5px;
+}
+#wrapper .sidebar > li:hover ul
+{
+	display: block;
+}
+
+#wrapper .sidebar li ul
+{
+	position: absolute;
+	left: 190px;
+	top: -5px;
+	background-color: #B5AAFF;
+	border-radius: 10px;
+	width: 210px;
+	
+	padding: 5px 5px;
+	padding-left: 20px;
+}
+
+#wrapper .sidebar ul li
+{
+	font-size: 0.8em;
+	padding: 5px 5px;
+	padding-left: 20px;
+	border-bottom: 1px solid #9D00FF;
+}
+#wrapper .sidebar li ul li:hover
+{
+	border: 1px solid #9D00FF;
+	border-radius: 5px;
+}
+
+
+/* arrow before? */
+#wrapper .sidebar ul:before
+{
+	content: url(imgs/arrow.png);
+	position: absolute;
+	left: 5px;
+	top: 10px;
+}
+
+
+#wrapper .sidebar ul li:last-of-type
+{
+	border: none;
+}
+#wrapper ul.sidebar 
+{
+	padding: 5px 15px;
+	display: inline-block;
+	border-radius: 10px;
+	background: rgb(210,155,255);
+	background: -moz-linear-gradient(top,  rgba(210,155,255,1) 5%, rgba(137,119,255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,rgba(210,155,255,1)), color-stop(100%,rgba(137,119,255,1)));
+	background: -webkit-linear-gradient(top,  rgba(210,155,255,1) 5%,rgba(137,119,255,1) 100%);
+	background: -o-linear-gradient(top,  rgba(210,155,255,1) 5%,rgba(137,119,255,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(210,155,255,1) 5%,rgba(137,119,255,1) 100%);
+	background: linear-gradient(to bottom,  rgba(210,155,255,1) 5%,rgba(137,119,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d29bff', endColorstr='#8977ff',GradientType=0 );
+}

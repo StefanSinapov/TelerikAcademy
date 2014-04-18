@@ -1,0 +1,41 @@
+html, body, section, ul, li, span, img{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	
+	section.gallery
+	{
+		width: 1024px;
+		margin:10px 20px;
+		ul{
+			list-style-type: none;
+			margin: 10px 0;
+			li{
+				display: inline-block;
+				
+				ul
+				{
+					li
+					{
+						margin:10px 20px;
+						display: none;
+						position: absolute;
+						top: 120px;
+						left: 0;
+						background-color: black;
+						width: 500px;
+						height: 300px;
+					}
+				}
+				&:hover li
+				{
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+/* искаше ми се да има някакъв начин на извличам чрез CSS src атрибута на img tag и да го задавам като background на div който ще служи като дисплей. Така няма да има по два-пъти изображенията в html страницата.*/
