@@ -1,0 +1,147 @@
+
+
+
+html, body, div, h1, h2, ul, li, input, button
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.linear-gradient(@from-color,@from-pos,@to-color,@to-pos) {
+    background: @to-color;
+    background: -moz-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color));
+    background: -webkit-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -o-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -ms-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: linear-gradient(to bottom, @from-color @from-pos,@to-color @to-pos);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@{from-color}', endColorstr='@{to-color}',GradientType=0 );
+}
+
+body
+{
+    font-size: 18px;  
+    font-family: Arial;
+    
+    div#root
+    {
+        color: #2AA0BD;
+        width: 610px;
+        padding: 8px;
+        h1
+        {
+            font-size: 1.9em;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        div
+        {
+            
+            
+            &.chat-container
+            {
+                border: 1px solid #CCCCCC;
+                border-radius: 5px;
+                margin-top: 25px;
+                height: 500px;
+                width: 300px;
+                .linear-gradient(#4AE871,50%,#F1FFBC,75%);
+                position: relative;
+            }
+            
+            h2
+            {
+                text-align: center;
+                margin: 20px 0;
+                margin-bottom: 40px;
+            }
+            div
+            {
+                div.messages
+                {
+                   
+                    margin: 15px;
+                    ul
+                    {
+                        list-style-type: none;
+
+                        li
+                        {
+                            display: inline-block;
+                            border-bottom: 1px solid #333333;
+                           
+                           
+                            display: block;
+                            strong
+                            {
+                                font-weight: normal;
+                                font-style: italic;
+                                font-size: 0.98em;
+                            }
+                            span
+                            {
+                                display: block;
+                                word-wrap: break-word;
+                            }
+                            &:last-of-type
+                            {
+                                border: none;
+                            }
+                            &.me
+                            {
+                                text-align: left;
+                                //float: left;
+                            }
+                            &.other
+                            {
+                                text-align: right;
+                                //float: right;
+                            }
+                        }
+                    }
+                }
+                 
+                div.sent-message
+                {
+                    position: absolute;
+                    bottom: 0px;
+                    
+                    input
+                    {
+                        margin-left: 5px;
+                        width: 170px;
+                    }
+                    button, input
+                    {
+                        border: 1px solid #CCCCCC;
+                        border-top-left-radius: 10px;
+                        border-top-right-radius: 10px;
+                        padding: 5px 15px;
+                        font-size: 1.1em;
+                        color: #2AA0BD;
+                        background: #F1FFBC;
+                    }
+                    
+                    button:hover
+                    {
+                         .linear-gradient(#4AE871,10%,#F1FFBC,75%);
+                    }
+                }
+            }
+           
+            
+            &#me
+            {
+                float: left;
+                margin-right: 5px;
+            }
+
+            &#other
+            {
+                float: left;
+            }
+        }
+    }
+}

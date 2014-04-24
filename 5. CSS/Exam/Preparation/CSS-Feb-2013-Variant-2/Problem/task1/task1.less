@@ -1,0 +1,141 @@
+html, body, div, ul, li, a, p, h1, h2, h3, table, th, tr, td
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 960px;
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 18px;
+
+    div#wrapper
+    {
+        ul.accordion
+        {
+            margin: 50px;
+            list-style-type: none;
+            width: 400px;
+            li
+            {
+                border: 1px solid black;
+                
+               
+                a.accordion-btn
+                {
+                    text-align: center;
+                    text-decoration: none;
+                    display: block;
+                    color: #444444;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                    background: #eeeeee;
+                    background: -moz-linear-gradient(top,  #eeeeee 25%, #aaaaaa 75%);
+                    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#eeeeee), color-stop(75%,#aaaaaa));
+                    background: -webkit-linear-gradient(top,  #eeeeee 25%,#aaaaaa 75%);
+                    background: -o-linear-gradient(top,  #eeeeee 25%,#aaaaaa 75%);
+                    background: -ms-linear-gradient(top,  #eeeeee 25%,#aaaaaa 75%);
+                    background: linear-gradient(to bottom,  #eeeeee 25%,#aaaaaa 75%);
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#aaaaaa',GradientType=0 );
+
+                    
+                    &:hover
+                    {
+                        background: #AAAAAA;
+                    }
+                }
+                div.accordion-content
+                {
+                    padding: 5px 15px;
+                    color: #444444;
+                    background: #AAAAAA;
+                    
+                    h1
+                    {
+                        text-align: center;
+                        font-size: 1.6em;
+                        padding: 5px 0;
+                        color: #5E5E5E;
+                    }
+                    p
+                    {
+                        text-align: justify;
+                    }
+                    
+                    table
+                    {
+                        border: 1px solid black;
+                        margin: 15px 5px;
+                        border-collapse: collapse;
+                        thead
+                        {
+                            th
+                            {
+                                color: #444444;
+                                border: 1px solid black;
+                                padding: 5px;
+                                
+                                background: #ededed;
+background: -moz-linear-gradient(top,  #ededed 0%, #898989 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#898989));
+background: -webkit-linear-gradient(top,  #ededed 0%,#898989 100%);
+background: -o-linear-gradient(top,  #ededed 0%,#898989 100%);
+background: -ms-linear-gradient(top,  #ededed 0%,#898989 100%);
+background: linear-gradient(to bottom,  #ededed 0%,#898989 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#898989',GradientType=0 );
+
+
+                    
+                                
+                                &:first-of-type
+                                {
+                                    border-top-left-radius: 15px;
+                                }
+                            }
+                        }
+                        tbody
+                        {
+                            tr{
+                                td
+                                {
+                                    color: white;
+                                    border: 1px solid black;
+                                    padding: 5px;
+                                }
+                                
+                                background: #cbcbcb;
+                                background: -moz-linear-gradient(top,  #cbcbcb 0%, #888888 100%);
+                                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cbcbcb), color-stop(100%,#888888));
+                                background: -webkit-linear-gradient(top,  #cbcbcb 0%,#888888 100%);
+                                background: -o-linear-gradient(top,  #cbcbcb 0%,#888888 100%);
+                                background: -ms-linear-gradient(top,  #cbcbcb 0%,#888888 100%);
+                                background: linear-gradient(to bottom,  #cbcbcb 0%,#888888 100%);
+                                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbcbcb', endColorstr='#888888',GradientType=0 );
+                                
+                                &:nth-child(2n)
+                                {
+                                    background: #888888;
+                                    background: -moz-linear-gradient(top,  #888888 0%, #cbcbcb 100%);
+                                    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888888), color-stop(100%,#cbcbcb));
+                                    background: -webkit-linear-gradient(top,  #888888 0%,#cbcbcb 100%);
+                                    background: -o-linear-gradient(top,  #888888 0%,#cbcbcb 100%);
+                                    background: -ms-linear-gradient(top,  #888888 0%,#cbcbcb 100%);
+                                    background: linear-gradient(to bottom,  #888888 0%,#cbcbcb 100%);
+                                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#cbcbcb',GradientType=0 );
+
+                                }
+                            }
+                        }
+                    }
+                }
+                &:not(.current) div.accordion-content
+                {
+                    display: none;
+                }
+                
+                
+            }
+        }
+    }
+}

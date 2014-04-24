@@ -1,0 +1,129 @@
+/* 
+Resolution-width: 960px
+•	font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+•	font-size: 16px
+•	All pixel values are divisible by 5
+*/
+
+.linear-gradient(@from-color,@from-pos,@to-color,@to-pos) {
+    background: @to-color;
+    background: -moz-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color));
+    background: -webkit-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -o-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -ms-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: linear-gradient(to bottom, @from-color @from-pos,@to-color @to-pos);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@{from-color}', endColorstr='@{to-color}',GradientType=0 );
+}
+
+
+html, body, div, ul, li, a, h1, h2, h3, span
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 960px;
+    div#wrapper
+    {
+        font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+        font-size: 16px;
+        ul.menu
+        {
+            list-style-type: none;
+            margin-left: 5px;
+            margin-top: 5px;
+            > li
+            {
+                position: relative;
+                display: inline-block;
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 10px 20px;
+                .linear-gradient(#25DCF2,0%,#7994E2,100%);
+                a
+                {
+                    text-decoration: none;
+                    color: #0000FF;
+                }
+                
+                &:hover
+                {
+                    padding: 10px 45px;
+                    font-size: 1.5em;
+                    vertical-align: top;
+                    & div.content
+                    {
+                        display: block;
+                        
+                    }
+                }
+                
+                div.content
+                {
+                    display: none;
+                    
+                    position: absolute;
+                        background-color: lightblue;
+                        top: 35px;
+                        left: 20px;
+                        //width: 255px;
+                        z-index: 1;
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        font-size: 0.65em;
+                        padding: 30px 20px; 
+                        padding-bottom: 15px;
+                        padding-right: 15px;
+                    
+                    .linear-gradient(#FEFFFF,0%,#A0D8EF,100%);
+                    
+                    
+                    
+                    h3
+                    {
+                        text-decoration: underline;
+                        padding-bottom: 5px;
+                        font-size: 1.2em;
+                        
+                    }
+                    
+                    p
+                    {
+                        width: 250px;
+                        span
+                        {
+                            font-weight: bold;
+                        }
+                    }
+                    ul
+                    {
+                        list-style-type: square;
+                        margin-top: 10px;
+                        width: 185px;
+                        li
+                        {
+                            a
+                            {
+                                &:hover
+                                {
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            li:nth-child(2) div.content p
+            {
+                width: 280px;
+                margin-bottom: 5px;
+                padding-bottom: 5px;
+            }
+                    
+        }
+    }
+}

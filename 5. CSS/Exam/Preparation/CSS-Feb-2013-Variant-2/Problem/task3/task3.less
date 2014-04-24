@@ -1,0 +1,116 @@
+body, html, form, fieldset, legend, label, input, button, div
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    width: 960px;
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    
+    div#wrapper
+    {
+        margin: 25px;
+        padding: 15px;
+        width: 380px;
+        border: 1px solid #333333;
+        border-radius: 15px;
+        /* TODO: get input color and border color */
+        background: #68d1ff;
+        background: -moz-linear-gradient(top,  #68d1ff 0%, #8cfffb 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#68d1ff), color-stop(100%,#8cfffb));
+        background: -webkit-linear-gradient(top,  #68d1ff 0%,#8cfffb 100%);
+        background: -o-linear-gradient(top,  #68d1ff 0%,#8cfffb 100%);
+        background: -ms-linear-gradient(top,  #68d1ff 0%,#8cfffb 100%);
+        background: linear-gradient(to bottom,  #68d1ff 0%,#8cfffb 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68d1ff', endColorstr='#8cfffb',GradientType=0 );
+        
+        form
+        {
+            text-align: right;
+            fieldset
+            {
+               
+                border: 3px solid #333333;
+                border-radius: 5px;
+                padding: 5px 15px;
+                
+                legend
+                {
+                    font-style: italic;
+                    font-size: 1.3em;
+                    padding: 0 15px;
+                }
+                
+                label
+                {
+                    font-size: 1em;
+                    font-weight: normal;
+                }
+                
+                input
+                {
+                    padding: 5px 15px;
+                    border-radius: 5px;
+                    margin-bottom: 1px;
+                    /* TODO: get input color and border color and text color*/
+                    color: #333;
+                    border: 1px solid #008FCE;  
+                    background: #69d2ff;
+                    background: -moz-linear-gradient(top,  #69d2ff 0%, #8bfefb 100%);
+                    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#69d2ff), color-stop(100%,#8bfefb));
+                    background: -webkit-linear-gradient(top,  #69d2ff 0%,#8bfefb 100%);
+                    background: -o-linear-gradient(top,  #69d2ff 0%,#8bfefb 100%);
+                    background: -ms-linear-gradient(top,  #69d2ff 0%,#8bfefb 100%);
+                    background: linear-gradient(to bottom,  #69d2ff 0%,#8bfefb 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69d2ff', endColorstr='#8bfefb',GradientType=0 );
+
+                    
+                    &[type="number"]
+                    {
+                        width: 35px;
+                        padding: 5px;
+                    }
+                }
+                
+                &:last-of-type
+                {
+                    margin-bottom: 5px;
+                }
+            }
+                    
+            & > label + input
+            {
+                
+            }
+            
+            button , input[type="reset"]
+            {
+                color: #333;
+                font-size: 1.2em;
+                padding: 5px 15px;
+                border: none;
+                border-bottom: 1px solid black;
+                border-radius: 5px;
+                margin-top: 15px;
+                
+                background: #36c2ff;
+                background: -moz-linear-gradient(top,  #36c2ff 0%, #8bfefb 100%);
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#36c2ff), color-stop(100%,#8bfefb));
+                background: -webkit-linear-gradient(top,  #36c2ff 0%,#8bfefb 100%);
+                background: -o-linear-gradient(top,  #36c2ff 0%,#8bfefb 100%);
+                background: -ms-linear-gradient(top,  #36c2ff 0%,#8bfefb 100%);
+                background: linear-gradient(to bottom,  #36c2ff 0%,#8bfefb 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36c2ff', endColorstr='#8bfefb',GradientType=0 );
+
+                &:hover
+                {
+                    background: #9BE1FF;
+                }
+            }
+        }        
+    }
+}

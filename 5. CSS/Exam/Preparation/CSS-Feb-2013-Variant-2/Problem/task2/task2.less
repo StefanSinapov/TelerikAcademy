@@ -1,0 +1,121 @@
+html, body, ul, li, img, a, span, div
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    width: 960px;
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+    font-size: 16px;
+    
+
+    div#wrapper
+    {
+        ul.notification-list
+        {
+            list-style-type: none;
+            margin: 25px;
+            width: 470px;
+            border: 1px solid black;
+            border-bottom: none;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            //TODO: colors
+              background: #dddddd;
+              background: -moz-linear-gradient(top, #aaaaaa 0%, #dddddd 80%);
+              background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aaaaaa), color-stop(80%, #dddddd));
+              background: -webkit-linear-gradient(top, #aaaaaa 0%, #dddddd 80%);
+              background: -o-linear-gradient(top, #aaaaaa 0%, #dddddd 80%);
+              background: -ms-linear-gradient(top, #aaaaaa 0%, #dddddd 80%);
+              background: linear-gradient(to bottom, #aaaaaa 0%, #dddddd 80%);
+              filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aaaaaa', endColorstr='#dddddd', GradientType=0);
+            
+            & > li
+            {
+                height: 20px;
+            }
+            
+            li
+            {
+                display: inline-block;
+                padding: 5px 15px;
+                font-size: 1.2em;
+                border-right: 1px solid black;
+                border-bottom: 1px solid black;
+                &:last-of-type
+                {
+                    border-right: none;
+                }
+                a
+                {
+                    text-decoration: none;
+                    color: #777777;
+                    img
+                    {
+                        width: 15px;
+                    }
+                }
+                &:hover 
+                {
+                    border-bottom: none;
+                    & div.content
+                    {
+                        display: block;
+                        
+                        
+                        
+                        ul
+                        {
+                            border: 1px solid black;
+                            border-top: none;
+                            background: #cccccc;
+                            background: -moz-linear-gradient(top, #dddddd 30%, #cccccc 100%);
+                            background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #dddddd), color-stop(100%, #cccccc));
+                            background: -webkit-linear-gradient(top, #dddddd 30%, #cccccc 100%);
+                            background: -o-linear-gradient(top, #dddddd 30%, #cccccc 100%);
+                            background: -ms-linear-gradient(top, #dddddd 30%, #cccccc 100%);
+                            background: linear-gradient(to bottom, #dddddd 30%, #cccccc 100%);
+                            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd', endColorstr='#cccccc', GradientType=0);
+                            z-index: -1;
+                            li
+                            {
+                                
+                                display: inline-block;
+                                border: none;
+                                a{
+                                    strong
+                                    {
+                                        color: #5E5E5E;
+                                    }
+                                    img
+                                    {
+                                        margin-right: 5px;
+                                    }
+                                    
+                                    &:hover
+                                    {
+                                        text-decoration: underline;
+                                    }
+                                }
+                                
+                                
+                            }
+                        }
+                    }
+                }
+                div.content
+                {
+                    font-size: 0.7em;
+                    position: absolute;
+                    left: 25px;
+                    width: 472px;
+                    margin-top: 5px;
+                    display: none;
+                    
+                }
+            }
+        }
+    }
+}

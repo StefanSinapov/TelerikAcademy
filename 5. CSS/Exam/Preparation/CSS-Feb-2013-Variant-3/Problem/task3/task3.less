@@ -1,0 +1,119 @@
+body, div, fieldset, input, label, button, p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.linear-gradient(@from-color,@from-pos,@to-color,@to-pos) {
+    background: @to-color;
+    background: -moz-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color));
+    background: -webkit-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -o-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -ms-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: linear-gradient(to bottom, @from-color @from-pos,@to-color @to-pos);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@{from-color}', endColorstr='@{to-color}',GradientType=0 );
+}
+
+body
+{
+    width: 960px;
+    font-family: Cambria, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', serif;
+    font-size: 18px;
+
+    div#wrapper
+    {
+        margin-left: 25px;
+        margin-top: 25px;
+        border: 1px solid #444444;
+        border-radius: 15px;
+        width: 380px;
+        height: 385px;
+        padding: 15px 15px;
+        text-align: right;
+        color: white;
+        .linear-gradient(#EAFE5B,0%,#444444,100%);
+        form
+        {
+            fieldset
+            {
+                padding: 0 15px;
+                border: 3px solid #555555;
+                border-radius: 5px;
+                color: white;
+                text-align: right;
+                legend
+                {
+                    font-size: 1.3em;
+                    font-weight: bold;
+                    font-style: italic;
+                    
+                    
+                    padding: 0 15px;
+                }
+                label
+                {
+                    & + input
+                    {
+                        vertical-align: baseline;
+                    }
+                }
+                input
+                {
+                    color: white;
+                    padding: 5px 15px;
+                    border-radius: 5px;
+                    margin-bottom: 5px;
+                    .linear-gradient(#E8FB5B,5%,#464644,100%);
+                    border: 2px solid #444444;
+                    &:first-of-type
+                    {
+                        margin-top: 10px;
+                    }
+                    &[type="number"]
+                    {
+                        width: 25px;
+                        padding-left: 5px;
+                    }
+                }
+                
+                &:last-of-type
+                {
+                    margin-bottom: 15px;
+                }
+            }
+            
+            input[type="radio"]
+            {
+                
+                display: none;
+                &:checked
+                {
+                    & + label
+                    {
+                        font-weight: bold;
+                        
+                    }
+                }
+                
+            }
+            
+            button, input[type="reset"]
+            {
+                font-size: 1.2em;
+                margin-top: 15px;
+                padding: 5px 15px;
+                border: none;
+                border-radius: 5px;
+                color: #333333;
+                .linear-gradient(#E2FC28,0%,#454644,100%);
+                border-bottom: 1px solid black;
+                
+                &:hover
+                {
+                    background: #F1FF8E;
+                }
+            }
+        }
+    }
+}

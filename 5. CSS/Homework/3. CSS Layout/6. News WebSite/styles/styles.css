@@ -1,4 +1,4 @@
-body, header, nav, article, aside, div, ul, li, img
+body, header, nav, article, aside, div, ul, li, img, a
 {
 	margin: 0;
 	padding: 0;
@@ -25,16 +25,18 @@ body
 	background-color: #1e3741;
 }
 
+#site-header nav li a
+{
+    padding: 0;
+    margin: 0;
+}
 
 #site-header nav li 
 {
 	display: inline;
 	
 	letter-spacing: normal;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px;
 	font-size: 0.7em;
 	font-weight: bold;
 	background-color: #4b5f67;
@@ -42,7 +44,7 @@ body
 #site-header nav ul
 {
 	letter-spacing: -0.19em;
-	margin: 12px;
+	margin: 16px 10px;
 	color: #8aaab3;
 }
 #site-header nav a

@@ -1,0 +1,131 @@
+/* •	font-size of the title: 16px
+•	font-size of the menus and the “Search” text: 14px
+•	font-size of the content title: 24px
+•	font-size of the content text: 14px
+•	All other pixel sizes will be divisible by 5 or exactly 8px.
+•	Some of the CSS properties are already given in “style.css”. You are allowed to modify them but this should not be necessary.
+*/
+
+.linear-gradient(@from-color,@from-pos,@to-color,@to-pos) {
+    background: @to-color;
+    background: -moz-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color));
+    background: -webkit-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -o-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -ms-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: linear-gradient(to bottom, @from-color @from-pos,@to-color @to-pos);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@{from-color}', endColorstr='@{to-color}',GradientType=0 );
+}
+.clearfix(){   
+      zoom:1;
+    &:after 
+    {  
+      content: "";
+      display: block;
+      clear: both;
+      height: 0; 
+    }
+}
+
+
+html, body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+body, header, html, h1, ul, li, div, nav, a, p, h1, article
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    div#wrapper
+    {
+        color: #575E5B;
+        header
+        {
+            padding: 15px;
+            background: url("images/header-bg.png") repeat ;
+            h1
+            {
+                font-size: 16px;
+                text-transform: uppercase;
+                display: inline-block;
+                float: left;
+            }
+            nav
+            {
+                float: right;
+                ul
+                {
+                    
+                    list-style-type: none;
+                    display: inline;
+                    li
+                    {
+                        font-size: 14px;
+                        margin: 0 10px;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        
+        div#searchBar
+        {
+            background-color: black; 
+            padding: 7px 10px;
+            
+            color: #C6C6C6;
+            div#archives
+            {
+                float: left;
+                display: block;
+                a
+                {
+                    font-size: 14px;
+                    color: #C6C6C6;
+                    text-decoration: none;
+                }
+            }
+            
+            div#search
+            {
+                float: right;
+                a
+                {
+                    font-size: 14px;
+                    color: #C6C6C6;
+                    text-decoration: none;
+                }
+            }
+        }
+        
+        div#content
+        {
+            h1
+            {
+                font-size: 24px;
+                margin: 15px 0;
+            }
+            article
+            {
+                p
+                {
+                    font-size: 14px;
+                    margin: 15px 0;
+                }
+            }
+        }
+    }
+}
