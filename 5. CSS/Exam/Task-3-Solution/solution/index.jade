@@ -1,0 +1,50 @@
+doctype html
+head
+	title 
+		| CSS Styling Exam - April 2014
+	link(rel="stylesheet",href="style.css")
+	script(src="main.js")
+body
+	#root
+		h1
+			| Welcome to the Chat!
+		#me.chat-container
+			h2
+				| Doncho Minkov's chat
+			div
+				.messages
+					ul
+						li.me
+							strong
+								| by me
+							span
+								| Hello Ivaylo
+						li.other
+							strong
+								| by Ivaylo Kenov
+							span
+								| Hi, Doncho!
+				.sent-message
+					input(placeholder="type here")
+					button
+						| Send
+		#other.chat-container
+			h2
+				|Ivaylo Kenov's chat
+			div
+				.messages
+					ul
+						li.other
+							strong
+								| by Doncho Minkov
+							span
+								| Hello Ivaylo
+						li.me
+							strong
+								| by me
+							span
+								| Hi, Doncho!
+				.sent-message
+					input(placeholder='type here')
+					button
+						| Send

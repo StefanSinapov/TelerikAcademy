@@ -1,0 +1,113 @@
+.linear-gradient(@from-color, @from-pos, @to-color, @to-pos){	
+	background: @from-color; /* Old browsers */
+	background: -moz-linear-gradient(top,  @from-color @from-pos, @to-color @to-pos); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* IE10+ */
+	background: linear-gradient(to bottom,  @from-color @from-pos,@to-color @to-pos); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@{from-color}', endColorstr='@{to-color}',GradientType=0 ); /* IE6-9 */
+
+}
+
+@default-color:#2AA0BD;
+body{	
+	font-size:18px;
+	font-family: Arial;
+	color:@default-color;
+	#root{
+		width:610px;
+		margin-left: 30px
+	}
+	h1{
+		font-size:1.9em;
+		font-style: italic;
+		text-align: center;
+	}
+}
+
+.chat-container{
+	@gradient-from-color: #4ae871;
+	@gradient-to-color:  #F1FFBC;
+	@default-border: 1px solid #ccc;
+
+	display: inline-block;
+	height:500px;
+	width: 300px;
+	position: relative;	
+	border: @default-border;
+	border-radius: 5px;	
+
+	.linear-gradient(@gradient-from-color, 45%,@gradient-to-color, 75%);
+
+	h2{
+		text-align: center;
+	}
+
+	.messages{
+		overflow-y: auto;
+		height:460px;
+		ul{
+			list-style-type: none;
+			margin:0;
+			padding:15px;
+			li{
+				border-bottom:1px solid #333;
+
+				&:last-of-type{
+					border:none;
+				}
+				&.me{
+					text-align: left;
+				}
+				&.other{
+					text-align: right;
+				}
+
+				span{
+					display:block;		
+					word-break: break-word							
+				}
+				strong{
+					font-weight: bold;
+					font-style: italic;
+					font-size:0.9em;
+				}
+			}
+		}
+	}
+
+	.sent-message{
+		width:100%;
+		position:absolute;		
+		bottom:0;	
+		left:0;
+		right:0;
+		text-align: justify;
+
+		button, input{
+			display: inline;
+			font-size:1.1em;	
+			margin:0;
+			padding:5px 15px;	
+			border: @default-border;
+			border-radius: 10px 10px 0 0;			
+			color:@default-color;
+		}
+
+		button{			
+			background: @gradient-to-color;
+			//.linear-gradient(@gradient-from-color, 15%,@gradient-to-color, 75%);
+			&:hover{
+				.linear-gradient(@gradient-from-color, 15%,@gradient-to-color, 75%);
+			}
+		}
+
+		input{		
+			background-color: rgba(0,0,0,0);
+			width:170px;
+			margin-left:5px;			
+		}
+	}
+
+}

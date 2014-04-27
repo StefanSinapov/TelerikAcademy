@@ -1,0 +1,115 @@
+body {
+  font-size: 18px;
+  font-family: Arial;
+  color: #2aa0bd;
+}
+body #root {
+  width: 610px;
+  margin-left: 30px;
+}
+body h1 {
+  font-size: 1.9em;
+  font-style: italic;
+  text-align: center;
+}
+.chat-container {
+  display: inline-block;
+  height: 500px;
+  width: 300px;
+  position: relative;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background: #4ae871;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4ae871 45%, #f1ffbc 75%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, #4ae871), color-stop(75%, #f1ffbc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4ae871 45%, #f1ffbc 75%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4ae871 45%, #f1ffbc 75%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4ae871 45%, #f1ffbc 75%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4ae871 45%, #f1ffbc 75%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ae871', endColorstr='#f1ffbc', GradientType=0);
+  /* IE6-9 */
+}
+.chat-container h2 {
+  text-align: center;
+}
+.chat-container .messages {
+  overflow-y: auto;
+  height: 460px;
+}
+.chat-container .messages ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+.chat-container .messages ul li {
+  border-bottom: 1px solid #333;
+}
+.chat-container .messages ul li:last-of-type {
+  border: none;
+}
+.chat-container .messages ul li.me {
+  text-align: left;
+}
+.chat-container .messages ul li.other {
+  text-align: right;
+}
+.chat-container .messages ul li span {
+  display: block;
+  word-break: break-word;
+}
+.chat-container .messages ul li strong {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.9em;
+}
+.chat-container .sent-message {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: justify;
+}
+.chat-container .sent-message button,
+.chat-container .sent-message input {
+  display: inline;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 5px 15px;
+  border: 1px solid #cccccc;
+  border-radius: 10px 10px 0 0;
+  color: #2aa0bd;
+}
+.chat-container .sent-message button {
+  background: #f1ffbc;
+}
+.chat-container .sent-message button:hover {
+  background: #4ae871;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4ae871 15%, #f1ffbc 75%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #4ae871), color-stop(75%, #f1ffbc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4ae871 15%, #f1ffbc 75%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4ae871 15%, #f1ffbc 75%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4ae871 15%, #f1ffbc 75%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4ae871 15%, #f1ffbc 75%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ae871', endColorstr='#f1ffbc', GradientType=0);
+  /* IE6-9 */
+}
+.chat-container .sent-message input {
+  background-color: rgba(0, 0, 0, 0);
+  width: 170px;
+  margin-left: 5px;
+}
