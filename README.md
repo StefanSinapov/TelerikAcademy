@@ -1,6 +1,14 @@
 Telerik Academy 2013-2014
 ========================
 
+|     | Programming                                                         | Web Design                                          |
+| --- | ------------------------------------------------------------------- | -----------------------------------------------     |
+| 1.  | [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics)                         |
+| 2.  | [C# - Part II](#c---part-ii)                                        | [CSS Styling](#css-styling)                         |
+| 3.  | [Object-Oriented Programming](#object-oriented-programming)         | [JavaScript - Part I](#javascript---part-i)         |
+| 4.  | [High-Quality Code](#high-quality-code)                             | [JavaScript - Part II](#javascript---part-ii)       |
+| 5.  | [Data Structures and Algorithms](#data-structures-and-algorithms)   | [JavaScript Applications](#javascript-applications) |
+
 #Programming with C#
 
 ###[C# - Part I](1.%20C%23%20програмиране%20-%20част%20I) ([notes](http://www.evernote.com/shard/s60/sh/f131361d-2c39-4eb6-baad-e23398217902/b7fb7d0c3ae35d7e35d2842248539796))
@@ -34,6 +42,27 @@ Telerik Academy 2013-2014
 * Teamwork - [RPG Game](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Teamwork/JackLondonTeam)
 * [Exam](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Exam/REAL) - [Preparation](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/0.%20ExamPreparation)
 
+###[High-Quality Code]() ([notes]())
+1. What is High-Quality Programming Code?
+* Code Formatting - (conditions)
+* Naming Identifiers - (conditions)
+* Code Documentation and Comments - (conditions)
+* Using Variables, Data, Expressions and Constants - (conditions)
+* Using Control Structures, Conditional Statements and Loops - (conditions)
+* High-Quality Methods - (conditions)
+* High-Quality Classes - (conditions)
+* Defensive Programming and Exceptions - (conditions)
+* Code Tuning and Optimization - (conditions)
+* Unit Testing - (conditions)
+* Test-Driven Development - (conditions)
+* Refactoring - (conditions)
+* Debugging - 
+* Development Tools - (conditions)
+* Design Patterns - (conditions)
+* Software Engineering Fundamentals
+* Teamwork 
+* Exam Preparation - (conditions) 
+* Exam - (conditions)
 
 
 #Web Design & Development#
