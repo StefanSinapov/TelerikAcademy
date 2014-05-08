@@ -1,13 +1,13 @@
 Telerik Academy 2013-2014
 ========================
 
-|     | Programming                                                         | Web Design                                          |
-| --- | ------------------------------------------------------------------- | -----------------------------------------------     |
-| 1.  | [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics)                         |
-| 2.  | [C# - Part II](#c---part-ii)                                        | [CSS Styling](#css-styling)                         |
-| 3.  | [Object-Oriented Programming](#object-oriented-programming)         | [JavaScript - Part I](#javascript---part-i)         |
-| 4.  | [High-Quality Code](#high-quality-code)                             | [JavaScript - Part II](#javascript---part-ii)       |
-| 5.  | [Data Structures and Algorithms](#data-structures-and-algorithms)   | [JavaScript Applications](#javascript-applications) |
+|     | Programming                                                               | Web Design & Development                                  |
+| --- | ------------------------------------------------------------------------- | ----------------------------------------------------------|
+| 1.  | [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |
+| 2.  | [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 |
+| 3.  | [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) |
+| 4.  | [High-Quality Code](#high-quality-code-notes)                             | [JavaScript - Part II](#javascript---part-ii-notes)       |
+| 5.  | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript Applications](#javascript-applications-notes) |
 
 #Programming with C#
 
@@ -42,11 +42,11 @@ Telerik Academy 2013-2014
 * Teamwork - [RPG Game](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Teamwork/JackLondonTeam)
 * [Exam](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Exam/REAL) - [Preparation](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/0.%20ExamPreparation)
 
-###[High-Quality Code]() ([notes]())
+###[High-Quality Code](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code) ([notes]())
 1. What is High-Quality Programming Code?
-* Code Formatting - (conditions)
-* Naming Identifiers - (conditions)
-* Code Documentation and Comments - (conditions)
+* [Code Formatting](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/1.%20Code%20Formatting) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/1.%20Code%20Formatting/README.md))
+* [Naming Identifiers](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/2.%20Naming%20Identifiers) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/2.%20Naming%20Identifiers/README.md))
+* [Code Documentation and Comments](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/3.%20Code%20Documantation%20and%20Comments) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/3.%20Code%20Documantation%20and%20Comments/README.md))
 * Using Variables, Data, Expressions and Constants - (conditions)
 * Using Control Structures, Conditional Statements and Loops - (conditions)
 * High-Quality Methods - (conditions)
@@ -78,3 +78,16 @@ Telerik Academy 2013-2014
 * [CSS Presentation](5.%20CSS/Homework/2.%20CSS%20Presentation) - ([conditions](5.%20CSS/Homework/2.%20CSS%20Presentation/README.md))
 * [CSS Layout](5.%20CSS/Homework/3.%20CSS%20Layout) - ([conditions](5.%20CSS/Homework/3.%20CSS%20Layout/README.md))
 * [LESS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/5.%20CSS/Homework/4.%20LESS) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/5.%20CSS/Homework/4.%20LESS/README.md))
+
+###[JavaScript Fundamentals]() ([notes]())
+1. Introduction to JavaScript Development
+* Data Types and Variables - (conditions)
+* Operators and Expressions - (conditions)
+* Conditional Statements - (conditions)
+* Loops - (conditions)
+* Arrays - (conditions)
+* Functions - (conditions)
+* Objects - (conditions)
+* Strings - (conditions)
+* Exam Preparation
+* Exam - (assignment)
