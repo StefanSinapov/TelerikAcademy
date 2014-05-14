@@ -1,0 +1,15 @@
+<script>
+;(function() {
+    'use strict';
+
+    var numbers = [10, 5, -1]
+
+      , sign = 1
+
+    numbers.forEach(function(x) {
+        sign *= x < 0 ? -1 : x > 0 ? 1 : 0
+    })
+
+    console.log(sign)
+}())
+</script>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>06. Chech if Point is in Circle</title>
+</head>
+
+<body>
+    <script>
+        //Write an expression that checks if given point (x, y) is within a circle K((0, 0), 5).
+        var pointX = 1,
+            pointY = 2,
+            circleX = 0,
+            circleY = 0,
+            circleRadius = 5,
+        isInCircle = ((pointX - circleX) * (pointX - circleX) + (pointY - circleY) * (pointY - circleY) < circleRadius * circleRadius) ? true : false;
+
+        console.log("Point(" + pointX + ", " + pointY + ") is in Circle((0,0),5): " + isInCircle);
+    </script>
+</body>
+
+</html>

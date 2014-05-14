@@ -1,0 +1,31 @@
+<script>
+;(function() {
+    'use strict';
+
+    var n = [0, 2, 1]
+
+    function swap(i, j) {
+        var t = n[i]
+        n[i] = n[j]
+        n[j] = t
+    }
+
+    if (n[0] < n[1])
+        if (n[1] < n[2]) swap(0, 2) // 012
+
+        else if (n[0] < n[2]) // 021
+            swap(0, 1), swap(1, 2)
+
+        else swap(0, 1) // 120
+
+    else
+        if (n[0] < n[2]) // 102
+            swap(0, 1), swap(0, 2)
+
+        else if (n[1] < n[2]) swap(1, 2) // 201
+
+        else ; // 210
+
+    console.log(n)
+}())
+</script>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>09. Point in Circle out of Rectangle</title>
+</head>
+
+<body>
+    <script>
+        //Write an expression that checks for given point (x, y) if it is within the circle K((1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2).
+        var pointX = 0,
+            pointY = 2,
+            circleX = 1,
+            circleY = 1,
+            circleRadius = 3,
+            recTop = 1,
+            recLeft = -1,
+            recWidth = 6,
+            recHeight = 2,
+            isInCircle = ((pointX - circleX) * (pointX - circleX) + (pointY - circleY) * (pointY - circleY) < circleRadius * circleRadius) ? true : false,
+            isInRectangle = pointX > recLeft || pointX < recLeft + recWidth || pointY < recTop || pointY > recTop - recHeight;
+
+        console.log("Point(" + pointX + ", " + pointY + ") is in circle and out of rectangle:  " + (isInCircle && !isInRectangle));
+    </script>
+</body>
+
+</html>

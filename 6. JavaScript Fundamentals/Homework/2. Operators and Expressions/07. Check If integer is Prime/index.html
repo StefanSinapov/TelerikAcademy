@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>07. Chech if is Prime</title>
+</head>
+<body>
+	<script>
+		//Write an expression that checks if given positive integer n (n ? 100) is prime.
+		// From Project Euler
+		function isPrime(n) {
+			var f = 5;
+
+			if (n === 1)
+			  {
+				return false;
+			  }
+			if (n < 4)
+			  {
+				return true;
+			  }
+			if (n % 2 === 0)
+			  {
+				 return false;
+			  }
+
+			if (n < 9)
+				return true;
+
+			if (n % 3 === 0)
+				return false;
+
+			while ((f * f) <= n) {
+				if (n % f === 0)
+					return false;
+
+				if (n % (f + 2) === 0)
+					return false;
+
+				f += 6;
+			}
+
+			return true;
+		}
+
+		for (var i = 1; i < 100; i++)
+		  {
+			if(isPrime(i)) {
+			  console.log('%d is prime', i);
+			}
+		  }
+	</script>
+</body>
+</html>
