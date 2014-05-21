@@ -1,27 +1,49 @@
-﻿function Solve(input) {
-	var count = parseInt(input[0]);
+var args = [
+    '7',
+    '1',
+    '2',
+    '-3',
+    '4',
+    '4',
+    '0',
+    '1'];
+//
+//var args = [
+//    '6',
+//    '1',
+//    '3',
+//    '-5',
+//    '8',
+//    '7',
+//    '-6'];
 
-	input = input.map(Number);
-	var answer = 1;
-	for (var i = 2; i < input.lenght; i++) {
-		if (input[i - 1] > input[i]) {
-			answer++;
-		}
-	}
-	return answer;
+//var args = [
+//    '9',
+//    '1',
+//    '8',
+//    '8',
+//    '7',
+//    '6',
+//    '5',
+//    '7',
+//    '7',
+//    '6'];
 
-	//console.log(answer);
+console.log(Solve(args));
+
+function Solve(args) {
+    var N = parseInt(args.shift());
+    var numberOfSubsequences = 0;
+
+    var integers = args.map(function (a) {
+        return parseInt(a, 10);
+    });
+
+    for (var i = 1; i < N; i++) {
+        if (integers[i] < integers[i - 1]) {
+            numberOfSubsequences++;
+        }
+    }
+
+    return numberOfSubsequences + 1;
 }
-
-var input = [
-	'7',
-	'1',
-	'2',
-	'-3',
-	'4',
-	'4',
-	'0',
-	'1'
-];
-
-Solve(input);
