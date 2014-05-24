@@ -3,8 +3,8 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using Games.IOEngines;
     using Games.Interfaces;
+    using Games.IOEngines;
 
     public class MinesGame
     {
@@ -337,4 +337,4 @@
             this.rankList.Sort((Winner w1, Winner w2) => w2.Points.CompareTo(w1.Points));
         }
     }
-}
+}   
