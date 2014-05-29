@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Methods.cs" />
+    <Compile Include="MethodsDemo.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Utility.cs" />
     <Compile Include="Point.cs" />
