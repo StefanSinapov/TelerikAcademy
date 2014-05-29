@@ -43,7 +43,8 @@
   <ItemGroup>
     <Compile Include="Methods.cs" />
     <Compile Include="Student.cs" />
-    <Compile Include="Utility\Numbers.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="Point.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
