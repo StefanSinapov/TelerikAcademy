@@ -1,5 +1,5 @@
 1. Draw the following graphics using canvas:
-	![drawings](1.drawings.png)
+	![drawings](01.drawings.png)
 * Draw a circle that flies inside a box
     - When it reaches an edge, it should bounce that edge
     - ![bounce](2.bounce.png)
