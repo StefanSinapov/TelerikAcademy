@@ -6,7 +6,7 @@ Telerik Academy 2013-2014
 | 1.  | [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |
 | 2.  | [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 |
 | 3.  | [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) |
-| 4.  | [High-Quality Code](#high-quality-code-notes)                             | [JavaScript - Part II](#javascript---part-ii-notes)       |
+| 4.  | [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui-&-dom-notes)         |
 | 5.  | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript Applications](#javascript-applications-notes) |
 
 #Programming with C#
@@ -79,7 +79,7 @@ Telerik Academy 2013-2014
 * [CSS Layout](5.%20CSS/Homework/3.%20CSS%20Layout) - ([conditions](5.%20CSS/Homework/3.%20CSS%20Layout/README.md))
 * [LESS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/5.%20CSS/Homework/4.%20LESS) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/5.%20CSS/Homework/4.%20LESS/README.md))
 
-###[JavaScript Fundamentals](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals) ([notes]())
+###[JavaScript Fundamentals](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals) ([notes](http://www.evernote.com/shard/s60/sh/352099df-f5d6-42f7-9507-e8ac0964058b/b37fd4e397fc70eba83a629187802ffa))
 1. Introduction to JavaScript Development
 * [Data Types and Variables](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/01.%20Data%20Types%20and%20Variables) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/01.%20Data%20Types%20and%20Variables/README.md))
 * [Operators and Expressions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/02.%20Operators%20and%20Expressions) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/02.%20Operators%20and%20Expressions/README.md))
@@ -91,3 +91,17 @@ Telerik Academy 2013-2014
 * [Strings](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/09.%20Strings) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/09.%20Strings/README.md))
 * [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/10.%20Exam%20preparation)
 * [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Exam)
+
+###[JavaScript UI & DOM](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM) ([notes](http://www.evernote.com/shard/s60/sh/f083760a-4ae8-4934-b3df-7eb01212e1ed/70ffa0547cc03143bf41398426715f97))
+1. [Document Object Model](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/01.%20Document-Object-Model) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/01.%20Document-Object-Model/README.md))
+* [HTML5 Canvas](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/02.%20Canvas) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/02.%20Canvas/README.md))
+* [KineticJS framework for the HTML5 Canvas]() - ([conditions]())
+* [SVG]() - ([conditions]())
+* [Raphael JS framework for SVG]() - ([conditions]())
+* [Animations with Canvas and SVG]() - ([conditions]())
+* [DOM operations]() - ([conditions]())
+* [DOM event model]() - ([conditions]())
+* [jQuery overview]() - ([conditions]())
+* [Handlebars HTML templates]() - ([conditions]())
+* [Exam preparation]()
+* [Exam]()
