@@ -6,7 +6,7 @@ Telerik Academy 2013-2014
 | 1.  | [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |
 | 2.  | [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 |
 | 3.  | [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) |
-| 4.  | [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui-&-dom-notes)         |
+| 4.  | [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          |
 | 5.  | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript Applications](#javascript-applications-notes) |
 
 #Programming with C#
