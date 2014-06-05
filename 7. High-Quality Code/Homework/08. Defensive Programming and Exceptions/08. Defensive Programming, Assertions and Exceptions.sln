@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assertions-Homework", "Assertions-Homework\Assertions-Homework.csproj", "{840DED57-5767-4E3F-BCF1-CF91ECDFA1C8}"
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Assertions", "01. Assertions\01. Assertions.csproj", "{840DED57-5767-4E3F-BCF1-CF91ECDFA1C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions-Homework", "Exceptions-Homework\Exceptions-Homework.csproj", "{DB5812C6-8809-432A-938B-BEDD67FFAF79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Exceptions", "02. Exceptions\02. Exceptions.csproj", "{DB5812C6-8809-432A-938B-BEDD67FFAF79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

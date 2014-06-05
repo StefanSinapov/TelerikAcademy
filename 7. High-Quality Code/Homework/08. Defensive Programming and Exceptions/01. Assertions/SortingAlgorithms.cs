@@ -1,4 +1,4 @@
-﻿namespace Assertions_Homework
+﻿namespace Assertions
 {
     using System;
     using System.Collections.Generic;

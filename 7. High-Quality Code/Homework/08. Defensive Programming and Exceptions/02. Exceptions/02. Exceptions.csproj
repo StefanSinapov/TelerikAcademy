@@ -7,8 +7,8 @@
     <ProjectGuid>{DB5812C6-8809-432A-938B-BEDD67FFAF79}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Exceptions_Homework</RootNamespace>
-    <AssemblyName>Exceptions-Homework</AssemblyName>
+    <RootNamespace>StudentExamSystem</RootNamespace>
+    <AssemblyName>Exceptions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,9 +47,10 @@
     <Compile Include="CSharpExam.cs" />
     <Compile Include="ExamResult.cs" />
     <Compile Include="SimpleMathExam.cs" />
-    <Compile Include="ExceptionsHomework.cs" />
+    <Compile Include="ExceptionsDemo.cs" />
     <Compile Include="Exam.cs" />
     <Compile Include="Student.cs" />
+    <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
