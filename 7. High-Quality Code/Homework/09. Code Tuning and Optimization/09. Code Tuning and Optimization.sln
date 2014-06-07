@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. SolarSystem", "01. Solar System\01. SolarSystem.csproj", "{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. OperationPerformanceTest", "02. OperationPerformanceTest\02. OperationPerformanceTest.csproj", "{27FF42B0-FBB1-42CC-9198-51D97EA473BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. MathFunctionPerformanceTest", "03. MathFunctionPerformanceTest\03. MathFunctionPerformanceTest.csproj", "{C7CF10CC-4265-4B44-9C12-B278575A403E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. SortingAlgorithmsPerformanceTest", "04. SortingAlgorithmsPerformanceTest\04. SortingAlgorithmsPerformanceTest.csproj", "{54587C69-B817-46E6-A8C8-C139A9A18548}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FF42B0-FBB1-42CC-9198-51D97EA473BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FF42B0-FBB1-42CC-9198-51D97EA473BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FF42B0-FBB1-42CC-9198-51D97EA473BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FF42B0-FBB1-42CC-9198-51D97EA473BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7CF10CC-4265-4B44-9C12-B278575A403E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CF10CC-4265-4B44-9C12-B278575A403E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CF10CC-4265-4B44-9C12-B278575A403E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CF10CC-4265-4B44-9C12-B278575A403E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54587C69-B817-46E6-A8C8-C139A9A18548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54587C69-B817-46E6-A8C8-C139A9A18548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54587C69-B817-46E6-A8C8-C139A9A18548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54587C69-B817-46E6-A8C8-C139A9A18548}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
