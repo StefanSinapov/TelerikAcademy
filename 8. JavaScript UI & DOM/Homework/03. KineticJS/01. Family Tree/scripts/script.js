@@ -1,32 +1,51 @@
 window.onload = function() {
+
+	var stage = initalizeStage();
+	var layer = initializeLayer();
+
+	var posX = 50;
+	var posY = 50;
+
+	var rect = new Kinetic.Rect({
+		fill: 'yellowgreen',
+		stroke: 'black',
+		x: posX,
+		y: posY,
+		width: 150,
+		height: 150
+	});
+
+	var nodeText = new Kinetic.Text({
+        x: posX,
+        y: posY,
+        width: 150,
+        padding: 10,
+        text: "sameple text",
+        fontSize: 24,
+        fill: 'black',
+        align: 'center'
+    });
+
+	layer.add(rect);
+	layer.add(nodeText);
+	stage.add(layer);
+
+	console.log(Data.familyMembers)
+
+};
+
+function initalizeStage() {
 	var stage = new Kinetic.Stage({
 		container: 'kinetic-container',
 		width: 960,
 		height: 640
 	});
 
-	var layer = new Kinetic.Layer({
-		draggable: true
-	});
+	return stage;
+};
 
-	layer.on("mousemove", function() {
-		document.body.style.cursor = 'pointer';
-	});
+function initializeLayer(stage) {
+	var layer = new Kinetic.Layer();
 
-	layer.on("mouseout", function() {
-		document.body.style.cursor = 'default';
-	});
-
-	var rect = new Kinetic.Rect({
-		fill: 'yellowgreen',
-		stroke: 'black',
-		x: 50,
-		y: 50,
-		width: 150,
-		height: 150
-	});
-
-	layer.add(rect);
-	stage.add(layer);
-
+	return layer
 };
