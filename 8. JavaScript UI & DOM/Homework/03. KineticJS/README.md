@@ -5,7 +5,8 @@
 	- Read about custom shapes and text
 * Using Kinetic create a family tree
 	![Family Tree](family-tree.png)
-	```js
+
+	```javascript
 	var familyMembers = [{
 	  mother: 'Maria Petrova',
 	  father: 'Georgi Petrov',
