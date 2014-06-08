@@ -1,0 +1,24 @@
+body div svg span {
+	padding: 0;
+	margin: 0
+}
+
+body #svg-container {
+	border: 2px solid black;
+}
+
+text {
+	
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.outer-text {
+	font-size: 40px;
+}
+
+#express{
+	font-weight: normal;
+	font-size: 28px;
+	text-align: center;
+}

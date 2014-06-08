@@ -30,7 +30,7 @@ window.onload = function() {
 	layer.add(nodeText);
 	stage.add(layer);
 
-	console.log(Data.familyMembers)
+	//console.log(Data.familyMembers[0]);
 
 };
 
