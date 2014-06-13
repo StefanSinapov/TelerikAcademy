@@ -17,7 +17,7 @@ function createCalendar(selector, events) {
 
     var selectedBox = null;
 
-    // TODO: add styles here
+   // Styles
     container.style.width = (150 * 7.5) + 'px';
     dayBox.style.margin = 0;
     dayBox.style.padding = 0;
