@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Super Mario Walking</title>
+    <script src="scripts/libs/raphael-min.js" type="text/javascript"></script>
+    <script src="scripts/script.js" type="text/javascript"></script>
+    <style>
+        html, body {
+
+            margin: 0;
+            padding: 0
+        }
+        #svg-container, #canvas-container{
+            position: absolute;
+            width:  100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <svg id="svg-container">
+        <image xlink:href="images/background-mario.png" x="0" y="0" height="100%" width="100%" />
+    </svg>
+    <canvas id="canvas-container"></canvas>
+</body>
+</html>
