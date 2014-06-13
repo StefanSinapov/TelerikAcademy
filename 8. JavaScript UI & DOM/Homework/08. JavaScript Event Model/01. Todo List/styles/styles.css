@@ -1,0 +1,15 @@
+#wrapper {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#block2 {
+    margin-top: 5px;
+}
+
+#inputClone {
+    display: none;
+}
