@@ -1,0 +1,57 @@
+body, head, div
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+
+}
+
+#slider-container{
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    top: 25px;
+    background-color: #AAAAAA;
+    position: relative;
+    margin: 0 auto;
+}
+
+#slider-container .slide{
+    background-color: black;
+    color: white;
+    display: none;
+    width: 600px;
+    height: 480px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 1px solid lightslategray;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#slider-container .slide .slide-image
+{
+    width: 300px;
+    height: 100px;
+}
+
+#slider-container .slide.current{
+    display: block;
+}
+
+#slider-container .button{
+    position: absolute;
+    top: 240px;
+}
+#slider-container #next-button{
+    right: 15px;
+}
+#slider-container #previous-button{
+    left: 15px;
+}
