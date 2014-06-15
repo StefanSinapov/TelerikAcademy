@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <f:view>
+        <f:metadata>
+            <f:event type="preRenderView" listener="#{formGame.loadScores()}" />
+        </f:metadata>
+        <h:head>
+            <title>Blaze</title>
+            <script src="resources/vendor/raphael-min.js"></script>
+			<script src="resources/vendor/kinetic-v5.1.0.min.js"></script>
+            <script src="resources/scripts/common.js"></script>
+            <script src="resources/scripts/coordinate.js"></script>
+            <script src="resources/scripts/renderer.js"></script>
+            <script src="resources/scripts/game.js"></script>
+            <script src="resources/scripts/controller.js"></script>
+            <script src="resources/scripts/gameobject.js"></script>
+            <script src="resources/scripts/eggman.js"></script>
+            <script src="resources/scripts/sonic.js"></script>
+            <script src="resources/scripts/blaze.js"></script>
+            <script src="resources/scripts/init.js"></script>
+            <script src="resources/scripts/player.js"></script>
+            <link href="resources/css/style.css" type="text/css" rel="stylesheet"/>
+        </h:head>
+        <h:body>
+            <h:form id = "myform">
+                <h:inputHidden id="scores" value="#{formGame.formHiddenInput}" valueChangeListener="#{formGame.saveScores()}">
+
+                </h:inputHidden>
+                <h:commandButton value="Submit" action="index" disabled="true" style="position: fixed;top:200px;left:200px;"/>
+            </h:form>
+
+        </h:body>
+    </f:view>
+</html>
+

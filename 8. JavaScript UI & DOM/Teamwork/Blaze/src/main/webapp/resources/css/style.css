@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+canvas:hover {
+    cursor: none;
+}
+
+svg:hover {
+    cursor: none;
+}
