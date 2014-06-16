@@ -14,7 +14,7 @@
         }];
         var selectHTML = selectTemplate(items);
     ```
-    !(dropdown)[2.dropdown.png]
+    ![dropdown](2.dropdown.png)
 * \* Create a jQuery plugin for ListView
     * Apply a template for each item of a collection
     * Using the `data-template` attribute set the ID of the template to use for the items
@@ -53,6 +53,7 @@
         $('#students-table').listview(students);
     ```
 * \* Extend the previous task to set the template inside the DOM element, instead of setting it with data-template
+    
     ```html
         <table>
           <thead>
@@ -67,6 +68,7 @@
           </tbody>
         </table>
     ```
+    
     ```js
         $('#students-table').listview(students);
     ```
