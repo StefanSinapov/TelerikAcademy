@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>04. Extended ListView</title>
+    <script src="../libs/handlebars-v1.3.0.js"></script>
+    <script src="../libs/jquery-2.1.1.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr><th>#</th><th>Name</th><th>Mark</th></tr>
+        </thead>
+        <tbody id="students-table" data-template="students-row-template">
+            <tr class="student-row">
+                <td>{{number}}</td>
+                <td>{{name}}</td>
+                <td>{{mark}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        var students = [
+            {
+                number: 1,
+                name: "Pesho",
+                mark: 4
+            },
+            {
+                number: 2,
+                name: "Gosho",
+                mark: 8
+            },
+            {
+                number: 3,
+                name: "Penka",
+                mark: 6
+            },
+            {
+                number: 4,
+                name: "Ico",
+                mark: 3
+            }
+        ];
+
+        $('#students-table').listView(students);
+    </script>
+
+</body>
+</html>

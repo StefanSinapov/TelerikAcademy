@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>01. Table with Handlebars</title>
+    <script src="../libs/handlebars-v1.3.0.js"></script>
+    <script src="scripts/script.js"></script>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th>№</th>
+            <th>Title</th>
+            <th>Date #1</th>
+            <th>Date #2</th>
+        </tr>
+        </thead>
+        <tbody id="table-body-container">
+
+        </tbody>
+    </table>
+    <script id="table-body-template" type="text/x-handlebars-template">
+        {{#each courses}}
+        <tr>
+            <td>{{index}}</td>
+            <td>{{title}}</td>
+            <td>{{firstDate}}</td>
+            <td>{{secondDate}}</td>
+        </tr>
+        {{/each}}
+    </script>
+</body>
+</html>

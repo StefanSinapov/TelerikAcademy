@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>01. Table with Handlebars</title>
+    <script src="../libs/handlebars-v1.3.0.js"></script>
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    <select id="select-container">
+
+    </select>
+    <script id="options-template" type="text/x-handlebars-template">
+        {{#options}}
+            <option value="{{value}}">{{text}}</option>
+        {{/options}}
+    </script>
+</body>
+</html>
