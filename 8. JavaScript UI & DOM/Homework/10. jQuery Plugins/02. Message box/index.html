@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02. Message box</title>
+    <script src="../libs/jquery-2.1.1.min.js"></script>
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    <button id="error-button">Show Error</button>
+    <button id="success-button">Show Success</button>
+    <div id="message-box"></div>
+
+    <script>
+        var msgBox = $('#message-box').messageBox();
+
+        $('#error-button').on('click', function(){
+            msgBox.success('successful executed ');
+        })
+        $('#success-button').on('click', function(){
+            msgBox.error('error executed ');
+        })
+
+    </script>
+</body>
+</html>
