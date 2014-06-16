@@ -8,7 +8,7 @@
           <option value="2">Two</option>
         </select>
      ```
-     ```script
+     ```js
      $('#dropdown').dropdown()
     ```
     * Produces the following HTML:
@@ -31,7 +31,7 @@
         * Showing is done by setting the opacity of the message from 0 to 1 in an interval of 1 second
         * The message disappears after 3 seconds
     
-    ```
+    ```javascript
     msgBox.success('Success message');
     msgBox.error('Error message');
     ```
