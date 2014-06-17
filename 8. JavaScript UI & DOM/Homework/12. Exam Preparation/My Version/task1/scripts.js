@@ -1,20 +1,28 @@
 function createCalendar(container, events){
-    var container = document.querySelector(container);
+    var monthContainer = document.querySelector(container);
     var DAYS = 30;
     var fragment = document.createDocumentFragment();
     var day = document.createElement('div');
-    var date = document.createElement('div');
-    var content = document.createElement('div');
+    var dayTitle = document.createElement('strong');
+    var dayContent = document.createElement('div');
     var daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wen', 'Thu', 'Fri', 'Sat'];
+
+    dayTitle.className += ' day-title';
+    dayContent.className += ' day-content';
+    dayContent.innerHTML = '&nbsp;';
+
+    day.appendChild(dayTitle);
+    day.appendChild(dayContent);
+
     applyStyles(day);
 
     //apply data
     for (var i = 0; i < DAYS; i++) {
-       date.innerHTML = daysOfWeek[i%7]
+       date.innerHTML = daysOfWeek[i%daysOfWeek.length];
 
     }
 
-    container.appendChild(fragment);
+    monthContainer.appendChild(fragment);
 }
 
 function applyStyles(day)
