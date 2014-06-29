@@ -1,0 +1,16 @@
+﻿<#@ template language="C#" hostspecific="true" #>
+<#@ output extension=".html" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="Microsoft.VisualStudio.TextTemplating" #>
+<DOCTYPE html>
+<body>
+    <ul>
+<#  string currentDir = this.Host.ResolvePath(".");
+    foreach (string dir in Directory.GetFiles(currentDir))
+    {
+        FileInfo fileInfo = new FileInfo(dir);
+#>
+	<li><#= fileInfo.Name #></li>
+<#  } #>
+    </ul>
+</body>

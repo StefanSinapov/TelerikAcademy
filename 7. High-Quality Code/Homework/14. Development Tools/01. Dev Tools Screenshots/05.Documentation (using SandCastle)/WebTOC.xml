@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="ee0bfac2-d8a0-476a-a5ec-9cd4124e9638" Title="MatrixTraversers" Url="html/26d625bd-9ba0-40bb-39d6-8618b2a037ef.htm">
+    <HelpTOCNode Id="735c9564-f0c5-4efa-9ed7-6541f707b3c5" Title="MatrixTraversal Class" Url="html/3bd755dd-4519-9802-7868-ab74b27ac02a.htm">
+      <HelpTOCNode Title="MatrixTraversal Constructor " Url="html/8cfad8b4-7189-33a4-34ba-8b8536f84620.htm" />
+      <HelpTOCNode Id="eaaef26b-a373-4060-a537-f187fc273349" Title="MatrixTraversal Fields" Url="html/6e209d32-1903-f8ef-f411-74758a86de54.htm">
+        <HelpTOCNode Title="dirX Field" Url="html/55a810db-022f-e520-7390-f40922426989.htm" />
+        <HelpTOCNode Title="dirY Field" Url="html/dc803ee4-de45-937b-0310-6617e5240f1e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="15917d8a-5bc0-486d-9a85-e53e09a3756c" Title="MatrixTraversal Methods" Url="html/1ee0d985-4082-7c4d-b629-355780b98bab.htm">
+        <HelpTOCNode Title="CanCellMoveSomewhere Method " Url="html/e2079aba-720c-91ff-da8e-ab532cd1b819.htm" />
+        <HelpTOCNode Title="FillMatrix Method " Url="html/4addc156-8cf1-472a-df4c-621c80ddf5de.htm" />
+        <HelpTOCNode Title="FindFirstEmptyCellIfExists Method " Url="html/3be5a16c-a82a-6903-0cf6-e071ec9b72e2.htm" />
+        <HelpTOCNode Title="GenerateMatrix Method " Url="html/e99d0a62-be19-9d99-e4c2-2459ad6aaa2e.htm" />
+        <HelpTOCNode Title="IsCellPassable Method " Url="html/3141b545-87a6-b3cb-e3d3-71234e29a3f6.htm" />
+        <HelpTOCNode Title="IsNextCellPassable Method " Url="html/f2fb9159-e129-ac43-2cb8-6116c9565483.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

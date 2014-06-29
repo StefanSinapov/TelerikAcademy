@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="CanCellMoveSomewhere method" Url="html/e2079aba-720c-91ff-da8e-ab532cd1b819.htm" />
+  <HelpKINode Title="dirX field" Url="html/55a810db-022f-e520-7390-f40922426989.htm" />
+  <HelpKINode Title="dirY field" Url="html/dc803ee4-de45-937b-0310-6617e5240f1e.htm" />
+  <HelpKINode Title="FillMatrix method" Url="html/4addc156-8cf1-472a-df4c-621c80ddf5de.htm" />
+  <HelpKINode Title="FindFirstEmptyCellIfExists method" Url="html/3be5a16c-a82a-6903-0cf6-e071ec9b72e2.htm" />
+  <HelpKINode Title="GenerateMatrix method" Url="html/e99d0a62-be19-9d99-e4c2-2459ad6aaa2e.htm" />
+  <HelpKINode Title="IsCellPassable method" Url="html/3141b545-87a6-b3cb-e3d3-71234e29a3f6.htm" />
+  <HelpKINode Title="IsNextCellPassable method" Url="html/f2fb9159-e129-ac43-2cb8-6116c9565483.htm" />
+  <HelpKINode Title="MatrixTraversal class">
+    <HelpKINode Title="MatrixTraversal Class" Url="html/3bd755dd-4519-9802-7868-ab74b27ac02a.htm" />
+    <HelpKINode Title="about MatrixTraversal class" Url="html/3bd755dd-4519-9802-7868-ab74b27ac02a.htm" />
+    <HelpKINode Title="constructor" Url="html/8cfad8b4-7189-33a4-34ba-8b8536f84620.htm" />
+    <HelpKINode Title="fields" Url="html/6e209d32-1903-f8ef-f411-74758a86de54.htm" />
+    <HelpKINode Title="methods" Url="html/1ee0d985-4082-7c4d-b629-355780b98bab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MatrixTraversal.CanCellMoveSomewhere method" Url="html/e2079aba-720c-91ff-da8e-ab532cd1b819.htm" />
+  <HelpKINode Title="MatrixTraversal.dirX field" Url="html/55a810db-022f-e520-7390-f40922426989.htm" />
+  <HelpKINode Title="MatrixTraversal.dirY field" Url="html/dc803ee4-de45-937b-0310-6617e5240f1e.htm" />
+  <HelpKINode Title="MatrixTraversal.FillMatrix method" Url="html/4addc156-8cf1-472a-df4c-621c80ddf5de.htm" />
+  <HelpKINode Title="MatrixTraversal.FindFirstEmptyCellIfExists method" Url="html/3be5a16c-a82a-6903-0cf6-e071ec9b72e2.htm" />
+  <HelpKINode Title="MatrixTraversal.GenerateMatrix method" Url="html/e99d0a62-be19-9d99-e4c2-2459ad6aaa2e.htm" />
+  <HelpKINode Title="MatrixTraversal.IsCellPassable method" Url="html/3141b545-87a6-b3cb-e3d3-71234e29a3f6.htm" />
+  <HelpKINode Title="MatrixTraversal.IsNextCellPassable method" Url="html/f2fb9159-e129-ac43-2cb8-6116c9565483.htm" />
+  <HelpKINode Title="MatrixTraversal.MatrixTraversal constructor" Url="html/8cfad8b4-7189-33a4-34ba-8b8536f84620.htm" />
+  <HelpKINode Title="MatrixTraversers namespace" Url="html/26d625bd-9ba0-40bb-39d6-8618b2a037ef.htm" />
+  <HelpKINode Title="MatrixTraversers.MatrixTraversal class" Url="html/3bd755dd-4519-9802-7868-ab74b27ac02a.htm" />
+</HelpKI>
