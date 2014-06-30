@@ -5,8 +5,8 @@
 
     public static class MatrixTraversal
     {
-        private static readonly int[] dirX = { 1, 0, -1, -1, 0, 1, -1, 0 };
-        private static readonly int[] dirY = { 1, -1, 0, 1, 1, 0, -1, 1 };
+        private static readonly int[] DirX = { 1, 0, -1, -1, 0, 1, -1, 0 };
+        private static readonly int[] DirY = { 1, -1, 0, 1, 1, 0, -1, 1 };
 
         /// <summary>
         /// Generates and fill a matrix with numbers using specific pattern. A matrix must be a square with given size.
@@ -38,12 +38,12 @@
                 while (!IsNextCellPassable(matrix, currentCell, dirIndex) &&
                        CanCellMoveSomewhere(matrix, currentCell, dirIndex))
                 {
-                    dirIndex = (dirIndex + 1) % dirX.Length;
+                    dirIndex = (dirIndex + 1) % DirX.Length;
                 }
 
                 // Faster and low-memory instead creating new object
-                currentCell.X += dirX[dirIndex];
-                currentCell.Y += dirY[dirIndex];
+                currentCell.X += DirX[dirIndex];
+                currentCell.Y += DirY[dirIndex];
                 currentCell.Value++;
             }
 
@@ -86,8 +86,8 @@
         {
             Cell nextCell = new Cell()
             {
-                X = currentCell.X + dirX[dirIndex],
-                Y = currentCell.Y + dirY[dirIndex]
+                X = currentCell.X + DirX[dirIndex],
+                Y = currentCell.Y + DirY[dirIndex]
             };
 
             return IsCellPassable(matrix, nextCell);
@@ -95,9 +95,9 @@
 
         private static bool CanCellMoveSomewhere(int[,] matrix, Cell currentCell, int dirIndex)
         {
-            for (int i = 0; i < dirX.Length; i++)
+            for (int i = 0; i < DirX.Length; i++)
             {
-                dirIndex = (dirIndex + 1) % dirX.Length;
+                dirIndex = (dirIndex + 1) % DirX.Length;
 
                 if (IsNextCellPassable(matrix, currentCell, dirIndex))
                 {

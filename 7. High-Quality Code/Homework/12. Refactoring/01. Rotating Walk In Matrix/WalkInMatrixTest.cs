@@ -1,14 +1,22 @@
 ﻿namespace MatrixTraversers
 {
     using System;
+    using log4net;
+    using log4net.Config;
 
     internal class WalkInMatrixTest
     {
+        private static readonly ILog log = LogManager.GetLogger(typeof(WalkInMatrixTest));
+
         internal static void Main()
         {
+            BasicConfigurator.Configure();
+            
+
             byte matrixSize = ReadInput();
             var generatedMatrix = MatrixTraversal.GenerateMatrix(matrixSize);
             PrintMatrixOnConsole(generatedMatrix);
+            log.Debug("success");
         }
 
         private static byte ReadInput()
