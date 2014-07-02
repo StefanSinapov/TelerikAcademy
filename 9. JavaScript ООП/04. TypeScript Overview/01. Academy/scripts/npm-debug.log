@@ -1,0 +1,129 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '–g',
+1 verbose cli   'coffee-script' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ '–g', null ]
+6 verbose cache add name=undefined spec="–g" args=["–g",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '–g',
+7 verbose parsed url   path: '–g',
+7 verbose parsed url   href: '–g' }
+8 verbose cache add [ 'coffee-script', null ]
+9 verbose cache add name=undefined spec="coffee-script" args=["coffee-script",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'coffee-script',
+10 verbose parsed url   path: 'coffee-script',
+10 verbose parsed url   href: 'coffee-script' }
+11 silly lockFile 51e00793-g –g
+12 verbose lock –g C:\Users\Stefan\AppData\Roaming\npm-cache\51e00793-g.lock
+13 silly lockFile ab358269-coffee-script coffee-script
+14 verbose lock coffee-script C:\Users\Stefan\AppData\Roaming\npm-cache\ab358269-coffee-script.lock
+15 silly lockFile 51e00793-g –g
+16 silly lockFile 51e00793-g –g
+17 silly lockFile ab358269-coffee-script coffee-script
+18 silly lockFile ab358269-coffee-script coffee-script
+19 verbose addNamed [ '–g', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 72e0e7f9-g –g@
+22 verbose lock –g@ C:\Users\Stefan\AppData\Roaming\npm-cache\72e0e7f9-g.lock
+23 verbose addNamed [ 'coffee-script', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 53951495-coffee-script coffee-script@
+26 verbose lock coffee-script@ C:\Users\Stefan\AppData\Roaming\npm-cache\53951495-coffee-script.lock
+27 silly addNameRange { name: '–g', range: '*', hasData: false }
+28 silly addNameRange { name: 'coffee-script', range: '*', hasData: false }
+29 verbose url raw –g
+30 verbose url resolving [ 'https://registry.npmjs.org/', './%E2%80%93g' ]
+31 verbose url resolved https://registry.npmjs.org/%E2%80%93g
+32 info trying registry request attempt 1 at 18:12:38
+33 http GET https://registry.npmjs.org/%E2%80%93g
+34 verbose url raw coffee-script
+35 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+36 verbose url resolved https://registry.npmjs.org/coffee-script
+37 info trying registry request attempt 1 at 18:12:38
+38 http GET https://registry.npmjs.org/coffee-script
+39 http 200 https://registry.npmjs.org/coffee-script
+40 silly registry.get cb [ 200,
+40 silly registry.get   { date: 'Tue, 01 Jul 2014 15:12:42 GMT',
+40 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 silly registry.get     etag: '"56AFWRZCGENRN6P8IF6VLK8UP"',
+40 silly registry.get     'content-type': 'application/json',
+40 silly registry.get     'cache-control': 'max-age=30',
+40 silly registry.get     'content-length': '30849',
+40 silly registry.get     'accept-ranges': 'bytes',
+40 silly registry.get     via: '1.1 varnish',
+40 silly registry.get     age: '8',
+40 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+40 silly registry.get     'x-cache': 'HIT',
+40 silly registry.get     'x-cache-hits': '1',
+40 silly registry.get     'x-timer': 'S1404227562.263471,VS0,VE0',
+40 silly registry.get     vary: 'Accept',
+40 silly registry.get     'keep-alive': 'timeout=10, max=50',
+40 silly registry.get     connection: 'Keep-Alive' } ]
+41 http 404 https://registry.npmjs.org/%E2%80%93g
+42 verbose headers { date: 'Tue, 01 Jul 2014 15:12:42 GMT',
+42 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+42 verbose headers   'content-type': 'application/json',
+42 verbose headers   'cache-control': 'max-age=0',
+42 verbose headers   'content-length': '52',
+42 verbose headers   'accept-ranges': 'bytes',
+42 verbose headers   via: '1.1 varnish',
+42 verbose headers   age: '0',
+42 verbose headers   'x-served-by': 'cache-fra1223-FRA',
+42 verbose headers   'x-cache': 'MISS',
+42 verbose headers   'x-cache-hits': '0',
+42 verbose headers   'x-timer': 'S1404227562.232821,VS0,VE173',
+42 verbose headers   'keep-alive': 'timeout=10, max=50',
+42 verbose headers   connection: 'Keep-Alive' }
+43 silly registry.get cb [ 404,
+43 silly registry.get   { date: 'Tue, 01 Jul 2014 15:12:42 GMT',
+43 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+43 silly registry.get     'content-type': 'application/json',
+43 silly registry.get     'cache-control': 'max-age=0',
+43 silly registry.get     'content-length': '52',
+43 silly registry.get     'accept-ranges': 'bytes',
+43 silly registry.get     via: '1.1 varnish',
+43 silly registry.get     age: '0',
+43 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+43 silly registry.get     'x-cache': 'MISS',
+43 silly registry.get     'x-cache-hits': '0',
+43 silly registry.get     'x-timer': 'S1404227562.232821,VS0,VE173',
+43 silly registry.get     'keep-alive': 'timeout=10, max=50',
+43 silly registry.get     connection: 'Keep-Alive' } ]
+44 silly lockFile 72e0e7f9-g –g@
+45 silly lockFile 72e0e7f9-g –g@
+46 error 404 404 Not Found: %E2%80%93g
+46 error 404
+46 error 404 '%E2%80%93g' is not in the npm registry.
+46 error 404 You should bug the author to publish it
+46 error 404
+46 error 404 Note that you can also install from a
+46 error 404 tarball, folder, or http url, or git url.
+47 error System Windows_NT 6.2.9200
+48 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "–g" "coffee-script"
+49 error cwd D:\Documents\Telerik Academy\Курсове\9. JavaScript ООП\04. TypeScript Overview\01. PersonModule\scripts
+50 error node -v v0.10.28
+51 error npm -v 1.4.9
+52 error code E404
+53 verbose exit [ 1, true ]
