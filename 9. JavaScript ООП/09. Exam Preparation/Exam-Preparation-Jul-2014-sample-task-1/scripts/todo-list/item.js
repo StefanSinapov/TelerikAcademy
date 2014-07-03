@@ -1,12 +1,21 @@
 define(function() {
-  'use strict';
-  var Item;
-  Item = (function() {
-    function Item(content) {
-	
-    }
-	
-    return Item;
+    'use strict';
+    var Item;
+    Item = (function() {
+
+        function Item(content) {
+            this._content = content;
+        }
+
+        Item.prototype = {
+            getData: function(){
+                return {
+                    gosho: this._content
+                }
+            }
+        };
+
+        return Item;
   })();
   return Item;
 });
