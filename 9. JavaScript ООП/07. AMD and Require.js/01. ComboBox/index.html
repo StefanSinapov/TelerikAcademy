@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>01. ComboBox</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="scripts/libs/require.js" data-main="scripts/app"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="combo-box"></div>
+    </div>
+
+    <script id="person-template" type="text/x-handlebars-template">
+        <div class="person-item" id="person-item-{{id}}">
+            <strong class="person-name">{{name}}</strong><p class="person-age">{{age}}</p>
+            <img src="{{avatarUrl}}" width="100px" />
+        </div>
+    </script>
+</body>
+</html>
