@@ -1,28 +1,22 @@
-define(function() {
-  'use strict';
-  var Container;
-  Container = (function() {
-      function Container() {
+define(function () {
+    'use strict';
+    var Container;
+    Container = (function () {
+        function Container() {
             this._sections = [];
-      }
+        }
 
-      Container.prototype = {
-            add: function(item){
-                this._sections.push(item);
-                return this;
-            },
-            getData: function(){
-                var i, section, dataSections = [], len;
+        Container.prototype.add = function (section) {
+            this._sections.push(section);
+        };
 
-                for (i = 0, len = this._sections.length; i < len ; i++) {
-                    section = this._sections[i];
-                    dataSections.push(section);
-                }
+        Container.prototype.getData = function () {
+            return this._sections.map(function (item) {
+                return item.getData();
+            })
+        };
 
-                return dataSections;
-            }
-      };
-      return Container;
-  }());
-  return Container;
+        return Container;
+    }());
+    return Container;
 });

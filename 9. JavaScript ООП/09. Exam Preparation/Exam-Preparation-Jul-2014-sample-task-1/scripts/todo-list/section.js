@@ -1,34 +1,29 @@
-define(function() {
-  'use strict';
-  var Section;
-  Section = (function() {
+define(function () {
+    'use strict';
+    var Section;
+    Section = (function () {
         function Section(title) {
-	        this._title = title;
+            this.title = title;
             this._items = [];
         }
 
-      Section.prototype = {
-          add: function(item){
-              this._items.push(item);
-              return this;
-          },
-          getData: function(){
-              var item, items, i, len;
+        Section.prototype.add = function (item) {
+            this._items.push(item);
+        };
 
-              items = [];
-              for(i = 0, len=this._items.length; i<len; i+=1){
-                  item = this._items[i];
-                  items.push(item);
-              }
+        Section.prototype.getData = function () {
+            var itemsCopy = this._items.map(function (item) {
+                return item.getData();
+            });
 
-              return {
-                  title: this._title,
-                  items: items
-              }
-          }
-      };
+            return {
+                title: this.title,
+                items: itemsCopy
+            }
+        };
 
-	    return Section;
-  }());
-  return Section;
+        return Section;
+    }());
+
+    return Section;
 });
