@@ -57,9 +57,9 @@ $.fn.gallery = function (width) {
                 .find('img')
                 .attr('data-info');
         }
-        $selected.find('#previous-image').attr('src','imgs/' + prevDataInfo + '.jpg').attr('data-info',prevDataInfo);
-        $selected.find('#current-image').attr('src','imgs/' + dataInfo + '.jpg').attr('data-info',dataInfo);
-        $selected.find('#next-image').attr('src','imgs/' + nextDataInfo + '.jpg').attr('data-info',nextDataInfo);
+        $selected.find('#previous-image').attr('src','images/' + prevDataInfo + '.jpg').attr('data-info',prevDataInfo);
+        $selected.find('#current-image').attr('src','images/' + dataInfo + '.jpg').attr('data-info',dataInfo);
+        $selected.find('#next-image').attr('src','images/' + nextDataInfo + '.jpg').attr('data-info',nextDataInfo);
 
         //TODO: what is disabled-background for?
 //        $fatherNode.find('.gallery-list').addClass('disabled-background');

@@ -125,7 +125,7 @@ Renderer.prototype.drawClip = function (blaze) {
     var sy = this.height - Renderer.CONFIG.get('BULLET_HEIGHT') - sx;
     var bulletsCount = blaze.bullets;
     var image = new Image();
-    image.src = 'resources/imgs/bullet.png';
+    image.src = 'resources/images/bullet.png';
 
     for (var i = 0; i < bulletsCount; i += 1) {
         this.ctx.drawImage(image, sx, sy);
@@ -474,14 +474,14 @@ Renderer.prototype.drawIntro = function (highScores) {
 
     //draw eggman
     var eggmanImage = new Image();
-    eggmanImage.src = 'resources/imgs/eggman.png';
+    eggmanImage.src = 'resources/images/eggman.png';
     eggmanImage.onload = function () {
         self.ctx.drawImage(eggmanImage, 500, 250, 250, 300);
     };
 
     //draw blaze
     var blazeImage = new Image();
-    blazeImage.src = 'resources/imgs/blaze.png';
+    blazeImage.src = 'resources/images/blaze.png';
     blazeImage.onload = function () {
         self.ctx.drawImage(blazeImage, 100, 250, 150, 300);
     };
@@ -521,14 +521,14 @@ Renderer.prototype.drawExit = function (controller) {
 
     //draw eggman
     var eggmanImage = new Image();
-    eggmanImage.src = 'resources/imgs/eggman.png';
+    eggmanImage.src = 'resources/images/eggman.png';
     eggmanImage.onload = function () {
         self.ctx.drawImage(eggmanImage, 500, 250, 250, 300);
     };
 
     //draw blaze
     var blazeImage = new Image();
-    blazeImage.src = 'resources/imgs/blaze.png';
+    blazeImage.src = 'resources/images/blaze.png';
     blazeImage.onload = function () {
         self.ctx.drawImage(blazeImage, 100, 250, 150, 300);
     };
@@ -843,7 +843,7 @@ Renderer.prototype.drawDayBackground = function () {
         });
 
     /*Insert palm tree*/
-    paper.image("resources/imgs/PalmTree.png", (x + 530), (y + 190), 250, 250);
+    paper.image("resources/images/PalmTree.png", (x + 530), (y + 190), 250, 250);
     // paper.path("M" + (x + 50) + "," + (y + 50) + " L" + (x + 100) + "," + (y + 100));
 };
 

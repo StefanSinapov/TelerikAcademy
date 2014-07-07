@@ -74,7 +74,7 @@ Sonic.CONFIG = function () {
         'SONIC_MAXSPEED': 10,
         'SONIC_FRAME_RATE': 18,
         'SONIC_ANIMATIONS': animations,
-        'SONIC_SPRITE': "resources/imgs/sonic-sprite.png",
+        'SONIC_SPRITE': "resources/images/sonic-sprite.png",
         'SONIC_ANIMATION_INIT': 'idle',
         'SONIC_OFFSET_Y': 80
     };
