@@ -7,7 +7,7 @@ Telerik Academy 2013-2014
 | 2.  | [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 |
 | 3.  | [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) |
 | 4.  | [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          |
-| 5.  | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript Applications](#javascript-applications-notes) |
+| 5.  | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-applications-notes) |
 
 #Programming with C#
 
@@ -106,3 +106,16 @@ Telerik Academy 2013-2014
 * [Handlebars HTML templates](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/11.%20HTML%20Templates) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/11.%20HTML%20Templates/README.md))
 * [Exam preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/12.%20Exam%20Preparation)
 * [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Exam)
+
+###[JavaScript OOP](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F) ([notes]())
+0. [Course Introduction](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/0.%20Course%20Introduction)
+1. [Advanced Functions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/01.%20Advanced%20Functions)
+* [Classical OOP in JavaScript](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/02.%20Classical%20OOP%20in%20JavaScript)
+* [Inheritance with Classical OOP](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/03.%20Inheritance%20with%20Classical%20OOP)
+* [TypeScript Overview](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/04.%20TypeScript%20Overview)
+* [CoffeeScript Overview](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/05.%20CoffeeScript%20Overview)
+* [JavaScript Patterns and Modules](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/06.%20JavaScript%20Patterns%20and%20Modules)
+* [AMD and Require.js](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/07.%20AMD%20and%20Require.js)
+* [Creating and Using Exceptions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/08.%20Creating%20and%20Using%20Exceptions)
+* [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/09.%20Exam%20Preparation)
+* [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/10.%20Exam)
