@@ -10,9 +10,9 @@ Telerik Academy 2013-2014
 | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-oop-notes)                   |
 |                                                                           | [JavaScript Applications](#javascript-applications-notes)                               |
 
-#Programming with CSharp#
+# Programming with C# 
 
-###[C# - Part I](1.%20C%23%20програмиране%20-%20част%20I) ([notes](http://www.evernote.com/shard/s60/sh/f131361d-2c39-4eb6-baad-e23398217902/b7fb7d0c3ae35d7e35d2842248539796))
+## [C# - Part I](1.%20C%23%20програмиране%20-%20част%20I) ([notes](http://www.evernote.com/shard/s60/sh/f131361d-2c39-4eb6-baad-e23398217902/b7fb7d0c3ae35d7e35d2842248539796))
 1. [Introduction to Programming](1.%20C%23%20програмиране%20-%20част%20I/Homework/1.IntroductionToProgramming) 
 * [Primitive Data Types and Variables](1.%20C%23%20програмиране%20-%20част%20I/Homework/2.PrimitiveTypesAndVariables)
 * [Operators, Expressions and Statements](1.%20C%23%20програмиране%20-%20част%20I/Homework/3.OperatorsExpressionsAndStatements)
@@ -20,7 +20,7 @@ Telerik Academy 2013-2014
 * [Conditional Statements](1.%20C%23%20програмиране%20-%20част%20I/Homework/5.ConditionalStatements)
 * [Loops](1.%20C%23%20програмиране%20-%20част%20I/Homework/6.Loops)
 
-###[C# - Part II](2.%20C%23%20програмиране%20-%20част%20II) ([notes](http://www.evernote.com/shard/s60/sh/bd20534c-155d-4d63-aee9-2e98f276b34e/e51dd621be40466bd56a549c597d5aee))
+## [C# - Part II](2.%20C%23%20програмиране%20-%20част%20II) ([notes](http://www.evernote.com/shard/s60/sh/bd20534c-155d-4d63-aee9-2e98f276b34e/e51dd621be40466bd56a549c597d5aee))
 1. [Arrays](2.%20C%23%20програмиране%20-%20част%20II/Homework/1.Arrays)
 * [Multidimensional Arrays](2.%20C%23%20програмиране%20-%20част%20II/Homework/2.MultidimensionalArrays)
 * [Methods](2.%20C%23%20програмиране%20-%20част%20II/Homework/3.Methods)
@@ -31,7 +31,7 @@ Telerik Academy 2013-2014
 * [Strings and Text Processing](2.%20C%23%20програмиране%20-%20част%20II/Homework/8.StringsAndTextProcessing) 
 * [Teamwork - Console game](2.%20C%23%20програмиране%20-%20част%20II/Teamwork)
 
-###[C# - Object-Oriented Programming](3.%20Обектно-ориентирано%20програмиране%20(ООП)) ([notes](http://www.evernote.com/shard/s60/sh/dc761682-6944-40e5-875e-bb43594034b7/b3ba1767085ccb6c637f90ae9367b777))
+## [C# - Object-Oriented Programming](3.%20Обектно-ориентирано%20програмиране%20(ООП)) ([notes](http://www.evernote.com/shard/s60/sh/dc761682-6944-40e5-875e-bb43594034b7/b3ba1767085ccb6c637f90ae9367b777))
 1. [Defining classes - Part I](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/1.%20Defining%20Classes%20Part%20I) 
 * [Defining classes - Part II](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/2.%20Defining%20Classes%20Part%20II) 
 * [Extension Methods, Delegates, Lambda and LINQ](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/3.ExtensionDelgatesLambdaLINQ) - ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/3.ExtensionDelgatesLambdaLINQ/README.md)) 
@@ -43,7 +43,7 @@ Telerik Academy 2013-2014
 * Teamwork - [RPG Game](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Teamwork/JackLondonTeam)
 * [Exam](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Exam/REAL) - [Preparation](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/0.%20ExamPreparation)
 
-###[High-Quality Code](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code) ([notes]())
+## [High-Quality Code](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code) ([notes]())
 1. What is High-Quality Programming Code?
 * [Code Formatting](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/01.%20Code%20Formatting) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/01.%20Code%20Formatting/README.md))
 * [Naming Identifiers](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/02.%20Naming%20Identifiers) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/02.%20Naming%20Identifiers/README.md))
@@ -66,21 +66,21 @@ Telerik Academy 2013-2014
 * Exam - (conditions)
 
 
-#Web Design & Development#
+# Web Design & Development
 
-###[HTML Basics](4.%20HTML) ([notes](http://www.evernote.com/shard/s60/sh/1ff0621d-8bda-40fe-98e0-a3e383ffc8e7/99b0b597358094917651b23f2504ebd7))
+## [HTML Basics](4.%20HTML) ([notes](http://www.evernote.com/shard/s60/sh/1ff0621d-8bda-40fe-98e0-a3e383ffc8e7/99b0b597358094917651b23f2504ebd7))
 1. [HTML Fundamentals](4.%20HTML/Homework/1.%20HTML%20Fundamentals) - ([conditions](4.%20HTML/Homework/1.%20HTML%20Fundamentals/README.md))
 * [HTML Tables](4.%20HTML/Homework/2.%20HTML%20Tables) - ([conditions](4.%20HTML/Homework/2.%20HTML%20Tables/README.md))
 * [HTML Forms](4.%20HTML/Homework/3.%20HTML%20Forms) - ([conditions](4.%20HTML/Homework/3.%20HTML%20Forms/README.md))
 * [Semantic Web](4.%20HTML/Homework/4.%20Semantic%20Web) - ([conditions](4.%20HTML/Homework/4.%20Semantic%20Web/README.md))
 
-###[CSS](5.%20CSS) ([notes](http://www.evernote.com/shard/s60/sh/5762afed-d5f3-4345-a9b9-500e9b3f4a2e/d1bb7bbee3661ba29025046cca904cd3))
+## [CSS](5.%20CSS) ([notes](http://www.evernote.com/shard/s60/sh/5762afed-d5f3-4345-a9b9-500e9b3f4a2e/d1bb7bbee3661ba29025046cca904cd3))
 1. [CSS Overview](5.%20CSS/Homework/1.%20CSS%20Overview) - ([conditions](5.%20CSS/Homework/1.%20CSS%20Overview/README.md))
 * [CSS Presentation](5.%20CSS/Homework/2.%20CSS%20Presentation) - ([conditions](5.%20CSS/Homework/2.%20CSS%20Presentation/README.md))
 * [CSS Layout](5.%20CSS/Homework/3.%20CSS%20Layout) - ([conditions](5.%20CSS/Homework/3.%20CSS%20Layout/README.md))
 * [LESS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/5.%20CSS/Homework/4.%20LESS) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/5.%20CSS/Homework/4.%20LESS/README.md))
 
-###[JavaScript Fundamentals](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals) ([notes](http://www.evernote.com/shard/s60/sh/352099df-f5d6-42f7-9507-e8ac0964058b/b37fd4e397fc70eba83a629187802ffa))
+## [JavaScript Fundamentals](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals) ([notes](http://www.evernote.com/shard/s60/sh/352099df-f5d6-42f7-9507-e8ac0964058b/b37fd4e397fc70eba83a629187802ffa))
 1. Introduction to JavaScript Development
 * [Data Types and Variables](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/01.%20Data%20Types%20and%20Variables) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/01.%20Data%20Types%20and%20Variables/README.md))
 * [Operators and Expressions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/02.%20Operators%20and%20Expressions) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/02.%20Operators%20and%20Expressions/README.md))
@@ -93,7 +93,7 @@ Telerik Academy 2013-2014
 * [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Homework/10.%20Exam%20preparation)
 * [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/6.%20JavaScript%20Fundamentals/Exam)
 
-###[JavaScript UI & DOM](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM) ([notes](http://www.evernote.com/shard/s60/sh/f083760a-4ae8-4934-b3df-7eb01212e1ed/70ffa0547cc03143bf41398426715f97))
+## [JavaScript UI & DOM](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM) ([notes](http://www.evernote.com/shard/s60/sh/f083760a-4ae8-4934-b3df-7eb01212e1ed/70ffa0547cc03143bf41398426715f97))
 1. [Document Object Model](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/01.%20Document-Object-Model) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/01.%20Document-Object-Model/README.md))
 * [HTML5 Canvas](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/02.%20Canvas) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/02.%20Canvas/README.md))
 * [KineticJS framework for the HTML5 Canvas](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/03.%20KineticJS) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/03.%20KineticJS/README.md))
@@ -108,7 +108,7 @@ Telerik Academy 2013-2014
 * [Exam preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Homework/12.%20Exam%20Preparation)
 * [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/8.%20JavaScript%20UI%20%26%20DOM/Exam)
 
-###[JavaScript OOP](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F) ([notes]())
+## [JavaScript OOP](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F) ([notes]())
 0. [Course Introduction](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/0.%20Course%20Introduction)
 1. [Advanced Functions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/01.%20Advanced%20Functions)
 * [Classical OOP in JavaScript](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/02.%20Classical%20OOP%20in%20JavaScript)
