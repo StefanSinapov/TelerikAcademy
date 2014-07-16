@@ -10,7 +10,7 @@ Telerik Academy 2013-2014
 | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-oop-notes)                   |
 |                                                                           | [JavaScript Applications](#javascript-applications-notes)                               |
 
-#`Programming with C#`#
+#Programming with CSharp#
 
 ###[C# - Part I](1.%20C%23%20програмиране%20-%20част%20I) ([notes](http://www.evernote.com/shard/s60/sh/f131361d-2c39-4eb6-baad-e23398217902/b7fb7d0c3ae35d7e35d2842248539796))
 1. [Introduction to Programming](1.%20C%23%20програмиране%20-%20част%20I/Homework/1.IntroductionToProgramming) 
