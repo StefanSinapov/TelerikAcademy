@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>JavaScript APIs - Web Workers</title>
+</head>
+<body>
+	<a href="#" id="start-worker-btn">Start workers</a>
+	<script>
+		HTMLElement.prototype.addEventHandler = function (eventName, handler) {
+			if (document.addEventListener) this.addEventListener(eventName, handler, false);
+			else if (document.attachEvent) this.attachEvent("on" + eventName, handler);
+			else this["on" + eventName] = handler;
+		}
+
+		var workersData = [];
+		var repeatCount = 0;
+
+		function onWorkerMessage(data) {
+			workersData.push(data.data);
+			if (workersData.length > 5) {
+				console.log(repeatCount++ + ": " + workersData.join(", "));
+				delete workersData;
+				workersData = [];
+			}
+		}
+
+		document.getElementById("start-worker-btn").addEventHandler("click", function (e) {
+			for (var i = 0; i < 1005; i++) {
+				var worker = new Worker("scripts/worker-script.js");
+				worker.onmessage = onWorkerMessage;
+				worker.postMessage({ name: "worker #" + i });
+			}
+			return false;
+		});
+
+	</script>
+</body>
+</html>

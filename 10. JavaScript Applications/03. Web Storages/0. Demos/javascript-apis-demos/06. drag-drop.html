@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JavaScript APIs - Drag and Drop</title>
+    <style>
+        .container {
+            border-radius: 5px;
+            border: 1px solid black;
+            width: 160px;
+            height: 160px;
+            float: left;
+            padding:10px;
+            margin:5px;
+        }
+
+            .container #first {
+                background-color: blue;
+            }
+
+            .container #second {
+                background-color: green;
+            }
+
+            .container #third {
+                background-color: purple;
+            }
+
+            .container #first, .container #second, .container #third {
+                float: left;
+                height: 60px;
+                width: 60px;
+                border-radius:5px;
+                user-select:none;
+                text-align:center;
+                vertical-align:central;
+                color:white;
+                font-weight:bold; 
+                text-align:center;
+                margin:2px;
+            }
+    </style>
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("dragged-id", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("dragged-id");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</head>
+<body>
+    <div class="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+        Drag elements
+        <div id="first" draggable="true" ondragstart="drag(event)">
+            drag me
+        </div>
+        <div id="second" draggable="true" ondragstart="drag(event)">
+            drag me
+        </div>
+        <div id="third" draggable="true" ondragstart="drag(event)">
+            drag me
+        </div>
+    </div>
+    <div class="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+        Drag elements
+    </div>
+    <div class="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+        Drag elements
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>JavaScript APIs - Geolocation: watchPosition</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function geoSuccess(position){
+		    console.log("latitude: " + position.coords.latitude);
+		    console.log("longitude: "+ position.coords.longitude);
+		}
+		function geoError(){
+		  console.log(arguments);
+		}	
+		
+		var wid = navigator.geolocation.watchPosition(geoSuccess,geoError);
+	</script>
+
+</body>
+</html>

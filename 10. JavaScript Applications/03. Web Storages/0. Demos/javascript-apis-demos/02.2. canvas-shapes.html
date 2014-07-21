@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>JavaScript APIs - Canvas Shapes</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		canvas {
+			border: 1px solid black;
+			padding: 5px;
+		}
+	</style>
+	<script type="text/javascript" src="scripts/fxcanvas/jooscript.js"></script>
+	<script type="text/javascript" src="scripts/fxcanvas/fxcanvas.js"></script>
+	<!--[if IE]><script type="text/javascript" src="scripts/fxcanvas/flash_backend.js"></script><![endif]-->
+	<comment><script type="text/javascript" src="scripts/fxcanvas/canvas_backend.js"></script></comment>
+	<script>
+		var context = {};
+		var startPosition = {};
+		var endPosition = {};
+
+		function drawLine() {
+			context.moveTo(startPosition.x, startPosition.y);
+			context.lineTo(endPosition.x, endPosition.y);
+			context.stroke();
+		}
+
+		function drawRect() {
+			var x = Math.min(startPosition.x, endPosition.x);
+			var y = Math.min(startPosition.y, endPosition.y);
+			var width = Math.abs(startPosition.x - endPosition.x);
+			var height = Math.abs(startPosition.y - endPosition.y);
+			context.strokeRect(x, y, width, height);
+		}
+
+		function drawRect() {
+			var x = Math.min(startPosition.x, endPosition.x);
+			var y = Math.min(startPosition.y, endPosition.y);
+			var width = Math.abs(startPosition.x - endPosition.x);
+			var height = Math.abs(startPosition.y - endPosition.y);
+			context.strokeRect(x, y, width, height);
+		}
+
+		function drawEllipse() {
+			var x = Math.min(startPosition.x, endPosition.x) + Math.abs(startPosition.x - endPosition.x) / 2;
+			var y = Math.min(startPosition.y, endPosition.y) + Math.abs(startPosition.y - endPosition.y) / 2;
+			var radius = Math.sqrt((startPosition.x - endPosition.x) * (startPosition.x - endPosition.x) + (startPosition.y - endPosition.y) * (startPosition.y - endPosition.y)) / 2;
+
+			context.beginPath();
+			context.arc(x, y, radius, 0, 2 * Math.PI, false);
+			context.stroke();
+		}
+
+		function getShapeType() {
+			var shapeRadios = document.getElementsByName("shapes");
+			for (var i = 0; i < shapeRadios.length; i++) {
+				if (shapeRadios[i].checked) {
+					return shapeRadios[i].value;
+				}
+			}
+		}
+
+		function draw() {
+			var shapeType = getShapeType();
+
+			console.log(startPosition);
+			console.log(endPosition);
+			switch (shapeType) {
+				case "rect": drawRect(); break;
+				case "ellipse": drawEllipse(); break;
+				case "line": drawLine(); break;
+			}
+		}
+
+		window.onload = function () {
+			var theCanvas = document.getElementById("the-canvas");
+			context = theCanvas.getContext("2d");
+
+			theCanvas.onmousedown = function (e) {
+				if (!e) e = window.event;
+
+				startPosition = {
+					x: e.clientX,
+					y: e.clientY
+				};
+
+				console.log(startPosition);
+
+				if (e.preventDefault) {
+					e.preventDefault();
+				}
+				return false;
+			}
+
+			theCanvas.onmouseup = function (e) {
+				if (!e) e = window.event;
+
+				endPosition = {
+					x: e.clientX,
+					y: e.clientY
+				};
+
+				console.log(endPosition);
+
+				draw();
+
+				if (e.preventDefault) {
+					e.preventDefault();
+				}
+				return false;
+			}
+
+			var colorPicker = document.getElementById("color-picker");
+			colorPicker.onchange = function (e) {
+				var color = colorPicker.value;
+				context.strokeStyle = color;
+			}
+		}
+	</script>
+</head>
+<body>
+	<canvas id="the-canvas" width="500" height="500"></canvas>
+	<br />
+	<input name="shapes" id="rect-radio" type="radio" value="rect" checked="checked" />
+	<label for="rect-radio">Rectangle</label>
+	<input name="shapes" id="ellipse-radio" type="radio" value="ellipse" />
+	<label for="ellipse-radio">Ellipse</label>
+	<input name="shapes" id="line-radio" type="radio" value="line" />
+	<label for="line-radio">Line</label>
+	<input type="color" value="" id="color-picker" />
+	<label for="color-picker">Color</label>
+</body>
+</html>
