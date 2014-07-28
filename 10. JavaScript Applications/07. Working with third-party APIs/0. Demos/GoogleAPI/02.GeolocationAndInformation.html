@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Geolocation</title>
+    <!-- Add styles - it does not work without width and height -->
+    <style>
+        html, body, #map-canvas {
+            margin: 0;
+            padding: 0;
+            height: 500px;
+            width: 1000px;
+        }
+    </style>
+    <!-- Add sensor true -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&language=ru"></script>
+    <script src="scripts/geolocation.js"></script>
+</head>
+<body>
+    <div id="map-canvas"></div>
+</body>
+</html>

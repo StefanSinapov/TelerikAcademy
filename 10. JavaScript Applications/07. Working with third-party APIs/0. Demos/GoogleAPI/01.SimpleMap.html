@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8" />
+    <!-- Add styles for width and height -->
+    <style>
+      html, body, #map-canvas {
+        margin: 0;
+        padding: 0;
+        height: 500px;
+        width: 1000px;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+</head>
+<body>
+    <span>X: </span><input type="text" id="coor-x" />
+    <span>Y: </span><input type="text" id="coor-y" />
+    <span>Zoom: </span><input type="text" id="zoom" />
+    <button id="get-coordinates">Map</button>
+    <div id="map-canvas"></div>
+    <script src="scripts/simple-map.js"></script>
+</body>
+</html>
