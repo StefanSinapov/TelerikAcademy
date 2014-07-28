@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>03. Students Management</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <script src="scripts/libs/require.js" data-main="scripts/main.js"></script>
+</head>
+<body>
+<form class="form-inline" role="form" method="post">
+    <div class="form-group form-actions">
+        <button type="button" class="btn btn-primary" id="get-students">Show All Students</button>
+    </div>
+</form>
+
+<div id="students-container"></div>
+
+<form class="form-inline" role="form" method="post">
+    <div class="form-group form-actions">
+        <input type="text" class="form-control" id="first-name" placeholder="First Name">
+        <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+        <input type="number" class="form-control" id="age" placeholder="Age">
+        <button type="button" class="btn btn-success" id="post-students">Add Student</button>
+
+    </div>
+</form>
+
+<script id="students-template" type="text/x-mustache-template">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#students}}
+        <tr>
+            <td>{{FirstName}}</td>
+            <td>{{LastName}}</td>
+            <td>{{Age}}</td>
+            <td><button type="button" class="btn btn-danger delete-student" target-id="{{Id}}">Delete</button></td>
+        </tr>
+        {{/students}}
+        </tbody>
+    </table>
+</script>
+</body>
+</html>

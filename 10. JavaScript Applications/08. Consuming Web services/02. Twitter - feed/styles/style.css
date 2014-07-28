@@ -1,0 +1,105 @@
+h2 {
+    clear:both;
+}
+
+p, a {
+    font-size:9pt;
+    margin:10px 0 0 0;
+    color:#3d3d3d;
+}
+
+a, a:visited {
+    color:#427fed;
+}
+
+a:hover {
+    color:#82afff;
+}
+
+ul li {
+    list-style:none;
+    overflow:hidden;
+    border:1px solid #dedede;
+    margin:5px;
+    padding:5px;
+}
+
+ul li:hover {
+    background-color:#f0f3fb;
+}
+
+.user, .tweet, .timePosted {
+    float:left;
+}
+
+.error {
+    box-shadow: red 0 0 4pt 1pt;
+}
+
+.user {
+    width:25%;
+    clear:left;
+
+}
+
+.tweet {
+    width:50%;
+}
+
+.timePosted {
+    width:15%;
+}
+
+.user a {
+    width: 100px;
+}
+
+.user span span {
+    width:100px;
+    display:block;
+    margin-top:10px;
+}
+
+.user img, .user a > span {
+    float:left;
+}
+
+.interact {
+    float:left;
+    width:10%;
+    margin-top:-7px;
+}
+
+.interact a {
+    margin-left:5px;
+    float:left;
+}
+
+.user a > span {
+    margin-left:10px;
+}
+
+.control-label {
+    font-weight: bold;
+}
+
+.control-label.span1 {
+    width: 60px;
+}
+
+.form-horizontal .control-group {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.form-horizontal .control-group dd.controls input.span4 {
+    width: 250px;
+    padding-left: 10px;
+}
+
+.form-horizontal .form-actions {
+    padding: 20px 0;
+    text-align: center;
+}
