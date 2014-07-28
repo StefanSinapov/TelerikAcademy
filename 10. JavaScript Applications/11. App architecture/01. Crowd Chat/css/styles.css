@@ -1,0 +1,82 @@
+html body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.form-login {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-login .form-login-heading,
+.form-login .checkbox {
+    margin-bottom: 10px;
+}
+.form-login .checkbox {
+    font-weight: normal;
+}
+.form-login .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-login .form-control:focus {
+    z-index: 2;
+}
+.form-login input[type="text"] {
+    margin-bottom: 5px;
+}
+
+.form-chat{
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: #dcdcdc;
+}
+
+.form-chat #user-msg {
+    position: relative;
+    height: auto;
+    width: 85%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-right: 15px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.form-chat .chat-box .label{
+    max-width: 200px;
+    overflow-x: hidden;
+}
+.form-chat .chat-box{
+    clear: both;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    max-width: 580px;
+    min-height: 150px;
+    max-height: 280px;
+    margin: 15px auto;
+    overflow: auto;
+}
+
+.form-chat .chat-box .msg .msg-text {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    overflow-x: hidden;
+}
+.form-chat .chat-box .msg{
+    margin: 5px;
+    padding: 5px;
+    color: #000000;
+}
+
