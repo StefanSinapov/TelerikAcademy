@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-2.0.2.js"></script>
+    <script src="Scripts/http-requester.js"></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha1.js"></script>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/ui.js"></script>
+    <script src="Scripts/persister.js"></script>
+    <script src="Scripts/controller.js"></script>
+    <style>
+        #wrapper {
+            width: 70%;
+            margin: 0 auto;
+            text-align: center;
+            border: 1px solid black;
+            margin-top: 50px;
+            font: normal 14px Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+        }
+
+            #wrapper > header {
+            }
+
+        #user-nickname {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 5px 15px;
+            border: 1px solid #444;
+            border-radius: 3px;
+            text-decoration: none;
+            color: black;
+            background-color: #ccc;
+        }
+
+        #open-games-container {
+            float: left;
+        }
+
+        #active-games-container {
+            float: right;
+        }
+
+        #content {
+            zoom: 1;
+        }
+
+            #content:after {
+                clear: both;
+                display: block;
+                height: 0;
+                content: "";
+            }
+
+        #create-game-holder {
+            display: inline-block;
+            text-align: right;
+        }
+
+        .button.selected {
+            font-weight: bold;
+        }
+
+        .game-list {
+            list-style-type: none;
+            display: inline-block;
+            text-align: left;
+        }
+
+        #active-games-container a, #open-games-container a {
+            color: #222;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+            #active-games-container a:hover, #open-games-container a:hover {
+                text-decoration: underline;
+            }
+
+        #active-games-container .full {
+            color: #bbb;
+        }
+
+        #game-state {
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+            #game-state .guess-holder {
+                text-align: center;
+                margin: 0 auto;
+            }
+
+        #error-messages {
+            color: #a30124;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Telerik Academy Bulls and Cows</h1>
+        </header>
+        <div id="content">
+        </div>
+    </div>
+</body>
+</html>
