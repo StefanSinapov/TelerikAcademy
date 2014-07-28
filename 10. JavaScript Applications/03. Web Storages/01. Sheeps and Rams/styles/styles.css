@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+}
+
+body div.background {
+    position: fixed;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    z-index: -1;
+}
+
+body div#wrapper {
+    z-index: 9999;
+}
+
+body div#wrapper .container{
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: lightgray;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+body div#wrapper #score-container{
+    position: relative;
+    top: 35px;
+    height: auto;
+    padding-bottom: 5px;
+
+    display: none;
+}
+
+div.info {
+     padding: 10px;
+     text-align: center;
+ }
+
+body div#wrapper #history-container{
+    position: static;
+    margin-top: 35px;
+    height: 400px;
+    padding: 20px 0;
+    padding-bottom: 5px;
+    overflow: auto;
+
+    display: none;
+}
+
+
+div.box {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 10px;
+    background-color: darkgray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+body div#wrapper #win-container{
+    padding: 25px;
+    position: relative;
+    top: 35px;
+
+    display: none;
+}
+
+body div#wrapper #win-container p{
+    font-size: 18px;
+    font-family: Consolas;
+    margin-bottom: 15px;
+}
+
+body div#wrapper #win-container input{
+    margin: 5px 0;
+}
+
+
+body div#wrapper #game-container {
+    position: relative;
+    top: 25px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+body div#wrapper input{
+    font-family: Consolas;
+    background-color: black;
+    color: white;
+    padding: 0 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+body div#wrapper #game-container input#number-input {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 35px;
+    left: 60px;
+}
+
+body div#wrapper button{
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid lightslategray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+body div#wrapper #game-container button#guess-button {
+    position: absolute;
+    top: 35px;
+    left: 150px;
+    width: 80px;
+
+}

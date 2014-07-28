@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="bg">
+    <meta charset="UTF-8">
+    <title>01. Sheeps and Rams</title>
+    <link rel="stylesheet" href="styles/styles.css" type="text/css"/>
+    <script src="scripts/libs/require.js" data-main="scripts/main.js"></script>
+</head>
+<body>
+    <div class="background"></div>
+    <div id="wrapper">
+        <div id="game-container" class="container">
+            <input type="text" id="number-input" pattern="\d{4}\"/>
+            <button id="guess-button">Guess</button>
+        </div>
+
+        <div id="score-container" class="container">
+            <div class="info">Top 10 players</div>
+        </div>
+        <div id="history-container" class="container">
+
+        </div>
+        <div id="win-container" class="container">
+            <p class="info">Congratulations you guess the number with <strong></strong> tries</p>
+            <label for="name-input">Please enter your nickname:</label>
+            <input type="text" id="name-input"/>
+            <button id="save-score-button">Save</button>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body, div, header, section, span, h1, p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #797985;
+    background: -moz-linear-gradient(top,  #797985 0%, #767682 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#797985), color-stop(100%,#767682));
+    background: -webkit-linear-gradient(top,  #797985 0%,#767682 100%);
+    background: -o-linear-gradient(top,  #797985 0%,#767682 100%);
+    background: -ms-linear-gradient(top,  #797985 0%,#767682 100%);
+    background: linear-gradient(to bottom,  #797985 0%,#767682 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#797985', endColorstr='#767682',GradientType=0 );
+
+}
+
+body div#wrapper header{
+    margin: 10px 50px;
+    padding: 15px 20px;
+    background-color: #add8e6;
+    border-radius: 15px;
+}
+
+body div#wrapper header h1{
+    text-align: center;
+}
+body div#wrapper header p{
+
+}
+
+body div#wrapper div#atm-container {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    height: 435px;
+    background-image: url("../images/rsz_atm.png");
+    background-size: 500px 435px;
+    background-repeat: no-repeat;
+}
+
+
+#atm-container:hover{
+    cursor: pointer;
+}
+
+body div#wrapper #atm-container.expand-atm{
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    margin-left: -480px;
+    width: 960px;
+    height: 640px;
+    background-size: 960px 640px;
+
+
+}
+.hidden{
+    display: none;
+}
+
+body div#game-container{
+    position: absolute;
+
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ffffff;
+}
