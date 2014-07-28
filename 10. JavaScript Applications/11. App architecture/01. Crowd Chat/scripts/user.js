@@ -18,7 +18,8 @@ define(function () {
         }
 
         function deleteName() {
-            storage.clear();
+            sessionStorage.removeItem('username');
+			localStorage.removeItem('username');
         }
 
         function isLoggedIn() {

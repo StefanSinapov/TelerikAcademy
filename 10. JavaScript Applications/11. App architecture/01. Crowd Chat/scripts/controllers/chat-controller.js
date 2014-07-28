@@ -72,7 +72,7 @@ define(['jquery', 'http-request', 'user', 'mustache'], function ($, request, use
 
             request.getJSON(sourceUrl)
                 .then(function (data) {
-                    for (i = data.length - 1, len = data.length; i > len - messageCount; i--) {
+                    for (i = data.length - 1; i > len - messageCount,  i >= 0; i--) {
                         post = data[i];
                         postBy = post.by.trim();
                         postText = post.text.trim();

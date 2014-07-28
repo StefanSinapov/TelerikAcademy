@@ -8,7 +8,6 @@ define(function () {
             'mustache': 'libs/mustache',
             'http-request': 'http-request',
             'validation-controller': 'controllers/validation-controller',
-            'ui-controller': 'controllers/ui-controller',
             'user-controller': 'controllers/user-controller',
             'chat-controller': 'controllers/chat-controller',
             'user': 'user'
