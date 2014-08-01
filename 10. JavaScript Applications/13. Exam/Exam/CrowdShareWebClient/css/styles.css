@@ -1,0 +1,109 @@
+ /*html body {*/
+    /*padding-top: 40px;*/
+    /*padding-bottom: 40px;*/
+    /*background-color: #eee;*/
+/*}*/
+
+.form-login {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-login .form-login-heading,
+.form-login .checkbox {
+    margin-bottom: 10px;
+}
+.form-login .checkbox {
+    font-weight: normal;
+}
+.form-login .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-login .form-control:focus {
+    z-index: 2;
+}
+.form-login input[type="text"] {
+    margin-bottom: 5px;
+}
+.form-login input[type="password"] {
+    margin-bottom: 5px;
+}
+.account{
+    margin: 0 auto;
+}
+
+#form-post{
+    max-width: 830px;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#form-post input[type='text'] {
+    position: relative;
+    height: auto;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-right: 15px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#form-post textarea{
+    margin: 5px 0;
+}
+
+#form-post button{
+    margin-top: 10px;
+}
+
+#post-box .label{
+    max-width: 200px;
+    overflow-x: hidden;
+}
+#post-box{
+    color: #000000;
+    clear: both;
+    background-color: lightgray;
+    border: 1px solid #000000;
+    max-width: 500px;
+    height: 400px;
+    margin: 15px auto;
+    overflow: auto;
+}
+
+.form-post .post-box .msg .msg-text {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    overflow-x: hidden;
+}
+.form-post .post-box .msg{
+    margin: 5px;
+    padding: 5px;
+    color: #000000;
+}
+
+.error {
+    color: #ff0000;
+    box-shadow: red 0px 0px 2.5pt 1pt;
+}
+
+.post-container{
+    margin: 5px 2px;
+    margin-bottom: 0px;
+    padding-bottom: 5px; !important;
+}
+.post-container .post-text {
+    overflow: hidden;
+}
+
