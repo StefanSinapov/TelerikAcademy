@@ -157,6 +157,24 @@
         }
 
         [TestMethod]
+        public void CourseEqualsToNullCourseTest()
+        {
+            var school = new School();
+            var csharpCourse = school.RegisterCourse("C# Fundamentals");
+
+            Assert.IsFalse(csharpCourse.Equals(null));
+        }
+
+        [TestMethod]
+        public void SchoolContainsAddedCourseTest()
+        {
+            var school = new School();
+            var csharpCourse = school.RegisterCourse("C# Fundamentals");
+
+            Assert.IsTrue(school.Courses.Contains(csharpCourse));
+        }
+
+        [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
         public void RegisterCourseWithNullNameTest()
         {
