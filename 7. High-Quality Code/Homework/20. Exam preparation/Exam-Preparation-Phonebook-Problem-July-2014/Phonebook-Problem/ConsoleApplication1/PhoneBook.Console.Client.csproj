@@ -7,8 +7,8 @@
     <ProjectGuid>{D60D857E-37F2-4205-BAB5-EE3C4B7B1911}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
-    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <RootNamespace>Phonebook</RootNamespace>
+    <AssemblyName>Phonebook.Console.Client</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,7 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CommandBuilderWithLazyLoading.cs" />
+    <Compile Include="Command\ChangePhoneCommand.cs" />
+    <Compile Include="Command\IPhonebookCommand.cs" />
+    <Compile Include="Command\AddPhoneCommand.cs" />
+    <Compile Include="Command\ListCommand.cs" />
+    <Compile Include="ICommandBuilder.cs" />
+    <Compile Include="IPhonebookRepository.cs" />
+    <Compile Include="IPhoneNumberConverter.cs" />
+    <Compile Include="IPrinter.cs" />
+    <Compile Include="PhoneNumberConverter.cs" />
+    <Compile Include="PrinterWithStringBuilder.cs" />
+    <Compile Include="PhonebookEntryPoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
