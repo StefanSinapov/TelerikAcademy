@@ -118,18 +118,17 @@ define(['jquery', 'persister', 'ui-controller', 'validation-controller'], functi
         };
 
         Controller.prototype.loadMainPage = function () {
+            var self = this;
             this.ui.renderMainPage(this.$container);
-//            this.getAllPosts();
-//
-            this.ui.renderAllPosts(this.$container, []);
+            this.persister.post.getAll()
+                .then(function (data) {
+                    self.ui.renderAllPosts(self.$container, data);
+                }, function (reason) {
+                    console.log(reason);
+                });
+
         };
 
-        Controller.prototype.getAllPosts = function(){
-            this.persister.post.getAll()
-                .than(function(data){
-                    console.log(data);
-                });
-        };
 
         return Controller;
     }());
