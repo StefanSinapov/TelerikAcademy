@@ -1,12 +1,8 @@
 ﻿namespace Phonebook
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
     using System.Text;
-    using System.Threading.Tasks;
 
-    class PrinterWithStringBuilder: IPrinter
+    public class PrinterWithStringBuilder : IPrinter
     {
         private StringBuilder output = new StringBuilder();
 
@@ -15,8 +11,7 @@
             this.output.AppendLine(text);
         }
 
-
-        public string getAllAsString()
+        public string GetAllAsString()
         {
             return this.output.ToString();
         }

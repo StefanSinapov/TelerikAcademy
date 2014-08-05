@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Phonebook
+﻿namespace Phonebook
 {
-    class PhoneNumberConverter : IPhoneNumberConverter
+    using System.Text;
+
+    public class PhoneNumberConverter : IPhoneNumberConverter
     {
-        private const string DEFAUTH_COUTNRY_CODE = "+359";
+        private const string DefauthCoutnryCode = "+359";
 
         public string Convert(string phoneNumber)
         {
@@ -24,7 +20,8 @@ namespace Phonebook
 
             if (convertedPhoneNumber.Length >= 2 && convertedPhoneNumber[0] == '0' && convertedPhoneNumber[1] == '0')
             {
-                convertedPhoneNumber.Remove(0, 1); convertedPhoneNumber[0] = '+';
+                convertedPhoneNumber.Remove(0, 1); 
+                convertedPhoneNumber[0] = '+';
             }
 
             while (convertedPhoneNumber.Length > 0 && convertedPhoneNumber[0] == '0')
@@ -34,7 +31,7 @@ namespace Phonebook
 
             if (convertedPhoneNumber.Length > 0 && convertedPhoneNumber[0] != '+')
             {
-                convertedPhoneNumber.Insert(0, DEFAUTH_COUTNRY_CODE);
+                convertedPhoneNumber.Insert(0, DefauthCoutnryCode);
             }
 
             return convertedPhoneNumber.ToString();

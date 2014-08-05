@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -37,11 +38,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommandBuilderWithLazyLoading.cs" />
@@ -53,6 +49,8 @@
     <Compile Include="IPhonebookRepository.cs" />
     <Compile Include="IPhoneNumberConverter.cs" />
     <Compile Include="IPrinter.cs" />
+    <Compile Include="PhonebookRepository.cs" />
+    <Compile Include="PhoneEntry.cs" />
     <Compile Include="PhoneNumberConverter.cs" />
     <Compile Include="PrinterWithStringBuilder.cs" />
     <Compile Include="PhonebookEntryPoint.cs" />
