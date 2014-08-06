@@ -11,7 +11,7 @@ namespace Phonebook
 
         public string Name
         {
-            private get
+            get
             {
                 return this.name;
             }

@@ -8,9 +8,9 @@
         /// Adds new entry if user is not exist or merge it if name exists.
         /// </summary>
         /// <param name="name">Name of entry.</param>
-        /// <param name="numbers">Phone numbers of given person.</param>
+        /// <param name="phoneNumbers">Phone numbers of given person.</param>
         /// <returns>True if new entry is created and false if it is merged.</returns>
-        bool AddPhone(string name, IEnumerable<string> numbers);
+        bool AddPhone(string name, IEnumerable<string> phoneNumbers);
 
         /// <summary>
         /// Changes all phone numbers which finds with new one ones.
@@ -26,6 +26,6 @@
         /// <param name="startIndex">Index of witch list will start.</param>
         /// <param name="count">Number of entries to be included in the list.</param>
         /// <returns>Return array of Entries or throws error if start index or count are invalid.</returns>
-        PhoneEntry[] ListEntries(int startIndex, int count);
+        IEnumerable<PhoneEntry> ListEntries(int startIndex, int count);
     }
 }
