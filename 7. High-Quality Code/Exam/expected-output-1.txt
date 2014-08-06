@@ -1,0 +1,12 @@
+You didn't guess the number 3.
+You win!
+Battery status: 60% 
+Battery status: 60%
+Battery status: 0%
+Battery status: 100%
+Battery status: 99%
+Number too low.
+Number too high.
+Number too high.
+Square of 500 is 250000.
+Square of 16 is 256.
