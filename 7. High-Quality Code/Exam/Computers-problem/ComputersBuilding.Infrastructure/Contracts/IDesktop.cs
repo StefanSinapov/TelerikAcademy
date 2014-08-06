@@ -1,14 +1,19 @@
-using ComputersBuilding.Infrastructure.ComputerComponents.Contracts;
+using ComputersBuilding.ComputerComponents.Contracts;
 
-namespace ComputersBuilding.Infrastructure.Contracts
+namespace ComputersBuilding.Contracts
 {
     public interface IDesktop
     {
-        void Play(int guessNumber);
-        void ChargeBattery(int powerPercentage);
         ICentralProcessingUnit Cpu { get; }
+        
         IRandomAccessMemory Ram { get; }
+        
         IVideoCard Gpu { get; }
+        
         IStorage Storage { get; }
+
+        void Play(int guessNumber);
+
+        void ChargeBattery(int powerPercentage);
     }
 }

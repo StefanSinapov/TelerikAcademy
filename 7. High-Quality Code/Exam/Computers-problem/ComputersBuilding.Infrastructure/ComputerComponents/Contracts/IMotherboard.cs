@@ -1,4 +1,4 @@
-﻿namespace ComputersBuilding.Infrastructure.ComputerComponents.Contracts
+﻿namespace ComputersBuilding.ComputerComponents.Contracts
 {
     /// <summary>
     /// Defines the default behavior and functionality of the motherboard

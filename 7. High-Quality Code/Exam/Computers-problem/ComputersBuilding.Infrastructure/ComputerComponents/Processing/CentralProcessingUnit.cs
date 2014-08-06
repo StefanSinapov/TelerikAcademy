@@ -1,71 +1,41 @@
 ﻿using System;
-using ComputersBuilding.Infrastructure.ComputerComponents.Contracts;
-using ComputersBuilding.Infrastructure.ComputerComponents.Memory;
+using ComputersBuilding.ComputerComponents.Contracts;
 
-namespace ComputersBuilding.Infrastructure.ComputerComponents.Processing
+namespace ComputersBuilding.ComputerComponents.Processing
 {
     public class CentralProcessingUnit : ICentralProcessingUnit
     {
         public static readonly Random Random = new Random();
 
-        private readonly byte cores;
-        private readonly CpuArchitecture architecture;
-        private readonly IRandomAccessMemory ram;
-        private readonly IVideoCard videoCard;
-
-        internal CentralProcessingUnit(byte numberOfCores, CpuArchitecture bits, IRandomAccessMemory ram, IVideoCard videoCard)
+        public CentralProcessingUnit(byte numberOfCores, CpuArchitecture bits, IRandomAccessMemory ram, IVideoCard videoCard)
         {
-            this.cores = numberOfCores;
-            this.architecture = bits;
-            this.ram = ram;
-            this.videoCard = videoCard;
+            this.Cores = numberOfCores;
+            this.Architecture = bits;
+            this.Ram = ram;
+            this.VideoCard = videoCard;
         }
 
-        public byte Cores
-        {
-            get
-            {
-                return this.cores;
-            }
-        }
+        public byte Cores { get; set; }
 
-        public CpuArchitecture Architecture
-        {
-            get
-            {
-                return this.architecture;
-            }
-        }
+        public CpuArchitecture Architecture { get; private set; }
 
-        public IRandomAccessMemory Ram
-        {
-            get
-            {
-                return this.ram;
-            }
-        }
+        public IRandomAccessMemory Ram { get; private set; }
 
-        public IVideoCard VideoCard
-        {
-            get
-            {
-                return this.videoCard;
-            }
-        }
+        public IVideoCard VideoCard { get; private set; }
 
         public void SquareNumber()
         {
-            if (this.architecture == CpuArchitecture.Bit32)
+            if (this.Architecture == CpuArchitecture.Bit32)
             {
                 this.CalculateSquareNumber(0, 500);
             }
 
-            if (this.architecture == CpuArchitecture.Bit64)
+            if (this.Architecture == CpuArchitecture.Bit64)
             {
                 this.CalculateSquareNumber(0, 1000);
             }
 
-            if (this.architecture == CpuArchitecture.Bit128)
+            if (this.Architecture == CpuArchitecture.Bit128)
             {
                 this.CalculateSquareNumber(0, 2000);
             }
@@ -73,39 +43,28 @@ namespace ComputersBuilding.Infrastructure.ComputerComponents.Processing
 
         public void GenerateRandom(int a, int b)
         {
-            int randomNumber;
-
-            do
-            {
-                randomNumber = Random.Next(0, 1000);
-            }
-            while (!(randomNumber >= a && randomNumber <= b));
-
-            this.ram.SaveValue(randomNumber);
+            //// This is the second bottleneck (fixed: with removing do-while loop) 
+            int randomNumber = Random.Next(a, b + 1);
+            this.Ram.SaveValue(randomNumber);
         }
 
         private void CalculateSquareNumber(int minBound, int maxBound)
         {
-            var data = this.ram.LoadValue();
+            var data = this.Ram.LoadValue();
 
             if (data < minBound)
             {
-                this.videoCard.Draw("Number too low.");
+                this.VideoCard.Draw("Number too low.");
             }
             else if (data > maxBound)
             {
-                this.videoCard.Draw("Number too high.");
+                this.VideoCard.Draw("Number too high.");
             }
             else
             {
-                int value = 0;
-
-                for (int i = 0; i < data; i++)
-                {
-                    value += data;
-                }
-
-                this.videoCard.Draw(string.Format("Square of {0} is {1}.", data, value));
+                ////This is first bottleneck - fixed with simple math.
+                var value = data * data;
+                this.VideoCard.Draw(string.Format("Square of {0} is {1}.", data, value));
             }
         }
     }

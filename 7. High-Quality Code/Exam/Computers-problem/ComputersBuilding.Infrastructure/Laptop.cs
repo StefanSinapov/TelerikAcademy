@@ -1,8 +1,8 @@
 ﻿using System;
-using ComputersBuilding.Infrastructure.ComputerComponents.Contracts;
-using ComputersBuilding.Infrastructure.Contracts;
+using ComputersBuilding.ComputerComponents.Contracts;
+using ComputersBuilding.Contracts;
 
-namespace ComputersBuilding.Infrastructure
+namespace ComputersBuilding
 {
     public class Laptop : PersonalComputer, ILaptop
     {
@@ -20,14 +20,14 @@ namespace ComputersBuilding.Infrastructure
 
         public override void Play(int guessNumber)
         {
-            Console.WriteLine("You cannot play games on your laptop.");
+            throw new Exception("You cannot play games on your laptop.");
         }
 
         public override void ChargeBattery(int powerPercentage)
         {
             this.Battery.Charge(powerPercentage);
 
-            this.Gpu.Draw(string.Format("Battery status: {0}", this.Battery.CurrentCharge));
+            this.Gpu.Draw(string.Format("Battery status: {0}%", this.Battery.CurrentCharge));
         }
     }
 }

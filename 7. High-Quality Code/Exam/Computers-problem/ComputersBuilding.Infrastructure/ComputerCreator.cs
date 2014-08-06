@@ -1,15 +1,15 @@
-﻿namespace ComputersBuilding.Infrastructure
-{
-    using Contracts;
-    using Factory;
+﻿using ComputersBuilding.Contracts;
+using ComputersBuilding.Factory;
 
+namespace ComputersBuilding
+{
     public class ComputerCreator
     {
         private readonly ComputerFactory computerFactory;
 
-        public ComputerCreator(ComputerFactory factory)
+        public ComputerCreator(ComputerFactory computerFactory)
         {
-            this.computerFactory = factory;
+            this.computerFactory = computerFactory;
         }
 
         public IDesktop AssembleDesktop()

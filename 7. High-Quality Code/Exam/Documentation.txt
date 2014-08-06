@@ -2,34 +2,40 @@ Design pattern: Simple Factory
 	* 
 
 Design pattern: Strategy
-	* 
+	* Can be seen in all Computer components interfaces and classes
+	Example IRechargable -> than Battery implements it (Charge method)
 
 Design pattern: Template Method
-	* 
+	* VideoCard: (Draw method) 
+	Implementations: ColorfulGpu and MonochromeGpu
 
 Design pattern: Abstract factory
 	* In ComputerBuilding Project -> Factory folder.
+	(Abstract class) ComputerFactory
+	(Implementations) DellFactory, LenovoFactory, HPFactory
+	ComputerCreator take computer factory instance and then assemble different Computers
 
 Design pattern: Composite
-	* 
+	* Can be seen in these classes:
+	Computer: IComputer,  Server: Computer, Laptop, Desktop: Personal Computer
 
 Design pattern: Mediator
 	* 
 
 Found bottlenecks:
-	* 
-	* 
+	* CPU - Square counting loop - fixed with removing the loop
+	* CPU - Generate Random Number - fixed with removing do-while loop
 
 Found bugs:
 	* CPU class -> videoCard not set
-	* rendering Battery procentage: (missing %)
-	* 
+	* rendering Battery percentage: (missing %)
+	* maybe fixed during the refactoring :) or the errors in the beginning
 
 Single responsibility principle
-	* 
+	* Computer Components at least some of them
 
 Open/closed principle
-	* 
+	* Using the Abstract factory principle adding the new functionality is easy and doesn't need to change already existing code
 
 Liskov substitution principle
 	* 
@@ -38,4 +44,4 @@ Interface segregation principle
 	* 
 
 Dependency inversion principle
-	* 
+	* Every class take arguments in constructor, interfaces are used.

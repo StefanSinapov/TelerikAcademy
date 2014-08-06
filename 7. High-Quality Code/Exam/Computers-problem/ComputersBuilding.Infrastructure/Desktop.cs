@@ -1,8 +1,8 @@
 ﻿using System;
-using ComputersBuilding.Infrastructure.ComputerComponents.Contracts;
-using ComputersBuilding.Infrastructure.Contracts;
+using ComputersBuilding.ComputerComponents.Contracts;
+using ComputersBuilding.Contracts;
 
-namespace ComputersBuilding.Infrastructure
+namespace ComputersBuilding
 {
     public class Desktop : PersonalComputer, IDesktop
     {

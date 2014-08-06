@@ -1,6 +1,6 @@
-﻿using ComputersBuilding.Infrastructure.ComputerComponents.Contracts;
+﻿using ComputersBuilding.ComputerComponents.Contracts;
 
-namespace ComputersBuilding.Infrastructure.ComputerComponents.Power
+namespace ComputersBuilding.ComputerComponents.Power
 {
     public class Battery : IRechargable
     {

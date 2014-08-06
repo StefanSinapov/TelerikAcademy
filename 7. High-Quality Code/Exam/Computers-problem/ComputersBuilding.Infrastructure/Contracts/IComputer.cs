@@ -1,6 +1,6 @@
-﻿using ComputersBuilding.Infrastructure.ComputerComponents.Contracts;
+﻿using ComputersBuilding.ComputerComponents.Contracts;
 
-namespace ComputersBuilding.Infrastructure.Contracts
+namespace ComputersBuilding.Contracts
 {
     public interface IComputer
     {

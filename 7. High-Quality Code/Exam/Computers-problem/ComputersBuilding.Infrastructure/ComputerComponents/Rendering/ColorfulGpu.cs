@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ComputersBuilding.Infrastructure.ComputerComponents.Rendering
+namespace ComputersBuilding.ComputerComponents.Rendering
 {
     public class ColorfulGpu : VideoCard
     {

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using ComputersBuilding.Infrastructure.ComputerComponents.Contracts;
+using ComputersBuilding.ComputerComponents.Contracts;
 
-namespace ComputersBuilding.Infrastructure.ComputerComponents.Storage
+namespace ComputersBuilding.ComputerComponents.Storage
 {
     public class HardDrive : IStorage
     {
+        private readonly IDictionary<int, string> data;
         private int capacity;
-        private IDictionary<int, string> data;
 
         public HardDrive(int capacity)
         {

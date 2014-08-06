@@ -1,10 +1,10 @@
-﻿using System;
-using ComputersBuilding.Infrastructure;
-using ComputersBuilding.Infrastructure.Contracts;
-using ComputersBuilding.Infrastructure.Factory;
+﻿using ComputersBuilding.Contracts;
+using ComputersBuilding.Factory;
 
 namespace ComputersBuilding
 {
+    using System;
+
     public class Engine
     {
         private static Engine instance;
@@ -26,23 +26,11 @@ namespace ComputersBuilding
             }
         }
 
-        public IDesktop Desktop
-        {
-            get;
-            private set;
-        }
+        public IDesktop Desktop { get; private set; }
 
-        public IServer Server
-        {
-            get;
-            private set;
-        }
+        public IServer Server { get; private set; }
 
-        public ILaptop Laptop
-        {
-            get;
-            private set;
-        }
+        public ILaptop Laptop { get; private set; }
 
         public void Run()
         {
@@ -51,7 +39,7 @@ namespace ComputersBuilding
             switch (userInput)
             {
                 case "HP":
-                    ComputerFactory hp = new HewlettPackardFactory();
+                    ComputerFactory hp = new HPFactory();
                     this.CreateComputers(hp);
                     break;
 
@@ -67,13 +55,12 @@ namespace ComputersBuilding
 
                 default:
                     throw new ArgumentException("Invalid manufacturer!");
-                    break;
             }
 
-            this.OperationReciever();
+            this.CommandExecuter();
         }
 
-        private void OperationReciever()
+        private void CommandExecuter()
         {
             while (true)
             {
@@ -84,28 +71,20 @@ namespace ComputersBuilding
                     break;
                 }
 
-                var command = userInput.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                var command = this.ParseCommand(userInput);
 
-                if (command.Length != 2)
-                {
-                    throw new ArgumentException("Invalid command!");
-                }
-
-                string operation = command[0];
-                int operand = int.Parse(command[1]);
-
-                switch (operation)
+                switch (command.Name)
                 {
                     case "Charge":
-                        this.Laptop.ChargeBattery(operand);
+                        this.Laptop.ChargeBattery(command.Argument);
                         break;
 
                     case "Process":
-                        this.Server.Process(operand);
+                        this.Server.Process(command.Argument);
                         break;
 
                     case "Play":
-                        this.Desktop.Play(operand);
+                        this.Desktop.Play(command.Argument);
                         break;
 
                     default:
@@ -122,6 +101,21 @@ namespace ComputersBuilding
             this.Desktop = creator.AssembleDesktop();
             this.Server = creator.AssembleServer();
             this.Laptop = creator.AssembleLaptop();
+        }
+
+        private CommandType ParseCommand(string userInput)
+        {
+            var command = userInput.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+            if (command.Length != 2)
+            {
+                throw new ArgumentException("Invalid command!");
+            }
+
+            string commandName = command[0];
+            int commandArguments = int.Parse(command[1]);
+
+            return new CommandType(commandName, commandArguments);
         }
     }
 }

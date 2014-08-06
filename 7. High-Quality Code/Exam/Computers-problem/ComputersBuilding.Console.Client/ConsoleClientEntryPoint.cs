@@ -1,10 +1,10 @@
 ﻿namespace ComputersBuilding
 {
-    class ConsoleClientEntryPoint
+    public class ConsoleClientEntryPoint
     {
         public static void Main()
         {
-            var engine = EngineOld.Instance;
+            var engine = Engine.Instance;
             engine.Run();
         }
     }

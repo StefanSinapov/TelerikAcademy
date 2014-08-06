@@ -1,6 +1,6 @@
-﻿using ComputersBuilding.Infrastructure.ComputerComponents.Contracts;
+﻿using ComputersBuilding.ComputerComponents.Contracts;
 
-namespace ComputersBuilding.Infrastructure.ComputerComponents.Memory
+namespace ComputersBuilding.ComputerComponents.Memory
 {
     public class RandomAccessMemory : IRandomAccessMemory
     {
@@ -9,17 +9,9 @@ namespace ComputersBuilding.Infrastructure.ComputerComponents.Memory
             this.Amount = amount;
         }
 
-        public int Value
-        {
-            get;
-            set;
-        }
+        public int Value { get; set; }
 
-        public int Amount
-        {
-            get;
-            set;
-        }
+        public int Amount { get; set; }
 
         public void SaveValue(int newValue)
         {

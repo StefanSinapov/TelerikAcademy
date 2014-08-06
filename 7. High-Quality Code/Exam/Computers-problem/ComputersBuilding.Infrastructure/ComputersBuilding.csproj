@@ -7,8 +7,8 @@
     <ProjectGuid>{9CE71C53-357E-4EB3-84C0-B0BC91BCE834}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ComputersBuilding.Infrastructure</RootNamespace>
-    <AssemblyName>ComputersBuilding.Infrastructure</AssemblyName>
+    <RootNamespace>ComputersBuilding</RootNamespace>
+    <AssemblyName>ComputersBuilding</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -49,13 +49,13 @@
     <Compile Include="ComputerComponents\Rendering\MonochromeGpu.cs" />
     <Compile Include="ComputerComponents\Rendering\VideoCard.cs" />
     <Compile Include="ComputerComponents\Storage\HardDrive.cs" />
-    <Compile Include="ComputerComponents\Storage\RAID.cs" />
+    <Compile Include="ComputerComponents\Storage\Raid.cs" />
     <Compile Include="ComputerCreator.cs" />
     <Compile Include="Contracts\IComputer.cs" />
     <Compile Include="Factory\ComputerFactory.cs" />
     <Compile Include="Factory\DellFactory.cs" />
     <Compile Include="Desktop.cs" />
-    <Compile Include="Factory\HewlettPackardFactory.cs" />
+    <Compile Include="Factory\HPFactory.cs" />
     <Compile Include="Factory\LenovoFactory.cs" />
     <Compile Include="Contracts\IDesktop.cs" />
     <Compile Include="Contracts\ILaptop.cs" />

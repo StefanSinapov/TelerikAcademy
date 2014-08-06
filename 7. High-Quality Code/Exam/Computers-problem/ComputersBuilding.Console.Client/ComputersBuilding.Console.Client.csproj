@@ -43,17 +43,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandType.cs" />
     <Compile Include="ConsoleClientEntryPoint.cs" />
-    <Compile Include="Computer.cs" />
-    <Compile Include="Contracts\IMotherboard.cs" />
-    <Compile Include="Cpu.cs" />
     <Compile Include="Engine.cs" />
-    <Compile Include="Enums\ComputerType.cs" />
-    <Compile Include="HardDriver.cs" />
-    <Compile Include="LaptopBattery.cs" />
-    <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="Ram.cs" />
-    <Compile Include="EngineOld.cs" />
+    <Compile Include="Properties\Annotations.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

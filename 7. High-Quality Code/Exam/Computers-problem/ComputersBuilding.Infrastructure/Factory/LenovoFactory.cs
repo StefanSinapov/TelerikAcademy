@@ -1,15 +1,14 @@
-﻿namespace ComputersBuilding.Infrastructure.Factory
+﻿using System.Collections.Generic;
+using ComputersBuilding.ComputerComponents.Contracts;
+using ComputersBuilding.ComputerComponents.Memory;
+using ComputersBuilding.ComputerComponents.Power;
+using ComputersBuilding.ComputerComponents.Processing;
+using ComputersBuilding.ComputerComponents.Rendering;
+using ComputersBuilding.ComputerComponents.Storage;
+using ComputersBuilding.Contracts;
+
+namespace ComputersBuilding.Factory
 {
-    using System.Collections.Generic;
-    using ComputerComponents.Contracts;
-    using ComputerComponents.Memory;
-    using ComputerComponents.Power;
-    using ComputerComponents.Processing;
-    using ComputerComponents.Rendering;
-    using ComputerComponents.Storage;
-    using Contracts;
-
-
     // Concrete Factory
     public class LenovoFactory : ComputerFactory
     {
@@ -38,7 +37,7 @@
             IRandomAccessMemory ram = new RandomAccessMemory(8);
             IVideoCard gpu = new MonochromeGpu();
             ICentralProcessingUnit cpu = new CentralProcessingUnit(2, CpuArchitecture.Bit128, ram, gpu);
-            IStorage storage = new RAID(raidDrives);
+            IStorage storage = new Raid(raidDrives);
 
             return new Server(cpu, ram, gpu, storage);
         }

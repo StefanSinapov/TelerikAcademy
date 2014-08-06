@@ -1,18 +1,17 @@
-﻿namespace ComputersBuilding.Infrastructure.Factory
-{
-    using ComputerComponents.Contracts;
-    using ComputerComponents.Memory;
-    using ComputerComponents.Processing;
-    using ComputerComponents.Rendering;
-    using ComputerComponents.Storage;
-    using ComputerComponents.Power;
-    using Contracts;
-    using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using ComputersBuilding.ComputerComponents.Contracts;
+using ComputersBuilding.ComputerComponents.Memory;
+using ComputersBuilding.ComputerComponents.Power;
+using ComputersBuilding.ComputerComponents.Processing;
+using ComputersBuilding.ComputerComponents.Rendering;
+using ComputersBuilding.ComputerComponents.Storage;
+using ComputersBuilding.Contracts;
 
+namespace ComputersBuilding.Factory
+{
     // Concrete Factory
     public class DellFactory : ComputerFactory
     {
-
         public DellFactory()
         {
         }
@@ -38,7 +37,7 @@
             IRandomAccessMemory ram = new RandomAccessMemory(64);
             IVideoCard gpu = new MonochromeGpu();
             ICentralProcessingUnit cpu = new CentralProcessingUnit(8, CpuArchitecture.Bit64, ram, gpu);
-            IStorage storage = new RAID(raidDrives);
+            IStorage storage = new Raid(raidDrives);
 
             return new Server(cpu, ram, gpu, storage);
         }

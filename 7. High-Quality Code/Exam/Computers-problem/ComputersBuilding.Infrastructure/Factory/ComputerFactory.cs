@@ -1,7 +1,7 @@
-﻿namespace ComputersBuilding.Infrastructure.Factory
-{
-    using ComputersBuilding.Infrastructure.Contracts;
+﻿using ComputersBuilding.Contracts;
 
+namespace ComputersBuilding.Factory
+{
     public abstract class ComputerFactory
     {
         public abstract IDesktop CreateDesktop();

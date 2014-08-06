@@ -1,7 +1,7 @@
 ﻿using System;
-using ComputersBuilding.Infrastructure.ComputerComponents.Contracts;
+using ComputersBuilding.ComputerComponents.Contracts;
 
-namespace ComputersBuilding.Infrastructure.ComputerComponents.Rendering
+namespace ComputersBuilding.ComputerComponents.Rendering
 {
     public abstract class VideoCard : IVideoCard
     {

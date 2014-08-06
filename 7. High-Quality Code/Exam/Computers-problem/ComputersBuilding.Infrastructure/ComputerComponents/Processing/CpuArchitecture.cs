@@ -1,4 +1,4 @@
-﻿namespace ComputersBuilding.Infrastructure.ComputerComponents.Processing
+﻿namespace ComputersBuilding.ComputerComponents.Processing
 {
     public enum CpuArchitecture
     {

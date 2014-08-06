@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ComputersBuilding.Infrastructure.ComputerComponents.Contracts;
+using ComputersBuilding.ComputerComponents.Contracts;
 
-namespace ComputersBuilding.Infrastructure.ComputerComponents.Storage
+namespace ComputersBuilding.ComputerComponents.Storage
 {
-    public class RAID : IStorage
+    public class Raid : IStorage
     {
-        private IList<HardDrive> hardDrives;
+        private readonly IList<HardDrive> hardDrives;
 
-        public RAID()
+        public Raid()
             : this(new List<HardDrive>())
         {
         }
 
-        public RAID(IList<HardDrive> hardDrives)
+        public Raid(IList<HardDrive> hardDrives)
         {
             this.hardDrives = hardDrives;
         }

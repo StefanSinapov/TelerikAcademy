@@ -1,12 +1,10 @@
-﻿using ComputersBuilding.Infrastructure.ComputerComponents.Contracts;
-using ComputersBuilding.Infrastructure.ComputerComponents.Memory;
-using ComputersBuilding.Infrastructure.ComputerComponents.Processing;
+﻿using ComputersBuilding.ComputerComponents.Contracts;
 
-namespace ComputersBuilding.Infrastructure
+namespace ComputersBuilding
 {
     public abstract class PersonalComputer : Computer
     {
-        public PersonalComputer(ICentralProcessingUnit cpu, IRandomAccessMemory ram, IVideoCard gpu, IStorage storage)
+        protected PersonalComputer(ICentralProcessingUnit cpu, IRandomAccessMemory ram, IVideoCard gpu, IStorage storage)
             : base(cpu, ram, gpu, storage)
         {
         }

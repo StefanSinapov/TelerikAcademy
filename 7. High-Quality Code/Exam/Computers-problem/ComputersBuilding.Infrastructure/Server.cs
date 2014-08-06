@@ -1,9 +1,8 @@
-﻿using ComputersBuilding.Infrastructure.Contracts;
+﻿using ComputersBuilding.ComputerComponents.Contracts;
+using ComputersBuilding.Contracts;
 
-namespace ComputersBuilding.Infrastructure
+namespace ComputersBuilding
 {
-    using ComputerComponents.Contracts;
-
     public class Server : Computer, IServer
     {
         public Server(ICentralProcessingUnit cpu, IRandomAccessMemory ram, IVideoCard gpu, IStorage storage)

@@ -1,8 +1,9 @@
-﻿namespace ComputersBuilding.Infrastructure.ComputerComponents.Contracts
+﻿namespace ComputersBuilding.ComputerComponents.Contracts
 {
     public interface IRandomAccessMemory
     {
         void SaveValue(int newValue);
+
         int LoadValue();
     }
 }

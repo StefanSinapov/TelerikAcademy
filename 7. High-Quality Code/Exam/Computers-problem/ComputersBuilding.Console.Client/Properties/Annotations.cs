@@ -596,7 +596,7 @@ namespace ComputersBuilding.Properties
   {
     public HtmlAttributeValueAttribute([NotNull] string name)
     {
-      Name = name;
+      this.Name = name;
     }
 
     [NotNull] public string Name { get; private set; }
