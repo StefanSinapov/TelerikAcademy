@@ -8,7 +8,7 @@ Design pattern: Template Method
 	* 
 
 Design pattern: Abstract factory
-	* 
+	* In ComputerBuilding Project -> Factory folder.
 
 Design pattern: Composite
 	* 
@@ -21,8 +21,8 @@ Found bottlenecks:
 	* 
 
 Found bugs:
-	* 
-	* 
+	* CPU class -> videoCard not set
+	* rendering Battery procentage: (missing %)
 	* 
 
 Single responsibility principle

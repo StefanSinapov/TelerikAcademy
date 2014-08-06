@@ -1,11 +1,8 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using C = System.Console;
-
-namespace Computers11
+﻿namespace ComputersBuilding
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
 
     class HardDriver
     {
@@ -16,7 +13,7 @@ namespace Computers11
 
         SortedDictionary<int, string> info;
 
-        internal HardDriver(){}
+        internal HardDriver() { }
         public bool IsMonochrome { get; set; }
 
 
@@ -25,17 +22,8 @@ namespace Computers11
         {
             this.isInRaid = isInRaid;
             this.hardDrivesInRaid = hardDrivesInRaid;
-
-
-
             this.capacity = capacity;
-            this.data = new Dictionary<int, string(capacity);
-
-
-
-
-
-
+            this.data = new Dictionary<int, string>(capacity);
             this.hds = new List<HardDriver>();
         }
 
@@ -44,27 +32,34 @@ namespace Computers11
 
         int capacity;
         Dictionary<int, string> data;
-        internal HardDriver(int capacity, bool isInRaid,int hardDrivesInRaid, List< HardDriver > hardDrives)
+        internal HardDriver(int capacity, bool isInRaid, int hardDrivesInRaid, List<HardDriver> hardDrives)
         {
             this.isInRaid = isInRaid;
             this.hardDrivesInRaid = hardDrivesInRaid;
-            this.capacity = capacity
+            this.capacity = capacity;
 
 
-            this.data = (Dictionary<int, string>)new Dictionary<int, string>(capacity);this.hds = new List<HardDriver>();this.hds = hardDrives;
+            this.data = (Dictionary<int, string>)new Dictionary<int, string>(capacity); this.hds = new List<HardDriver>(); this.hds = hardDrives;
         }
-        int Capacity{
-            get{
-                if (isInRaid){
+        int Capacity
+        {
+            get
+            {
+                if (isInRaid)
+                {
                     if (!this.hds.Any())
                     {
                         return 0;
                     }
-                    return this.hds.First().Capacity;}
-                else{
-                    return capacity;}
+                    return this.hds.First().Capacity;
+                }
+                else
+                {
+                    return capacity;
+                }
             }
-        }void SaveData(int addr,string newData)
+        }
+        void SaveData(int addr, string newData)
         {
             if (isInRaid) foreach (var hardDrive in this.hds) hardDrive.SaveData(addr, newData); else this.data[addr] = newData;
         }
@@ -88,16 +83,16 @@ namespace Computers11
         {
             if (this.IsMonochrome)
             {
-                C.ForegroundColor = ConsoleColor.Gray;
-                C.WriteLine(a);
-                C.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Gray;
+                Console.WriteLine(a);
+                Console.ResetColor();
             }
 
             else
             {
-                C.ForegroundColor = ConsoleColor.Green;
-                C.WriteLine(a);
-                C.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine(a);
+                Console.ResetColor();
             }
 
         }

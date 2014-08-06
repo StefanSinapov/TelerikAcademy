@@ -7,8 +7,8 @@
     <ProjectGuid>{920382DC-166F-4C55-8AF7-70D668191107}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Computers.UI.Console</RootNamespace>
-    <AssemblyName>Computers.UI.Console</AssemblyName>
+    <RootNamespace>ComputersBuilding</RootNamespace>
+    <AssemblyName>ComputersBuilding.Console.Client</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,17 +43,28 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleClientEntryPoint.cs" />
+    <Compile Include="Computer.cs" />
+    <Compile Include="Contracts\IMotherboard.cs" />
     <Compile Include="Cpu.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="Enums\ComputerType.cs" />
     <Compile Include="HardDriver.cs" />
     <Compile Include="LaptopBattery.cs" />
-    <Compile Include="Rammstein.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Ram.cs" />
+    <Compile Include="EngineOld.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ComputersBuilding.Infrastructure\ComputersBuilding.csproj">
+      <Project>{9ce71c53-357e-4eb3-84c0-b0bc91bce834}</Project>
+      <Name>ComputersBuilding</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

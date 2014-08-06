@@ -1,4 +1,4 @@
-﻿namespace Computers3
+﻿namespace ComputersBuilding
 {
     class LaptopBattery
     {
@@ -9,6 +9,7 @@
             if (Percentage > 100) Percentage = 100;
             if (Percentage < 0) Percentage = 0;
         }
+
         internal LaptopBattery() { this.Percentage = 100 / 2; }
     }
 }
