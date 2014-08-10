@@ -1,9 +1,7 @@
-﻿using ComputersBuilding.ComputerComponents.Contracts;
-using ComputersBuilding.ComputerComponents.Power;
-
-namespace ComputerBuilding.Tests
+﻿namespace ComputerBuilding.Tests
 {
-    using System;
+    using ComputersBuilding.Components;
+    using ComputersBuilding.Contracts;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]

@@ -1,8 +1,8 @@
-﻿using ComputersBuilding.Contracts;
-using ComputersBuilding.Factory;
-
-namespace ComputersBuilding
+﻿namespace ComputersBuilding
 {
+    using Contracts;
+    using Factory;
+
     public class ComputerCreator
     {
         private readonly ComputerFactory computerFactory;

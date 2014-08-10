@@ -1,9 +1,8 @@
-﻿using System;
-using ComputersBuilding.ComputerComponents.Contracts;
-using ComputersBuilding.Contracts;
-
-namespace ComputersBuilding
+﻿namespace ComputersBuilding
 {
+    using System;
+    using Contracts;
+
     public class Desktop : PersonalComputer, IDesktop
     {
         public Desktop(ICentralProcessingUnit cpu, IRandomAccessMemory ram, IVideoCard gpu, IStorage storage)

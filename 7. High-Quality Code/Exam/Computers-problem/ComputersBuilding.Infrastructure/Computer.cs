@@ -1,8 +1,7 @@
-﻿using ComputersBuilding.ComputerComponents.Contracts;
-using ComputersBuilding.Contracts;
-
-namespace ComputersBuilding
+﻿namespace ComputersBuilding
 {
+    using Contracts;
+
     public abstract class Computer : IComputer
     {
         protected Computer(ICentralProcessingUnit cpu, IRandomAccessMemory ram, IVideoCard gpu, IStorage storage)

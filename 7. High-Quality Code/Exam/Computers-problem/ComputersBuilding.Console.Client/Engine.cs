@@ -1,9 +1,8 @@
-﻿using ComputersBuilding.Contracts;
-using ComputersBuilding.Factory;
-
-namespace ComputersBuilding
+﻿namespace ComputersBuilding
 {
     using System;
+    using Contracts;
+    using Factory;
 
     public class Engine
     {
@@ -96,7 +95,7 @@ namespace ComputersBuilding
 
         private void CreateComputers(ComputerFactory factory)
         {
-            ComputerCreator creator = new ComputerCreator(factory);
+            var creator = new ComputerCreator(factory);
 
             this.Desktop = creator.AssembleDesktop();
             this.Server = creator.AssembleServer();

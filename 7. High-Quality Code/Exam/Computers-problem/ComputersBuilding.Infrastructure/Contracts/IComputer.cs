@@ -1,6 +1,4 @@
-﻿using ComputersBuilding.ComputerComponents.Contracts;
-
-namespace ComputersBuilding.Contracts
+﻿namespace ComputersBuilding.Contracts
 {
     public interface IComputer
     {

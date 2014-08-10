@@ -1,9 +1,8 @@
-﻿using System;
-using ComputersBuilding.ComputerComponents.Contracts;
-using ComputersBuilding.Contracts;
-
-namespace ComputersBuilding
+﻿namespace ComputersBuilding
 {
+    using System;
+    using Contracts;
+
     public class Laptop : PersonalComputer, ILaptop
     {
         public Laptop(ICentralProcessingUnit cpu, IRandomAccessMemory ram, IVideoCard gpu, IStorage storage, IRechargable battery)

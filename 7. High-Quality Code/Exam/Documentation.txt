@@ -38,10 +38,10 @@ Open/closed principle
 	* Using the Abstract factory principle adding the new functionality is easy and doesn't need to change already existing code
 
 Liskov substitution principle
-	* 
+	* VideoCard class - separated from HardDrive class
 
 Interface segregation principle
-	* 
+	* IServer and etc.
 
 Dependency inversion principle
 	* Every class take arguments in constructor, interfaces are used.

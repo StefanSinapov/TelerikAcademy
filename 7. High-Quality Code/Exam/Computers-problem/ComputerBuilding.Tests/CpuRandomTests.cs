@@ -1,10 +1,10 @@
-﻿using ComputersBuilding.ComputerComponents.Contracts;
-using ComputersBuilding.ComputerComponents.Processing;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
-
-namespace ComputerBuilding.Tests
+﻿namespace ComputerBuilding.Tests
 {
+    using ComputersBuilding.Components;
+    using ComputersBuilding.Contracts;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Moq;
+
     [TestClass]
     public class CpuRandomTests
     {
@@ -15,7 +15,7 @@ namespace ComputerBuilding.Tests
         public void CreateNewCpu()
         {
             var mockedRam = new Mock<IRandomAccessMemory>();
-            mockedRam.Setup(r => r.SaveValue(It.IsAny<int>())).Callback((int value) => mockedRamValue = value);
+            mockedRam.Setup(r => r.SaveValue(It.IsAny<int>())).Callback((int value) => this.mockedRamValue = value);
 
             var mockedVideoCard = new Mock<IVideoCard>();
 
@@ -26,17 +26,17 @@ namespace ComputerBuilding.Tests
         public void GenerateRandomFromCpuShoudSaveNumberToRam()
         {
             this.cpu.GenerateRandom(1, 10);
-            Assert.IsNotNull(mockedRamValue);
+            Assert.IsNotNull(this.mockedRamValue);
         }
 
         [TestMethod]
         public void GeneratedRandomNumberShoudBeInGivenRange()
         {
-            const int minValue = 5;
-            const int maxValue = 50;
-            this.cpu.GenerateRandom(minValue, maxValue);
-            Assert.IsTrue(minValue <= this.mockedRamValue);
-            Assert.IsTrue(this.mockedRamValue <= maxValue);
+            const int MinValue = 5;
+            const int MaxValue = 50;
+            this.cpu.GenerateRandom(MinValue, MaxValue);
+            Assert.IsTrue(MinValue <= this.mockedRamValue);
+            Assert.IsTrue(this.mockedRamValue <= MaxValue);
         }
 
         [TestMethod]

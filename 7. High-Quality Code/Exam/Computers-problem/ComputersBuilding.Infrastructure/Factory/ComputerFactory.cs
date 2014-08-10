@@ -1,7 +1,7 @@
-﻿using ComputersBuilding.Contracts;
-
-namespace ComputersBuilding.Factory
+﻿namespace ComputersBuilding.Factory
 {
+    using Contracts;
+
     public abstract class ComputerFactory
     {
         public abstract IDesktop CreateDesktop();

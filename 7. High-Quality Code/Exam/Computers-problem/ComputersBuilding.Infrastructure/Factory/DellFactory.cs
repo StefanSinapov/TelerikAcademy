@@ -1,14 +1,9 @@
-﻿using System.Collections.Generic;
-using ComputersBuilding.ComputerComponents.Contracts;
-using ComputersBuilding.ComputerComponents.Memory;
-using ComputersBuilding.ComputerComponents.Power;
-using ComputersBuilding.ComputerComponents.Processing;
-using ComputersBuilding.ComputerComponents.Rendering;
-using ComputersBuilding.ComputerComponents.Storage;
-using ComputersBuilding.Contracts;
-
-namespace ComputersBuilding.Factory
+﻿namespace ComputersBuilding.Factory
 {
+    using System.Collections.Generic;
+    using Components;
+    using Contracts;
+
     // Concrete Factory
     public class DellFactory : ComputerFactory
     {

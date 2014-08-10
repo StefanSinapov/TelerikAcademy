@@ -35,21 +35,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Computer.cs" />
-    <Compile Include="ComputerComponents\Contracts\IMotherboard.cs" />
-    <Compile Include="ComputerComponents\Contracts\IRechargable.cs" />
-    <Compile Include="ComputerComponents\Contracts\IStorage.cs" />
-    <Compile Include="ComputerComponents\Contracts\IVideoCard.cs" />
-    <Compile Include="ComputerComponents\Contracts\IRandomAccessMemory.cs" />
-    <Compile Include="ComputerComponents\Memory\RandomAccessMemory.cs" />
-    <Compile Include="ComputerComponents\Power\Battery.cs" />
-    <Compile Include="ComputerComponents\Processing\CentralProcessingUnit.cs" />
-    <Compile Include="ComputerComponents\Processing\CpuArchitecture.cs" />
-    <Compile Include="ComputerComponents\Contracts\ICentralProcessingUnit.cs" />
-    <Compile Include="ComputerComponents\Rendering\ColorfulGpu.cs" />
-    <Compile Include="ComputerComponents\Rendering\MonochromeGpu.cs" />
-    <Compile Include="ComputerComponents\Rendering\VideoCard.cs" />
-    <Compile Include="ComputerComponents\Storage\HardDrive.cs" />
-    <Compile Include="ComputerComponents\Storage\Raid.cs" />
+    <Compile Include="Contracts\IMotherboard.cs" />
+    <Compile Include="Contracts\IRechargable.cs" />
+    <Compile Include="Contracts\IStorage.cs" />
+    <Compile Include="Contracts\IVideoCard.cs" />
+    <Compile Include="Contracts\IRandomAccessMemory.cs" />
+    <Compile Include="Components\RandomAccessMemory.cs" />
+    <Compile Include="Components\Battery.cs" />
+    <Compile Include="Components\CentralProcessingUnit.cs" />
+    <Compile Include="Components\CpuArchitecture.cs" />
+    <Compile Include="Contracts\ICentralProcessingUnit.cs" />
+    <Compile Include="Components\ColorfulGpu.cs" />
+    <Compile Include="Components\MonochromeGpu.cs" />
+    <Compile Include="Components\VideoCard.cs" />
+    <Compile Include="Components\HardDrive.cs" />
+    <Compile Include="Components\Raid.cs" />
     <Compile Include="ComputerCreator.cs" />
     <Compile Include="Contracts\IComputer.cs" />
     <Compile Include="Factory\ComputerFactory.cs" />
