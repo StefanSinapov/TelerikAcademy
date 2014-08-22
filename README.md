@@ -3,7 +3,7 @@ Telerik Academy 2013-2014
 
 | Programming with C#                                                       | Web Design & Development                                  |Software Technologies                    |
 | ------------------------------------------------------------------------- | ----------------------------------------------------------|-----------------------------------------|
-| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |[Databases and SQL](#databases-and-sql)  |
+| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |[Databases and SQL](#databases-and-sql-notes)  |
 | [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 |
 | [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) |
 | [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          |
