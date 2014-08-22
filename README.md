@@ -1,14 +1,14 @@
 Telerik Academy 2013-2014
 ========================
 
-| Programming with C#                                                       | Web Design & Development                                  |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------|
-| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |
+| Programming with C#                                                       | Web Design & Development                                  |Software Technologies                 |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------|--------------------------------------|
+| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |[Databases](#databases)               |
 | [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 |
 | [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) |
 | [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          |
 | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-oop-notes)                   |
-|                                                                           | [JavaScript Applications](#javascript-applications-notes)                               |
+|                                                                           | [JavaScript Applications](#javascript-applications-notes) |
 
 # Programming with C# 
 
@@ -53,17 +53,32 @@ Telerik Academy 2013-2014
 * [High-Quality Methods](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/06.%20High-Quality%20Methods) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/06.%20High-Quality%20Methods/README.md))
 * [High-Quality Classes](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/07.%20High-Quality%20Classes) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/07.%20High-Quality%20Classes/README.md))
 * [Defensive Programming and Exceptions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/08.%20Defensive%20Programming%20and%20Exceptions) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/08.%20Defensive%20Programming%20and%20Exceptions/README.md))
-* Code Tuning and Optimization - (conditions)
+* [Code Tuning and Optimization](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/09.%20Code%20Tuning%20and%20Optimization)
 * [Unit Testing](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/10.%20Unit%20Testing) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/10.%20Unit%20Testing/README.md))
 * [Test-Driven Development](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/11.%20Test%20Driven%20Development) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/11.%20Test%20Driven%20Development/README.md))
-* Refactoring - (conditions)
-* Debugging - 
-* Development Tools - (conditions)
-* Design Patterns - (conditions)
-* Software Engineering Fundamentals
-* Teamwork 
-* Exam Preparation - (conditions) 
-* Exam - (conditions)
+* [Refactoring](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/12.%20Refactoring)
+* Debugging
+* [Development Tools](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/14.%20Development%20Tools)
+* [Design Patterns](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/15.%20Design%20Patterns)
+* [Micking with Moq and JustMock](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/19.%20Mocking%20with%20Moq%20and%20JustMock)
+* [Teamwork ](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Teamwork%20-%20Labyrinth-4)
+* [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/20.%20Exam%20preparation/Exam-Preparation-Phonebook-2014)
+* [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Exam)
+
+##[Data Structures and Algorithms]() ([notes](http://www.evernote.com/shard/s60/sh/5af34806-80a5-4dea-9b94-c7b1ee879a5e/dfe0f07e12c9ab55fb0e94e8866669b7))
+1. [Data Structures, Algorithms and Complexity]()
+* [Linear Data Structures]()
+* [Dictionaries, Hash Tables and Sets]()
+* [Advanced Data Structures]()
+* [Sorting and Searching Algorithms]()
+* [Recursion]()
+* [Combinatorial Algorithms]()
+* [Dynamic Programming]()
+* [Graphs]()
+* [Methodology of Problem Solving]()
+* [Exam Preparation]()
+* [Exam]()
+
 
 
 # Web Design & Development
@@ -121,17 +136,20 @@ Telerik Academy 2013-2014
 * [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/09.%20Exam%20Preparation)
 * [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/9.%20JavaScript%20%D0%9E%D0%9E%D0%9F/10.%20Exam)
 
-## [JavaScript Applications]() ([notes](http://www.evernote.com/shard/s60/sh/c86c0d22-8e9a-4456-85ac-2bf69109e030/ee6f953b2706df6dbee666126f8e27fc))
-0. [Course Introduction]()
-1. [Best Practices]()
-2. [Underscore.js]()
-3. [Web Storages]()
-4. [Promises and Asynchronous programming]()
-5. [HTTP & AJAX]()
-6. [[**BONUS**] Support for ald browsers]()
-7. [[**BONUS**] Working with third-party APIs]()
-8. [Consuming Web services]()
-9. [App Clouds for persistent data (SaaS)]()
-10. [Unit Testing]()
-11. [App architecture]()
-12. [Exam]()
+## [JavaScript Applications](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications) ([notes](http://www.evernote.com/shard/s60/sh/c86c0d22-8e9a-4456-85ac-2bf69109e030/ee6f953b2706df6dbee666126f8e27fc))
+0. [Course Introduction](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/0.%20Course%20Introduction)
+1. [Best Practices](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/01.%20Best%20Practices)
+2. [Underscore.js](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/02.%20Underscore.js)
+3. [Web Storages](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/03.%20Web%20Storages)
+4. [Promises and Asynchronous programming](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/04.%20Promises%20and%20Asynchronous%20programming)
+5. [HTTP & AJAX](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/05.%20HTTP%20%26%20AJAX)
+6. [[**BONUS**] Support for ald browsers](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/06.%20Support%20for%20old%20browsers)
+7. [[**BONUS**] Working with third-party APIs](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/07.%20Working%20with%20third-party%20APIs)
+8. [Consuming Web services](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/08.%20Consuming%20Web%20services)
+9. [App Clouds for persistent data (SaaS)](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/09.%20App%20Clouds%20for%20persistent%20data)
+10. [Unit Testing](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/10.%20Unit%20Testing)
+11. [App architecture](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/11.%20App%20architecture)
+12. [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/13.%20Exam)
+
+
+# Software Technologies
