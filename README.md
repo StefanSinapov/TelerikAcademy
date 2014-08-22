@@ -69,8 +69,10 @@ Telerik Academy 2013-2014
 ##[Data Structures and Algorithms]() ([notes](http://www.evernote.com/shard/s60/sh/5af34806-80a5-4dea-9b94-c7b1ee879a5e/dfe0f07e12c9ab55fb0e94e8866669b7))
 1. [Data Structures, Algorithms and Complexity]()
 * [Linear Data Structures]()
+* [Trees and Traversals]()
 * [Dictionaries, Hash Tables and Sets]()
 * [Advanced Data Structures]()
+* [Data Structure Efficiency]()
 * [Sorting and Searching Algorithms]()
 * [Recursion]()
 * [Combinatorial Algorithms]()
@@ -79,7 +81,6 @@ Telerik Academy 2013-2014
 * [Methodology of Problem Solving]()
 * [Exam Preparation]()
 * [Exam]()
-
 
 
 # Web Design & Development
