@@ -1,9 +1,9 @@
 Telerik Academy 2013-2014
 ========================
 
-| Programming with C#                                                       | Web Design & Development                                  |Software Technologies                 |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------|--------------------------------------|
-| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |[Databases](#databases)               |
+| Programming with C#                                                       | Web Design & Development                                  |Software Technologies                    |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------|-----------------------------------------|
+| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |[Databases and SQL](#databases-and-sql)  |
 | [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 |
 | [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) |
 | [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          |
@@ -60,6 +60,7 @@ Telerik Academy 2013-2014
 * Debugging
 * [Development Tools](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/14.%20Development%20Tools)
 * [Design Patterns](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/15.%20Design%20Patterns)
+* SOLID and Other Principles
 * [Micking with Moq and JustMock](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/19.%20Mocking%20with%20Moq%20and%20JustMock)
 * [Teamwork ](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Teamwork%20-%20Labyrinth-4)
 * [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/20.%20Exam%20preparation/Exam-Preparation-Phonebook-2014)
@@ -152,4 +153,25 @@ Telerik Academy 2013-2014
 12. [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/13.%20Exam)
 
 
+
 # Software Technologies
+
+## [Databases and SQL]() ([notes](http://www.evernote.com/shard/s60/sh/53ed9ce1-cbae-4d29-9c17-66676c604b4c/a145a8e6a77fcf9bda5d852569722588))
+1. [Database Systems - Overview]()
+* [SQL Server and MySQL - Introduction]()
+* [Data Modeling and ER Diagram]()
+* [Intro to SQL]()
+* [Advanced SQL]()
+* [Transact-SQL]()
+* [ADO.NET]()
+* [ADO.NET Entity Framework]()
+* [Entity Framework Performance]()
+* [Code First in Entity Framework]()
+* [Database Performance]()
+* [Database Transactions]()
+* [NoSQL Databases]()
+* [XML Basics]()
+* [Processing XML in .NET]()
+* [Databases Team Work Project]()
+* [Exam preparation]()
+* [Exam]()
