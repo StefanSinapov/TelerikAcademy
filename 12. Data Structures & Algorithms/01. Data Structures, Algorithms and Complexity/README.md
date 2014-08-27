@@ -1,7 +1,7 @@
 ## 01. Data Structures, Algorithms and Complexity
 
 1. What is the expected running time of the following C# code? Explain why. Assume the array's size is `n`
-	```csharp
+	```c#
 	long Compute(int[] arr)
 	{
 		long count = 0;
@@ -17,6 +17,7 @@
 		return count;
 	}
 	```
+	
 * What is the expected running time of the following C# code? `Explain why.` Assume the input matrix has size of `n * m`.
 	```c#
 	long CalcCount(int[,] matrix)
@@ -31,7 +32,7 @@
 	}
 	```
 * \* What is the expected running time of the following C# code? `Explain why.` Assume the input matrix has size of `n * m`.
-	```csharp
+	```c#
 	long CalcSum(int[,] matrix, int row)
 	{
 		long sum = 0;
