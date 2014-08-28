@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Collections.Hashtable" Collapsed="true">
+    <Position X="5.25" Y="4.25" Width="1.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.BitArray" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.ArrayList" Collapsed="true">
+    <Position X="1.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Queue" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Stack" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.SortedList" Collapsed="true">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Array" Collapsed="true">
+    <Position X="3.5" Y="4.25" Width="1.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Specialized.ListDictionary" Collapsed="true">
+    <Position X="5.25" Y="5.25" Width="1.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Specialized.StringCollection" Collapsed="true">
+    <Position X="1.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Specialized.HybridDictionary" Collapsed="true">
+    <Position X="6.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="System.Collections.IDictionary" Collapsed="true" HideInheritanceLine="true">
+    <Position X="5.25" Y="3" Width="3" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.ICollection" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.IEnumerable" Collapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.IList" Collapsed="true" HideInheritanceLine="true">
+    <Position X="1.75" Y="3" Width="3" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.IEnumerator" Collapsed="true">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

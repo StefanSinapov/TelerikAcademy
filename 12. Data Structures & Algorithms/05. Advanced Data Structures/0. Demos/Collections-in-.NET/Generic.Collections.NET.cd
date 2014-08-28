@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Collections.Generic.SortedDictionary&lt;TKey, TValue&gt;" Collapsed="true">
+    <Position X="6.25" Y="5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="System.Collections.Generic.SortedDictionary&lt;TKey, TValue&gt;.Enumerator" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Struct>
+      <Class Name="System.Collections.Generic.SortedDictionary&lt;TKey, TValue&gt;.KeyCollection">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Struct Name="System.Collections.Generic.SortedDictionary&lt;TKey, TValue&gt;.KeyCollection.Enumerator" Collapsed="true">
+            <TypeIdentifier />
+            <Lollipop Position="0.2" />
+          </Struct>
+        </NestedTypes>
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="System.Collections.Generic.SortedDictionary&lt;TKey, TValue&gt;.ValueCollection" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Orientation="Right" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Generic.SortedSet&lt;T&gt;" Collapsed="true">
+    <Position X="4.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Right" Position="0.112" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Generic.Queue&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="0.75" Width="1.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.101" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Generic.LinkedList&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="System.Collections.Generic.LinkedList&lt;T&gt;.Enumerator" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.146" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Generic.Stack&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="0.75" Width="1.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;" Collapsed="true">
+    <Position X="6.25" Y="4.25" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Collections.Generic.HashSet&lt;T&gt;" Collapsed="true">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="System.Collections.Generic.ISet&lt;T&gt;" Collapsed="true" HideInheritanceLine="true">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;T&gt;" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.ICollection&lt;T&gt;" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IEnumerable&lt;T&gt;" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;" Collapsed="true" HideInheritanceLine="true">
+    <Position X="6.25" Y="3" Width="2.5" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;&gt;" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IList&lt;T&gt;" Collapsed="true" HideInheritanceLine="true">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;T&gt;" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IEnumerator&lt;T&gt;" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
