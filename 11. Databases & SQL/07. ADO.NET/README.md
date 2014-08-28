@@ -6,7 +6,7 @@
 4. Write a method that adds a new product in the products table in the `Northwind` database. Use a parameterized SQL command.
 5. Write a program that retrieves the images for all categories in the Northwind database and stores them as JPG files in the file system.
 6. Create an Excel file with 2 columns: `name` and `score`
-	![excel-img](./06.%20Reads%20MS%20Excel/excel.png)
+	![excel-img](./06.%20Read%20MS%20Excel/excel.png)
 	Write a program that reads your MS Excel file through the OLE DB data provider and displays the name and score row by row.
 7. Implement appending new rows to the Excel file.
 8. Write a program that reads a string from the console and finds all products that contain this string. Ensure you handle correctly characters like `'`, `%`, `"`, `\` and `_`.
