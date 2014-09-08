@@ -1,0 +1,22 @@
+Connection string for "Company" database: (location) DatabaseFirst -> Company.ConsoleClient - > App.Config -> Data Source = .
+I'm sorry but something dont let mi to rename the folder
+
+Connection string for "Cars" database: (location) Cars.Data -> CarsContext -> constructor -> ConnectionStrings.Default.MsSql or ConnectionStrings.Default.MsSqlExpress (please be good) 
+
+NOTE!!: I use Json.Net but i added it from References because some error in NuGet Please notice that!
+
+Relationships for "Company" database: (first-table : second-table - type of relationship)
+	Reports : Employees - many-to-one
+	Employees : Employees - self( many-to-one)
+	Projects : Employees - many-to-many
+	Departments : Employees - many-to-one
+	
+Relationships for "Cars" database: (first-table : second-table - type of relationship)
+	Cars : Manufacturers - one-to-many
+	Cars : Dealers - one-to-many
+	Dealers : Cities - many-to-many
+	
+
+Query files: (file location in solution)
+	Company -> Documentation and Queries
+	
