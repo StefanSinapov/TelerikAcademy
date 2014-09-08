@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoChat.Models", "MongoChat.Models\MongoChat.Models.csproj", "{446BAD62-F533-4A50-987F-80BE2D35F285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoChat.Data", "MongoChat.Data\MongoChat.Data.csproj", "{F7A3297A-AC92-4E7E-8FA1-89BC9CD198EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoChat.ConsoleClient", "MongoChat.ConsoleClient\MongoChat.ConsoleClient.csproj", "{742F49CA-040D-4F60-8E09-0004CA82B410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoChat.WPF", "MongoChat.WPF\MongoChat.WPF.csproj", "{1789A8F0-F162-4931-99CA-EDDB929BFC4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{446BAD62-F533-4A50-987F-80BE2D35F285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446BAD62-F533-4A50-987F-80BE2D35F285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446BAD62-F533-4A50-987F-80BE2D35F285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446BAD62-F533-4A50-987F-80BE2D35F285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A3297A-AC92-4E7E-8FA1-89BC9CD198EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A3297A-AC92-4E7E-8FA1-89BC9CD198EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A3297A-AC92-4E7E-8FA1-89BC9CD198EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A3297A-AC92-4E7E-8FA1-89BC9CD198EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742F49CA-040D-4F60-8E09-0004CA82B410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742F49CA-040D-4F60-8E09-0004CA82B410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742F49CA-040D-4F60-8E09-0004CA82B410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742F49CA-040D-4F60-8E09-0004CA82B410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1789A8F0-F162-4931-99CA-EDDB929BFC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1789A8F0-F162-4931-99CA-EDDB929BFC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1789A8F0-F162-4931-99CA-EDDB929BFC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1789A8F0-F162-4931-99CA-EDDB929BFC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
