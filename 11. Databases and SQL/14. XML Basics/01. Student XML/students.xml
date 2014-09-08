@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<students xmlns="http://telerikacademy.com/Users/">
+    <student>
+        <name>Pesho Peshov</name>
+        <sex>Male</sex>
+        <birth-date>20-12-1993</birth-date>
+        <phone>+359899898989</phone>
+        <email>pesho@pesho.com</email>
+        <course>2</course>
+        <specialty>Software Engineering</specialty>
+        <faculty-number>8009090</faculty-number>
+        <exams>
+            <exam>
+                <name>C# Introduction</name>
+                <tutor>Ivaylo Kenov</tutor>
+                <score>480</score>
+            </exam>
+            <exam>
+                <name>C# Part II</name>
+                <tutor>Doncho Minkov</tutor>
+                <score>360</score>
+            </exam>
+        </exams>
+    </student>
+    <student>
+        <name>Pesho Peshov</name>
+        <sex>Male</sex>
+        <birth-date>20-12-1993</birth-date>
+        <phone>+359899898989</phone>
+        <email>pesho@pesho.com</email>
+        <course>2</course>
+        <specialty>Software Engineering</specialty>
+        <faculty-number>8009090</faculty-number>
+        <exams>
+            <exam>
+                <name>C# Introduction</name>
+                <tutor>Ivaylo Kenov</tutor>
+                <score>480</score>
+            </exam>
+            <exam>
+                <name>C# Part II</name>
+                <tutor>Doncho Minkov</tutor>
+                <score>360</score>
+            </exam>
+        </exams>
+    </student>
+</students>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<xs:schema id="NewDataSet" targetNamespace="http://tempuri.org/~vs19AD.xsd" xmlns:mstns="http://tempuri.org/~vs19AD.xsd"
+	xmlns="http://tempuri.org/~vs19AD.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="order">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="customer-name" type="xs:string" minOccurs="0" />
+				<xs:element name="customer-address" type="xs:string" minOccurs="0" />
+				<xs:element name="items" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="item" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+										<xs:element name="price" type="xs:decimal" minOccurs="0" msdata:Ordinal="1" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="date" type="xs:dateTime" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

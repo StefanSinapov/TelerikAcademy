@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<library name="My Library">
+	<book>
+		<title>Code Complete</title>
+		<author>Steve McConnell</author>
+		<isbn>155-615-484-4</isbn>
+	</book>
+	<book>
+		<title>Въведение в програмирането със C#</title>
+		<author>Светлин Наков и колектив</author>
+		<isbn>954-775-305-3</isbn>
+	</book>
+	<book>
+		<title>Writing Solid Code</title>
+		<author>Steve Maguire</author>
+		<isbn>155-615-551-4</isbn>
+	</book>
+</library>

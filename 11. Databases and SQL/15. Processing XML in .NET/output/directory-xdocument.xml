@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dirs>
+  <dir>
+    <name>..\..\..\</name>
+    <files>
+      <file>15. Processing XML in .NET.sln</file>
+      <file>15. Processing XML in .NET.v12.suo</file>
+      <file>Readme.md</file>
+      <file>XML-Processing-in-.NET.pptx</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\output</name>
+    <files>
+      <file>album.xml</file>
+      <file>directory-xdocument.xml</file>
+      <file>directory.xml</file>
+      <file>person.xml</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory XDocument</name>
+    <files>
+      <file>09. Traverse Directory XDocument.csproj</file>
+      <file>App.config</file>
+      <file>TraverseDirectoryWithXDocument.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory XDocument\Properties</name>
+    <files>
+      <file>AssemblyInfo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory XDocument\obj</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory XDocument\obj\Debug</name>
+    <files>
+      <file>09. Traverse Directory XDocument.csproj.FileListAbsolute.txt</file>
+      <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+      <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+      <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+      <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory XDocument\obj\Debug\TempPE</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory XDocument\bin</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory XDocument\bin\Release</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory XDocument\bin\Debug</name>
+    <files>
+      <file>_09.Traverse_Directory_XDocument.exe.config</file>
+      <file>_09.Traverse_Directory_XDocument.vshost.exe</file>
+      <file>_09.Traverse_Directory_XDocument.vshost.exe.config</file>
+      <file>_09.Traverse_Directory_XDocument.vshost.exe.manifest</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory with XDocument</name>
+    <files>
+      <file>09. Traverse Directory with XDocument.csproj</file>
+      <file>App.config</file>
+      <file>TraverseDirectoryWithXDocument.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory with XDocument\Properties</name>
+    <files>
+      <file>AssemblyInfo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory with XDocument\obj</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory with XDocument\obj\Debug</name>
+    <files>
+      <file>09. Traverse Directory with XDocument.csproj.FileListAbsolute.txt</file>
+      <file>09. Traverse Directory with XDocument.csprojResolveAssemblyReference.cache</file>
+      <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+      <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+      <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+      <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+      <file>_09.Traverse_Directory_with_XDocument.exe</file>
+      <file>_09.Traverse_Directory_with_XDocument.pdb</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory with XDocument\obj\Debug\TempPE</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory with XDocument\bin</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory with XDocument\bin\Release</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\09. Traverse Directory with XDocument\bin\Debug</name>
+    <files>
+      <file>_09.Traverse_Directory_with_XDocument.exe</file>
+      <file>_09.Traverse_Directory_with_XDocument.exe.config</file>
+      <file>_09.Traverse_Directory_with_XDocument.pdb</file>
+      <file>_09.Traverse_Directory_with_XDocument.vshost.exe</file>
+      <file>_09.Traverse_Directory_with_XDocument.vshost.exe.config</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\08. Traverse Directory XmlWritter</name>
+    <files>
+      <file>08. Traverse Directory XmlWritter.csproj</file>
+      <file>App.config</file>
+      <file>TraverseDirectoryXmlWritter.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\08. Traverse Directory XmlWritter\Properties</name>
+    <files>
+      <file>AssemblyInfo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\08. Traverse Directory XmlWritter\obj</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\08. Traverse Directory XmlWritter\obj\Debug</name>
+    <files>
+      <file>08. Traverse Directory XmlWritter.csproj.FileListAbsolute.txt</file>
+      <file>08. Traverse Directory XmlWritter.csprojResolveAssemblyReference.cache</file>
+      <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+      <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+      <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+      <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+      <file>_08.Traverse_Directory_XmlWritter.exe</file>
+      <file>_08.Traverse_Directory_XmlWritter.pdb</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\08. Traverse Directory XmlWritter\obj\Debug\TempPE</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\08. Traverse Directory XmlWritter\bin</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\08. Traverse Directory XmlWritter\bin\Release</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\08. Traverse Directory XmlWritter\bin\Debug</name>
+    <files>
+      <file>_08.Traverse_Directory_XmlWritter.exe</file>
+      <file>_08.Traverse_Directory_XmlWritter.exe.config</file>
+      <file>_08.Traverse_Directory_XmlWritter.pdb</file>
+      <file>_08.Traverse_Directory_XmlWritter.vshost.exe</file>
+      <file>_08.Traverse_Directory_XmlWritter.vshost.exe.config</file>
+      <file>_08.Traverse_Directory_XmlWritter.vshost.exe.manifest</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\07. Create Xml with Streaming Parser</name>
+    <files>
+      <file>07. Create Xml with Streaming Parser.csproj</file>
+      <file>App.config</file>
+      <file>CreateXmlWithStreaming.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\07. Create Xml with Streaming Parser\Properties</name>
+    <files>
+      <file>AssemblyInfo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\07. Create Xml with Streaming Parser\obj</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\07. Create Xml with Streaming Parser\obj\Debug</name>
+    <files>
+      <file>07. Create Xml with Streaming Parser.csproj.FileListAbsolute.txt</file>
+      <file>07. Create Xml with Streaming Parser.csprojResolveAssemblyReference.cache</file>
+      <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+      <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+      <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+      <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+      <file>_07.Create_Xml_with_Streaming_Parser.exe</file>
+      <file>_07.Create_Xml_with_Streaming_Parser.pdb</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\07. Create Xml with Streaming Parser\obj\Debug\TempPE</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\07. Create Xml with Streaming Parser\bin</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\07. Create Xml with Streaming Parser\bin\Release</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\07. Create Xml with Streaming Parser\bin\Debug</name>
+    <files>
+      <file>_07.Create_Xml_with_Streaming_Parser.exe</file>
+      <file>_07.Create_Xml_with_Streaming_Parser.exe.config</file>
+      <file>_07.Create_Xml_with_Streaming_Parser.pdb</file>
+      <file>_07.Create_Xml_with_Streaming_Parser.vshost.exe</file>
+      <file>_07.Create_Xml_with_Streaming_Parser.vshost.exe.config</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\06. Create Xml Document</name>
+    <files>
+      <file>06. Create Xml Document.csproj</file>
+      <file>App.config</file>
+      <file>CreateXmlDocument.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\06. Create Xml Document\Properties</name>
+    <files>
+      <file>AssemblyInfo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\06. Create Xml Document\obj</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\06. Create Xml Document\obj\Debug</name>
+    <files>
+      <file>06. Create Xml Document.csproj.FileListAbsolute.txt</file>
+      <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+      <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+      <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+      <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+      <file>_06.Create_Xml_Document.exe</file>
+      <file>_06.Create_Xml_Document.pdb</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\06. Create Xml Document\obj\Debug\TempPE</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\06. Create Xml Document\bin</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\06. Create Xml Document\bin\Release</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\06. Create Xml Document\bin\Debug</name>
+    <files>
+      <file>_06.Create_Xml_Document.exe</file>
+      <file>_06.Create_Xml_Document.exe.config</file>
+      <file>_06.Create_Xml_Document.pdb</file>
+      <file>_06.Create_Xml_Document.vshost.exe</file>
+      <file>_06.Create_Xml_Document.vshost.exe.config</file>
+      <file>_06.Create_Xml_Document.vshost.exe.manifest</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\05. Extract Songs with Linq to Xml</name>
+    <files>
+      <file>05. Extract Songs with Linq to Xml.csproj</file>
+      <file>App.config</file>
+      <file>ExtractSongsWithLinq.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\05. Extract Songs with Linq to Xml\Properties</name>
+    <files>
+      <file>AssemblyInfo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\05. Extract Songs with Linq to Xml\obj</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\05. Extract Songs with Linq to Xml\obj\Debug</name>
+    <files>
+      <file>05. Extract Songs with Linq to Xml.csproj.FileListAbsolute.txt</file>
+      <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+      <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+      <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+      <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+      <file>_05.Extract_Songs_with_Linq_to_Xml.exe</file>
+      <file>_05.Extract_Songs_with_Linq_to_Xml.pdb</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\05. Extract Songs with Linq to Xml\obj\Debug\TempPE</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\05. Extract Songs with Linq to Xml\bin</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\05. Extract Songs with Linq to Xml\bin\Release</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\05. Extract Songs with Linq to Xml\bin\Debug</name>
+    <files>
+      <file>_05.Extract_Songs_with_Linq_to_Xml.exe</file>
+      <file>_05.Extract_Songs_with_Linq_to_Xml.exe.config</file>
+      <file>_05.Extract_Songs_with_Linq_to_Xml.pdb</file>
+      <file>_05.Extract_Songs_with_Linq_to_Xml.vshost.exe</file>
+      <file>_05.Extract_Songs_with_Linq_to_Xml.vshost.exe.config</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\04. Extract Songs with XmlReader</name>
+    <files>
+      <file>04. Extract Songs with XmlReader.csproj</file>
+      <file>App.config</file>
+      <file>ExtractSongsWithXmlReader.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\04. Extract Songs with XmlReader\Properties</name>
+    <files>
+      <file>AssemblyInfo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\04. Extract Songs with XmlReader\obj</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\04. Extract Songs with XmlReader\obj\Debug</name>
+    <files>
+      <file>04. Extract Songs with XmlReader.csproj.FileListAbsolute.txt</file>
+      <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+      <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+      <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+      <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+      <file>_04.Extract_Songs_with_XmlReader.exe</file>
+      <file>_04.Extract_Songs_with_XmlReader.pdb</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\04. Extract Songs with XmlReader\obj\Debug\TempPE</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\04. Extract Songs with XmlReader\bin</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\04. Extract Songs with XmlReader\bin\Release</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\04. Extract Songs with XmlReader\bin\Debug</name>
+    <files>
+      <file>_04.Extract_Songs_with_XmlReader.exe</file>
+      <file>_04.Extract_Songs_with_XmlReader.exe.config</file>
+      <file>_04.Extract_Songs_with_XmlReader.pdb</file>
+      <file>_04.Extract_Songs_with_XmlReader.vshost.exe</file>
+      <file>_04.Extract_Songs_with_XmlReader.vshost.exe.config</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\03. Delete node with Dom parser</name>
+    <files>
+      <file>03. Delete node with Dom parser.csproj</file>
+      <file>App.config</file>
+      <file>DeleteNodeWithDomParser.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\03. Delete node with Dom parser\Properties</name>
+    <files>
+      <file>AssemblyInfo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\03. Delete node with Dom parser\obj</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\03. Delete node with Dom parser\obj\Debug</name>
+    <files>
+      <file>03. Delete node with Dom parser.csproj.FileListAbsolute.txt</file>
+      <file>03. Delete node with Dom parser.csprojResolveAssemblyReference.cache</file>
+      <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+      <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+      <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+      <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+      <file>_03.Delete_node_with_Dom_parser.exe</file>
+      <file>_03.Delete_node_with_Dom_parser.pdb</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\03. Delete node with Dom parser\obj\Debug\TempPE</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\03. Delete node with Dom parser\bin</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\03. Delete node with Dom parser\bin\Release</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\03. Delete node with Dom parser\bin\Debug</name>
+    <files>
+      <file>_03.Delete_node_with_Dom_parser.exe</file>
+      <file>_03.Delete_node_with_Dom_parser.exe.config</file>
+      <file>_03.Delete_node_with_Dom_parser.pdb</file>
+      <file>_03.Delete_node_with_Dom_parser.vshost.exe</file>
+      <file>_03.Delete_node_with_Dom_parser.vshost.exe.config</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with XPath</name>
+    <files>
+      <file>02. Extract Artists with XPath.csproj</file>
+      <file>App.config</file>
+      <file>ExtractArtistsWithXPath.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with XPath\Properties</name>
+    <files>
+      <file>AssemblyInfo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with XPath\obj</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with XPath\obj\Debug</name>
+    <files>
+      <file>02. Extract Artists with XPath.csproj.FileListAbsolute.txt</file>
+      <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+      <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+      <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+      <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+      <file>_02.Extract_Artists_with_XPath.exe</file>
+      <file>_02.Extract_Artists_with_XPath.pdb</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with XPath\obj\Debug\TempPE</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with XPath\bin</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with XPath\bin\Release</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with XPath\bin\Debug</name>
+    <files>
+      <file>_02.Extract_Artists_with_XPath.exe</file>
+      <file>_02.Extract_Artists_with_XPath.exe.config</file>
+      <file>_02.Extract_Artists_with_XPath.pdb</file>
+      <file>_02.Extract_Artists_with_XPath.vshost.exe</file>
+      <file>_02.Extract_Artists_with_XPath.vshost.exe.config</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with Dom Parser</name>
+    <files>
+      <file>02. Extract Artists with Dom Parser.csproj</file>
+      <file>App.config</file>
+      <file>ExtractArtistsWithDomParser.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with Dom Parser\Properties</name>
+    <files>
+      <file>AssemblyInfo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with Dom Parser\obj</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with Dom Parser\obj\Debug</name>
+    <files>
+      <file>02. Extract Artists with Dom Parser.csproj.FileListAbsolute.txt</file>
+      <file>02. Extract Artists with Dom Parser.csprojResolveAssemblyReference.cache</file>
+      <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+      <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+      <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+      <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+      <file>_02.Extract_Artists_with_Dom_Parser.exe</file>
+      <file>_02.Extract_Artists_with_Dom_Parser.pdb</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with Dom Parser\obj\Debug\TempPE</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with Dom Parser\bin</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with Dom Parser\bin\Release</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\02. Extract Artists with Dom Parser\bin\Debug</name>
+    <files>
+      <file>_02.Extract_Artists_with_Dom_Parser.exe</file>
+      <file>_02.Extract_Artists_with_Dom_Parser.exe.config</file>
+      <file>_02.Extract_Artists_with_Dom_Parser.pdb</file>
+      <file>_02.Extract_Artists_with_Dom_Parser.vshost.exe</file>
+      <file>_02.Extract_Artists_with_Dom_Parser.vshost.exe.config</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\01. XML File</name>
+    <files>
+      <file>album.xml</file>
+      <file>catalog-deleted.xml</file>
+      <file>catalog.xml</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos</name>
+    <files>
+      <file>XML-Parsing-Demos.sln</file>
+      <file>XML-Parsing-Demos.v11.suo</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\XSL Transform</name>
+    <files>
+      <file>9. XSL-Transformations.csproj</file>
+      <file>9. XSL-Transformations.csproj.user</file>
+      <file>catalog.html</file>
+      <file>catalog.xml</file>
+      <file>catalog.xsl</file>
+      <file>XSLTransform.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\XSL Transform\Properties</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\XPathNavigatorDemo</name>
+    <files>
+      <file>06. XPathNavigator-Demo.csproj</file>
+      <file>items.xml</file>
+      <file>itemsNew.xml</file>
+      <file>Program.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\XPathNavigatorDemo\Properties</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\XPathDemo</name>
+    <files>
+      <file>5. XPath-Demo.csproj</file>
+      <file>items.xml</file>
+      <file>XPathDemo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\XPathDemo\Properties</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\XMLWriter</name>
+    <files>
+      <file>4. XmlWriter-Demo.csproj</file>
+      <file>4. XmlWriter-Demo.csproj.user</file>
+      <file>books.xml</file>
+      <file>XmlWriterDemo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\XMLWriter\Properties</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\XMLReader</name>
+    <files>
+      <file>3. XmlReader-Demo.csproj</file>
+      <file>library.xml</file>
+      <file>XmlReaderDemo.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\XMLReader\Properties</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\SearchingWithLINQ</name>
+    <files>
+      <file>9. Searching-with-LINQ.csproj</file>
+      <file>9. Searching-with-LINQ.csproj.user</file>
+      <file>books.xml</file>
+      <file>SearchingWithLINQ.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\SearchingWithLINQ\Properties</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\Modifing-XML-With-DOM</name>
+    <files>
+      <file>2. Modifing-XML-With-DOM.csproj</file>
+      <file>2. Modifing-XML-With-DOM.csproj.user</file>
+      <file>items.xml</file>
+      <file>itemsNew.xml</file>
+      <file>ModifyXMLwithDOM.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\Modifing-XML-With-DOM\Properties</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\LINQNamespaces</name>
+    <files>
+      <file>8. LINQ-Namespaces.csproj</file>
+      <file>8. LINQ-Namespaces.csproj.user</file>
+      <file>books.xml</file>
+      <file>LINQtoXMLNamespaces.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\LINQNamespaces\Properties</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\DOMParser</name>
+    <files>
+      <file>1. DOM-Parser.csproj</file>
+      <file>1. DOM-Parser.csproj.user</file>
+      <file>DOMParser.cs</file>
+      <file>library.xml</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\DOMParser\Properties</name>
+    <files />
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\CreatingDocumentLINQToXML</name>
+    <files>
+      <file>6. CreatingDocs-LINQ-to-XML.csproj</file>
+      <file>6. CreatingDocs-LINQ-to-XML.csproj.user</file>
+      <file>books.xml</file>
+      <file>LINQToXML.cs</file>
+    </files>
+  </dir>
+  <dir>
+    <name>..\..\..\0. Demos\CreatingDocumentLINQToXML\Properties</name>
+    <files />
+  </dir>
+</dirs>

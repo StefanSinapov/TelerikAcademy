@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<books xmlns="http://bookstore.org">
+  <book xmlns="http://linqinaction.net">
+    <title>LINQ in Action</title>
+    <author>Manning</author>
+    <author>Steve Eichert</author>
+    <author>Jim Wooley</author>
+    <publisher xmlns="http://publishers.org">Manning</publisher>
+  </book>
+  <book xmlns="http://linqinaction.net">
+    <title>Silverlight in Action</title>
+    <author>Pete Brown</author>
+    <publisher xmlns="http://publishers.org">Manning</publisher>
+  </book>
+</books>

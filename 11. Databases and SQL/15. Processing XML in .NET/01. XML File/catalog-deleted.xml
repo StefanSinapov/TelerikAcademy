@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<albums>
+  <album>
+    <name>Ullamcorper purus leo!</name>
+    <artist>Camden Blake</artist>
+    <year>2001</year>
+    <producer>Camden Blake</producer>
+    <price>5.21</price>
+    <songs>
+      <song>
+        <title>Phasellus viverra.</title>
+        <duration>9.14</duration>
+      </song>
+      <song>
+        <title>Erat nibh.</title>
+        <duration>6.00</duration>
+      </song>
+      <song>
+        <title>Platea, praesent.</title>
+        <duration>7.40</duration>
+      </song>
+      <song>
+        <title>Mus penatibus?</title>
+        <duration>4.25</duration>
+      </song>
+      <song>
+        <title>Parturient fames.</title>
+        <duration>4.69</duration>
+      </song>
+      <song>
+        <title>Conubia felis?</title>
+        <duration>6.88</duration>
+      </song>
+    </songs>
+  </album>
+</albums>

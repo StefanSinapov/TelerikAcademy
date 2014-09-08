@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items culture="en-US">
+  <item type="beer">
+    <name>Zagorka</name>
+    <price>0</price>
+  </item>
+  <item type="food">
+    <name>kebapcheta</name>
+    <price>0.48</price>
+  </item>
+  <item type="beer">
+    <name>Kamenitza</name>
+    <price>0</price>
+  </item>
+</items>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<library name=".NET Developer's Library">
+    <book>
+        <title>Programming Microsoft .NET</title>
+        <author>Jeff Prosise</author>
+        <isbn>0-7356-1376-1</isbn>
+    </book>
+    <book>
+        <title>Microsoft .NET for Programmers</title>
+        <author>Fergal Grimes</author>
+        <isbn>1-930110-19-7</isbn>
+    </book>
+</library>

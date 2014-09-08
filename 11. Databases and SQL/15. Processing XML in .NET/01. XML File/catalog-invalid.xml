@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<albums>
+		<name>Ullamcorper purus leo!</name>
+		<artist>Camden Blake</artist>
+		<year>2001</year>
+		<song>
+				<title>Phasellus viverra</title>
+				<duration>9.14</duration>
+		</song>
+</albums>

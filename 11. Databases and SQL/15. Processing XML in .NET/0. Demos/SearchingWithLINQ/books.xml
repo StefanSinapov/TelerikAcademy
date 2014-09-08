@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<books>
+  <book>
+    <author>Don Box</author>
+    <title>ASP.NET 4.0</title>
+  </book>
+  <book>
+    <author>Christian Nagel</author>
+    <title>Professional C# 4.0 and .NET 4</title>
+  </book>
+  <book>
+    <author>Pete Brown</author>
+    <title>Silverlight in Action</title>
+  </book>
+</books>

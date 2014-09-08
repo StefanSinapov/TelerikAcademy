@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<albums>
+	<album>
+		<name>Ullamcorper purus leo!</name>
+		<artist>Camden Blake</artist>
+		<year>2001</year>
+		<producer>Camden Blake</producer>
+		<price>5.21</price>
+		<songs>
+			<song>
+				<title>Phasellus viverra</title>
+				<duration>9.14</duration>
+			</song>
+			<song>
+				<title>Erat nibh</title>
+				<duration>6.00</duration>
+			</song>
+			<song>
+				<title>Platea, praesent</title>
+				<duration>7.40</duration>
+			</song>
+			<song>
+				<title>Mus penatibus</title>
+				<duration>4.25</duration>
+			</song>
+			<song>
+				<title>Parturient fames</title>
+				<duration>4.69</duration>
+			</song>
+			<song>
+				<title>Conubia felis</title>
+				<duration>6.88</duration>
+			</song>
+		</songs>
+	</album>
+	<album>
+		<name>Nec et dignissim.</name>
+		<artist>Silas Santana</artist>
+		<year>2009</year>
+		<producer>John Nash</producer>
+		<price>47.01</price>
+		<songs>
+			<song>
+				<title>Mus penatibus</title>
+				<duration>4.25</duration>
+			</song>
+			<song>
+				<title>Parturient fames</title>
+				<duration>4.69</duration>
+			</song>
+			<song>
+				<title>Phasellus viverra</title>
+				<duration>9.14</duration>
+			</song>
+			<song>
+				<title>Erat nibh</title>
+				<duration>6.00</duration>
+			</song>
+			<song>
+				<title>Nam urna</title>
+				<duration>9.39</duration>
+			</song>
+			<song>
+				<title>Vulputate euismod</title>
+				<duration>7.35</duration>
+			</song>
+		</songs>
+	</album>
+	<album>
+		<name>Primis, nullam accumsan.</name>
+		<artist>Cesar Serrano</artist>
+		<year>2012</year>
+		<producer>James Born</producer>
+		<price>45.26</price>
+		<songs>
+			<song>
+				<title>Nostra nisl</title>
+				<duration>7.73</duration>
+			</song>
+			<song>
+				<title>Mus penatibus</title>
+				<duration>4.25</duration>
+			</song>
+			<song>
+				<title>Parturient fames</title>
+				<duration>4.69</duration>
+			</song>
+			<song>
+				<title>Phasellus viverra</title>
+				<duration>9.14</duration>
+			</song>
+			<song>
+				<title>Nascetur dictum</title>
+				<duration>5.90</duration>
+			</song>
+			<song>
+				<title>Mus penatibus</title>
+				<duration>4.25</duration>
+			</song>
+			<song>
+				<title>Parturient fames</title>
+				<duration>4.69</duration>
+			</song>
+			<song>
+				<title>Pellentesque luctus</title>
+				<duration>6.14</duration>
+			</song>
+			<song>
+				<title>Non venenatis</title>
+				<duration>3.31</duration>
+			</song>
+		</songs>
+	</album>
+</albums>

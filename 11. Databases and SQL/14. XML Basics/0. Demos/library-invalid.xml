@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<library xmlns="http://www.nakov.com/schemas/library"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.nakov.com/schemas/library file://./library.xsd"
+  name=".NET Developer's Library">
+	<book>
+		<isbn>978-0-470-50225-9</isbn>
+		<author>Christian Nagel</author>
+		<title>Professional C# 4.0 and .NET 4</title>
+	</book>
+	<book>
+		<author-name>Pete Brown</author-name>
+		<isbn>978-1-935182-37-5</isbn>
+		<title>Silverlight in Action</title>
+	</book>
+</library>
