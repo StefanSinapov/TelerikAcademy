@@ -157,7 +157,7 @@ Telerik Academy 2013-2014
 
 # Software Technologies
 
-## [Databases and SQL]() ([notes](http://www.evernote.com/shard/s60/sh/53ed9ce1-cbae-4d29-9c17-66676c604b4c/a145a8e6a77fcf9bda5d852569722588))
+## [Databases and SQL](https://github.com/StefanSinapov/TelerikAcademy/tree/master/11.%20Databases%20and%20SQL) ([notes](http://www.evernote.com/shard/s60/sh/53ed9ce1-cbae-4d29-9c17-66676c604b4c/a145a8e6a77fcf9bda5d852569722588))
 1. [Database Systems - Overview](https://github.com/StefanSinapov/TelerikAcademy/tree/master/11.%20Databases%20and%20SQL/01.%20Database%20System%20-%20Overview)
 * [SQL Server and MySQL - Introduction](https://github.com/StefanSinapov/TelerikAcademy/tree/master/11.%20Databases%20and%20SQL/02.%20SQL%20Server%20and%20MySQL)
 * [Data Modeling and ER Diagram](https://github.com/StefanSinapov/TelerikAcademy/tree/master/11.%20Databases%20and%20SQL/03.%20Data%20Modeling%20and%20ER%20Diagram)
