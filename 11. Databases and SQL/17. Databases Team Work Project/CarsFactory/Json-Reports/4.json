@@ -1,0 +1,17 @@
+{
+  "CarType": {
+    "Id": 2,
+    "Name": "Coupe"
+  },
+  "EngineType": {
+    "Id": 2,
+    "Name": "Diesel"
+  },
+  "Manufacturer": {
+    "Name": "Mercedes"
+  },
+  "Model": "Mercedes-Benz CLK",
+  "HorsePower": 160,
+  "ReleaseYear": 2008,
+  "Price": 68000.00
+}

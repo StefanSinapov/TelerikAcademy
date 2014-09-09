@@ -1,0 +1,17 @@
+{
+  "CarType": {
+    "Id": 4,
+    "Name": "Convertible"
+  },
+  "EngineType": {
+    "Id": 1,
+    "Name": "Gasoline"
+  },
+  "Manufacturer": {
+    "Name": "BMW"
+  },
+  "Model": "BMW E93",
+  "HorsePower": 232,
+  "ReleaseYear": 2011,
+  "Price": 56000.00
+}

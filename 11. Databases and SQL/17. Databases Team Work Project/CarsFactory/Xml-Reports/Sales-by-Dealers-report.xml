@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sales>
+	<sale dealer="Plovdiv Enterprise">
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="116900" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="120000" />
+	</sale>
+	<sale dealer="Varna CarsHeaven">
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="950100" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="110000" />
+	</sale>
+	<sale dealer="Pleven Motorsport">
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="55000" />
+	</sale>
+	<sale dealer="Burgas MonsterTruck">
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="20.7.2013 г. 00:00:00" total-sum="90000" />
+	</sale>
+	<sale dealer="Pernik GolfGodfather">
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="90000" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="50000" />
+	</sale>
+	<sale dealer="Vidin DreamworksMotorsport">
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="236000" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21000" />
+	</sale>
+	<sale dealer="Albena WestCoastMotors">
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="72500" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="92000" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="260000" />
+	</sale>
+	<sale dealer="Blagoevgrad ExtremeMotors">
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000.00" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361.00" />
+		<summary report-date="21.7.2013 г. 00:00:00" total-sum="700000" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="56000" />
+		<summary report-date="30.7.2014 г. 00:00:00" total-sum="21361" />
+	</sale>
+	<sale dealer="Ruse PlatinumMotorsport">
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="5000" />
+	</sale>
+	<sale dealer="Shumen UltimateCarsShop">
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000.00" />
+		<summary report-date="22.7.2013 г. 00:00:00" total-sum="412000" />
+	</sale>
+</sales>

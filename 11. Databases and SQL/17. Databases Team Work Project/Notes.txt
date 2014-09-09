@@ -1,0 +1,2 @@
+Note:
+	- MS SQL Server - change connection string in CarsDealer.ConsoleClient -> App.Config

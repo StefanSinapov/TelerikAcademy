@@ -1,0 +1,17 @@
+{
+  "CarType": {
+    "Id": 1,
+    "Name": "Sedan"
+  },
+  "EngineType": {
+    "Id": 2,
+    "Name": "Diesel"
+  },
+  "Manufacturer": {
+    "Name": "BMW"
+  },
+  "Model": "BMW 5-Series E39",
+  "HorsePower": 145,
+  "ReleaseYear": 1995,
+  "Price": 32000.00
+}

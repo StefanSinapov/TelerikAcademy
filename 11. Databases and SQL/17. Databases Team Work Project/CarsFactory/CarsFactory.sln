@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory.Models", "CarsFactory.Models\CarsFactory.Models.csproj", "{139E8D3D-DBA2-4A78-9315-F5D539FD1FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory.Data", "CarsFactory.Data\CarsFactory.Data.csproj", "{2B9C3A2A-D176-496E-BBD2-4AC0B3A33CF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory.ConsoleClient", "CarsFactory.ConsoleClient\CarsFactory.ConsoleClient.csproj", "{2C13130E-89C7-4A2C-88B3-B658C2F21541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory.Reports", "CarsFactory.Reports\CarsFactory.Reports.csproj", "{7283913D-0967-4B64-8434-8FD0F0630D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory.Loaders", "CarsFactory.Loaders\CarsFactory.Loaders.csproj", "{FCC9CF05-1EFD-4927-9360-95509BDCE41C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory.MySQL.Data", "CarsFactory.MySQL.Data\CarsFactory.MySQL.Data.csproj", "{CAFD1C7C-F0D5-485C-B75D-309422B7935C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory.MySQL.Models", "CarsFactory.MySQL.Models\CarsFactory.MySQL.Models.csproj", "{6F9C2621-695C-4BDE-881B-157DCAA75C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory.Reports.Data", "CarsFactory.Reports.Data\CarsFactory.Reports.Data.csproj", "{D08F9979-0A5C-4380-A66F-DDD1807A0785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory.SQLite.Data", "CarsFactory.SQLite.Data\CarsFactory.SQLite.Data.csproj", "{D92D9CFB-D8D9-4A91-9EB0-D8ED652AA2DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory.MongoDB.Data", "CarsFactory.MongoDB.Data\CarsFactory.MongoDB.Data.csproj", "{D96B0268-9449-4DC2-814D-197AEFF0D250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory.MongoDb.Models", "CarsFactory.MongoDb.Models\CarsFactory.MongoDb.Models.csproj", "{9257EEFE-A3A9-4BF5-87CC-EACFBDE14A3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{139E8D3D-DBA2-4A78-9315-F5D539FD1FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139E8D3D-DBA2-4A78-9315-F5D539FD1FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139E8D3D-DBA2-4A78-9315-F5D539FD1FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139E8D3D-DBA2-4A78-9315-F5D539FD1FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9C3A2A-D176-496E-BBD2-4AC0B3A33CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9C3A2A-D176-496E-BBD2-4AC0B3A33CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9C3A2A-D176-496E-BBD2-4AC0B3A33CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9C3A2A-D176-496E-BBD2-4AC0B3A33CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C13130E-89C7-4A2C-88B3-B658C2F21541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C13130E-89C7-4A2C-88B3-B658C2F21541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C13130E-89C7-4A2C-88B3-B658C2F21541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C13130E-89C7-4A2C-88B3-B658C2F21541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7283913D-0967-4B64-8434-8FD0F0630D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7283913D-0967-4B64-8434-8FD0F0630D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7283913D-0967-4B64-8434-8FD0F0630D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7283913D-0967-4B64-8434-8FD0F0630D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC9CF05-1EFD-4927-9360-95509BDCE41C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC9CF05-1EFD-4927-9360-95509BDCE41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC9CF05-1EFD-4927-9360-95509BDCE41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC9CF05-1EFD-4927-9360-95509BDCE41C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFD1C7C-F0D5-485C-B75D-309422B7935C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFD1C7C-F0D5-485C-B75D-309422B7935C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFD1C7C-F0D5-485C-B75D-309422B7935C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFD1C7C-F0D5-485C-B75D-309422B7935C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08F9979-0A5C-4380-A66F-DDD1807A0785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08F9979-0A5C-4380-A66F-DDD1807A0785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08F9979-0A5C-4380-A66F-DDD1807A0785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08F9979-0A5C-4380-A66F-DDD1807A0785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92D9CFB-D8D9-4A91-9EB0-D8ED652AA2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92D9CFB-D8D9-4A91-9EB0-D8ED652AA2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92D9CFB-D8D9-4A91-9EB0-D8ED652AA2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92D9CFB-D8D9-4A91-9EB0-D8ED652AA2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D96B0268-9449-4DC2-814D-197AEFF0D250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96B0268-9449-4DC2-814D-197AEFF0D250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96B0268-9449-4DC2-814D-197AEFF0D250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96B0268-9449-4DC2-814D-197AEFF0D250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9257EEFE-A3A9-4BF5-87CC-EACFBDE14A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9257EEFE-A3A9-4BF5-87CC-EACFBDE14A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9257EEFE-A3A9-4BF5-87CC-EACFBDE14A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9257EEFE-A3A9-4BF5-87CC-EACFBDE14A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C13130E-89C7-4A2C-88B3-B658C2F21541}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CarsFactory.ConsoleClient</RootNamespace>
+    <AssemblyName>CarsFactory.ConsoleClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CarsFactory.ConsoleClient.EntryPoint</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess">
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.35.Extensions">
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.35.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.40.Extensions">
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.40.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Runtime">
+      <HintPath>..\packages\Telerik.DataAccess.Core.2014.2.711.1\lib\net40\Telerik.OpenAccess.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EntryPoint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CarsFactory.Data\CarsFactory.Data.csproj">
+      <Project>{2b9c3a2a-d176-496e-bbd2-4ac0b3a33cf7}</Project>
+      <Name>CarsFactory.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarsFactory.Loaders\CarsFactory.Loaders.csproj">
+      <Project>{fcc9cf05-1efd-4927-9360-95509bdce41c}</Project>
+      <Name>CarsFactory.Loaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarsFactory.Models\CarsFactory.Models.csproj">
+      <Project>{139e8d3d-dba2-4a78-9315-f5d539fd1fdf}</Project>
+      <Name>CarsFactory.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarsFactory.MongoDB.Data\CarsFactory.MongoDB.Data.csproj">
+      <Project>{D96B0268-9449-4DC2-814D-197AEFF0D250}</Project>
+      <Name>CarsFactory.MongoDB.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarsFactory.MySQL.Data\CarsFactory.MySQL.Data.csproj">
+      <Project>{cafd1c7c-f0d5-485c-b75d-309422b7935c}</Project>
+      <Name>CarsFactory.MySQL.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarsFactory.Reports.Data\CarsFactory.Reports.Data.csproj">
+      <Project>{d08f9979-0a5c-4380-a66f-ddd1807a0785}</Project>
+      <Name>CarsFactory.Reports.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarsFactory.Reports\CarsFactory.Reports.csproj">
+      <Project>{7283913d-0967-4b64-8434-8fd0f0630d44}</Project>
+      <Name>CarsFactory.Reports</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarsFactory.SQLite.Data\CarsFactory.SQLite.Data.csproj">
+      <Project>{d92d9cfb-d8d9-4a91-9eb0-d8ed652aa2dc}</Project>
+      <Name>CarsFactory.SQLite.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

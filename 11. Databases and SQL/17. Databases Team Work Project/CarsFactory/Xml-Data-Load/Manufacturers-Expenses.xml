@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<expenses-by-month>
+  <manufacturer name="BMW">
+    <expenses month="July">3000.00</expenses>
+    <expenses month="August">4000.00</expenses>
+  </manufacturer>
+  <manufacturer name="Honda">
+    <expenses month="June">2000.00</expenses>
+    <expenses month="August">1800.00</expenses>
+  </manufacturer>
+  <manufacturer name="Audi">
+    <expenses month="September">1200.00</expenses>
+    <expenses month="October">1800.00</expenses>
+  </manufacturer>
+  <manufacturer name="Chevrolet">
+    <expenses month="January">1700.00</expenses>
+    <expenses month="November">1900.00</expenses>
+  </manufacturer>
+  <manufacturer name="Mitsubishi">
+    <expenses month="January">15000.00</expenses>
+    <expenses month="November">1800.00</expenses>
+  </manufacturer>
+  <manufacturer name="Infinity">
+    <expenses month="February">16000.00</expenses>
+    <expenses month="March">1400.00</expenses>
+  </manufacturer>
+  <manufacturer name="Ferrari">
+    <expenses month="March">30000.00</expenses>
+    <expenses month="April">2000.00</expenses>
+  </manufacturer>
+</expenses-by-month>

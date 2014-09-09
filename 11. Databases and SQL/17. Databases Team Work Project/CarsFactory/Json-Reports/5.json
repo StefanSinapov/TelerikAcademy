@@ -1,0 +1,17 @@
+{
+  "CarType": {
+    "Id": 2,
+    "Name": "Coupe"
+  },
+  "EngineType": {
+    "Id": 1,
+    "Name": "Gasoline"
+  },
+  "Manufacturer": {
+    "Name": "Toyota"
+  },
+  "Model": "Toyota GT86",
+  "HorsePower": 220,
+  "ReleaseYear": 2012,
+  "Price": 130000.00
+}

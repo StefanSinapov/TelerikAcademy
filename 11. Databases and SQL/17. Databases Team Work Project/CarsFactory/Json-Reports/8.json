@@ -1,0 +1,17 @@
+{
+  "CarType": {
+    "Id": 6,
+    "Name": "SUV"
+  },
+  "EngineType": {
+    "Id": 2,
+    "Name": "Diesel"
+  },
+  "Manufacturer": {
+    "Name": "Toyota"
+  },
+  "Model": "Toyota Hilux",
+  "HorsePower": 166,
+  "ReleaseYear": 1997,
+  "Price": 52000.00
+}

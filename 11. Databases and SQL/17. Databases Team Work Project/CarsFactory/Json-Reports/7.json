@@ -1,0 +1,17 @@
+{
+  "CarType": {
+    "Id": 3,
+    "Name": "Touring"
+  },
+  "EngineType": {
+    "Id": 1,
+    "Name": "Gasoline"
+  },
+  "Manufacturer": {
+    "Name": "Audi"
+  },
+  "Model": "Audi A2",
+  "HorsePower": 89,
+  "ReleaseYear": 1999,
+  "Price": 29000.00
+}

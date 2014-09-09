@@ -1,0 +1,17 @@
+{
+  "CarType": {
+    "Id": 3,
+    "Name": "Touring"
+  },
+  "EngineType": {
+    "Id": 3,
+    "Name": "Electric"
+  },
+  "Manufacturer": {
+    "Name": "Toyota"
+  },
+  "Model": "Toyota Prius",
+  "HorsePower": 68,
+  "ReleaseYear": 2004,
+  "Price": 70000.00
+}
