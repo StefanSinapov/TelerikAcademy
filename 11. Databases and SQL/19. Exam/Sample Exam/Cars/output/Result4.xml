@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cars>
+  <Car Manufacturer="zVKNbOL" Model="wvvBgujWWlKLTuNLHjiP" Year="2005" Price="175161.00">
+    <TransmissionType>manual</TransmissionType>
+    <Dealer Name="WdSNMsGpYW">
+      <Cities>
+        <City>OPKZMOqK</City>
+        <City>TvSjPvTF</City>
+        <City>vElNRYqn</City>
+        <City>iYFhupBr</City>
+        <City>sgKPhxwF</City>
+        <City>ntYvegwL</City>
+        <City>FKFGdorx</City>
+        <City>QgTHSqVe</City>
+        <City>fVqilEYT</City>
+        <City>mMrtfOve</City>
+        <City>FAROWtYv</City>
+        <City>lOzzPTbq</City>
+        <City>HEqoIJPx</City>
+        <City>ZXvFJkHF</City>
+        <City>tVrKcniK</City>
+      </Cities>
+    </Dealer>
+  </Car>
+  <Car Manufacturer="zVKNbOL" Model="jmWRnkVnGUugKhgcfDaL" Year="1995" Price="104486.00">
+    <TransmissionType>automatic</TransmissionType>
+    <Dealer Name="aVhMNylErc">
+      <Cities>
+        <City>OPKZMOqK</City>
+        <City>TvSjPvTF</City>
+        <City>vElNRYqn</City>
+        <City>iYFhupBr</City>
+        <City>sgKPhxwF</City>
+        <City>ntYvegwL</City>
+        <City>QgTHSqVe</City>
+        <City>fVqilEYT</City>
+        <City>mMrtfOve</City>
+        <City>FAROWtYv</City>
+        <City>lOzzPTbq</City>
+        <City>HEqoIJPx</City>
+        <City>ZXvFJkHF</City>
+        <City>tVrKcniK</City>
+      </Cities>
+    </Dealer>
+  </Car>
+  <Car Manufacturer="zVKNbOL" Model="egihueBHLWFBONhXPYUj" Year="1996" Price="37340.00">
+    <TransmissionType>automatic</TransmissionType>
+    <Dealer Name="XnwVksNoVH">
+      <Cities>
+        <City>OPKZMOqK</City>
+        <City>TvSjPvTF</City>
+        <City>vElNRYqn</City>
+        <City>iYFhupBr</City>
+        <City>sgKPhxwF</City>
+        <City>ntYvegwL</City>
+        <City>FKFGdorx</City>
+        <City>QgTHSqVe</City>
+        <City>fVqilEYT</City>
+        <City>mMrtfOve</City>
+        <City>FAROWtYv</City>
+        <City>lOzzPTbq</City>
+        <City>HEqoIJPx</City>
+        <City>ZXvFJkHF</City>
+        <City>tVrKcniK</City>
+      </Cities>
+    </Dealer>
+  </Car>
+  <Car Manufacturer="zVKNbOL" Model="DyEUNTXgplnojRvDTgvA" Year="1995" Price="141260.00">
+    <TransmissionType>manual</TransmissionType>
+    <Dealer Name="aVhMNylErc">
+      <Cities>
+        <City>OPKZMOqK</City>
+        <City>TvSjPvTF</City>
+        <City>vElNRYqn</City>
+        <City>iYFhupBr</City>
+        <City>sgKPhxwF</City>
+        <City>ntYvegwL</City>
+        <City>QgTHSqVe</City>
+        <City>fVqilEYT</City>
+        <City>mMrtfOve</City>
+        <City>FAROWtYv</City>
+        <City>lOzzPTbq</City>
+        <City>HEqoIJPx</City>
+        <City>ZXvFJkHF</City>
+        <City>tVrKcniK</City>
+      </Cities>
+    </Dealer>
+  </Car>
+  <Car Manufacturer="zVKNbOL" Model="bYONxnHjRwmpkuvurvTK" Year="1992" Price="5001.00">
+    <TransmissionType>manual</TransmissionType>
+    <Dealer Name="aVhMNylErc">
+      <Cities>
+        <City>OPKZMOqK</City>
+        <City>TvSjPvTF</City>
+        <City>vElNRYqn</City>
+        <City>iYFhupBr</City>
+        <City>sgKPhxwF</City>
+        <City>ntYvegwL</City>
+        <City>QgTHSqVe</City>
+        <City>fVqilEYT</City>
+        <City>mMrtfOve</City>
+        <City>FAROWtYv</City>
+        <City>lOzzPTbq</City>
+        <City>HEqoIJPx</City>
+        <City>ZXvFJkHF</City>
+        <City>tVrKcniK</City>
+      </Cities>
+    </Dealer>
+  </Car>
+</Cars>
