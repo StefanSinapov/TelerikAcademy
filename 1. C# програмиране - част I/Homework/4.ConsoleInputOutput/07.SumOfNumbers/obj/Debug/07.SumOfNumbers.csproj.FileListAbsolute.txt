@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\07.SumOfNumbers\bin\Debug\07.SumOfNumbers.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\07.SumOfNumbers\bin\Debug\07.SumOfNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\07.SumOfNumbers\bin\Debug\07.SumOfNumbers.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\07.SumOfNumbers\obj\Debug\07.SumOfNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\07.SumOfNumbers\obj\Debug\07.SumOfNumbers.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\07.SumOfNumbers\obj\Debug\07.SumOfNumbers.csprojResolveAssemblyReference.cache

@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\13.TrailingZeros\bin\Debug\13.TrailingZeros.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\13.TrailingZeros\bin\Debug\13.TrailingZeros.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\13.TrailingZeros\obj\Debug\13.TrailingZeros.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\13.TrailingZeros\obj\Debug\13.TrailingZeros.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\13.TrailingZeros\obj\Debug\13.TrailingZeros.pdb

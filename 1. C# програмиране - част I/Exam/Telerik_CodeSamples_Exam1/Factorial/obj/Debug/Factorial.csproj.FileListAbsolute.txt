@@ -1,8 +1,0 @@
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\Factorial\bin\Debug\Factorial.exe.config
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\Factorial\bin\Debug\Factorial.exe
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\Factorial\bin\Debug\Factorial.pdb
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\Factorial\obj\Debug\Factorial.exe
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\Factorial\obj\Debug\Factorial.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\Factorial\bin\Debug\Factorial.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\Factorial\obj\Debug\Factorial.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\Factorial\obj\Debug\Factorial.pdb

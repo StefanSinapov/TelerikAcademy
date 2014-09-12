@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\3.CompareFloatingPointNumbers\bin\Debug\3.CompareFloatingPointNumbers.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\3.CompareFloatingPointNumbers\bin\Debug\3.CompareFloatingPointNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\3.CompareFloatingPointNumbers\bin\Debug\3.CompareFloatingPointNumbers.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\3.CompareFloatingPointNumbers\obj\Debug\3.CompareFloatingPointNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\3.CompareFloatingPointNumbers\obj\Debug\3.CompareFloatingPointNumbers.pdb

@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\13.ExchangePositionOfGivenBits\bin\Debug\13.ExchangePositionOfGivenBits.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\13.ExchangePositionOfGivenBits\bin\Debug\13.ExchangePositionOfGivenBits.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\13.ExchangePositionOfGivenBits\obj\Debug\13.ExchangePositionOfGivenBits.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\13.ExchangePositionOfGivenBits\obj\Debug\13.ExchangePositionOfGivenBits.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\13.ExchangePositionOfGivenBits\obj\Debug\13.ExchangePositionOfGivenBits.csprojResolveAssemblyReference.cache

@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\10.MultipliesCases\bin\Debug\10.MultipliesCases.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\10.MultipliesCases\bin\Debug\10.MultipliesCases.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\10.MultipliesCases\obj\Debug\10.MultipliesCases.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\10.MultipliesCases\obj\Debug\10.MultipliesCases.pdb

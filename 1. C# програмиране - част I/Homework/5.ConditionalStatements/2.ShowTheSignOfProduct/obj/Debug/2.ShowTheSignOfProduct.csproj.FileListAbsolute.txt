@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\2.ShowTheSignOfProduct\bin\Debug\2.ShowTheSignOfProduct.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\2.ShowTheSignOfProduct\bin\Debug\2.ShowTheSignOfProduct.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\2.ShowTheSignOfProduct\obj\Debug\2.ShowTheSignOfProduct.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\2.ShowTheSignOfProduct\obj\Debug\2.ShowTheSignOfProduct.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\2.ShowTheSignOfProduct\obj\Debug\2.ShowTheSignOfProduct.pdb

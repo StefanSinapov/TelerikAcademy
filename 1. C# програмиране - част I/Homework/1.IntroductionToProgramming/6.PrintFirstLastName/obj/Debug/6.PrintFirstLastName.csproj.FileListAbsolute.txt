@@ -1,5 +1,0 @@
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\6.PrintFirstLastName\bin\Debug\6.PrintFirstLastName.exe.config
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\6.PrintFirstLastName\bin\Debug\6.PrintFirstLastName.exe
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\6.PrintFirstLastName\bin\Debug\6.PrintFirstLastName.pdb
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\6.PrintFirstLastName\obj\Debug\6.PrintFirstLastName.exe
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\6.PrintFirstLastName\obj\Debug\6.PrintFirstLastName.pdb

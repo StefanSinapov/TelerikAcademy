@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\14.ExchangeBits\bin\Debug\14.ExchangeBits.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\14.ExchangeBits\bin\Debug\14.ExchangeBits.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\14.ExchangeBits\obj\Debug\14.ExchangeBits.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\14.ExchangeBits\obj\Debug\14.ExchangeBits.pdb

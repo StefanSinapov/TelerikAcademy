@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\06.SumOfEqation\bin\Debug\06.SumOfEqation.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\06.SumOfEqation\bin\Debug\06.SumOfEqation.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\06.SumOfEqation\obj\Debug\06.SumOfEqation.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\06.SumOfEqation\obj\Debug\06.SumOfEqation.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\06.SumOfEqation\obj\Debug\06.SumOfEqation.pdb

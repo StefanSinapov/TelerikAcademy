@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\4.AssingHexToInteger\bin\Debug\4.AssingHexToInteger.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\4.AssingHexToInteger\bin\Debug\4.AssingHexToInteger.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\4.AssingHexToInteger\obj\Debug\4.AssingHexToInteger.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\4.AssingHexToInteger\obj\Debug\4.AssingHexToInteger.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\4.AssingHexToInteger\obj\Debug\4.AssingHexToInteger.pdb

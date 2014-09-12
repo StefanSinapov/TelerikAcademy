@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\01.2-4-8\bin\Debug\01.2-4-8.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\01.2-4-8\bin\Debug\01.2-4-8.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\01.2-4-8\obj\Debug\01.2-4-8.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\01.2-4-8\obj\Debug\01.2-4-8.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\01.2-4-8\obj\Debug\01.2-4-8.pdb

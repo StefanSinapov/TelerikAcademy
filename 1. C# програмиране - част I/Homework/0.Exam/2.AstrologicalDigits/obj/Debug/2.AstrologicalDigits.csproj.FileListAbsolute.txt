@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.AstrologicalDigits\bin\Debug\2.AstrologicalDigits.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.AstrologicalDigits\bin\Debug\2.AstrologicalDigits.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.AstrologicalDigits\bin\Debug\2.AstrologicalDigits.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.AstrologicalDigits\obj\Debug\2.AstrologicalDigits.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.AstrologicalDigits\obj\Debug\2.AstrologicalDigits.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\2.AstrologicalDigits\obj\Debug\2.AstrologicalDigits.pdb

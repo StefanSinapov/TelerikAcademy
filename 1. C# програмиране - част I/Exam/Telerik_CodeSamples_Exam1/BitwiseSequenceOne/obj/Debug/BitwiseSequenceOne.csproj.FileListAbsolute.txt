@@ -1,9 +1,0 @@
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\BitwiseSequenceOne\bin\Debug\BitwiseSequenceOne.exe.config
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\BitwiseSequenceOne\bin\Debug\BitwiseSequenceOne.exe
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\BitwiseSequenceOne\bin\Debug\BitwiseSequenceOne.pdb
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\BitwiseSequenceOne\obj\Debug\BitwiseSequenceOne.csprojResolveAssemblyReference.cache
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\BitwiseSequenceOne\obj\Debug\BitwiseSequenceOne.exe
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\BitwiseSequenceOne\obj\Debug\BitwiseSequenceOne.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\BitwiseSequenceOne\bin\Debug\BitwiseSequenceOne.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\BitwiseSequenceOne\obj\Debug\BitwiseSequenceOne.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\BitwiseSequenceOne\obj\Debug\BitwiseSequenceOne.pdb

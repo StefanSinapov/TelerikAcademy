@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.Neurons\bin\Debug\5.Neurons.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.Neurons\bin\Debug\5.Neurons.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.Neurons\obj\Debug\5.Neurons.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.Neurons\obj\Debug\5.Neurons.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.Neurons\obj\Debug\5.Neurons.csprojResolveAssemblyReference.cache

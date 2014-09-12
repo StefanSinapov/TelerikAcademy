@@ -1,5 +1,0 @@
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\9.PrintFirstMembersOfSequence\bin\Debug\9.PrintFirstMembersOfSequence.exe.config
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\9.PrintFirstMembersOfSequence\bin\Debug\9.PrintFirstMembersOfSequence.exe
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\9.PrintFirstMembersOfSequence\bin\Debug\9.PrintFirstMembersOfSequence.pdb
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\9.PrintFirstMembersOfSequence\obj\Debug\9.PrintFirstMembersOfSequence.exe
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\9.PrintFirstMembersOfSequence\obj\Debug\9.PrintFirstMembersOfSequence.pdb

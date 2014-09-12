@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.BitBall\bin\Debug\5.BitBall.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.BitBall\bin\Debug\5.BitBall.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.BitBall\obj\Debug\5.BitBall.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.BitBall\obj\Debug\5.BitBall.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.BitBall\obj\Debug\5.BitBall.pdb

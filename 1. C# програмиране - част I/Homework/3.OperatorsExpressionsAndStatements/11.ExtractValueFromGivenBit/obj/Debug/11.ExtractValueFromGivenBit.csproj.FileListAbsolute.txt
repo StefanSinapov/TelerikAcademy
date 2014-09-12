@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\11.ExtractValueFromGivenBit\bin\Debug\11.ExtractValueFromGivenBit.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\11.ExtractValueFromGivenBit\bin\Debug\11.ExtractValueFromGivenBit.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\11.ExtractValueFromGivenBit\obj\Debug\11.ExtractValueFromGivenBit.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\11.ExtractValueFromGivenBit\obj\Debug\11.ExtractValueFromGivenBit.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\11.ExtractValueFromGivenBit\obj\Debug\11.ExtractValueFromGivenBit.csprojResolveAssemblyReference.cache

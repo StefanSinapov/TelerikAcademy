@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\02.PrintDivisibleByThreeAndSevenNumbers\bin\Debug\02.PrintDivisibleByThreeAndSevenNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\02.PrintDivisibleByThreeAndSevenNumbers\bin\Debug\02.PrintDivisibleByThreeAndSevenNumbers.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\02.PrintDivisibleByThreeAndSevenNumbers\obj\Debug\02.PrintDivisibleByThreeAndSevenNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\02.PrintDivisibleByThreeAndSevenNumbers\obj\Debug\02.PrintDivisibleByThreeAndSevenNumbers.pdb

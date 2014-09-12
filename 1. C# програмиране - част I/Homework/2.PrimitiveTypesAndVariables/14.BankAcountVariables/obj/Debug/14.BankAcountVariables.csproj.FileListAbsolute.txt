@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\14.BankAcountVariables\bin\Debug\14.BankAcountVariables.exe.config

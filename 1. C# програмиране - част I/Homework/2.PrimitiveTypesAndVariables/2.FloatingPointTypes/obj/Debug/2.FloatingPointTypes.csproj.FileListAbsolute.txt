@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\2.FloatingPointTypes\bin\Debug\2.FloatingPointTypes.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\2.FloatingPointTypes\bin\Debug\2.FloatingPointTypes.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\2.FloatingPointTypes\obj\Debug\2.FloatingPointTypes.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\2.FloatingPointTypes\obj\Debug\2.FloatingPointTypes.pdb

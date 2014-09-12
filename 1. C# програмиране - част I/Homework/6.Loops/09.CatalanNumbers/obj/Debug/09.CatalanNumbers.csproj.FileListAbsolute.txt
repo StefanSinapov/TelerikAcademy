@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\09.CatalanNumbers\bin\Debug\09.CatalanNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\09.CatalanNumbers\bin\Debug\09.CatalanNumbers.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\09.CatalanNumbers\obj\Debug\09.CatalanNumbers.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\09.CatalanNumbers\obj\Debug\09.CatalanNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\09.CatalanNumbers\obj\Debug\09.CatalanNumbers.pdb

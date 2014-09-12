@@ -1,2 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\8.ReadAndPrint1toN\obj\Debug\8.ReadAndPrint1toN.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\8.ReadAndPrint1toN\obj\Debug\8.ReadAndPrint1toN.pdb

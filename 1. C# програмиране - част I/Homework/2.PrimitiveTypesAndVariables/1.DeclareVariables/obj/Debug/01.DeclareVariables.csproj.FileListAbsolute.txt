@@ -1,2 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\1.DeclareVariables\obj\Debug\1.DeclareVariables.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\1.DeclareVariables\obj\Debug\1.DeclareVariables.pdb

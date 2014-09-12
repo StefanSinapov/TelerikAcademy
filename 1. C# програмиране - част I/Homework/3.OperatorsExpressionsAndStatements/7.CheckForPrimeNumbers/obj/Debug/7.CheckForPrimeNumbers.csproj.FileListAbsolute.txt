@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\7.CheckForPrimeNumbers\bin\Debug\7.CheckForPrimeNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\7.CheckForPrimeNumbers\bin\Debug\7.CheckForPrimeNumbers.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\7.CheckForPrimeNumbers\obj\Debug\7.CheckForPrimeNumbers.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\7.CheckForPrimeNumbers\obj\Debug\7.CheckForPrimeNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\7.CheckForPrimeNumbers\obj\Debug\7.CheckForPrimeNumbers.pdb

@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3CardWars\bin\Debug\3CardWars.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3CardWars\bin\Debug\3CardWars.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3CardWars\obj\Debug\3CardWars.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3CardWars\obj\Debug\3CardWars.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3CardWars\obj\Debug\3CardWars.pdb

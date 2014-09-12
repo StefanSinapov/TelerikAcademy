@@ -1,9 +1,0 @@
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\OptimizedPower\bin\Debug\OptimizedPower.exe.config
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\OptimizedPower\bin\Debug\OptimizedPower.exe
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\OptimizedPower\bin\Debug\OptimizedPower.pdb
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\OptimizedPower\obj\Debug\OptimizedPower.csprojResolveAssemblyReference.cache
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\OptimizedPower\obj\Debug\OptimizedPower.exe
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\OptimizedPower\obj\Debug\OptimizedPower.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\OptimizedPower\bin\Debug\OptimizedPower.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\OptimizedPower\obj\Debug\OptimizedPower.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\OptimizedPower\obj\Debug\OptimizedPower.pdb

@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\03.FindMinAndMaxOfNumbersN\bin\Debug\03.FindMinAndMaxOfNumbersN.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\03.FindMinAndMaxOfNumbersN\bin\Debug\03.FindMinAndMaxOfNumbersN.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\03.FindMinAndMaxOfNumbersN\bin\Debug\03.FindMinAndMaxOfNumbersN.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\03.FindMinAndMaxOfNumbersN\obj\Debug\03.FindMinAndMaxOfNumbersN.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\03.FindMinAndMaxOfNumbersN\obj\Debug\03.FindMinAndMaxOfNumbersN.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\03.FindMinAndMaxOfNumbersN\obj\Debug\03.FindMinAndMaxOfNumbersN.csprojResolveAssemblyReference.cache

@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\02.AreaAndPerimeterOfCircle\bin\Debug\02.AreaAndPerimeterOfCircle.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\02.AreaAndPerimeterOfCircle\bin\Debug\02.AreaAndPerimeterOfCircle.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\02.AreaAndPerimeterOfCircle\bin\Debug\02.AreaAndPerimeterOfCircle.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\02.AreaAndPerimeterOfCircle\obj\Debug\02.AreaAndPerimeterOfCircle.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\02.AreaAndPerimeterOfCircle\obj\Debug\02.AreaAndPerimeterOfCircle.pdb

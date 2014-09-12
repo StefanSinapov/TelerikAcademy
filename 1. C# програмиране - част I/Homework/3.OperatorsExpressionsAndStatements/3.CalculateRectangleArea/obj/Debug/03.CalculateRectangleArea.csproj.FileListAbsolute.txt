@@ -1,2 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\3.CalculateRectangleArea\obj\Debug\3.CalculateRectangleArea.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\3.CalculateRectangleArea\obj\Debug\3.CalculateRectangleArea.pdb

@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\05.ComplicatedFactorials\bin\Debug\05.ComplicatedFactorials.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\05.ComplicatedFactorials\bin\Debug\05.ComplicatedFactorials.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\05.ComplicatedFactorials\bin\Debug\05.ComplicatedFactorials.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\05.ComplicatedFactorials\obj\Debug\05.ComplicatedFactorials.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\05.ComplicatedFactorials\obj\Debug\05.ComplicatedFactorials.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\05.ComplicatedFactorials\obj\Debug\05.ComplicatedFactorials.pdb

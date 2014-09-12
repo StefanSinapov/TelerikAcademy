@@ -1,3 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\6.PointInCircle\bin\Debug\6.PointInCircle.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\6.PointInCircle\obj\Debug\6.PointInCircle.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\6.PointInCircle\obj\Debug\6.PointInCircle.pdb

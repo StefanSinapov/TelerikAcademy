@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\04.Factorials\bin\Debug\04.Factorials.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\04.Factorials\bin\Debug\04.Factorials.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\04.Factorials\obj\Debug\04.Factorials.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\04.Factorials\obj\Debug\04.Factorials.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\04.Factorials\obj\Debug\04.Factorials.pdb

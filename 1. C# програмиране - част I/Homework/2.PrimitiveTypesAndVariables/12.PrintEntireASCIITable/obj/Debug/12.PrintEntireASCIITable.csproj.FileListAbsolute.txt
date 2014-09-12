@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\12.PrintEntireASCIITable\bin\Debug\12.PrintEntireASCIITable.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\12.PrintEntireASCIITable\bin\Debug\12.PrintEntireASCIITable.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\12.PrintEntireASCIITable\obj\Debug\12.PrintEntireASCIITable.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\12.PrintEntireASCIITable\obj\Debug\12.PrintEntireASCIITable.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\12.PrintEntireASCIITable\obj\Debug\12.PrintEntireASCIITable.pdb

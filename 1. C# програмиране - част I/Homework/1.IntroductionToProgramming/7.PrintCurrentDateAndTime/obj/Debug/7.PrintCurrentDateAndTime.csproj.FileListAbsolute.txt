@@ -1,5 +1,0 @@
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\7.PrintCurrentDateAndTime\bin\Debug\7.PrintCurrentDateAndTime.exe.config
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\7.PrintCurrentDateAndTime\bin\Debug\7.PrintCurrentDateAndTime.exe
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\7.PrintCurrentDateAndTime\bin\Debug\7.PrintCurrentDateAndTime.pdb
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\7.PrintCurrentDateAndTime\obj\Debug\7.PrintCurrentDateAndTime.exe
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\7.PrintCurrentDateAndTime\obj\Debug\7.PrintCurrentDateAndTime.pdb

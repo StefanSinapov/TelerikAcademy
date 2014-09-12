@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\11.ExchangeValuesOfVariables\bin\Debug\11.ExchangeValuesOfVariables.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\11.ExchangeValuesOfVariables\bin\Debug\11.ExchangeValuesOfVariables.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\11.ExchangeValuesOfVariables\obj\Debug\11.ExchangeValuesOfVariables.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\11.ExchangeValuesOfVariables\obj\Debug\11.ExchangeValuesOfVariables.pdb

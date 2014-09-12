@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\11.DeckOfCards\bin\Debug\11.DeckOfCards.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\11.DeckOfCards\bin\Debug\11.DeckOfCards.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\11.DeckOfCards\obj\Debug\11.DeckOfCards.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\11.DeckOfCards\obj\Debug\11.DeckOfCards.pdb

@@ -1,4 +1,0 @@
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\3.PrintMyName\bin\Debug\3.PrintMyName.exe
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\3.PrintMyName\bin\Debug\3.PrintMyName.pdb
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\3.PrintMyName\obj\Debug\3.PrintMyName.exe
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\3.PrintMyName\obj\Debug\3.PrintMyName.pdb

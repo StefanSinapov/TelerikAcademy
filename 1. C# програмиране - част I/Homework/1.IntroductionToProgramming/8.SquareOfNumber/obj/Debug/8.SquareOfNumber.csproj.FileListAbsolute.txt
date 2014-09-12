@@ -1,5 +1,0 @@
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\8.SquareOfNumber\bin\Debug\8.SquareOfNumber.exe.config
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\8.SquareOfNumber\bin\Debug\8.SquareOfNumber.exe
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\8.SquareOfNumber\bin\Debug\8.SquareOfNumber.pdb
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\8.SquareOfNumber\obj\Debug\8.SquareOfNumber.exe
-c:\users\stefan\documents\visual studio 2013\Projects\1.IntroductionToProgramming\8.SquareOfNumber\obj\Debug\8.SquareOfNumber.pdb

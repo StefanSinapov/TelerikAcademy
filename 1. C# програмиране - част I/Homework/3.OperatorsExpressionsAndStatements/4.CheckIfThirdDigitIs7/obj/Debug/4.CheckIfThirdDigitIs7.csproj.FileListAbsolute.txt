@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\4.CheckIfThirdDigitIs7\bin\Debug\4.CheckIfThirdDigitIs7.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\4.CheckIfThirdDigitIs7\bin\Debug\4.CheckIfThirdDigitIs7.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\4.CheckIfThirdDigitIs7\obj\Debug\4.CheckIfThirdDigitIs7.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\4.CheckIfThirdDigitIs7\obj\Debug\4.CheckIfThirdDigitIs7.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\4.CheckIfThirdDigitIs7\obj\Debug\4.CheckIfThirdDigitIs7.pdb

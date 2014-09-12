@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\14.SpiralMatrix\bin\Debug\14.SpiralMatrix.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\14.SpiralMatrix\bin\Debug\14.SpiralMatrix.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\14.SpiralMatrix\bin\Debug\14.SpiralMatrix.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\14.SpiralMatrix\obj\Debug\14.SpiralMatrix.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\14.SpiralMatrix\obj\Debug\14.SpiralMatrix.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.Loops\14.SpiralMatrix\obj\Debug\14.SpiralMatrix.pdb

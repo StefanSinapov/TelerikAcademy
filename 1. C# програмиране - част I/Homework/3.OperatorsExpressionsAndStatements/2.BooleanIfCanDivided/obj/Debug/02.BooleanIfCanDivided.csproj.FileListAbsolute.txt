@@ -1,2 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\2.BooleanIfCanDivided\obj\Debug\2.BooleanIfCanDivided.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\3.OperatorsExpressionsAndStatements\2.BooleanIfCanDivided\obj\Debug\2.BooleanIfCanDivided.pdb

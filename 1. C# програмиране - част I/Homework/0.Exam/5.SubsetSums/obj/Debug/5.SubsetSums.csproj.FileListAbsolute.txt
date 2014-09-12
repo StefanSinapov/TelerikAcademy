@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.SubsetSums\bin\Debug\5.SubsetSums.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.SubsetSums\bin\Debug\5.SubsetSums.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.SubsetSums\bin\Debug\5.SubsetSums.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.SubsetSums\obj\Debug\5.SubsetSums.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.SubsetSums\obj\Debug\5.SubsetSums.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\5.SubsetSums\obj\Debug\5.SubsetSums.pdb

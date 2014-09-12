@@ -1,8 +1,0 @@
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\RecursiveFibonacci\bin\Debug\RecursiveFibonacci.exe.config
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\RecursiveFibonacci\bin\Debug\RecursiveFibonacci.exe
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\RecursiveFibonacci\bin\Debug\RecursiveFibonacci.pdb
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\RecursiveFibonacci\obj\Debug\RecursiveFibonacci.exe
-D:\Files\CSharp\Telerik_CodeSamples_Exam1\RecursiveFibonacci\obj\Debug\RecursiveFibonacci.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\RecursiveFibonacci\bin\Debug\RecursiveFibonacci.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\RecursiveFibonacci\obj\Debug\RecursiveFibonacci.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Telerik_CodeSamples_Exam1\RecursiveFibonacci\obj\Debug\RecursiveFibonacci.pdb

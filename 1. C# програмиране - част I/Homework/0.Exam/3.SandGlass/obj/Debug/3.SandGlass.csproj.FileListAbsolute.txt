@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3.SandGlass\bin\Debug\3.SandGlass.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3.SandGlass\bin\Debug\3.SandGlass.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3.SandGlass\bin\Debug\3.SandGlass.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3.SandGlass\obj\Debug\3.SandGlass.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3.SandGlass\obj\Debug\3.SandGlass.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\3.SandGlass\obj\Debug\3.SandGlass.csprojResolveAssemblyReference.cache

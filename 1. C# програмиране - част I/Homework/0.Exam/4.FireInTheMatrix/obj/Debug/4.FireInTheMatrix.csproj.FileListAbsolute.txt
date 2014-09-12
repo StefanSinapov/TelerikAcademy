@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\4.FireInTheMatrix\bin\Debug\4.FireInTheMatrix.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\4.FireInTheMatrix\bin\Debug\4.FireInTheMatrix.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\4.FireInTheMatrix\bin\Debug\4.FireInTheMatrix.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\4.FireInTheMatrix\obj\Debug\4.FireInTheMatrix.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\4.FireInTheMatrix\obj\Debug\4.FireInTheMatrix.pdb

@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\9.First100FibonacciNumbers\bin\Debug\9.First100FibonacciNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\9.First100FibonacciNumbers\bin\Debug\9.First100FibonacciNumbers.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\9.First100FibonacciNumbers\obj\Debug\9.First100FibonacciNumbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\9.First100FibonacciNumbers\obj\Debug\9.First100FibonacciNumbers.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\9.First100FibonacciNumbers\obj\Debug\9.First100FibonacciNumbers.csprojResolveAssemblyReference.cache

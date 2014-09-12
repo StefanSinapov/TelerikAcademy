@@ -1,3 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\1.ExchangeValue\bin\Debug\1.ExchangeValue.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\1.ExchangeValue\obj\Debug\1.ExchangeValue.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\5.ConditionalStatements\1.ExchangeValue\obj\Debug\1.ExchangeValue.pdb

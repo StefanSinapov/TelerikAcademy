@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CartesianCoordinateSystem\bin\Debug\1.CartesianCoordinateSystem.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CartesianCoordinateSystem\bin\Debug\1.CartesianCoordinateSystem.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CartesianCoordinateSystem\bin\Debug\1.CartesianCoordinateSystem.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CartesianCoordinateSystem\obj\Debug\1.CartesianCoordinateSystem.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CartesianCoordinateSystem\obj\Debug\1.CartesianCoordinateSystem.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CartesianCoordinateSystem\obj\Debug\1.CartesianCoordinateSystem.pdb

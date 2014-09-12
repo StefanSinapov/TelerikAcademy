@@ -1,2 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\5.AssignUnicodeToCharacter\obj\Debug\5.AssignUnicodeToCharacter.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\2.PrimitiveTypesAndVariables\5.AssignUnicodeToCharacter\obj\Debug\5.AssignUnicodeToCharacter.pdb

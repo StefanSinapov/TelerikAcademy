@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CoffeeVendingMachine\bin\Debug\1.CoffeeVendingMachine.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CoffeeVendingMachine\bin\Debug\1.CoffeeVendingMachine.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CoffeeVendingMachine\bin\Debug\1.CoffeeVendingMachine.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CoffeeVendingMachine\obj\Debug\1.CoffeeVendingMachine.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CoffeeVendingMachine\obj\Debug\1.CoffeeVendingMachine.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\0.Exam\1.CoffeeVendingMachine\obj\Debug\1.CoffeeVendingMachine.pdb

@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\06.QuadraticEquation\bin\Debug\06.QuadraticEquation.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\06.QuadraticEquation\bin\Debug\06.QuadraticEquation.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\06.QuadraticEquation\obj\Debug\06.QuadraticEquation.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\06.QuadraticEquation\obj\Debug\06.QuadraticEquation.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\06.QuadraticEquation\obj\Debug\06.QuadraticEquation.pdb

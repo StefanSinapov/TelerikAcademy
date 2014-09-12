@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\05.GreterNumber\bin\Debug\05.GreterNumber.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\05.GreterNumber\bin\Debug\05.GreterNumber.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\05.GreterNumber\obj\Debug\05.GreterNumber.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.ConsoleInputOutput\05.GreterNumber\obj\Debug\05.GreterNumber.pdb
