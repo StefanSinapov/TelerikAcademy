@@ -1,0 +1,1 @@
+Rewrite Dijkstra demo with priority queue that has operation "DecreasePriority" (http://en.wikipedia.org/wiki/Dijkstra's_algorithm#Using_a_priority_queue)
