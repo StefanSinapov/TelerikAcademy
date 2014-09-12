@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\13. Reverse words in sentence\bin\Debug\_13.Reverse_words_in_sentence.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\13. Reverse words in sentence\bin\Debug\_13.Reverse_words_in_sentence.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\13. Reverse words in sentence\bin\Debug\_13.Reverse_words_in_sentence.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\13. Reverse words in sentence\obj\Debug\_13.Reverse_words_in_sentence.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\13. Reverse words in sentence\obj\Debug\_13.Reverse_words_in_sentence.pdb

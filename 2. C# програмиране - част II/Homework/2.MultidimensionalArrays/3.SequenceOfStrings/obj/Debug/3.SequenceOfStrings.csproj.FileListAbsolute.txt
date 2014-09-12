@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\3.SequenceOfStrings\bin\Debug\3.SequenceOfStrings.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\3.SequenceOfStrings\bin\Debug\3.SequenceOfStrings.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\3.SequenceOfStrings\obj\Debug\3.SequenceOfStrings.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\3.SequenceOfStrings\obj\Debug\3.SequenceOfStrings.pdb

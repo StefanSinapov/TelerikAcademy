@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\2. C# програмиране - част II\Homework\7.TextFiles\04. Compare two text files\bin\Debug\_04.Compare_two_text_files.exe.config

@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\TeamWorkOOP_MargeSimpsonTeam-master\Project\Project\Plane\bin\Debug\Plane.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\TeamWorkOOP_MargeSimpsonTeam-master\Project\Project\Plane\bin\Debug\Plane.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\TeamWorkOOP_MargeSimpsonTeam-master\Project\Project\Plane\bin\Debug\Plane.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\TeamWorkOOP_MargeSimpsonTeam-master\Project\Project\Plane\obj\Debug\Plane.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\TeamWorkOOP_MargeSimpsonTeam-master\Project\Project\Plane\obj\Debug\Plane.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\TeamWorkOOP_MargeSimpsonTeam-master\Project\Project\Plane\obj\Debug\Plane.pdb

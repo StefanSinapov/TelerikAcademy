@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\09.FloatingPointToBinary\bin\Debug\09.FloatingPointToBinary.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\09.FloatingPointToBinary\bin\Debug\09.FloatingPointToBinary.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\09.FloatingPointToBinary\obj\Debug\09.FloatingPointToBinary.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\09.FloatingPointToBinary\obj\Debug\09.FloatingPointToBinary.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\09.FloatingPointToBinary\obj\Debug\09.FloatingPointToBinary.pdb

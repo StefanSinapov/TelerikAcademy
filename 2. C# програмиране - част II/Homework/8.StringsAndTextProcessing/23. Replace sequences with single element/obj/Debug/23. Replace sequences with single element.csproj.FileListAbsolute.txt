@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\23. Replace sequences with single element\bin\Debug\_23.Replace_sequences_with_single_element.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\23. Replace sequences with single element\bin\Debug\_23.Replace_sequences_with_single_element.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\23. Replace sequences with single element\bin\Debug\_23.Replace_sequences_with_single_element.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\23. Replace sequences with single element\obj\Debug\_23.Replace_sequences_with_single_element.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\23. Replace sequences with single element\obj\Debug\_23.Replace_sequences_with_single_element.pdb

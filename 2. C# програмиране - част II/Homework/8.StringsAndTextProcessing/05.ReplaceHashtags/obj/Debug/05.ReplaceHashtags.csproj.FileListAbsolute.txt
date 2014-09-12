@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\05.ReplaceHashtags\bin\Debug\05.ReplaceHashtags.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\05.ReplaceHashtags\bin\Debug\05.ReplaceHashtags.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\05.ReplaceHashtags\obj\Debug\05.ReplaceHashtags.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\05.ReplaceHashtags\obj\Debug\05.ReplaceHashtags.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\05.ReplaceHashtags\obj\Debug\05.ReplaceHashtags.pdb

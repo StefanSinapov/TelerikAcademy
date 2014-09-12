@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\07.EncodingAndDecodingOfWord\bin\Debug\07.EncodingAndDecodingOfWord.exe.config

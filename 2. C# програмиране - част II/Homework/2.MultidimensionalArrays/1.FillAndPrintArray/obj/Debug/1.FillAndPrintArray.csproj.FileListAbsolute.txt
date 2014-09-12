@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\1.FillAndPrintArray\bin\Debug\1.FillAndPrintArray.exe.config

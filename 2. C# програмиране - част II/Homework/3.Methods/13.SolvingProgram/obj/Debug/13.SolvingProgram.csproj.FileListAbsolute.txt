@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\13.SolvingProgram\bin\Debug\13.SolvingProgram.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\13.SolvingProgram\bin\Debug\13.SolvingProgram.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\13.SolvingProgram\obj\Debug\13.SolvingProgram.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\13.SolvingProgram\obj\Debug\13.SolvingProgram.pdb

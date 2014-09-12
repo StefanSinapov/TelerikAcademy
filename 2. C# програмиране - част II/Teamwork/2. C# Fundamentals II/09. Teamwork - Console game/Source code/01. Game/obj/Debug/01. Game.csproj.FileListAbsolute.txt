@@ -1,8 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\2. C# Fundamentals II\09. Teamwork - Console game\Source code\01. Game\bin\Debug\_01.Game.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\2. C# Fundamentals II\09. Teamwork - Console game\Source code\01. Game\obj\Debug\Interop.WMPLib.dll
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\2. C# Fundamentals II\09. Teamwork - Console game\Source code\01. Game\obj\Debug\01. Game.csproj.ResolveComReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\2. C# Fundamentals II\09. Teamwork - Console game\Source code\01. Game\bin\Debug\_01.Game.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\2. C# Fundamentals II\09. Teamwork - Console game\Source code\01. Game\bin\Debug\_01.Game.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\2. C# Fundamentals II\09. Teamwork - Console game\Source code\01. Game\obj\Debug\01. Game.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\2. C# Fundamentals II\09. Teamwork - Console game\Source code\01. Game\obj\Debug\_01.Game.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\2. C# Fundamentals II\09. Teamwork - Console game\Source code\01. Game\obj\Debug\_01.Game.pdb

@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\21. Char occurs\bin\Debug\_21.Char_occurs.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\21. Char occurs\bin\Debug\_21.Char_occurs.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\21. Char occurs\bin\Debug\_21.Char_occurs.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\21. Char occurs\obj\Debug\_21.Char_occurs.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\21. Char occurs\obj\Debug\_21.Char_occurs.pdb

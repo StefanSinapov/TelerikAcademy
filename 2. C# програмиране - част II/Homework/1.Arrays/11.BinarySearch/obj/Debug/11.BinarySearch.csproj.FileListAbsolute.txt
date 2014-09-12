@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\11.BinarySearch\bin\Debug\11.BinarySearch.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\11.BinarySearch\bin\Debug\11.BinarySearch.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\11.BinarySearch\bin\Debug\11.BinarySearch.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\11.BinarySearch\obj\Debug\11.BinarySearch.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\11.BinarySearch\obj\Debug\11.BinarySearch.pdb

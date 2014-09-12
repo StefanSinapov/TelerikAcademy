@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\04.MaximalSequence\bin\Debug\04.MaximalSequence.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\04.MaximalSequence\bin\Debug\04.MaximalSequence.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\04.MaximalSequence\bin\Debug\04.MaximalSequence.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\04.MaximalSequence\obj\Debug\04.MaximalSequence.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\04.MaximalSequence\obj\Debug\04.MaximalSequence.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\04.MaximalSequence\obj\Debug\04.MaximalSequence.pdb

@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\04.VariableLengthCodes\bin\Debug\04.VariableLengthCodes.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\04.VariableLengthCodes\bin\Debug\04.VariableLengthCodes.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\04.VariableLengthCodes\obj\Debug\04.VariableLengthCodes.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\04.VariableLengthCodes\obj\Debug\04.VariableLengthCodes.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\04.VariableLengthCodes\obj\Debug\04.VariableLengthCodes.csprojResolveAssemblyReference.cache

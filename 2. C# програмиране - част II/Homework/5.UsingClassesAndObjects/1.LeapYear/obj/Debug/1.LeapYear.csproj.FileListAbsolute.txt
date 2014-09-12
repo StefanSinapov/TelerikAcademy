@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\1.LeapYear\bin\Debug\1.LeapYear.exe.config

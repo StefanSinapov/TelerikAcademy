@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\11. Number formats\bin\Debug\_11.Number_formats.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\11. Number formats\bin\Debug\_11.Number_formats.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\11. Number formats\bin\Debug\_11.Number_formats.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\11. Number formats\obj\Debug\_11.Number_formats.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\11. Number formats\obj\Debug\_11.Number_formats.pdb

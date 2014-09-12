@@ -1,7 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\01.DecimalToBinary\bin\Debug\01.DecimalToBinary.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\01.DecimalToBinary\bin\Debug\01.DecimalToBinary.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\01.DecimalToBinary\obj\Debug\01.DecimalToBinary.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\01.DecimalToBinary\obj\Debug\01.DecimalToBinary.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\01.DecimalToBinary\obj\Debug\01.DecimalToBinary.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\4.NumeralSystems\01.DecimalToBinary\obj\Debug\01.DecimalToBinary.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\4.NumeralSystems\01.DecimalToBinary\obj\Debug\01.DecimalToBinary.pdb

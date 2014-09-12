@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\25. Extract HTML title and body\bin\Debug\_25.Extract_HTML_title_and_body.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\25. Extract HTML title and body\bin\Debug\_25.Extract_HTML_title_and_body.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\25. Extract HTML title and body\bin\Debug\_25.Extract_HTML_title_and_body.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\25. Extract HTML title and body\obj\Debug\_25.Extract_HTML_title_and_body.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\8.StringsAndTextProcessing\25. Extract HTML title and body\obj\Debug\_25.Extract_HTML_title_and_body.pdb

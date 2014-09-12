@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.MagicWords\bin\Debug\2.MagicWords.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.MagicWords\bin\Debug\2.MagicWords.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.MagicWords\obj\Debug\2.MagicWords.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.MagicWords\obj\Debug\2.MagicWords.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.MagicWords\obj\Debug\2.MagicWords.pdb

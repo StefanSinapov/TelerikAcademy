@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\4.DecodeAndDecrypt\bin\Debug\4.DecodeAndDecrypt.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\4.DecodeAndDecrypt\bin\Debug\4.DecodeAndDecrypt.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\4.DecodeAndDecrypt\obj\Debug\4.DecodeAndDecrypt.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\4.DecodeAndDecrypt\obj\Debug\4.DecodeAndDecrypt.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\4.DecodeAndDecrypt\obj\Debug\4.DecodeAndDecrypt.pdb

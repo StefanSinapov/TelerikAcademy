@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\06.FirstBiggerThanNeighbours\bin\Debug\06.FirstBiggerThanNeighbours.exe.config

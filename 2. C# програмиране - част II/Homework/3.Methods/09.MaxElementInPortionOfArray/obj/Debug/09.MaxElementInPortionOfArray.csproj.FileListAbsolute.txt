@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\09.MaxElementInPortionOfArray\bin\Debug\09.MaxElementInPortionOfArray.exe.config

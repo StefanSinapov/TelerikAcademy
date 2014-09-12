@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\21.Combinations\bin\Debug\21.Combinations.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\21.Combinations\bin\Debug\21.Combinations.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\21.Combinations\bin\Debug\21.Combinations.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\21.Combinations\obj\Debug\21.Combinations.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\21.Combinations\obj\Debug\21.Combinations.pdb

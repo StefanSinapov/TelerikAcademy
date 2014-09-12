@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\2. C# програмиране - част II\Homework\7.TextFiles\07. Replace all occurrences of substring\bin\Debug\_07.Replace_all_occurrences_of_substring.exe.config

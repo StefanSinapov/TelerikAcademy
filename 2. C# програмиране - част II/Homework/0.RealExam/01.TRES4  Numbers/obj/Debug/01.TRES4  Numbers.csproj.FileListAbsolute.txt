@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\01.TRES4  Numbers\bin\Debug\01.TRES4  Numbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\01.TRES4  Numbers\bin\Debug\01.TRES4  Numbers.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\01.TRES4  Numbers\obj\Debug\01.TRES4  Numbers.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\01.TRES4  Numbers\obj\Debug\01.TRES4  Numbers.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\01.TRES4  Numbers\obj\Debug\01.TRES4  Numbers.pdb

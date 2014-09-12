@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\ThorShip\ThorShip\ThorShip\bin\Debug\ThorShip.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\ThorShip\ThorShip\ThorShip\bin\Debug\ThorShip.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\ThorShip\ThorShip\ThorShip\obj\x86\Debug\ThorShip.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\ThorShip\ThorShip\ThorShip\obj\x86\Debug\ThorShip.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Teamwork\ThorShip\ThorShip\ThorShip\obj\x86\Debug\ThorShip.pdb

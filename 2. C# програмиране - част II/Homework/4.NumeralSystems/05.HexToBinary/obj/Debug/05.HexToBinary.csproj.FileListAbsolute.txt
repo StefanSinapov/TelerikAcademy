@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\05.HexToBinary\bin\Debug\05.HexToBinary.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\05.HexToBinary\bin\Debug\05.HexToBinary.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\05.HexToBinary\obj\Debug\05.HexToBinary.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\05.HexToBinary\obj\Debug\05.HexToBinary.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\05.HexToBinary\obj\Debug\05.HexToBinary.pdb

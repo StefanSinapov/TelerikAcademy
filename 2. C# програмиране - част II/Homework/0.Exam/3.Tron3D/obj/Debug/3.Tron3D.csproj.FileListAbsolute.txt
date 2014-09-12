@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\3.Tron3D\bin\Debug\3.Tron3D.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\3.Tron3D\bin\Debug\3.Tron3D.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\3.Tron3D\bin\Debug\3.Tron3D.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\3.Tron3D\obj\Debug\3.Tron3D.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\3.Tron3D\obj\Debug\3.Tron3D.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\3.Tron3D\obj\Debug\3.Tron3D.pdb

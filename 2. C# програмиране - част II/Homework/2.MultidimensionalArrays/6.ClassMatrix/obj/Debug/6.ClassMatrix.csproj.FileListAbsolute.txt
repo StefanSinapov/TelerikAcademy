@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\6.ClassMatrix\bin\Debug\6.ClassMatrix.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\6.ClassMatrix\bin\Debug\6.ClassMatrix.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\6.ClassMatrix\obj\Debug\6.ClassMatrix.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\6.ClassMatrix\obj\Debug\6.ClassMatrix.pdb

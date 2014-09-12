@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\07.ReverseDigitsOfNumber\bin\Debug\07.ReverseDigitsOfNumber.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\07.ReverseDigitsOfNumber\bin\Debug\07.ReverseDigitsOfNumber.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\07.ReverseDigitsOfNumber\obj\Debug\07.ReverseDigitsOfNumber.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\07.ReverseDigitsOfNumber\obj\Debug\07.ReverseDigitsOfNumber.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\07.ReverseDigitsOfNumber\obj\Debug\07.ReverseDigitsOfNumber.pdb

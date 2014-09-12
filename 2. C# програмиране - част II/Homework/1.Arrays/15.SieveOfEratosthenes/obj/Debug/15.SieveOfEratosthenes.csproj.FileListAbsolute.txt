@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\15.SieveOfEratosthenes\bin\Debug\15.SieveOfEratosthenes.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\15.SieveOfEratosthenes\bin\Debug\15.SieveOfEratosthenes.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\15.SieveOfEratosthenes\bin\Debug\15.SieveOfEratosthenes.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\15.SieveOfEratosthenes\obj\Debug\15.SieveOfEratosthenes.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\15.SieveOfEratosthenes\obj\Debug\15.SieveOfEratosthenes.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\15.SieveOfEratosthenes\obj\Debug\15.SieveOfEratosthenes.pdb

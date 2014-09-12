@@ -1,7 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.ExceptionHandling\01.TryCatchFinallySquareRoot\bin\Debug\01.TryCatchFinallySquareRoot.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.ExceptionHandling\01.TryCatchFinallySquareRoot\bin\Debug\01.TryCatchFinallySquareRoot.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.ExceptionHandling\01.TryCatchFinallySquareRoot\obj\Debug\01.TryCatchFinallySquareRoot.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.ExceptionHandling\01.TryCatchFinallySquareRoot\obj\Debug\01.TryCatchFinallySquareRoot.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\6.ExceptionHandling\01.TryCatchFinallySquareRoot\obj\Debug\01.TryCatchFinallySquareRoot.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\6.ExceptionHandling\01.TryCatchFinallySquareRoot\obj\Debug\01.TryCatchFinallySquareRoot.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\6.ExceptionHandling\01.TryCatchFinallySquareRoot\obj\Debug\01.TryCatchFinallySquareRoot.pdb

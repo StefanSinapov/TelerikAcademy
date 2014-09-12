@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\2. C# програмиране - част II\Homework\7.TextFiles\11. Delete words with prefix Test\bin\Debug\_11.Delete_words_with_prefix_Test.exe.config

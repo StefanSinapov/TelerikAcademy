@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\2. C# програмиране - част II\Homework\7.TextFiles\01. Print odd lines of text file\bin\Debug\_01.Print_odd_lines_of_text_file.exe.config

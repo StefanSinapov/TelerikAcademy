@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\20.Variations\bin\Debug\20.Variations.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\20.Variations\bin\Debug\20.Variations.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\20.Variations\bin\Debug\20.Variations.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\20.Variations\obj\Debug\20.Variations.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\20.Variations\obj\Debug\20.Variations.pdb

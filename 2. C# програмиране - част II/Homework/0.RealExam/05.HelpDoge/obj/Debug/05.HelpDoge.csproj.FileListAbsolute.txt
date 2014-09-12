@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\05.HelpDoge\bin\Debug\05.HelpDoge.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\05.HelpDoge\bin\Debug\05.HelpDoge.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\05.HelpDoge\bin\Debug\05.HelpDoge.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\05.HelpDoge\obj\Debug\05.HelpDoge.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\05.HelpDoge\obj\Debug\05.HelpDoge.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.RealExam\05.HelpDoge\obj\Debug\05.HelpDoge.pdb

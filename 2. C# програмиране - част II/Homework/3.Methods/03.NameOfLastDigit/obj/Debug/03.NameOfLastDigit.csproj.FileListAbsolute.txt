@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\03.NameOfLastDigit\bin\Debug\03.NameOfLastDigit.exe.config

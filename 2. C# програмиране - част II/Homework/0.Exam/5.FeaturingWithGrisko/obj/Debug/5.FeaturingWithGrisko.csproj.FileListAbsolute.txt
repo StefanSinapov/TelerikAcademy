@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\5.FeaturingWithGrisko\bin\Debug\5.FeaturingWithGrisko.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\5.FeaturingWithGrisko\bin\Debug\5.FeaturingWithGrisko.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\5.FeaturingWithGrisko\obj\Debug\5.FeaturingWithGrisko.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\5.FeaturingWithGrisko\obj\Debug\5.FeaturingWithGrisko.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\5.FeaturingWithGrisko\obj\Debug\5.FeaturingWithGrisko.pdb

@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\2. C# програмиране - част II\Homework\7.TextFiles\13. Word occurrences\bin\Debug\_13.Word_occurrences.exe.config
-D:\Documents\Telerik Academy\Курсове\2. C# програмиране - част II\Homework\7.TextFiles\13. Word occurrences\bin\Debug\_13.Word_occurrences.exe
-D:\Documents\Telerik Academy\Курсове\2. C# програмиране - част II\Homework\7.TextFiles\13. Word occurrences\bin\Debug\_13.Word_occurrences.pdb
-D:\Documents\Telerik Academy\Курсове\2. C# програмиране - част II\Homework\7.TextFiles\13. Word occurrences\obj\Debug\13. Word occurrences.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\2. C# програмиране - част II\Homework\7.TextFiles\13. Word occurrences\obj\Debug\_13.Word_occurrences.exe
-D:\Documents\Telerik Academy\Курсове\2. C# програмиране - част II\Homework\7.TextFiles\13. Word occurrences\obj\Debug\_13.Word_occurrences.pdb

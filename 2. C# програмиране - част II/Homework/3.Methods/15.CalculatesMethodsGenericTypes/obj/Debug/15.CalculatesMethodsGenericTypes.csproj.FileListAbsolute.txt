@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\3.Methods\15.CalculatesMethodsGenericTypes\bin\Debug\15.CalculatesMethodsGenericTypes.exe.config

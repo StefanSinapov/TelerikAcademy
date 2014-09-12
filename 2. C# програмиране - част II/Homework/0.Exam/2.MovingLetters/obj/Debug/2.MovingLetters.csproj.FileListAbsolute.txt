@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.MovingLetters\bin\Debug\2.MovingLetters.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.MovingLetters\bin\Debug\2.MovingLetters.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.MovingLetters\obj\Debug\2.MovingLetters.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\2.MovingLetters\obj\Debug\2.MovingLetters.pdb

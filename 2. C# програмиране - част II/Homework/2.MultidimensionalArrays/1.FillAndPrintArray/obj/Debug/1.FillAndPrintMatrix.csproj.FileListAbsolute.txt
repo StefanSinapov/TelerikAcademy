@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\1.FillAndPrintArray\bin\Debug\1.FillAndPrintArray.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\1.FillAndPrintArray\bin\Debug\1.FillAndPrintArray.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\1.FillAndPrintArray\obj\Debug\1.FillAndPrintMatrix.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\1.FillAndPrintArray\obj\Debug\1.FillAndPrintArray.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\1.FillAndPrintArray\obj\Debug\1.FillAndPrintArray.pdb

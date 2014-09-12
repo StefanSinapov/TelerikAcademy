@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\13.MergeSort\bin\Debug\13.MergeSort.exe.config

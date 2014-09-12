@@ -1,6 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\3.LexicographicallyCompareCharArrays\bin\Debug\3.LexicographicallyCompareCharArrays.exe.config
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\3.LexicographicallyCompareCharArrays\bin\Debug\3.LexicographicallyCompareCharArrays.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\3.LexicographicallyCompareCharArrays\bin\Debug\3.LexicographicallyCompareCharArrays.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\3.LexicographicallyCompareCharArrays\obj\Debug\03.LexicographicallyCompareCharArrays.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\3.LexicographicallyCompareCharArrays\obj\Debug\3.LexicographicallyCompareCharArrays.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\3.LexicographicallyCompareCharArrays\obj\Debug\3.LexicographicallyCompareCharArrays.pdb

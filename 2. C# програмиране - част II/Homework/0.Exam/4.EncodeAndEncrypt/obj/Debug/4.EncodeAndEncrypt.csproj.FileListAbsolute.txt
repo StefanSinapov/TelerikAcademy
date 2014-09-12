@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\4.EncodeAndEncrypt\bin\Debug\4.EncodeAndEncrypt.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\4.EncodeAndEncrypt\bin\Debug\4.EncodeAndEncrypt.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\4.EncodeAndEncrypt\obj\Debug\4.EncodeAndEncrypt.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\0.Exam\4.EncodeAndEncrypt\obj\Debug\4.EncodeAndEncrypt.pdb

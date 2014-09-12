@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\02.RandomValueInRange\bin\Debug\02.RandomValueInRange.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\02.RandomValueInRange\bin\Debug\02.RandomValueInRange.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\02.RandomValueInRange\obj\Debug\02.RandomValueInRange.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\5.UsingClassesAndObjects\02.RandomValueInRange\obj\Debug\02.RandomValueInRange.pdb

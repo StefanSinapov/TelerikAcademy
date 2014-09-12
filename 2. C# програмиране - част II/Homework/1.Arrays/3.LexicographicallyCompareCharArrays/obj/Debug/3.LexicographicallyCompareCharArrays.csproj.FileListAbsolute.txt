@@ -1,1 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\1.Arrays\3.LexicographicallyCompareCharArrays\bin\Debug\3.LexicographicallyCompareCharArrays.exe.config

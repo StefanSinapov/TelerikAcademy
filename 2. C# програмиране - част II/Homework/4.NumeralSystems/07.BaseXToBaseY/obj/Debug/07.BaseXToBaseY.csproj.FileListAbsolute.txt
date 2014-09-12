@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\07.BaseXToBaseY\bin\Debug\07.BaseXToBaseY.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\07.BaseXToBaseY\bin\Debug\07.BaseXToBaseY.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\07.BaseXToBaseY\obj\Debug\07.BaseXToBaseY.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\07.BaseXToBaseY\obj\Debug\07.BaseXToBaseY.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\07.BaseXToBaseY\obj\Debug\07.BaseXToBaseY.pdb

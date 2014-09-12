@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\02.BinaryToDecimal\bin\Debug\02.BinaryToDecimal.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\02.BinaryToDecimal\bin\Debug\02.BinaryToDecimal.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\02.BinaryToDecimal\obj\Debug\02.BinaryToDecimal.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\02.BinaryToDecimal\obj\Debug\02.BinaryToDecimal.pdb

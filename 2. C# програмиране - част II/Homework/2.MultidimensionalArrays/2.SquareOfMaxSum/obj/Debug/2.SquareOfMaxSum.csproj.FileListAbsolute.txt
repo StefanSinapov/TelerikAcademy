@@ -1,4 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\2.SquareOfMaxSum\bin\Debug\2.SquareOfMaxSum.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\2.SquareOfMaxSum\bin\Debug\2.SquareOfMaxSum.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\2.SquareOfMaxSum\obj\Debug\2.SquareOfMaxSum.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част II\Homework\2.MultidimensionalArrays\2.SquareOfMaxSum\obj\Debug\2.SquareOfMaxSum.pdb

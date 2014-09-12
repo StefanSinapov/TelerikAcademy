@@ -1,5 +1,0 @@
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\08.BinaryRepresentation\bin\Debug\08.BinaryRepresentation.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\08.BinaryRepresentation\bin\Debug\08.BinaryRepresentation.pdb
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\08.BinaryRepresentation\obj\Debug\08.BinaryRepresentation.csprojResolveAssemblyReference.cache
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\08.BinaryRepresentation\obj\Debug\08.BinaryRepresentation.exe
-D:\Documents\Telerik Academy\Курсове\C# програмиране - част I\Homework\4.NumeralSystems\08.BinaryRepresentation\obj\Debug\08.BinaryRepresentation.pdb
