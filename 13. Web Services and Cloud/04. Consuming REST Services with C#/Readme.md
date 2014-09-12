@@ -1,0 +1,3 @@
+## 04. Consuming REST Servicec with C#
+
+1. Write a console application, which searches for news articles by given a query string and a count of articles to retrieve. The application should ask the user for input and print the Titles and URLs of the articles. For news articles search use the **[Feedzilla API](https://code.google.com/p/feedzilla-api/wiki/RestApi#/v1/articles/search.format)** and use one of `WebClient`, `HttpWebRequest` or `HttpClient`.
