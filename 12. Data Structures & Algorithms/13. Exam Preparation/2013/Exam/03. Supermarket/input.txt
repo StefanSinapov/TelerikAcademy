@@ -1,0 +1,19 @@
+Append Nakov
+Serve 1
+Find Ina
+Append Mike
+Insert 0 Peter
+Append Penka
+Insert 3 Doncho
+Serve 5
+Append Asya
+Insert 4 Nakov
+Append Nakov
+Find Asya
+Find Nakov
+Serve 3
+Find Peter
+Serve 4
+Find Nakov
+Insert 1 Ina
+End
