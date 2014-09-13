@@ -1,6 +1,6 @@
-namespace GraphLibrary
+namespace _03.TV_Company
 {
-	using System;
+    using System;
     using System.Collections.Generic;
 
     public class Node<T>:IComparable

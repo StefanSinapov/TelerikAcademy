@@ -1,11 +1,11 @@
-namespace GraphLibrary
+namespace _02.Salaries
 {
-	using System;
+    using System;
     using System.Collections.Generic;
 
-    public class Node<T>:IComparable
+    public class Node<T> : IComparable
     {
-        private readonly IList<Edge<T>> connections;
+        IList<Edge<T>> _connections;
 
         public T Name { get; private set; }
         public double DijkstraDistance { get; set; }
@@ -13,34 +13,34 @@ namespace GraphLibrary
 
         internal IEnumerable<Edge<T>> Connections
         {
-            get { return connections; }
+            get { return _connections; }
         }
 
         public Node(T name)
         {
-            this.Name = name;
-            this.connections = new List<Edge<T>>();
+            Name = name;
+            _connections = new List<Edge<T>>();
         }
 
         internal void AddConnection(Node<T> targetNode, double distance, bool twoWay)
         {
-            if(targetNode == null)
+            if (targetNode == null)
             {
                 throw new ArgumentNullException("targetNode");
             }
 
-            if(targetNode == this)
+            if (targetNode == this)
             {
                 throw new ArgumentException("Node may not connect to itself.");
             }
 
-            if(distance < 0)
+            if (distance < 0)
             {
                 throw new ArgumentException("Distance must be positive.");
             }
 
-            connections.Add(new Edge<T>(this, targetNode, distance));
-            if(twoWay)
+            _connections.Add(new Edge<T>(this, targetNode, distance));
+            if (twoWay)
             {
                 targetNode.AddConnection(this, distance, false);
             }

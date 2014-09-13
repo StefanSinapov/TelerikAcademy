@@ -1,4 +1,4 @@
-namespace GraphLibrary
+namespace _03.TV_Company
 {
     using System;
     using System.Collections.Generic;
@@ -33,7 +33,7 @@ namespace GraphLibrary
                 throw new ArgumentException(string.Format("Node with name {0} is existing in the graph.", node.Name));
             }
 
-            this.Nodes.Add(node);
+            this.Nodes.Add(node.Name, node);
         }
 
         public void AddConnection(T fromNode, T toNode, int distance, bool twoWay)

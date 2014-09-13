@@ -1,4 +1,4 @@
-namespace GraphLibrary
+namespace _02.Salaries
 {
     using System;
     using System.Collections.Generic;
@@ -6,15 +6,14 @@ namespace GraphLibrary
 
     public class Graph<T>
     {
+        internal IDictionary<T, Node<T>> Nodes { get; private set; }
         private readonly HashSet<Node<T>> visited;
 
         public Graph()
         {
-            this.Nodes = new Dictionary<T, Node<T>>();
-            this.visited = new HashSet<Node<T>>();
+            Nodes = new Dictionary<T, Node<T>>();
+            visited = new HashSet<Node<T>>();
         }
-
-        public IDictionary<T, Node<T>> Nodes { get; private set; }
 
         public void AddNode(T name)
         {
@@ -24,16 +23,6 @@ namespace GraphLibrary
                 throw new ArgumentException(string.Format("Node with name {0} is existing in the graph.", name));
             }
             Nodes.Add(name, node);
-        }
-
-        public void AddNode(Node<T> node)
-        {
-            if (this.Nodes.ContainsKey(node.Name))
-            {
-                throw new ArgumentException(string.Format("Node with name {0} is existing in the graph.", node.Name));
-            }
-
-            this.Nodes.Add(node);
         }
 
         public void AddConnection(T fromNode, T toNode, int distance, bool twoWay)

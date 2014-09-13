@@ -1,21 +1,19 @@
-namespace GraphLibrary
+namespace _03.TV_Company
 {
-	using System;
+    using System;
 
     public class Edge<T>:IComparable
     {
-       
+        internal Node<T> Beginning { get; private set; }
+        internal Node<T> Target { get; private set; }
+        internal double Distance { get; private set; }
 
-        public Edge(Node<T> begining, Node<T> target, double distance)
+        internal Edge(Node<T> begining, Node<T> target, double distance)
         {
             this.Beginning = begining;
             this.Target = target;
             this.Distance = distance;
         }
-		
-		public Node<T> Beginning { get; private set; }
-        public Node<T> Target { get; private set; }
-        public double Distance { get; private set; }
 
         public int CompareTo(object obj)
         {
@@ -24,7 +22,7 @@ namespace GraphLibrary
 
         public override string ToString()
         {
-            return string.Format("({0} {1}) -> {2}", Beginning, Target, Distance);
+            return string.Format("({0} -> {1}) : {2}", Beginning, Target, Distance);
         }
     }
 }
