@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Shopping Center", "05. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Academy Tasks", "02. Academy Tasks\02. Academy Tasks.csproj", "{3BE6E454-C2AE-498A-8A74-E17727354158}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Friends in Need", "03. Friends in Need\03. Friends in Need.csproj", "{71B7F526-4406-4B22-9673-FFA17751EF14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3BE6E454-C2AE-498A-8A74-E17727354158}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BE6E454-C2AE-498A-8A74-E17727354158}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BE6E454-C2AE-498A-8A74-E17727354158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B7F526-4406-4B22-9673-FFA17751EF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B7F526-4406-4B22-9673-FFA17751EF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B7F526-4406-4B22-9673-FFA17751EF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B7F526-4406-4B22-9673-FFA17751EF14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

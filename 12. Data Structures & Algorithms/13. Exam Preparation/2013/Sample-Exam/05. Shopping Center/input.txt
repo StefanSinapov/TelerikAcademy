@@ -1,0 +1,45 @@
+44
+AddProduct Beer Zagorka;1.20;Zagorka AD
+AddProduct Beer Zagorka Gold;0.85;Zagorka AD
+AddProduct Beer Kamenitza;1.05;Kamenitza AD
+AddProduct Rakiya Grozdova;6.98;Peshtera AD
+AddProduct Rakiya Muskatova;7.33;Peshtera AD
+AddProduct Mastika Peshtera;8.22;Peshtera AD
+AddProduct Rakiya;12;Peshtera AD
+AddProduct Rakiya Grozdova;10.8;Vimprom Liaskovetz Ltd
+AddProduct Rakiya;12;Peshtera AD
+AddProduct Beer Zagorka Draft;0.76;Zagorka AD
+AddProduct Vodka;11.33;Peshtera AD
+AddProduct Vodka;12.36;Peshtera AD
+AddProduct Vodka Nashenska;4.66;Mente Corp
+AddProduct Rakiya Nashenska;3.7;Mente Corp
+AddProduct Rakiya Nashenska;3.7;Mente Corp
+AddProduct Rakiya Mente;1.25;Mente Corp
+AddProduct Oslepitelna Rakiya;0.96;Mente Corp
+AddProduct Vodka Studentska;2.45;Mente Corp
+AddProduct Romsko Pivo;0.36;Romsko Pivo AD
+AddProduct Dolnoprobna Bira;0.32;Romsko Pivo AD
+AddProduct rakiya;8.5;peshtera ad
+AddProduct vodka;9.6;peshtera ad
+DeleteProducts rakiya muskatova;Peshtera AD
+DeleteProducts Rakiya Muskatova;Peshtera AD
+DeleteProducts Rakiya Muskatova;Peshtera AD
+DeleteProducts Zagorka AD
+DeleteProducts Zagorka AD
+AddProduct Beer Zagorka;1.2;Zagorka AD
+DeleteProducts zagorka ad
+AddProduct Vodka;8.3;Mente Corp
+FindProductsByName Rakiya
+FindProductsByName rakiya
+FindProductsByName Vodka
+FindProductsByName bash mente
+FindProductsByName Beer Zagorka Draft
+FindProductsByProducer Romsko Pivo AD
+FindProductsByProducer romsko pivo ad
+AddProduct IdeaPad Z560;1536.5;Lenovo
+DeleteProducts Lenovo
+FindProductsByProducer Lenovo
+FindProductsByPriceRange 1.20;1.25
+FindProductsByPriceRange 0.00;0.10
+FindProductsByPriceRange 3.0;7
+FindProductsByPriceRange 0;0.99
