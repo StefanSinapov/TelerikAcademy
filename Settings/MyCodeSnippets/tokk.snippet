@@ -34,7 +34,7 @@
                     <Default>lineReader</Default>
                 </Literal>
             </Declarations>
-            <Code Language="csharp"><![CDATA[var $numbers$ = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();$end$]]>
+            <Code Language="csharp"><![CDATA[var $numbers$ = Console.ReadLine().Split(new char[]{' '}, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();$end$]]>
             </Code>
         </Snippet>
     </CodeSnippet>
