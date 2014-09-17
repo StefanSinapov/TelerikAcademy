@@ -1,18 +1,27 @@
 ﻿namespace StudentSystem.Web.DataModels
 {
     using System;
-    using System.Linq.Expressions;
     using Models;
 
     public class CourseDataModel
     {
-        public static Expression<Func<Course, CourseDataModel>> FromCourse
+        public static Func<Course, CourseDataModel> FromCourse
         {
             get
             {
                 return c => new CourseDataModel
                 {
                     Id = c.CourseId,
+                    Description = c.Description
+                };
+            }
+        }
+        public static Func<CourseDataModel, Course> ModelFromData
+        {
+            get
+            {
+                return c => new Course
+                {
                     Description = c.Description
                 };
             }

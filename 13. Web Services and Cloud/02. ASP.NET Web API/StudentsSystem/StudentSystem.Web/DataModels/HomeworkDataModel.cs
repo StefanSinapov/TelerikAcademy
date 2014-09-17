@@ -6,7 +6,7 @@
 
     public class HomeworkDataModel
     {
-        public static Expression<Func<Homework, HomeworkDataModel>> FromHomework
+        public static Func<Homework, HomeworkDataModel> FromHomework
         {
             get
             {
@@ -16,6 +16,20 @@
                    Content = h.Content,
                    CourseId = h.CourseId,
                    StudentId = h.StudentId
+                };
+            }
+        }
+
+        public static Func<HomeworkDataModel, Homework> ModelFromData
+        {
+            get
+            {
+                return h => new Homework
+                {
+                    Content = h.Content,
+                    TimeSent = h.TimeSent,
+                    CourseId = h.CourseId,
+                    StudentId = h.StudentId,
                 };
             }
         }

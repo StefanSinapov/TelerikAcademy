@@ -157,9 +157,13 @@
     <Compile Include="Controllers\BaseApiController.cs" />
     <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\HomeworkController.cs" />
+    <Compile Include="Controllers\HomeworksController.cs" />
+    <Compile Include="Controllers\MaterialsController.cs" />
+    <Compile Include="Controllers\StudentsController.cs" />
     <Compile Include="DataModels\CourseDataModel.cs" />
     <Compile Include="DataModels\HomeworkDataModel.cs" />
+    <Compile Include="DataModels\MaterialDataModel.cs" />
+    <Compile Include="DataModels\StudentDataModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

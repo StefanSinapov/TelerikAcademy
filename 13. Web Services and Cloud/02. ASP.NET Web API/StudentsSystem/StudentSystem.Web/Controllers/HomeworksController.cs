@@ -41,9 +41,9 @@
                 return NotFound();
             }
 
-            var homeworkMode = new HomeworkDataModel(homework);
+            var homeworkModel = new HomeworkDataModel(homework);
 
-            return Ok(homeworkMode);
+            return Ok(homeworkModel);
         }
 
         [HttpPost]
