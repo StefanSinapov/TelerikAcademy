@@ -6,8 +6,8 @@
 * [Consuming REST Services with C#]()
 * [Web API Architecture]()
 * [Unit Testing Services]()
-* [Cloud Computing and Technologies
-* [Cloud Platforms and Services
+* [Cloud Computing and Technologies]()
+* [Cloud Platforms and Services]()
 * [Teamwork]()
-* Exam Preparation
-* Exam
+* [Exam Preparation]()
+* [Exam]()
