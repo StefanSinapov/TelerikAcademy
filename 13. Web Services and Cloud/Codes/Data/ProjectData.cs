@@ -9,15 +9,15 @@ namespace Project.Data
 
     public class ProjectData : IProjectData
     {
-        private readonly DbContext context;
+        private readonly IProjectDbContext context;
         private readonly IDictionary<Type, object> repositories = new Dictionary<Type, object>();
 
         public ProjectData()
-            : this(new ApplicationDbContext())
+            : this(new ProjectDbContext())
         {
         }
 
-        public ProjectData(DbContext context)
+        public ProjectData(IProjectDbContext context)
         {
             this.context = context;
         }
@@ -27,29 +27,14 @@ namespace Project.Data
             return this.context.SaveChanges();
         }
 
-        public void Dispose()
-        {
-            this.Dispose(true);
-        }
-
-        protected virtual void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                if (this.context != null)
-                {
-                    this.context.Dispose();
-                }
-            }
-        }
-
         private IRepository<T> GetRepository<T>() where T : class
         {
+
             var typeOfModel = typeof(T);
 
             if (!this.repositories.ContainsKey(typeOfModel))
             {
-                var typeOfRepository = typeof(IRepository<T>);
+                var typeOfRepository = typeof(Repository<T>);
 
                 this.repositories.Add(typeOfModel, Activator.CreateInstance(typeOfRepository, this.context));
             }
