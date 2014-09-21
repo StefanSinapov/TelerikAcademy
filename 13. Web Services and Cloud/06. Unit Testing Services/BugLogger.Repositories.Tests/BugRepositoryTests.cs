@@ -1,6 +1,8 @@
 ﻿namespace BugLogger.Repositories.Tests
 {
     using System;
+    using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Validation;
     using System.Linq;
     using System.Transactions;
     using Data;
@@ -26,7 +28,7 @@
         }
 
         [TestMethod]
-        public void AddBug_WhenBugIsValid_ShouldAddToDatabase()
+        public void AddBugWhenBugIsValidShouldAddToDatabase()
         {
             // Arrange -> Prepare the objects
             var bug = this.GetValidTestBug();
@@ -44,7 +46,7 @@
         }
 
         [TestMethod]
-        public void DeleteBug_WbenBugIsInDB_SHoudRemoveFromDatabase()
+        public void DeleteBugWbenBugIsInDbShoudRemoveFromDatabase()
         {
             // Arrange
             var bugRepository = new BugRepository(new BugLoggerDbContext());
@@ -61,6 +63,43 @@
 
             Assert.AreEqual(countBeforeDeletion, countAfterDeletion + 1);
             Assert.IsNull(bugFromDb);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(DbEntityValidationException))]
+        public void AddBugWithoutDescriptionShouldThrowsValidationException()
+        {
+            // Arrange
+            var bug = new Bug
+            {
+                LogDate = DateTime.Now,
+                Status = BugStatus.Assigned
+            };
+
+            // Act
+            var bugRepository = new BugRepository(new BugLoggerDbContext());
+            bugRepository.Add(bug);
+
+            // Assert
+            bugRepository.SaveChanges();
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(DbUpdateException))]
+        public void AddBugWithoutLogDateshoutThrowsValidationException()
+        {
+            // Arrange
+            var bug = new Bug
+            {
+                Description = "Test bug"
+            };
+
+            // Act
+            var bugRepository = new BugRepository(new BugLoggerDbContext());
+            bugRepository.Add(bug);
+
+            // Assert
+            bugRepository.SaveChanges();
         }
 
         private Bug GetValidTestBug()

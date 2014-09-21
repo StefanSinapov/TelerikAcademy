@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugLogger.WebAPI", "BugLogg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugLogger.Repositories.Tests", "BugLogger.Repositories.Tests\BugLogger.Repositories.Tests.csproj", "{571C8B3E-6C13-4F1E-A57B-0A8134B402FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugLogger.WebAPI.Tests", "BugLogger.WebAPI.Tests\BugLogger.WebAPI.Tests.csproj", "{BF46DA04-35CC-4006-B5AC-53E3ED9030A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{571C8B3E-6C13-4F1E-A57B-0A8134B402FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{571C8B3E-6C13-4F1E-A57B-0A8134B402FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{571C8B3E-6C13-4F1E-A57B-0A8134B402FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF46DA04-35CC-4006-B5AC-53E3ED9030A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF46DA04-35CC-4006-B5AC-53E3ED9030A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF46DA04-35CC-4006-B5AC-53E3ED9030A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF46DA04-35CC-4006-B5AC-53E3ED9030A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

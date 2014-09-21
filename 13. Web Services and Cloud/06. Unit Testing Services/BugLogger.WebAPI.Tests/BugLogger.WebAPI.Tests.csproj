@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{571C8B3E-6C13-4F1E-A57B-0A8134B402FB}</ProjectGuid>
+    <ProjectGuid>{BF46DA04-35CC-4006-B5AC-53E3ED9030A4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BugLogger.Repositories.Tests</RootNamespace>
-    <AssemblyName>BugLogger.Repositories.Tests</AssemblyName>
+    <RootNamespace>BugLogger.WebAPI.Tests</RootNamespace>
+    <AssemblyName>BugLogger.WebAPI.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -35,17 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Activities" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Transactions" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -60,13 +50,12 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="BugRepositoryTests.cs" />
+    <Compile Include="BugsControllerTests.cs" />
+    <Compile Include="Fakes\BugFakeRepository.cs" />
+    <Compile Include="Fakes\BugLoggerFakeData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\BugLogger.Data\BugLogger.Data.csproj">
       <Project>{0660EEE8-36EE-4976-9142-44E387BA3D23}</Project>
