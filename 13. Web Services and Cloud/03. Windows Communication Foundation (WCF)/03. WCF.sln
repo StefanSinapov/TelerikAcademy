@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. DayPicker.Services", "01. DayPicker.Services\01. DayPicker.Services.csproj", "{D8A8C894-7A63-42D0-BB46-2397400E2278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Substring.Services", "02. Substring.Services\02. Substring.Services.csproj", "{D68588A4-AA2E-4151-AFC1-29BE43A55729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Substring.Web", "02. Substring.Web\02. Substring.Web.csproj", "{9F5667D8-4FFB-49DE-AA59-C38FD127FEDD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D68588A4-AA2E-4151-AFC1-29BE43A55729} = {D68588A4-AA2E-4151-AFC1-29BE43A55729}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Substring.Console", "02. Substring.Console\02. Substring.Console.csproj", "{46D9AE73-6B18-460A-A7D2-8C3803F0E36E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D68588A4-AA2E-4151-AFC1-29BE43A55729} = {D68588A4-AA2E-4151-AFC1-29BE43A55729}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. DayPicker.Console", "01. DayPickerService.Console\01. DayPicker.Console.csproj", "{F3D3EC19-9D0F-4CC6-8DF4-8A668DBA472A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8A8C894-7A63-42D0-BB46-2397400E2278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A8C894-7A63-42D0-BB46-2397400E2278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A8C894-7A63-42D0-BB46-2397400E2278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A8C894-7A63-42D0-BB46-2397400E2278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68588A4-AA2E-4151-AFC1-29BE43A55729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68588A4-AA2E-4151-AFC1-29BE43A55729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68588A4-AA2E-4151-AFC1-29BE43A55729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68588A4-AA2E-4151-AFC1-29BE43A55729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5667D8-4FFB-49DE-AA59-C38FD127FEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5667D8-4FFB-49DE-AA59-C38FD127FEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5667D8-4FFB-49DE-AA59-C38FD127FEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5667D8-4FFB-49DE-AA59-C38FD127FEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D9AE73-6B18-460A-A7D2-8C3803F0E36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D9AE73-6B18-460A-A7D2-8C3803F0E36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D9AE73-6B18-460A-A7D2-8C3803F0E36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D9AE73-6B18-460A-A7D2-8C3803F0E36E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D3EC19-9D0F-4CC6-8DF4-8A668DBA472A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D3EC19-9D0F-4CC6-8DF4-8A668DBA472A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D3EC19-9D0F-4CC6-8DF4-8A668DBA472A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D3EC19-9D0F-4CC6-8DF4-8A668DBA472A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
