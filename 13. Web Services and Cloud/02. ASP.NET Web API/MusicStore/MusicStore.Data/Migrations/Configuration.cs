@@ -11,15 +11,5 @@ namespace MusicStore.Data.Migrations
             AutomaticMigrationsEnabled = true;
             AutomaticMigrationDataLossAllowed = true;
         }
-
-        protected override void Seed(MusicStoreDbContext context)
-        {
-           context.Songs.Add(new Song
-           {
-               Title = "Some Song",
-               Genre = Genre.Pop,
-               Year = new DateTime(2014, 01, 01)
-           })
-        }
     }
 }

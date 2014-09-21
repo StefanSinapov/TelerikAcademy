@@ -18,17 +18,17 @@
             this.repositories = new Dictionary<Type, object>();
         }
 
-        public IRepository<Song> Song
+        public IRepository<Song> Songs
         {
             get { return this.GetRepository<Song>(); }
         }
 
-        public IRepository<Album> Album
+        public IRepository<Album> Albums
         {
             get { return this.GetRepository<Album>(); }
         }
 
-        public IRepository<Artist> Artist
+        public IRepository<Artist> Artists
         {
             get { return this.GetRepository<Artist>(); }
         }
@@ -43,7 +43,7 @@
             var typeOfRepository = typeof(T);
             if (!this.repositories.ContainsKey(typeOfRepository))
             {
-                var newRepository = Activator.CreateInstance(typeof(EfRepository<T>), context);
+                var newRepository = Activator.CreateInstance(typeof(Repository<T>), context);
                 this.repositories.Add(typeOfRepository, newRepository);
             }
 

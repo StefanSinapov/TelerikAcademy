@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C7E8D1
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Web", "MusicStore.Web\MusicStore.Web.csproj", "{776D9954-C028-4744-B15C-93835A26226D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.WebAPI", "MusicStore.WebAPI\MusicStore.WebAPI.csproj", "{083B4FBF-6861-4215-A223-A7B46C136D03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,10 +30,10 @@ Global
 		{9A1D64F8-9330-4352-AF4D-27A333455CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A1D64F8-9330-4352-AF4D-27A333455CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A1D64F8-9330-4352-AF4D-27A333455CDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{776D9954-C028-4744-B15C-93835A26226D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{776D9954-C028-4744-B15C-93835A26226D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{776D9954-C028-4744-B15C-93835A26226D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{776D9954-C028-4744-B15C-93835A26226D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083B4FBF-6861-4215-A223-A7B46C136D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083B4FBF-6861-4215-A223-A7B46C136D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083B4FBF-6861-4215-A223-A7B46C136D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083B4FBF-6861-4215-A223-A7B46C136D03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

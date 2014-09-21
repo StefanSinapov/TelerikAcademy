@@ -54,12 +54,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contracts\IMusicStoreData.cs" />
+    <Compile Include="Contracts\IMusicStoreDbContext.cs" />
+    <Compile Include="Contracts\IRepository.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MusicStoreData.cs" />
     <Compile Include="MusicStoreDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\EfRepository.cs" />
-    <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

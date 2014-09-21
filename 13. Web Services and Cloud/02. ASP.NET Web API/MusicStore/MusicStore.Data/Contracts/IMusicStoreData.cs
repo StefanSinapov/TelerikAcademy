@@ -1,15 +1,14 @@
 ﻿namespace MusicStore.Data.Contracts
 {
     using Models;
-    using Repository;
 
     public interface IMusicStoreData
     {
-        IRepository<Song> Song { get; }
+        IRepository<Song> Songs { get; }
 
-        IRepository<Album> Album { get; }
+        IRepository<Album> Albums { get; }
 
-        IRepository<Artist> Artist { get; }
+        IRepository<Artist> Artists { get; }
 
         int SaveChanges(); 
     }
