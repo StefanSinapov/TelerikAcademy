@@ -1,10 +1,10 @@
 Telerik Academy 2013-2014
 ========================
 
-| Programming with C#                                                       | Web Design & Development                                  |Software Technologies                    |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------|-----------------------------------------|
-| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |[Databases and SQL](#databases-and-sql-notes)  |
-| [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 |
+| Programming with C#                                                       | Web Design & Development                                  |Software Technologies                             |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------|--------------------------------------------------|
+| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |[Databases and SQL](#databases-and-sql-notes)     |
+| [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 |[Web Services and Cloud](#web-services-and-cloud) |
 | [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) |
 | [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          |
 | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-oop-notes)                   |
@@ -177,3 +177,18 @@ Telerik Academy 2013-2014
 * [Databases Team Work Project](https://github.com/StefanSinapov/TelerikAcademy/tree/master/11.%20Databases%20and%20SQL/17.%20Databases%20Team%20Work%20Project)
 * [Exam preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/11.%20Databases%20and%20SQL/18.%20Exam%20preparation)
 * [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/11.%20Databases%20and%20SQL/19.%20Exam)
+
+
+## [Web Services and Cloud](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud)
+
+1. [Web Services – Overview](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/01.%20Web%20Services%20Overview)
+* [ASP.NET Web API](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/02.%20ASP.NET%20Web%20API)
+* [Windows Communication Foundation (WCF)](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/03.%20Windows%20Communication%20Foundation%20(WCF))
+* [Consuming REST Services with C#](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/04.%20Consuming%20REST%20Services%20with%20C%23)
+* [Web API Architecture](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/05.%20Web%20API%20Architecture)
+* [Unit Testing Services](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/06.%20Unit%20Testing%20Services)
+* [Cloud Computing and Technologies](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/07.%20Cloud%20Computing%20and%20%20Technologies)
+* [Cloud Platforms and Services](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/08.%20Cloud%20Platforms%20and%20Services)
+* [Teamwork](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/09.%20Teamwork)
+* [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/10.%20Exam%20Preparation)
+* [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/11.%20Exam)
