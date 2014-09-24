@@ -1,0 +1,4 @@
+<connectionStrings>
+      <add name="ProjectName" connectionString="Data Source=.;Initial Catalog=ProjectName;Integrated Security=True"
+           providerName="System.Data.SqlClient"/>
+  </connectionStrings>
