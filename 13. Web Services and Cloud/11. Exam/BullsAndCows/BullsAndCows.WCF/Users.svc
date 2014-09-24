@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="BullsAndCows.WCF.UsersService" CodeBehind="Users.svc.cs" Factory="System.ServiceModel.Activation.WebServiceHostFactory"
+ %>

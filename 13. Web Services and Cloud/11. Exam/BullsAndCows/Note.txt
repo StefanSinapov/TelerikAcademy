@@ -1,0 +1,9 @@
+NOTE:
+
+WCF services are at address:
+http://localhost:ddddd/Users.svc/{ID}
+ http://localhost:5834/Users.svc/?page={PAGE}
+ 
+ 
+ PostMan Collection in postmanCollection.txt
+ 
