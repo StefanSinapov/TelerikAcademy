@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BF46DA04-35CC-4006-B5AC-53E3ED9030A4}</ProjectGuid>
+    <ProjectGuid>{ED489628-0AA8-49E1-ACC4-40C5C1B96239}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BugLogger.WebAPI.Tests</RootNamespace>
-    <AssemblyName>BugLogger.WebAPI.Tests</AssemblyName>
+    <RootNamespace>BugLogger.WebAPI.IntegrationTests</RootNamespace>
+    <AssemblyName>BugLogger.WebAPI.IntegrationTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -66,14 +66,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="BugsControllerTests.cs" />
-    <Compile Include="Fakes\BugFakeRepository.cs" />
-    <Compile Include="Fakes\BugLoggerFakeData.cs" />
+    <Compile Include="BugsControllerIntegrationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
-    <None Include="packages.config" />
+    <Compile Include="Server\InMemoryHttpServer.cs" />
+    <Compile Include="Server\TestBugsDependencyResolver.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BugLogger.Data\BugLogger.Data.csproj">
@@ -85,9 +81,13 @@
       <Name>BugLogger.Models</Name>
     </ProjectReference>
     <ProjectReference Include="..\BugLogger.WebAPI\BugLogger.WebAPI.csproj">
-      <Project>{cafcc78d-982f-42ff-ab2f-91a384e83785}</Project>
+      <Project>{CAFCC78D-982F-42FF-AB2F-91A384E83785}</Project>
       <Name>BugLogger.WebAPI</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

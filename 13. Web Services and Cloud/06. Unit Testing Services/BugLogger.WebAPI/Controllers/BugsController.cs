@@ -24,11 +24,11 @@
         }
 
         [HttpGet]
-        public IHttpActionResult All()
+        public IQueryable<BugDataModel> All()
         {
             var bugs = this.data.Bugs.All().Select(BugDataModel.FromEntityToModel);
 
-            return Ok(bugs);
+            return bugs;
         }
 
         [HttpGet]
@@ -58,18 +58,28 @@
         }
 
         [HttpPost]
-        public IHttpActionResult Create([FromBody] CreateBugModel crateBugModel)
+        public IHttpActionResult Create([FromBody] CreateBugModel createBugModel)
         {
             if (!this.ModelState.IsValid)
             {
-                return BadRequest(this.ModelState);
+                return BadRequest(ModelState);
+            }
+
+            if (string.IsNullOrEmpty(createBugModel.Description))
+            {
+                return BadRequest("Description cannot be null or empty");
+            }
+
+            if (createBugModel.LogDate == DateTime.MinValue || createBugModel.LogDate == DateTime.MaxValue)
+            {
+                return BadRequest("Invalid LogDate: " + createBugModel.LogDate);
             }
 
             var bug = new Bug
             {
-                Description = crateBugModel.Description,
-                LogDate = crateBugModel.LogDate,
-                Status = crateBugModel.Status
+                Description = createBugModel.Description,
+                LogDate = createBugModel.LogDate,
+                Status = createBugModel.Status
             };
 
             try
@@ -78,7 +88,7 @@
                 this.data.SaveChanges();
 
                 var model = new BugDataModel(bug);
-                return Ok(model);
+                return Created("New bug created", model);
             }
             catch (Exception e)
             {
