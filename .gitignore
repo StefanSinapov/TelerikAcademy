@@ -12,7 +12,32 @@
 
 # Build results
 [Dd]ebug/
+[Dd]ebugPublic/
 [Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Roslyn cache directories
+*.ide/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+#NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
 *_i.c
 *_p.c
 *.ilk
@@ -35,6 +60,33 @@
 ## TODO: If you have NuGet Package Restore enabled, uncomment this
 #packages/
 
+# Publish Web Output
+
+*.[Pp]ublish.xml
+*.azurePubxml
+# TODO: Comment the next line if you want to checkin your web deploy settings 
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+packages/
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# If using the old MSBuild-Integrated Package Restore, uncomment this:
+!**/packages/repositories.config
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
+
 # Visual C++ cache files
 ipch/
 *.aps
@@ -48,6 +100,28 @@ ipch/
 
 # ReSharper is a .NET coding add-in
 _ReSharper*
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JustCode is a .NET coding addin-in
+.JustCode
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-cache/
 
 # Installshield output folder
 [Ee]xpress
