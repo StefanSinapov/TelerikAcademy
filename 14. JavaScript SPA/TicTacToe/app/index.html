@@ -5,33 +5,42 @@
     <title>Tic Tac Toe Online</title>
     <link rel="stylesheet" href="styles/bootstrap.min.css"/>
     <link rel="stylesheet" href="styles/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="styles/toastr.css" />
     <link rel="stylesheet" href="styles/app.css"/>
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body ng-app="ticTacToeApp" ng-controller="MainPageController" ng-cloak>
 
-    <div navigation-bar>
+    <div navigation-bar></div>
 
-    </div>
     <div id="main-container" ng-view></div>
+
     <div id="footer" footer></div>
 
-    <script src="libs/jquery-2.1.1.min.js"></script>
+    <script src="libs/jquery/jquery-2.1.1.min.js"></script>
+    <script src="libs/toastr/toastr.js"></script>
     <script src="libs/angular/angular.js"></script>
     <script src="libs/angular/angular-route.js"></script>
     <script src="libs/angular/angular-resource.js"></script>
-    <script src="libs/bootstrap.min.js"></script>
+    <script src="libs/angular/angular-cookies.js"></script>
+    <script src="libs/bootstrap/bootstrap.min.js"></script>
     <script src="scripts/app.js"></script>
     <!--scripts/directives-->
     <script src="scripts/directives/navigationBarDirective.js"></script>
     <script src="scripts/directives/footerDirective.js"></script>
     <!--scripts/services-->
-    <script src="scripts/services/auth.js"></script>
+    <script src="scripts/services/account/auth.js"></script>
+    <script src="scripts/services/account/identity.js"></script>
+    <script src="scripts/services/account/authorization.js"></script>
+    <script src="scripts/services/resources/ticTacToeData.js"></script>
+    <script src="scripts/services/notifier.js"></script>
     <!--scripts/controllers-->
     <script src="scripts/controllers/MainPageController.js"></script>
     <script src="scripts/controllers/auth/LoginController.js"></script>
     <script src="scripts/controllers/auth/LogoutController.js"></script>
     <script src="scripts/controllers/auth/RegistrationController.js"></script>
+    <script src="scripts/controllers/lists/ListUsersController.js"></script>
+    <script src="scripts/controllers/lists/ListScoresController.js"></script>
 </body>
 </html>

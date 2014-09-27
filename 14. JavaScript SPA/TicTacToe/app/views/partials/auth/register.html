@@ -9,7 +9,7 @@
 
                 <div class="col-lg-10">
                     <input type="email" class="form-control username email" id="register-email" placeholder="Email"
-                           ng-model="username" required="required" autofocus="" ng-trim=""
+                           ng-model="user.email" required="required" autofocus="" ng-trim=""
                            ng-minlength="2" ng-maxlength="20">
                 </div>
             </div>
@@ -18,7 +18,7 @@
                 <label for="register-password" class="col-lg-2 control-label">Password</label>
 
                 <div class="col-lg-10">
-                    <input id="register-password" type="password" placeholder="Password" ng-model="password"
+                    <input id="register-password" type="password" placeholder="Password" ng-model="user.password"
                            ng-minlength="6" ng-maxlength="20" required="" class="form-control"/>
                 </div>
             </div>
@@ -28,7 +28,7 @@
 
                 <div class="col-lg-10">
                     <input id="register-password-confirm" type="password" placeholder="Confirm Password"
-                           ng-model="confirmPassword" ng-minlength="6" ng-maxlength="20" required=""
+                           ng-model="user.confirmPassword" ng-minlength="6" ng-maxlength="20" required=""
                            class="form-control password-confirm"
                            />
                 </div>
@@ -36,11 +36,11 @@
 
             <div class="form-group">
                 <div class="col-lg-10 col-lg-offset-2">
-                    <button ng-click="register(username, password, confirmPassord)"
-                            ng-disabled="registerForm.$pristine || registerForm.$invalid
-                            || regPassword !== regConfirmPassword"
+                    <button ng-click="register(user, registerForm)"
                             class="btn btn-primary btn-block register-btn col-md-8"
                             type="submit">Register
+                        <!--ng-disabled="registerForm.$pristine || registerForm.$invalid
+                        || user.password !== user.confirmPassword"-->
                     </button>
                 </div>
             </div>

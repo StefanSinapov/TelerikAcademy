@@ -1,18 +1,22 @@
 /* global ticTacToeApp */
 
 ticTacToeApp.controller('MainPageController',
-    function HomeController($scope, $rootScope, auth, author, copyright, gitAccount, gitRepository) {
+    function HomeController($scope, $rootScope, auth, identity, technologies, author, copyright, gitAccount, gitRepository) {
         'use strict';
 
         $scope.author = author;
         $scope.copyright = copyright;
         $scope.gitAccount = gitAccount;
         $scope.gitRepository = gitRepository;
-        $scope.technologies = ["ASP.NET WebAPI", "AngularJS", "Bootstrap"];
+        $scope.technologies = technologies;
 
 
-        if (auth.isAuthenticated()) {
+        $scope.identity = identity;
+
+        if (identity.isAuthenticated()) {
             $rootScope.isLoggedIn = true;
-            $rootScope.username = auth.getUsername();
+        }
+        else{
+            $rootScope.isLoggedIn = false;
         }
     });

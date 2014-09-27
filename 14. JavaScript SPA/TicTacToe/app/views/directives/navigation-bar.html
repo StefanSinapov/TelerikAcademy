@@ -34,7 +34,7 @@
 
         <ul class="nav navbar-nav navbar-right" ng-if="isLoggedIn">
             <li>
-                <a class="href-btn">Hello, {{ username }}</a>
+                <a class="href-btn">Hello, {{ identity.getCurrentUser().userName }}</a>
             </li>
             <li>
                 <a class="href-btn" ng-controller="LogoutController" ng-click="logout()">Sign out</a>

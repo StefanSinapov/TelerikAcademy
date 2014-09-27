@@ -1,0 +1,39 @@
+<div class="container" ng-controller="ListScoresController">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-8 page-header big-text">
+                <strong>Top 10 Users</strong>:
+            </div>
+
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row" ng-cloak ng-if="users">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Username</th>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Score</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="user in users">
+                        <td>{{ $index + 1 }}</td>
+                        <td>{{ user.Username }}</td>
+                        <td>{{ user.Wins }}</td>
+                        <td>{{ user.Losses }}</td>
+                        <td>{{ user.Score }}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</div>

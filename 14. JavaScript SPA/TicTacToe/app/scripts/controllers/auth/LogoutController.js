@@ -1,13 +1,14 @@
 /* global ticTacToeApp */
 
 ticTacToeApp.controller('LogoutController',
-    function LogoutController($rootScope, $scope, $resource, $location, ticTacToeData, auth) {
+    function LogoutController($rootScope, $scope, $resource, $location, auth, notifier) {
         'use strict';
-
         $scope.logout = function () {
-            auth.logout();
-            $rootScope.isLoggedIn = false;
-            $location.path('/login');
-            return;
+            auth.logout()
+                .then(function () {
+                    notifier.success('Successful logout!');
+                    $rootScope.isLoggedIn = false;
+                    $location.path('/');
+                });
         };
     });
