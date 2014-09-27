@@ -1,0 +1,35 @@
+input.ng-dirty.ng-invalid {
+    background-color: pink !important;
+}
+
+input.ng-dirty.ng-valid.validity {
+    background-color: darkseagreen !important;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+
+
+.form-login, .form-register {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.form-login .form-control, .form-register .form-control {
+
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.form-login .form-control:focus {
+    z-index: 2;
+}
+
+.login-button .register-button{
+    padding: 12px 18px;
+}
