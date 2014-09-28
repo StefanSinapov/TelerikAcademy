@@ -1,0 +1,36 @@
+<div class="container" ng-controller="LoginController">
+    <form name="loginForm" class="form-horizontal form-login well" id="loginForm">
+        <fieldset>
+            <legend>Login</legend>
+
+            <div class="form-group">
+                <label for="login-email" class="col-lg-2 control-label">Username</label>
+
+                <div class="col-lg-10">
+                    <input type="email" class="form-control" id="login-email" placeholder="Email"
+                           ng-model="user.username" required="" autofocus="" ng-trim="" ng-minlength="2" ng-maxlength="20">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+
+                <div class="col-lg-10">
+                    <input type="password" class="form-control login-password-input" id="inputPassword"
+                           placeholder="Password"
+                           ng-minlength="4" ng-maxlength="20" required="" ng-model="user.password">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button ng-click="login(user, loginForm)"
+                            class="btn btn-primary btn-block login-btn col-md-8 "
+                            type="submit"> Login
+                        <!--ng-disabled="loginForm.$invalid"-->
+                    </button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>

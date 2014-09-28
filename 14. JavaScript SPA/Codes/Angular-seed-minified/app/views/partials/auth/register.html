@@ -1,0 +1,49 @@
+<div class="container" ng-controller="RegistrationController">
+
+    <form name="registerForm" class="form-horizontal form-register well" id="registerForm">
+        <fieldset>
+            <legend>Register</legend>
+
+            <div class="form-group">
+                <label for="register-email" class="col-lg-2 control-label">Email</label>
+
+                <div class="col-lg-10">
+                    <input type="email" class="form-control username email" id="register-email" placeholder="Email"
+                           ng-model="user.email" required="required" autofocus="" ng-trim=""
+                           ng-minlength="2" ng-maxlength="20">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="register-password" class="col-lg-2 control-label">Password</label>
+
+                <div class="col-lg-10">
+                    <input id="register-password" type="password" placeholder="Password" ng-model="user.password"
+                           ng-minlength="6" ng-maxlength="20" required="" class="form-control"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="register-password-confirm" class="col-lg-2 control-label">Confirm Password</label>
+
+                <div class="col-lg-10">
+                    <input id="register-password-confirm" type="password" placeholder="Confirm Password"
+                           ng-model="user.confirmPassword" ng-minlength="6" ng-maxlength="20" required=""
+                           class="form-control password-confirm"
+                           />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button ng-click="register(user, registerForm)"
+                            class="btn btn-primary btn-block register-btn col-md-8"
+                            type="submit">Register
+                        <!--ng-disabled="registerForm.$pristine || registerForm.$invalid
+                        || user.password !== user.confirmPassword"-->
+                    </button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>

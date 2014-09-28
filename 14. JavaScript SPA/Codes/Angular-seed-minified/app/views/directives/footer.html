@@ -1,0 +1,26 @@
+<div class="panel-footer navbar-fixed-bottom" ng-cloak>
+    <footer class="text-center" ng-cloak>
+        <small class="pull-left">
+            &copy; 2014
+            <a href="https://github.com/{{gitAccount}}" target="_blank">{{ author }}, </a>
+            <a href="http://telerikacademy.com/" target="_blank">{{ copyright }}</a>
+        </small>
+
+        <small>
+            <a href="https://github.com/{{gitAccount}}/{{gitRepository}}/" class="github-btn"
+               target="_blank">GitHub</a>
+        </small>
+
+        <div class="pull-right">
+            <small>
+                Powered with:
+            </small>
+
+            <ul class="list-inline visible-lg-inline small">
+                <li ng-repeat="technology in technologies">
+                    <strong class="Source Title">{{technology}}</strong>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</div>
