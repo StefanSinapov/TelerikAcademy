@@ -10,7 +10,7 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body ng-app="ticTacToeApp" ng-controller="MainPageController" ng-cloak>
+<body ng-app="app" ng-controller="MainPageController" ng-cloak>
 
     <div navigation-bar></div>
 
@@ -33,7 +33,7 @@
     <script src="scripts/services/account/auth.js"></script>
     <script src="scripts/services/account/identity.js"></script>
     <script src="scripts/services/account/authorization.js"></script>
-    <script src="scripts/services/resources/ticTacToeData.js"></script>
+    <script src="scripts/services/resources/appData.js"></script>
     <script src="scripts/services/notifier.js"></script>
     <!--scripts/controllers-->
     <script src="scripts/controllers/MainPageController.js"></script>
@@ -42,5 +42,11 @@
     <script src="scripts/controllers/auth/RegistrationController.js"></script>
     <script src="scripts/controllers/lists/ListUsersController.js"></script>
     <script src="scripts/controllers/lists/ListScoresController.js"></script>
+    <script src="scripts/controllers/lists/ListGamesController.js"></script>
+    <script src="scripts/controllers/CreateGameController.js"></script>
+    <script src="scripts/controllers/GameStatusController.js"></script>
+    <!-- scripts/filters-->
+    <script src="scripts/filters/boardSignFilter.js"></script>
+    <script src="scripts/filters/gameStatusFilter.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-ticTacToeApp.directive('footer', function () {
+app.directive('footer', function () {
     'use strict';
 
     return {

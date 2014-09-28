@@ -1,6 +1,6 @@
-/* global ticTacToeApp */
+/* global app */
 
-ticTacToeApp.factory('authorization', ['identity', function(identity) {
+app.factory('authorization', ['identity', function(identity) {
     'use strict';
     return {
         getAuthorizationHeader: function() {

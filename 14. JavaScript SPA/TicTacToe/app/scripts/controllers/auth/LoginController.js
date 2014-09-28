@@ -1,13 +1,8 @@
-/* global ticTacToeApp */
+/* global app */
 
-ticTacToeApp.controller('LoginController', ['$rootScope', '$scope', '$location', 'notifier', 'identity', 'auth',
+app.controller('LoginController', ['$rootScope', '$scope', '$location', 'notifier', 'identity', 'auth',
     function ($rootScope, $scope, $location, notifier, identity, auth) {
         'use strict';
-
-        if (identity.isAuthenticated()) {
-            $location.path('/');
-            return;
-        }
 
         $scope.login = function (user, loginForm) {
             if (loginForm.$valid) {

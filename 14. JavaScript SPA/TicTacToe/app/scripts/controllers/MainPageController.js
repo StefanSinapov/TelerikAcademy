@@ -1,6 +1,6 @@
-/* global ticTacToeApp */
+/* global app */
 
-ticTacToeApp.controller('MainPageController',
+app.controller('MainPageController',
     function HomeController($scope, $rootScope, auth, identity, technologies, author, copyright, gitAccount, gitRepository) {
         'use strict';
 

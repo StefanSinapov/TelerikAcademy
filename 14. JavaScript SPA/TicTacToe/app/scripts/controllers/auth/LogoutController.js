@@ -1,6 +1,6 @@
-/* global ticTacToeApp */
+/* global app */
 
-ticTacToeApp.controller('LogoutController',
+app.controller('LogoutController',
     function LogoutController($rootScope, $scope, $resource, $location, auth, notifier) {
         'use strict';
         $scope.logout = function () {

@@ -1,4 +1,4 @@
-ticTacToeApp.directive('navigationBar', function () {
+app.directive('navigationBar', function () {
     'use strict';
 
     return {

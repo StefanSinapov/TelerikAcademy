@@ -1,6 +1,6 @@
-/* global ticTacToeApp */
+/* global app */
 
-ticTacToeApp.controller('RegistrationController', ['$scope', '$location', 'auth', 'notifier',
+app.controller('RegistrationController', ['$scope', '$location', 'auth', 'notifier',
     function ($scope, $location, auth, notifier) {
         'use strict';
         $scope.register = function (user, registerForm) {

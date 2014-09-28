@@ -17,41 +17,16 @@ input.ng-dirty.ng-valid.validity {
     margin-right: -4px;
 }
 
+.container {
+    margin-bottom: 15px;
+}
+
 .big-text {
     font-size: 2em;
 }
 
-.menu {
-    list-style: none;
-    border-bottom: 0.1em solid black;
-    margin-bottom: 2em;
-    padding: 0 0 0.5em;
-}
-
 .toast-top-right {
     top: 70px;
-}
-
-.menu:before {
-    content: "[";
-}
-
-.menu:after {
-    content: "]";
-}
-
-.menu > li {
-    display: inline;
-}
-
-.menu > li:before {
-    content: "|";
-    padding-right: 0.3em;
-}
-
-.menu > li:nth-child(1):before {
-    content: "";
-    padding: 0;
 }
 
 .image-container img {
@@ -63,6 +38,37 @@ input.ng-dirty.ng-valid.validity {
     max-width: 550px;
     margin: 0 auto;
     margin-top: 15px;
+}
+
+.tic-tac-toe-container {
+    background-image: url('../images/tic-tac-toe-md.png');
+    width: 320px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+
+.game-sign img {
+    min-width: 65px;
+    height: 60px;
+    margin-left: -23px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+
+    position: relative;
+}
+
+.game-sign img:nth-child(3){
+    border: 2px solid red;
+}
+
+.tic-tac-toe-table.notAllowed td {
+    cursor: not-allowed;
+}
+
+.tic-tac-toe-table.allowed td {
+    cursor: default;
 }
 
 .form-login .form-control, .form-register .form-control {
@@ -78,6 +84,6 @@ input.ng-dirty.ng-valid.validity {
     z-index: 2;
 }
 
-.login-button .register-button{
+.login-button .register-button {
     padding: 12px 18px;
 }

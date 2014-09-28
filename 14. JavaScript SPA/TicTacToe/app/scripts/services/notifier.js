@@ -1,6 +1,6 @@
-/* global ticTacToeApp */
+/* global app */
 
-ticTacToeApp.factory('notifier', ['toastr', function (toastr) {
+app.factory('notifier', ['toastr', function (toastr) {
     'use strict';
     return {
         success: function (msg) {

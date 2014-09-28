@@ -1,10 +1,10 @@
-/* global ticTacToeApp */
+/* global app */
 
-ticTacToeApp.controller('ListScoresController',
-    function ListUsersController($scope, ticTacToeData) {
+app.controller('ListScoresController',
+    function ListUsersController($scope, appData) {
         "use strict";
 
-        ticTacToeData
+        appData
             .getScores()
             .then(function (data) {
                 $scope.users = data;

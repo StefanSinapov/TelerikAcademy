@@ -1,0 +1,47 @@
+<div class="container col-md-12 well" ng-controller="GameStatusController">
+    <div class="row ">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h3 class="gamePlayersInfo" ng-if="hasTwoPlayers">
+                {{ firstPlayer }} <img src="images/x-sign.png" alt="x-sign"/>
+                vs. {{ secondPlayer }}
+                <img src="images/o-sign.png" alt="o-sign"/>
+            </h3>
+
+
+            <div class="panel panel-default tic-tac-toe-container">
+                <div class="panel-body ">
+                    <div class="col-xs-6 col-md-4">
+                        <div class="game-sign"><img ng-click="click(0, 0)"
+                                                    ng-src="{{ board[0] | boardSignFilter:board[0] }}"/></div>
+                        <div class="game-sign"><img ng-click="click(1, 0)"
+                                                    ng-src="{{ board[3] | boardSignFilter:board[3] }}"/></div>
+                        <div class="game-sign"><img ng-click="click(2, 0)"
+                                                    ng-src="{{ board[6] | boardSignFilter:board[6] }}"/></div>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <div class="game-sign"><img ng-click="click(0, 1)"
+                                                    ng-src="{{ board[1] | boardSignFilter:board[1] }}"/></div>
+                        <div class="game-sign"><img ng-click="click(1, 1)"
+                                                    ng-src="{{ board[4] | boardSignFilter:board[4] }}"/></div>
+                        <div class="game-sign"><img ng-click="click(2, 1)"
+                                                    ng-src="{{ board[7] | boardSignFilter:board[7] }}"/></div>
+                    </div>
+                    <div class="col-xs-6 col-md-4 last-col">
+                        <div class="game-sign"><img ng-click="click(0, 2)"
+                                                    ng-src="{{ board[2] | boardSignFilter:board[2] }}"/></div>
+                        <div class="game-sign"><img ng-click="click(1, 2)"
+                                                    ng-src="{{ board[5] | boardSignFilter:board[5] }}"/></div>
+                        <div class="game-sign"><img ng-click="click(2, 2)"
+                                                    ng-src="{{ board[8] | boardSignFilter:board[8] }}"/></div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class=""><strong>Status</strong>: {{ gameStatus | gameStatusFilter:{state:gameStatus,
+                firstPlayerName:firstPlayer,
+                currentPlayerName: currentPlayer} }}</h3>
+            <a href="#/games" class="btn btn-primary pull-right">Back</a>
+        </div>
+    </div>
+</div>

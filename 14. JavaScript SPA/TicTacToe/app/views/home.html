@@ -6,5 +6,17 @@
             You are bored of using plain old pen and paper for playing tic tac toe with your friends. You want to play
             with you loved one over the internet? This site is for you!
         </p>
+
+
+        <div class="" ng-if="isLoggedIn">
+            <a type="button" class="btn btn-primary" href="#/games">Games</a>
+            <a type="button" class="btn btn-primary" href="#/games/add">Create New</a>
+        </div>
+
+        <div class="" ng-hide="isLoggedIn">
+            <a type="button" class="btn btn-primary" href="#/login">Login</a>
+            <a type="button" class="btn btn-primary" href="#/register">Register</a>
+        </div>
+
     </div>
 </div>

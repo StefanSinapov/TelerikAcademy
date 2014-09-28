@@ -1,6 +1,6 @@
-/* global ticTacToeApp */
+/* global app */
 
-ticTacToeApp.factory('identity', ['$cookieStore', function ($cookieStore) {
+app.factory('identity', ['$cookieStore', function ($cookieStore) {
     'use strict';
 
     var cookieStorageUserKey = 'currentApplicationUser';

@@ -1,5 +1,5 @@
-/* global ticTacToeApp */
-ticTacToeApp.factory('auth', ['$http', '$q', 'identity', 'authorization', 'baseServiceUrl',
+/* global app */
+app.factory('auth', ['$http', '$q', 'identity', 'authorization', 'baseServiceUrl',
     function ($http, $q, identity, authorization, baseServiceUrl) {
         'use strict';
         var usersApi = baseServiceUrl + '/api/account';
@@ -55,6 +55,15 @@ ticTacToeApp.factory('auth', ['$http', '$q', 'identity', 'authorization', 'baseS
                 }
                 else {
                     return $q.reject('not authorized');
+                }
+            },
+
+            isLoggedOut: function () {
+                if (identity.isAuthenticated()) {
+                    return $q.reject('is logged in');
+                }
+                else {
+                    return true;
                 }
             }
         };
