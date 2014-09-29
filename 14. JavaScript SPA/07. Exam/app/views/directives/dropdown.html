@@ -1,0 +1,14 @@
+<div>
+    <div ng-cloak>
+
+        <label for="select" class="control-label">{{options.name}}</label>
+        <br/>
+        <div>
+            <select class="form-control" id="select" ng-model="selectValue">
+                <option ng-model-options="value" ng-repeat="value in options.values" value="{{value}}">
+                    {{value}}
+                </option>
+            </select>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="jumbotron">
+        <h1>Welcome to My app</h1>
+
+        <p>
+            Welcome to trip Exchange
+        </p>
+
+        <div class="" ng-hide="isLoggedIn">
+            <a type="button" class="btn btn-primary" href="#/login">Login</a>
+            <a type="button" class="btn btn-primary" href="#/register">Register</a>
+        </div>
+        <div class="" ng-show="isLoggedIn">
+            <p class="text-warning">buttons to show when you are logged in...</p>
+            <a type="button" class="btn btn-primary" href="#/trips">Trips</a>
+            <a type="button" class="btn btn-primary" href="#/drivers">Drivers</a>
+        </div>
+    </div>
+
+
+
+    <div class="row ">
+        <div class="col-md-3">
+            Trips: {{stats.trips}}
+        </div>
+        <div class="col-md-3">
+            Finished Trips: {{stats.finishedTrips}}
+        </div>
+        <div class="col-md-3">
+            Users: {{stats.users}}
+        </div>
+        <div class="col-md-3">
+            Drivers: {{stats.drivers}}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="panel panel-primary col-md-6">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Latest Trips</h3>
+            </div>
+            <div class="panel-body">
+                <div trips></div>
+            </div>
+        </div>
+
+        <div class="panel panel-primary col-md-6">
+            <div class="panel-heading text-center">
+                <h3 class="panel-title">Latest Drivers</h3>
+            </div>
+            <div class="panel-body">
+                <div drivers></div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<div>
+    <div ng-cloak ng-if="drivers">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Upcoming Trips</th>
+                <th>Total Trips</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="driver in drivers">
+                <td><a href="#/drivers/{{driver.id}}">{{ driver.name }}</a></td>
+                <td>{{ driver.numberOfUpcomingTrips }}</td>
+                <td>{{ driver.numberOfTotalTrips }}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

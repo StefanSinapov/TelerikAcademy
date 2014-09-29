@@ -1,0 +1,68 @@
+<div class="container" ng-controller="CreateTripController">
+    <div class="col-md-3"></div>
+
+    <div class="col-md-6">
+        <form name="createTripForm" class="form-horizontal well">
+            <fieldset>
+                <legend>Create new Trip</legend>
+
+                <div class="form-group">
+                    <label for="from-select" class="col-lg-2 control-label">From</label>
+
+                    <div class="col-lg-10">
+                        <div>
+                            <select required="" class="form-control" id="from-select" ng-model="trip.from">
+                                <option ng-repeat="value in options.values"
+                                        value="{{value}}">
+                                    {{value}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="to-select" class="col-lg-2 control-label">To</label>
+
+                    <div class="col-lg-10">
+                        <div>
+                            <select required="" class="form-control" id="to-select" ng-model="trip.to">
+                                <option ng-repeat="value in options.values"
+                                        value="{{value}}">
+                                    {{value}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="availableSeats" class="col-lg-2 control-label">Available seats</label>
+
+                    <div class="col-lg-10">
+                        <input id="availableSeats" type="number" class="form-control" placeholder="3" required=""
+                               autofocus="" ng-trim="" ng-model="trip.availableSeats">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="time" class="col-lg-2 control-label">Departure time</label>
+
+                    <div class="col-lg-10">
+                        <input id="time" type="text" date-picker ng-model="trip.departureTime" required="" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                        <button class="btn btn-success btn-block pull-right" type="submit"
+                                ng-click="createTrip(trip, createTripForm)">Create
+                        </button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="col-md-3"></div>
+</div>

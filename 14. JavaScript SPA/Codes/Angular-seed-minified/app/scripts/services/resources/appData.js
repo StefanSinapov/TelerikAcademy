@@ -1,7 +1,9 @@
 /* global app */
 
-app.factory('appData', function ($resource, $http, $q, authorization, baseServiceUrl) {
+app.factory('appData', function ($resource, $http, $q, authorization, baseServiceUrl, identity) {
     'use strict';
+
+    var usersApi = baseServiceUrl + 'api/account';
 
     function getGames(type) {
         var deferred = $q.defer();
@@ -28,64 +30,100 @@ app.factory('appData', function ($resource, $http, $q, authorization, baseServic
         return deferred.promise;
     }
 
-    return {
-		register: function (user) {
-			var deferred = $q.defer();
+    function register(user) {
+        var deferred = $q.defer();
 
-			$http.post(usersApi + '/register', user)
-				.success(function (data) {
-					deferred.resolve(data);
-				})
-				.error(function (response) {
-					deferred.reject(response);
-				});
-
-			return deferred.promise;
-		},
-        login: function (username, password) {
-            var deferred = $q.defer();
-
-            $http.post(url + 'Token', {
-                username: username,
-                password: password,
-                grant_type: "password"
+        $http.post(usersApi + '/register',
+            {
+                email: user.email,
+                password: user.password,
+                confirmPassword: user.confirmPassword
             },
-                {
-                    transformRequest: function (obj) {
-                        var str = [];
-                        for (var p in obj)
-                            str.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));
-                        return str.join("&");
-                    },
-                    headers: {
-                        'Content-Type': 'application/x-www-form-urlencoded'
-                    }
-                })
-                .success(function (data) {
-                    deferred.resolve(data);
-                })
-                .error(function (data) {
-                    deferred.reject(data);
-                });
+            {
+                transformRequest: function (obj) {
+                    var str = [];
+                    for (var p in obj)
+                        str.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));
+                    return str.join("&");
+                },
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            })
+            .success(function (data) {
+                deferred.resolve(data);
+            })
+            .error(function (data) {
+                deferred.reject(data);
+            });
 
-            return deferred.promise;
+        return deferred.promise;
+    }
+
+    function login(user) {
+        var deferred = $q.defer();
+
+        user.grant_type = 'password';
+
+        $http.post(baseServiceUrl + 'Token', user,
+            {
+                transformRequest: function (obj) {
+                    var str = [];
+                    for (var p in obj)
+                        str.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));
+                    return str.join("&");
+                },
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            })
+            .success(function (response) {
+                if (response["access_token"]) {
+                    identity.setCurrentUser(response);
+                    deferred.resolve(true);
+                }
+                else {
+                    deferred.reject(false);
+                }
+            })
+            .error(function (response) {
+                deferred.reject(response);
+            });
+
+        return deferred.promise;
+    }
+
+    function logout() {
+        var deferred = $q.defer();
+        var headers = authorization.getAuthorizationHeader();
+
+        $http.post(usersApi + '/logout', {}, {
+            transformRequest: function (obj) {
+                var str = [];
+                for (var p in obj)
+                    str.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));
+                return str.join("&");
+            },
+            headers: headers
+        })
+            .success(function () {
+                identity.setCurrentUser(undefined);
+                deferred.resolve();
+            })
+            .error(function () {
+                identity.setCurrentUser(undefined);
+                deferred.reject();
+            });
+
+        return deferred.promise;
+    }
+
+    return {
+        user: {
+            register: register,
+            login: login,
+            logout: logout
         },
-		logout: function () {
-			var deferred = $q.defer();
-
-			var headers = authorization.getAuthorizationHeader();
-			$http.post(usersApi + '/logout', {}, { headers: headers })
-				.success(function () {
-					identity.setCurrentUser(undefined);
-					deferred.resolve();
-				})
-				.error(function(){
-					identity.setCurrentUser(undefined);
-					deferred.reject();
-				});
-
-			return deferred.promise;
-		},
         getUsers: function () {
             var deferred = $q.defer();
 
@@ -148,7 +186,7 @@ app.factory('appData', function ($resource, $http, $q, authorization, baseServic
 
             return deferred.promise;
         },
-        createGame: function(gameName){
+        createGame: function (gameName) {
             var deferred = $q.defer();
 
             var headers = authorization.getAuthorizationHeader();
@@ -156,7 +194,7 @@ app.factory('appData', function ($resource, $http, $q, authorization, baseServic
             $http.post(baseServiceUrl + 'api/Games/Create',
                 {
                     Name: gameName
-                },{
+                }, {
                     transformRequest: function (obj) {
                         var str = [];
                         for (var p in obj)
@@ -165,16 +203,16 @@ app.factory('appData', function ($resource, $http, $q, authorization, baseServic
                     },
                     headers: headers
                 })
-                .success(function(data){
+                .success(function (data) {
                     deferred.resolve(data);
                 })
-                .error(function(reason){
+                .error(function (reason) {
                     deferred.reject(reason);
                 });
 
             return deferred.promise;
         },
-        getGameStatus: function(gameId){
+        getGameStatus: function (gameId) {
             var deferred = $q.defer();
 
             var headers = authorization.getAuthorizationHeader();
@@ -182,7 +220,7 @@ app.factory('appData', function ($resource, $http, $q, authorization, baseServic
             $http.post(baseServiceUrl + 'api/Games/Status',
                 {
                     GameId: gameId
-                },{
+                }, {
                     transformRequest: function (obj) {
                         var str = [];
                         for (var p in obj)
@@ -191,16 +229,16 @@ app.factory('appData', function ($resource, $http, $q, authorization, baseServic
                     },
                     headers: headers
                 })
-                .success(function(data){
+                .success(function (data) {
                     deferred.resolve(data);
                 })
-                .error(function(reason){
+                .error(function (reason) {
                     deferred.reject(reason);
                 });
 
             return deferred.promise;
         },
-        playGame: function(gameId, row, col){
+        playGame: function (gameId, row, col) {
             var deferred = $q.defer();
             var headers = authorization.getAuthorizationHeader();
 
@@ -209,7 +247,7 @@ app.factory('appData', function ($resource, $http, $q, authorization, baseServic
                     GameId: gameId,
                     Row: row,
                     Col: col
-                },{
+                }, {
                     transformRequest: function (obj) {
                         var str = [];
                         for (var p in obj)
@@ -218,10 +256,10 @@ app.factory('appData', function ($resource, $http, $q, authorization, baseServic
                     },
                     headers: headers
                 })
-                .success(function(data){
+                .success(function (data) {
                     deferred.resolve(data);
                 })
-                .error(function(reason){
+                .error(function (reason) {
                     deferred.reject(reason);
                 });
 

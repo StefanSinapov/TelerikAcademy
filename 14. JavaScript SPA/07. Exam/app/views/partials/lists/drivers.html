@@ -1,0 +1,57 @@
+<div class="container jumbotron" ng-controller="ListDriversController">
+    <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8 page-header big-text">
+            <strong>Drivers</strong>
+        </div>
+
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="container" ng-hide="isLoggedIn">
+        <div class="row">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-8">
+                <div drivers></div>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <div class="container" ng-if="isLoggedIn">
+
+        <div class="row">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-4 pull-left">
+                <input type="text" class="input-sm" ng-trim="" ng-model="username"/>
+                <button class="btn btn-primary btn-sm" ng-click="filter(page, username)">Filter</button>
+            </div>
+
+            <div class="col-md-4">
+                <ul class="pager">
+                    <li><a class="btn" ng-class="btnDisabled" ng-click="previousPage(page, username)">«</a></li>
+                    <li><input type="text" class="input-xs" ng-trim="" ng-model="page" ng-change="changePage(page)"
+                            disabled></li>
+                    <li><a class="btn" ng-click="nextPage(page, username)" >»</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-8">
+                <div drivers></div>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+</div>

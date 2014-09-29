@@ -1,0 +1,92 @@
+<div class="container" ng-controller="ListTripsController">
+    <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8 page-header big-text">
+            <strong>Trips</strong>
+            <a href="#/trips/create" ng-if="isLoggedIn" class="btn btn-primary pull-right">Create</a>
+        </div>
+
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="container" ng-hide="isLoggedIn">
+        <div class="row">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-8">
+                <div drivers></div>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <div class="container" ng-if="isLoggedIn">
+
+        <div class="row">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-2">
+                <div options="orderBy" value="filterOptions.orderBy" dropdown></div>
+            </div>
+            <div class="col-md-2">
+                <div options="order" value="filterOptions.orderType" dropdown></div>
+            </div>
+            <div class="col-md-2">
+                <div options="fromCities" value="filterOptions.from" dropdown></div>
+            </div>
+            <div class="col-md-2">
+                <div options="toCities" value="filterOptions.to" dropdown></div>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-2">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="includ-finished"  value="True"
+                               ng-model="filterOptions.finished"> Include finished
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="only-mine" value="True"
+                               ng-model="filterOptions.onlyMine">Only mine
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <button class="btn btn-primary btn-sm" ng-click="filter(filterOptions)">Filter</button>
+            </div>
+
+            <div class="col-md-4">
+                <ul class="pager">
+                    <li><a class="btn" ng-class="btnDisabled" ng-click="previousPage(filterOptions)">«</a></li>
+                    <li><input type="text" class="input-xs" ng-trim="" ng-model="filterOptions.page"
+                               disabled></li>
+                    <li><a class="btn" ng-click="nextPage(filterOptions)">»</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-8">
+                <div trips></div>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+</div>
+</div>

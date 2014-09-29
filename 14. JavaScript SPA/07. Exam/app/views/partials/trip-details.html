@@ -1,0 +1,55 @@
+<div class="container jumbotron" ng-controller="TripDetailsController">
+    <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8 page-header">
+            <strong>Trip</strong> :
+            {{trip.driverName}}: {{ trip.departureDate | date : 'd MMM yyyy, HH:mm' }}
+            <button ng-show="trip.numberOfFreeSeats !== 0 && !trip.isMine"
+                    class="btn-primary btn pull-right" ng-click="joinTrip(trip)">
+                Join
+            </button>
+        </div>
+
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8">
+            <div class="col-md-4">
+                <strong>From</strong> {{trip.from}}
+            </div>
+            <div class="col-md-4">
+                <strong>From</strong> {{trip.to}}
+            </div>
+            <div class="col-md-4">
+                <strong>Number of Free seats</strong> {{trip.numberOfFreeSeats}}
+            </div>
+        </div>
+
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Pasanger</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="passanger in trip.passengers">
+                    <td>{{passanger}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-2"></div>
+    </div>
+</div>

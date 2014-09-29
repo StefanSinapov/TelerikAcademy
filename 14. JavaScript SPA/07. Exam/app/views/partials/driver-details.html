@@ -1,0 +1,36 @@
+<div class="container jumbotron" ng-controller="DriverDetailsController">
+    <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8 page-header">
+            <strong>{{driver.name}}</strong>
+        </div>
+
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8">
+            <div class="col-md-3">
+                <strong>Upcomming trips</strong> {{driver.numberOfUpcomingTrips}}
+            </div>
+            <div class="col-md-3">
+                <strong>Total trips</strong> {{driver.numberOfTotalTrips}}
+            </div>
+        </div>
+
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8">
+           <div trips></div>
+        </div>
+
+        <div class="col-md-2"></div>
+    </div>
+</div>

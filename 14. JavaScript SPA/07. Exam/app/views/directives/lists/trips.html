@@ -1,0 +1,24 @@
+<div>
+    <div ng-cloak ng-if="trips">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Driver</th>
+                <th>From</th>
+                <th>To</th>
+                <th>Departure Time</th>
+                <td ng-if="isLoggedInAndInTab">Is mine</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="trip in trips">
+                <td><a href="#/trips/{{trip.id}}">{{ trip.driverName }}</a></td>
+                <td>{{ trip.from }}</td>
+                <td>{{ trip.to }}</td>
+                <td>{{ trip.departureDate | date : 'd MMM yyyy, HH:mm' }}</td>
+                <td ng-if="isLoggedInAndInTab"><span class=" {{trip.isMine | isMineFilter }}"></span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

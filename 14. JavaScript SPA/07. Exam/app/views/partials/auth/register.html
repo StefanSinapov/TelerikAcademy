@@ -1,0 +1,69 @@
+<div class="container" ng-controller="RegistrationController">
+
+    <form name="registerForm" class="form-horizontal form-register well" id="registerForm">
+        <fieldset>
+            <legend>Register</legend>
+
+            <div class="form-group">
+                <label for="register-email" class="col-lg-2 control-label">Email</label>
+
+                <div class="col-lg-10">
+                    <input type="email" class="form-control username email" id="register-email" placeholder="Email"
+                           ng-model="user.email" required="required" autofocus="" ng-trim=""
+                           ng-minlength="2" ng-maxlength="20">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="register-password" class="col-lg-2 control-label">Password</label>
+
+                <div class="col-lg-10">
+                    <input id="register-password" type="password" placeholder="Password" ng-model="user.password"
+                           ng-minlength="6" ng-maxlength="20" required="" class="form-control"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="register-password-confirm" class="col-lg-2 control-label">Confirm Password</label>
+
+                <div class="col-lg-10">
+                    <input id="register-password-confirm" type="password" placeholder="Confirm Password"
+                           ng-model="user.confirmPassword" ng-minlength="6" ng-maxlength="20" required=""
+                           class="form-control password-confirm"
+                            />
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-lg-2"></div>
+                <div class="checkbox col-lg-10">
+                    <label>
+                        <input type="checkbox" name="register-is-driver" id="register-is-driver" value="True"
+                               ng-model="user.isDriver"> Driver
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group" ng-show="user.isDriver">
+                <label for="register-car-name" class="col-lg-2 control-label">Confirm Password</label>
+
+                <div class="col-lg-10">
+                    <input id="register-car-name" type="text" placeholder="Car name"
+                           ng-model="user.car" ng-minlength="2" ng-maxlength="20" ng-required="user.isDriver"
+                           class="form-control"
+                            />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button ng-click="register(user, registerForm)"
+                            class="btn btn-primary btn-block register-btn col-md-8"
+                            type="submit">Register
+                    </button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
