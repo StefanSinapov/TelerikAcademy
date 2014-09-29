@@ -35,7 +35,7 @@ namespace BullsAndCows.Web
                 defaults: new { controller = "Guesses" }
             );
 
-            config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
+//            config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
 
             config.Formatters.JsonFormatter.SerializerSettings.PreserveReferencesHandling = PreserveReferencesHandling.None;
             config.Formatters.Remove(config.Formatters.XmlFormatter);

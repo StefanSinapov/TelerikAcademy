@@ -6,7 +6,6 @@ using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
-using System.Web.Http.ModelBinding;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
@@ -20,6 +19,7 @@ using BullsAndCows.Web.Results;
 namespace BullsAndCows.Web.Controllers
 {
     using BullsAndCows.Models;
+    using Data;
 
     [Authorize]
     [RoutePrefix("api/Account")]
@@ -30,6 +30,7 @@ namespace BullsAndCows.Web.Controllers
 
         public AccountController()
         {
+            this._userManager = new ApplicationUserManager(new UserStore<User>(new BullsAndCowsDbContext()));
         }
 
         public AccountController(ApplicationUserManager userManager,
@@ -341,21 +342,6 @@ namespace BullsAndCows.Web.Controllers
 
             return Ok();
         }
-
-//        [AllowAnonymous]
-//        [Route("Register")]
-//        public async Task<IHttpActionResult> Register([FromBody]string email, 
-//                        [FromBody]string password, [FromBody]string confirmPassword)
-//        {
-//            var model = new RegisterBindingModel
-//            {
-//                Email = email,
-//                Password = password,
-//                ConfirmPassword = confirmPassword
-//            };
-//
-//            return await this.Register(model);
-//        }
 
         // POST api/Account/RegisterExternal
         [OverrideAuthentication]
