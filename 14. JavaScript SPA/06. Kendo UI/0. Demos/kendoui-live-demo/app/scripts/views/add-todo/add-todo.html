@@ -1,0 +1,11 @@
+<h1 data-bind="text: title"></h1>
+
+<label for="tb-text">Text: </label>
+<input id="tb-text" 
+		data-bind="value: text">
+
+<label for="tb-responsible">Responsible: </label>
+<input id="tb-responsible" 
+		data-bind="value: responsible">
+
+<button data-bind="events: { click: addTodo}">Add</button>
