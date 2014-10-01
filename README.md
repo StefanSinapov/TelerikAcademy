@@ -8,7 +8,8 @@ Telerik Academy 2013-2014
 | [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) |
 | [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          |
 | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-oop-notes)                   |
-|                                                                           | [JavaScript Applications](#javascript-applications-notes) |
+|                                                                           | [JavaScript Applications](#javascript-applications-notes) 
+|																			| [JavaScript SPA](#javascript-spa-notes)
 
 # Programming with C# 
 
@@ -66,21 +67,21 @@ Telerik Academy 2013-2014
 * [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Homework/20.%20Exam%20preparation/Exam-Preparation-Phonebook-2014)
 * [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code/Exam)
 
-##[Data Structures and Algorithms]() ([notes](http://www.evernote.com/shard/s60/sh/5af34806-80a5-4dea-9b94-c7b1ee879a5e/dfe0f07e12c9ab55fb0e94e8866669b7))
-1. [Data Structures, Algorithms and Complexity]()
-* [Linear Data Structures]()
-* [Trees and Traversals]()
-* [Dictionaries, Hash Tables and Sets]()
-* [Advanced Data Structures]()
-* [Data Structure Efficiency]()
-* [Sorting and Searching Algorithms]()
-* [Recursion]()
-* [Combinatorial Algorithms]()
-* [Dynamic Programming]()
-* [Graphs]()
-* [Methodology of Problem Solving]()
-* [Exam Preparation]()
-* [Exam]()
+##[Data Structures and Algorithms](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms) ([notes](http://www.evernote.com/shard/s60/sh/5af34806-80a5-4dea-9b94-c7b1ee879a5e/dfe0f07e12c9ab55fb0e94e8866669b7))
+1. [Data Structures, Algorithms and Complexity](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/01.%20Data%20Structures%2C%20Algorithms%20and%20Complexity)
+* [Linear Data Structures](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/02.%20Linear%20Data%20Structures)
+* [Trees and Traversals](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/03.%20Trees%20and%20Traversals)
+* [Dictionaries, Hash Tables and Sets](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/04.%20Dictionaries%2C%20Hash%20Tables%20and%20Sets)
+* [Advanced Data Structures](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/05.%20Advanced%20Data%20Structures)
+* [Data Structure Efficiency](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/06.%20Data%20Structure%20Efficiency)
+* [Sorting and Searching Algorithms](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/07.%20Sorting%20and%20Searching%20Algorithms)
+* [Recursion](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/08.%20Recursion)
+* [Combinatorial Algorithms](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/09.%20Combinatorial%20Algorithms)
+* [Dynamic Programming](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/10.%20Dynamic%20Programming)
+* [Graphs](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/11.%20Graphs)
+* Methodology of Problem Solving
+* [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/13.%20Exam%20Preparation)
+* [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/12.%20Data%20Structures%20%26%20Algorithms/14.%20Exam)
 
 
 # Web Design & Development
@@ -153,7 +154,16 @@ Telerik Academy 2013-2014
 11. [App architecture](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/11.%20App%20architecture)
 12. [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/13.%20Exam)
 
-
+## [JavaScript SPA](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA) ([Notes](http://www.evernote.com/l/ADwuNFGRKU5G1Kn-EmieEy4mr0xThfrhLdc/))
+1. [Introduction to AngularJS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/01.%20Introduction%20to%20AngularJS)
+* [Controllers and Markup in AngularJS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/02.%20Controllers%20and%20Markup%20in%20AngularJS)
+* [Services in AngularJS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/03.%20Services%20in%20AngularJS)
+* [Routing in AngularJS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/04.%20Routing%20in%20AngularJS)
+* [Directives in AngularJS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/05.%20Directives%20in%20AngularJS)
+* [KendoUI](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/06.%20Kendo%20UI)
+* [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/07.%20Exam)
+[Tic Tac Toe client](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/TicTacToe)
+[Codes](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/Codes)
 
 # Software Technologies
 
@@ -192,3 +202,4 @@ Telerik Academy 2013-2014
 * [Teamwork](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/09.%20Teamwork)
 * [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/10.%20Exam%20Preparation)
 * [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/13.%20Web%20Services%20and%20Cloud/11.%20Exam)
+
