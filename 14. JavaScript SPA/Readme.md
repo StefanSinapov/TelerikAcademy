@@ -7,5 +7,5 @@
 * [Directives in AngularJS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/05.%20Directives%20in%20AngularJS)
 * [KendoUI](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/06.%20Kendo%20UI)
 * [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/07.%20Exam)
-[Tic Tac Toe client](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/TicTacToe)
-[Codes](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/Codes)
+- [Tic Tac Toe client](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/TicTacToe)
+- [Codes](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/Codes)

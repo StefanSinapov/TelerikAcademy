@@ -154,7 +154,7 @@ Telerik Academy 2013-2014
 11. [App architecture](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/11.%20App%20architecture)
 12. [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/10.%20JavaScript%20Applications/13.%20Exam)
 
-## [JavaScript SPA](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA) ([Notes](http://www.evernote.com/l/ADwuNFGRKU5G1Kn-EmieEy4mr0xThfrhLdc/))
+## [JavaScript SPA]() ([Notes](http://www.evernote.com/l/ADwuNFGRKU5G1Kn-EmieEy4mr0xThfrhLdc/))
 1. [Introduction to AngularJS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/01.%20Introduction%20to%20AngularJS)
 * [Controllers and Markup in AngularJS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/02.%20Controllers%20and%20Markup%20in%20AngularJS)
 * [Services in AngularJS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/03.%20Services%20in%20AngularJS)
@@ -162,8 +162,8 @@ Telerik Academy 2013-2014
 * [Directives in AngularJS](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/05.%20Directives%20in%20AngularJS)
 * [KendoUI](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/06.%20Kendo%20UI)
 * [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/07.%20Exam)
-[Tic Tac Toe client](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/TicTacToe)
-[Codes](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/Codes)
+- [Tic Tac Toe client](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/TicTacToe)
+- [Codes](https://github.com/StefanSinapov/TelerikAcademy/tree/master/14.%20JavaScript%20SPA/Codes)
 
 # Software Technologies
 
