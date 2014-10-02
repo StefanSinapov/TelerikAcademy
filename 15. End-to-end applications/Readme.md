@@ -3,7 +3,7 @@
 1. [Introduction to Node.js]()
 2. [Node.JS Web Server]()
 3. [Advanced Node.js[()
-4. [NSQL databases with Node.js]()
+4. [MongoDB and Mongoose in Node.js]()
 5. [View engines]()
 6. [ExpressJS]()
 7. [Unit testing Node.js]()

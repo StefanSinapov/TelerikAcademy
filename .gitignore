@@ -181,3 +181,9 @@ Desktop.ini
 # .idea/dataSources.xml
 # .idea/sqlDataSources.xml
 # .idea/dynamic.xml
+node_modules
+public/lib
+
+# Logs
+logs
+*.log
