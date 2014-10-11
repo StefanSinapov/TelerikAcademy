@@ -1,0 +1,23 @@
+{
+    "name": "chatmodule",
+    "description": "chatmodule app description here",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "latest",
+        "mongoose": "latest",
+        "morgan": "latest",
+        "errorhandler": "latest"
+    },
+    "devDependencies": {
+        "grunt": "latest",
+        "bower": "latest",
+        "grunt-open": "^0.2.3",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-express-server": "^0.4.17",
+        "load-grunt-tasks": "^0.4.0"
+    },
+    "scripts": {
+        "start": "server.js"
+    }
+}
