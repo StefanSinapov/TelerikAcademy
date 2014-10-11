@@ -1,0 +1,26 @@
+.well.container
+	img(src="{{product.img}}")
+	p
+		a(href="#/products/{{product.id}}")
+			strong {{product.name}}
+	p
+		| from
+		a(href="#/users/{{product.vendor.id}}") {{product.vendor.username}}
+		| on {{product.datePublished | date : 'd.MMM.yyyy'}}
+		
+		
+		
+		
+		---------------
+
+
+    $scope.product = {
+        name: 'iPhone 5S',
+        id: 'aaskdjfhlaskjfkjnlkjhasldfj',
+        img: 'http://img22.prodavalnik.com/images_prodavalnikcom/55833964_1_171x132.jpg',
+        vendor: {
+            id: 'as;dlfkhalksjdfhlkjsahdflkj',
+            username: 'pesho'
+        },
+        datePublished: '05.10.2014'
+    };
