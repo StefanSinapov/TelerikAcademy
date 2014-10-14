@@ -1,0 +1,15 @@
+extends ../shared/layout
+
+block main-content
+    br
+    form(method="post")
+        label(for="username") Username
+        input(id="username" type="text" name="username" placeholder="Username")
+        br
+        label(for="password") Password
+        input(id="password" type="password" name="password" placeholder="Password")
+        br
+        label(for="confirm-password") Confirm Password
+        input(id="confirm-password" type="password" name="confirmPassword" placeholder="Confirm Password")
+        br
+        input(type="submit" value="Submit")

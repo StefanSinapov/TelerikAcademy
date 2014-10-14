@@ -1,0 +1,7 @@
+.row
+    .col-md-offset-8.col-md-1
+        button.btn.btn-info(ng-click='previousPage()', ng-disabled='request.page == 1') <<
+    .col-md-2
+        input.form-control(type='text', ng-model='request.page', value='1')
+    .col-md-1
+        button.btn.btn-info.pull-right(ng-click='nextPage()') >>

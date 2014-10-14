@@ -1,0 +1,15 @@
+extends ../shared/layout
+block main-content
+    table.table.table-bordered
+        tr
+            th File name
+            th Download link
+            th Private
+        - for(var i = 0; i < files.length; i++) {
+            - var url = '/files/download/' + files[i].url;
+            tr
+                td #{files[i].fileName}
+                td
+                    a(href="#{url}") #{'http://mysite.com' + url}
+                td #{files[i].private == 'on' ? 'yes' : 'no'}
+        - }

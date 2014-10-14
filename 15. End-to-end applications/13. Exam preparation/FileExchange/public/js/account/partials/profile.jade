@@ -1,0 +1,24 @@
+.container
+    .row
+        .col-md-3
+            .thumbnail
+                img.avatar(ng-if='user.imageUrl', ng-src='images/{{ user.imageUrl }}', alt='avatar')
+                h4 Personal information:
+                ul.list-group
+                    li.list-group-item
+                        i.fa.fa-user
+                        span.list-group-item-text  {{user.username}}
+                    li.list-group-item
+                        i.glyphicon.glyphicon-user
+                        span.list-group-item-text  {{user.firstName + ' ' + user.lastName}}
+                    li.list-group-item
+                        i.glyphicon.glyphicon-phone
+                        span.list-group-item-text  {{user.phone}}
+                    li.list-group-item
+                        i.glyphicon.glyphicon-globe
+                        span.list-group-item-text  {{user.city}}
+                    a(href='#/settings')
+                        li.list-group-item
+                            i.fa.fa-gear
+                            span.list-group-item-heading  Settings
+        .col-md-8

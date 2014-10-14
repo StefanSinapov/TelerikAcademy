@@ -1,0 +1,18 @@
+.container(ng-controller="UploadResultsController")
+    .col-md-3
+
+    .col-md-9
+        h2.page-header Uploaded files
+
+        table.table-striped
+            thead
+                tr
+                    th Filename
+                    th URL
+                    th Date uploaded
+            tbody
+                tr(ng-repeat="file in files")
+                    th {{file.fileName}}
+                    th
+                       a(href="/download/{{file.url}}") http://localhost:3000/download/{{file.url}}
+                    th {{file.date | date }}

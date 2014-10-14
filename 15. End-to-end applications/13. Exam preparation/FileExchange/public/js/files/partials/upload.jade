@@ -1,0 +1,19 @@
+.container(ng-controller="UploadController")
+    .col-md-4.col-sm-6.col-xs-12
+        .text-center
+        .row
+            | Upload files...
+            button.btn.btn-default.btn-small.pull-right(ng-click="addFile()") Add File
+        .row
+            form(method="post" action="/api/files" id="form-upload" enctype="multipart/form-data")
+                .row(ng-repeat="number in counter")
+                    .form-group-sm
+                        input(type="checkbox" name="private_{{number}}" id="private_{{number}}")
+                        label(for="private_{{number}}")  Private
+                    .form-group
+                        input.text-center.well.well-sm(type="file" file-model="user.image" name="file_{{number}}")
+                .form-group(id="submit-btn")
+                    button.btn.btn-primary(type="submit")
+                        i.glyphicon.glyphicon-upload
+                        |  Upload
+    .col-md-8.col-sm-6.col-xs-12

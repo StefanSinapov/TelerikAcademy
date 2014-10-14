@@ -1,0 +1,19 @@
+extends shared/layout
+
+block main-content
+    div(ng-include="'partials/nav/nav'")
+
+    section
+        div(ng-view)
+    footer.panel-footer.navbar-fixed-bottom
+        .text-center
+            small.pull-left
+                | &copy; 2014
+                |  Stefan Sinapov ,
+                a(href="http://telerikacademy.com/")  Telerik Academy
+            small
+                 a(href="http://github.com/StefanSinapov/FileExchange")
+                    i.fa.fa-github-square
+            .pull-right
+                small Powered with:
+                    strong  AngularJS, Twitter bootstrap

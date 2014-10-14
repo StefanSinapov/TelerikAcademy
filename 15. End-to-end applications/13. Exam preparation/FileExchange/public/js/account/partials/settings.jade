@@ -1,0 +1,49 @@
+.container
+    h1.page-header Edit Profile
+    .row
+        form.form-horizontal(name="updateUserForm")
+            .col-md-4.col-sm-6.col-xs-12
+                .text-center
+                    img.avatar.img-thumbnail(ng-if='user.imageUrl', ng-src='images/{{ user.imageUrl }}', alt='avatar')
+                    h6 Upload a different photo...
+                    input.text-center.center-block.well.well-sm(type="file" file-model="user.image" accept="image/*")
+            .col-md-8.col-sm-6.col-xs-12.personal-info
+                h3 Personal info
+                .form-group
+                    label.col-lg-3.control-label First name:
+                    .col-lg-8
+                        input.form-control(ng-model='user.firstName', type='text', required)
+                .form-group
+                    label.col-lg-3.control-label Last name:
+                    .col-lg-8
+                        input.form-control(ng-model='user.lastName', type='text', required)
+                .form-group
+                    label.col-md-3.control-label Username:
+                    .col-md-8
+                        input.form-control(ng-model='user.username', disabled , type='text', required)
+                .form-group
+                    label.col-md-3.control-label Password:
+                    .col-md-8
+                        input.form-control(ng-model='user.password', type='password')
+                .form-group
+                    label.col-md-3.control-label Confirm password:
+                    .col-md-8
+                        input.form-control(ng-model='user.confirmPassword', type='password')
+                .form-group
+                    label.col-md-3.control-label
+                    .col-md-8
+                        button.btn.btn-primary(ng-click="submit(user)", ng-disabled="updateUserForm.$invalid") Update
+                        span
+                        a.btn.btn-default(href='#/', type='reset') Cancel
+
+                .panel.panel-danger
+                    .panel-heading
+                        h3.panel-title Danger Zone
+                    .panel-body
+                        .list-group-item
+                            .row
+                                .col-md-10
+                                    strong Delete your account
+                                    p Once you delete your account, there is no going back. Please be certain.
+                                .col-md-2
+                                    a.btn.btn-danger.btn-sm.pull-right(ng-click="deleteAccount()") Delete Account
