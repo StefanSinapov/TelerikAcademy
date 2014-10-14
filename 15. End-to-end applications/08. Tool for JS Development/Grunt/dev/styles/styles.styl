@@ -1,0 +1,58 @@
+.gallery
+  display inline-block
+  border 1px solid grey
+  .image-container
+    float left
+    width 250px
+    height 200px
+    margin 5px
+    img
+      width 100%
+      height 100%
+  .selected
+    width 100%
+    position fixed
+    top 25%
+    left 0
+    z-index 200
+    img
+      float left
+      border 1px solid black
+      border-radius 25px
+      width 75%
+      position absolute
+      margin 0 auto
+      top 0
+      left 0
+      right 0
+      bottom 0
+    .previous-image
+      position absolute
+      left 0
+      top 100px
+      width 25%
+    .current-image
+      position absolute
+      left 25%
+      width 50%
+    .next-image
+      position absolute
+      left 75%
+      top 100px
+      width 25%
+  .blurred
+    -webkit-filter blur(10px)
+    -moz-filter blur(10px)
+    -o-filter blur(10px)
+    -ms-filter blur(10px)
+    filter blur(10px)
+  .clearfix
+    clear both
+  .disabled-background
+    position fixed
+    top 0
+    left 0
+    width 100%
+    height 100%
+    z-index 100
+

@@ -1,0 +1,22 @@
+{
+  "name": "Grunt-Task-Runner",
+  "version": "0.0.0",
+  "description": "simple tasks run with Grunt",
+  "keywords": [
+    "grunt",
+    "jade",
+    "stylus",
+    "demo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}

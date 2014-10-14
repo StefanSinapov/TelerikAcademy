@@ -1,0 +1,47 @@
+doctype html
+html(lang='en')
+head
+    meta(charset='UTF-8')
+    title Task 2 - jQuery
+    link(rel='stylesheet', href='styles/styles.css')
+    body
+        #root(style='margin-top: 50px; margin-left: 50px;')
+            #gallery
+                .gallery-list
+                    .image-container
+                        img(src='imgs/1.jpg', data-info='1')
+                    .image-container
+                        img(src='imgs/2.jpg', data-info='2')
+                    .image-container
+                        img(src='imgs/3.jpg', data-info='3')
+                    .image-container
+                        img(src='imgs/4.jpg', data-info='4')
+                    .image-container
+                        img(src='imgs/5.jpg', data-info='5')
+                    .image-container
+                        img(src='imgs/6.jpg', data-info='6')
+                    .image-container
+                        img(src='imgs/7.jpg', data-info='7')
+                    .image-container
+                        img(src='imgs/8.jpg', data-info='8')
+                    .image-container
+                        img(src='imgs/9.jpg', data-info='9')
+                    .image-container
+                        img(src='imgs/10.jpg', data-info='10')
+                    .image-container
+                        img(src='imgs/11.jpg', data-info='11')
+                    .image-container
+                        img(src='imgs/12.jpg', data-info='12')
+                .selected
+                    .previous-image
+                        img#previous-image(src='imgs/1.jpg')
+                    .current-image
+                        img#current-image(src='imgs/2.jpg')
+                    .next-image
+                        img#next-image(src='imgs/3.jpg')
+        script(src='https://code.jquery.com/jquery-2.1.1.min.js')
+        script(src='scripts/scripts.js')
+        script
+            $(function () {
+            $('#gallery').gallery(3);
+            });
