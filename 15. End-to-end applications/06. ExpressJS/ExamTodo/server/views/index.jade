@@ -1,0 +1,13 @@
+extends shared/layout
+
+block main-content
+    div(ng-include="'partials/nav/nav'")
+
+    section
+        div(ng-view)
+    footer.panel-footer
+        p.text-center.text-primary
+            | &copy; 
+            span
+                a(href="https://github.com/StefanSinapov")
+                    | Stefan Sinapov

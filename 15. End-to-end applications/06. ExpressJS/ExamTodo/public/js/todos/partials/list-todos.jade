@@ -1,0 +1,23 @@
+.container
+    .col-md-3
+
+    .col-md-9
+        h1.page-header Todos:
+
+        table.table.table-striped.table-hover
+            thead
+                tr
+                    th Title
+                    th Date created
+                    th Finished
+            tbody
+                tr(ng-repeat="todo in todos")
+                    td {{todo.title}}
+                    td {{todo.date | date}}
+                    td {{todo.finished}}
+
+        .list-group
+            a.list-group-item(href="#/todos/{{todo._id}}" ng-each="todo in todos")
+                h4.list-group-item-heading {{todo.title}}
+                p.list-group-item-text {{todo.content}}
+                    p.pull-right {{todo.date | date }}
