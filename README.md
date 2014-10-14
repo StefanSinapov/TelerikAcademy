@@ -10,7 +10,7 @@ Telerik Academy 2013-2014
 | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-oop-notes)                   |
 |                                                                           | [JavaScript Applications](#javascript-applications-notes) 
 |																			| [JavaScript SPA](#javascript-spa-notes)
-|                           												| [End-to-End Applications](#end-to-end-applications)
+|                           												| [End-to-End Applications](#end-to-end-applications-mean)
 
 # Programming with C# 
 
