@@ -1,0 +1,28 @@
+extends ../shared/layout
+
+block main-content
+    .page-header Active events
+        form(type="GET")
+            .col-md-offset-8.col-md-1
+                button.btn.btn-info(id="prevPageBtn") <<
+            .col-md-2
+                input.form-control(type='text', value="#{filters.page}", name="page", id="currentPage")
+            .col-md-1
+                button.btn.btn-info.pull-right(id="nextPageBtn") >>
+        table.table.table-bordered
+            thead
+                tr
+                    th Date
+                    th Title
+            tbody
+                each event in events
+                    tr
+                        //td #{ moment(event.date).format('MM/DD/YYYY') }
+                        td.col-md-3 #{event.date}
+                        th.col-md-6
+                            a(href="/events/#{event.id}")
+                                | #{event.title}
+block page-scripts
+    script(src="../lib/jquery-2.1.1/jquery.min.js")
+    script(src="../lib/bootstrap-3.2.0/js/bootstrap.min.js")
+    script(src="../js/pager.js")

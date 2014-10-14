@@ -1,0 +1,39 @@
+extends ../shared/layout
+block main-content
+    .page-header Create new event
+    form(method="post")
+        label(for="title") Title
+        input(id="title" class="form-control" type="text" name="title" placeholder="Title...", required="")
+        br
+        label(for="description") Description
+        textarea(id="description" class="form-control" type="textarea" name="description" placeholder="Description...", required="")
+        br
+        label(for="date") Date
+        input(id="date" class="form-control" type="date" name="date" placeholder="12/12/12", required="")
+        br
+        label(for="location") Location
+        input(id="location" class="form-control" type="address" name="location" placeholder="location")
+        br
+        | Type
+        br
+        input(type="checkbox" name="isPublic", id="isPublic")
+        label(for="isPublic")  public
+
+        .row
+            .col-md-6
+                label(for="initiative") Initiative
+                select(id="initiative " class="form-control" name="initiative")
+                    each initiative in initiatives
+                        option(value=initiative) #{initiative}
+            .col-md-6
+                label(for="season") Season
+                select(id="season " class="form-control" name="season")
+                    each season in seasons
+                        option(value=season) #{season}
+        br
+        label(for="category") Category
+        select(id="category " class="form-control" name="category" required="")
+            each category in categories
+                option(value=category) #{category}
+        br
+        input(type="submit" class="btn btn-lg" value="Create")

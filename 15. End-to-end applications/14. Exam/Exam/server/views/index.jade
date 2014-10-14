@@ -1,0 +1,15 @@
+extends shared/layout
+
+block main-content
+    div(ng-include="'partials/nav/nav'")
+
+    section
+        div(ng-view)
+    footer.panel-footer.navbar-fixed-bottom
+        .text-center
+            small.pull-left
+                | &copy; 2014
+                a(href="http://telerikacademy.com/")  Telerik Academy
+            .pull-right
+                small Powered with:
+                    strong  MEAN Stack, Twitter bootstrap

@@ -1,0 +1,37 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+body {
+  padding-top: 80px;
+}
+body .navbar-brand {
+  font-family: mistral;
+  font-size: 28px;
+}
+#logo-title {
+  font-family: mistral;
+  color: #f39;
+}
+.navbar-right .navbar-form input {
+  margin-right: 10px;
+}
+.navbar-right .navbar-form a.btn {
+  margin-left: 10px;
+}
+.toast-top-right {
+  top: 70px;
+}
+input.ng-dirty.ng-invalid {
+  background-color: #ffc0cb !important;
+}
+input.ng-dirty.ng-valid.validity {
+  background-color: #8fbc8f !important;
+}
+footer {
+  padding-left: 120px;
+  padding-right: 120px;
+}

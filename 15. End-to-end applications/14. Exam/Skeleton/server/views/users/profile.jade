@@ -1,0 +1,92 @@
+extends ../shared/layout
+
+block main-content
+    .container
+        .row
+            .col-md-4
+                .thumbnail
+                    img.avatar(src="img/#{user.profilePicture}", alt='avatar')
+                    h4 Personal information:
+                    ul.list-group
+                        li.list-group-item
+                            span.list-group-item-text  #{user.username}
+                        li.list-group-item
+                            span.list-group-item-text  #{user.firstName + ' ' + user.lastName}
+                        li.list-group-item
+                            span.list-group-item-text  #{user.phoneNumber ? user.phoneNumber: 'no phone number'}
+                        li.list-group-item
+                            span.list-group-item-text  #{user.email}
+                    br
+                    h4 Update profile:
+                    form(method="post" enctype="multipart/form-data")
+                        br
+                        label(for="phoneNumber") Phone number
+                        input(id="phoneNumber" class="form-control" type="text" name="phoneNumber" placeholder="0899 99 99 99" value="#{user.phoneNumber ? user.phoneNumber : ''}" )
+                        br
+                        label(for="profilePicture") Profile picture
+                        input(type="file" name="profilePicture" id="profilePicture")
+                        br
+                        .row
+                            .col-md-6
+                                label(for="facebookProfile") Facebook profile
+                                input(id="facebookProfile" class="form-control" type="text" name="facebookProfile" placeholder="facebook profile" value="#{user.facebookProfile ? user.facebookProfile : ''}" )
+                            .col-md-6
+                                label(for="twitterProfile") Twitter profile
+                                input(id="twitterProfile" class="form-control" type="text" name="twitterProfile" placeholder="twitter profile" value="#{user.twitterProfile ? user.twitterProfile : ''}" )
+                        br
+                        .row
+                            .col-md-6
+                                label(for="linkedInProfile") LinkeIn profile
+                                input(id="linkedInProfile" class="form-control" type="text" name="linkedInProfile" placeholder="linkedInProfile" value="#{user.linkedInProfile ? user.linkedInProfile : ''}" )
+                            .col-md-6
+                                label(for="googlePlusProfile") Twitter profile
+                                input(id="googlePlusProfile" class="form-control" type="text" name="googlePlusProfile" placeholder="google plus Profile" value="#{user.googlePlusProfile ? user.googlePlusProfile : ''}")
+                        br
+                        input(type="submit" class="btn btn-lg" value="Update")
+            .col-md-8
+                .row
+                    .page-header Created By Me:
+                        table.table.table-bordered
+                            thead
+                                tr
+                                    th Date
+                                    th Title
+                            tbody
+                                each event in createdByMeEvents
+                                    tr
+                                        //td #{ moment(event.date).format('MM/DD/YYYY') }
+                                        td.col-md-3 #{event.date}
+                                        th.col-md-6
+                                            a(href="/events/#{event.id}")
+                                                | #{event.title}
+                .row
+                    .page-header Joined events:
+                        table.table.table-bordered
+                            thead
+                                tr
+                                    th Date
+                                    th Title
+                            tbody
+                                each event in joinedEvents
+                                    tr
+                                        //td #{ moment(event.date).format('MM/DD/YYYY') }
+                                        td.col-md-3 #{event.date}
+                                        th.col-md-6
+                                            a(href="/events/#{event.id}")
+                                                | #{event.title}
+
+                .row
+                    .page-header Past events:
+                        table.table.table-bordered
+                            thead
+                                tr
+                                    th Date
+                                    th Title
+                            tbody
+                                each event in pastEvents
+                                    tr
+                                        //td #{ moment(event.date).format('MM/DD/YYYY') }
+                                        td.col-md-3 #{event.date}
+                                        th.col-md-6
+                                            a(href="/events/#{event.id}")
+                                                | #{event.title}
