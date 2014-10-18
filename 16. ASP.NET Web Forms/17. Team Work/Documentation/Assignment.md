@@ -31,4 +31,39 @@ Your Web application should use the following technologies, frameworks and devel
 - Use at least one **file upload** form to send files at the server side (e.g. profile photos for your users)
 - Use GIT as **source control system**
 
-#### [Read more...]()
+## Public Part
+
+The **public part** of your projects should be **visible without authentication**. This public part could be the application start page, the user login and user registration forms, as well as the public data of the users, e.g. the blog posts in a blog system, the public offers in a bid system, the products in an e-commerce system, etc.
+
+## Private Part (User Area)
+
+**Registered users** should have personal area in the Web application accessible after **successful login** . This area could hold for example the user's profiles management functionality, the user's offers in a bid system, the user's posts in a blog system, the user's photos in a photo sharing system, the user's contacts in a social network, etc.
+
+## Administration Part
+
+**System administrators** should have administrative access to the system and permissions to administer all major information objects in the system, e.g. to create / edit / delete users and other administrators, to edit / delete offers in a bid system, to edit / delete photos and album in a photo sharing system, to edit / delete posts in a blogging system, edit / delete products and categories in an e-commerce system, etc.
+
+## Optional Requirements
+
+- Nice looking UI supporting of all modern and old Web browsers
+- Good usability (easy to use UI)
+
+## Deliverables
+
+Put the following in a **ZIP archive** and submit it (each team member submits the same file):
+
+- The source code (ASPX pages, C# files, images, scripts, styles, etc.)
+- Don't submit theNuGet packages! They are not needed and take too much disk space.
+- Optional: brief documentation (few sentences in a readme file).
+
+## Public Project Defense
+
+Each team will have to make a **public defense** of its work to the trainers (in 10-15 minutes). It includes:
+
+- Live demonstration of the developed Web application (please prepare sample data).
+- Explain application structure and its source code: ASPX pages, C# code, data-bindings, ASCX controls, etc.
+- Show the commit logs in the source control repository to prove a contribution from all team members.
+
+## Give Feedback about Your Teammates
+
+You will be invited to **provide feedback** about all your teammates, their attitude to this project, their technical skills, their team working skills, their contribution to the project, etc. The feedback is important part of the project evaluation so **take it seriously** and be honest.
