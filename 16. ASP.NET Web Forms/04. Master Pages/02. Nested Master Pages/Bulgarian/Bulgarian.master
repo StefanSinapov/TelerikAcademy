@@ -1,0 +1,5 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" %>
+<asp:Content runat="server" ID="Head" ContentPlaceHolderID="head"></asp:Content>
+<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="contentHolder">
+    
+</asp:Content>
