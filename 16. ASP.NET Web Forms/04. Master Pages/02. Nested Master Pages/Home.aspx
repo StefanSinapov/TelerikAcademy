@@ -3,6 +3,6 @@
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="contentHolder">
     <div class="jumbotron">
         <h1>Home page</h1>
-        <p>English content</p>
+        <p>Please choose your language</p>
     </div>
 </asp:Content>

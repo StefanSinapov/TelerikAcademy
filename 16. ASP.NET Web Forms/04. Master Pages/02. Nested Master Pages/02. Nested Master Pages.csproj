@@ -57,8 +57,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bulgarian\About.aspx" />
+    <Content Include="Bulgarian\Contacts.aspx" />
+    <Content Include="Bulgarian\Home.aspx" />
+    <Content Include="English\About.aspx" />
+    <Content Include="English\Contacts.aspx" />
+    <Content Include="English\Home.aspx" />
+    <Content Include="German\About.aspx" />
+    <Content Include="German\Contacts.aspx" />
+    <Content Include="German\Home.aspx" />
     <Content Include="Site.Master" />
     <Content Include="Bulgarian\Bulgarian.master" />
+    <Content Include="English\English.master" />
+    <Content Include="German\German.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -82,9 +93,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="English\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

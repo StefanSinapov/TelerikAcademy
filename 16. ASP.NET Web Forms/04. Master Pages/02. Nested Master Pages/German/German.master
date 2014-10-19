@@ -5,18 +5,18 @@
     <div class="col-md-3">
         <ul class="nav nav-pills nav-stacked">
             <li>
-                <a href="~/Bulgarian/Home.aspx" runat="server">Начало</a>
+                <a href="~/German/Home.aspx" runat="server">Startseite</a>
             </li>
             <li>
-                <a href="~/Bulgarian/About.aspx" runat="server">За нас</a>
+                <a href="~/German/About.aspx" runat="server">über</a>
             </li>
             <li>
-                <a runat="server" href="~/Bulgarian/Contacts.aspx">Контакти</a>
+                <a runat="server" href="~/German/Contacts.aspx">Kontakte</a>
             </li>
         </ul>
     </div>
-    <div class="col-md-9">
-        <asp:ContentPlaceHolder ID="bulgarianWrapper" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="contentWrapper" runat="server">
         </asp:ContentPlaceHolder>
     </div>
 </asp:Content>

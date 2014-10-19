@@ -37,13 +37,13 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="~/Home.aspx" runat="server">Home</a>
+                            <a href="~/Bulgarian/Home.aspx" runat="server">Bulgarian</a>
                         </li>
                         <li>
-                            <a href="~/About.aspx" runat="server">About</a>
+                            <a href="~/English/Home.aspx" runat="server">English</a>
                         </li>
                         <li>
-                            <a runat="server" href="~/Contacts.aspx">Contacts</a>
+                            <a href="~/German/Home.aspx" runat="server">German</a>
                         </li>
                     </ul>
                 </div>
