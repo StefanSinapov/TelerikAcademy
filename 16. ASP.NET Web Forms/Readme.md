@@ -8,7 +8,7 @@
 06. [Data Source Controls]()
 07. [Scaffolding (Page Generation)]()
 08. [State Management and Sessions]()
-09. [Authentication and ASP.NET Membership]()
+09. [ASP.NET Identity]()
 10. [Navigation and Sitemaps]()
 11. [Validation Controls]()
 12. [ASP.NET AJAX & AJAX Control Toolkit]()
