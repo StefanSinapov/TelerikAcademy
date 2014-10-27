@@ -1,0 +1,15 @@
+.navbar-right .navbar-form input {
+  margin-right: 10px;
+}
+.navbar-right .navbar-form a.btn {
+  margin-left: 10px;
+}
+.toast-top-right {
+  top: 70px;
+}
+input.ng-dirty.ng-invalid {
+  background-color: #ffc0cb !important;
+}
+input.ng-dirty.ng-valid.validity {
+  background-color: #8fbc8f !important;
+}
