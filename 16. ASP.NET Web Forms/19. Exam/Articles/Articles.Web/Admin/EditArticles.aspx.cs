@@ -165,6 +165,9 @@
                 this.context.SaveChanges();
                 this.ListViewArticles.DataBind();
                 ErrorSuccessNotifier.AddSuccessMessage("Article created successfully.");
+
+                this.TextBoxContent.Text = string.Empty;
+                this.TextBoxTitle.Text = string.Empty;
             }
             catch (Exception ex)
             {
@@ -175,6 +178,8 @@
         protected void LinkButtonCancel_OnClick(object sender, EventArgs e)
         {
             this.PanelCreate.Visible = false;
+            this.TextBoxContent.Text = string.Empty;
+            this.TextBoxTitle.Text = string.Empty;
         }
 
         protected void ListViewArticles_OnSorting(object sender, ListViewSortEventArgs e)

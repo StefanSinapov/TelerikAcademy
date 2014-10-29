@@ -28,6 +28,7 @@
     </div>
 
     <div class="row">
+        <h2>All Categories</h2>
         <asp:ListView runat="server" ID="ListViewCategories"
             SelectMethod="ListViewCategories_GetData"
             ItemType="Articles.Web.Models.Category"
