@@ -22,33 +22,22 @@
             this.context = new ApplicationDbContext();
         }
 
-        protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void ButtonShowCreatePanel_OnClick(object sender, EventArgs e)
-        {
-            this.PanelCreate.Visible = true;
-            this.TextBoxTitle.Focus();
-        }
-
-        public IQueryable<Article> Select([ViewState("OrderBy")]string OrderBy = null)
+        public IQueryable<Article> Select([ViewState("OrderBy")]string orderBy = null)
         {
             var list = this.context.Articles.AsQueryable();
 
-            if (OrderBy != null)
+            if (orderBy != null)
             {
                 switch (this.SortDirection)
                 {
                     case SortDirection.Ascending:
-                        list = list.OrderByDescending(OrderBy);
+                        list = list.OrderByDescending(orderBy);
                         break;
                     case SortDirection.Descending:
-                        list = list.OrderBy(OrderBy);
+                        list = list.OrderBy(orderBy);
                         break;
                     default:
-                        list = list.OrderByDescending(OrderBy);
+                        list = list.OrderByDescending(orderBy);
                         break;
                 }
             }
@@ -62,44 +51,44 @@
             {
                 if (this.ViewState["IsSorting"] != null)
                 {
-
                     if ((bool)ViewState["IsSorting"] == false)
                     {
-                        if (ViewState["sortdirection"] == null)
+                        if (this.ViewState["sortdirection"] == null)
                         {
-                            ViewState["sortdirection"] = SortDirection.Ascending;
+                            this.ViewState["sortdirection"] = SortDirection.Ascending;
                             return SortDirection.Ascending;
                         }
-                        else if ((SortDirection)ViewState["sortdirection"] == SortDirection.Ascending)
+
+                        if ((SortDirection)this.ViewState["sortdirection"] == SortDirection.Ascending)
                         {
                             return SortDirection.Ascending;
                         }
-                        else
-                        {
-                            return SortDirection.Descending;
-                        }
+
+                        return SortDirection.Descending;
                     }
+
+                    this.ViewState["IsSorting"] = false;
                 }
 
-                if (ViewState["sortdirection"] == null)
+                if (this.ViewState["sortdirection"] == null)
                 {
-                    ViewState["sortdirection"] = SortDirection.Ascending;
+                    this.ViewState["sortdirection"] = SortDirection.Ascending;
                     return SortDirection.Ascending;
                 }
-                else if ((SortDirection)ViewState["sortdirection"] == SortDirection.Ascending)
+
+                if ((SortDirection)this.ViewState["sortdirection"] == SortDirection.Ascending)
                 {
-                    ViewState["sortdirection"] = SortDirection.Descending;
+                    this.ViewState["sortdirection"] = SortDirection.Descending;
                     return SortDirection.Descending;
                 }
-                else
-                {
-                    ViewState["sortdirection"] = SortDirection.Ascending;
-                    return SortDirection.Ascending;
-                }
+
+                this.ViewState["sortdirection"] = SortDirection.Ascending;
+                return SortDirection.Ascending;
             }
+
             set
             {
-                ViewState["sortdirection"] = value;
+                this.ViewState["sortdirection"] = value;
             }
         }
 
@@ -144,6 +133,16 @@
             return this.context.Categories;
         }
 
+        protected void Page_Load(object sender, EventArgs e)
+        {
+        }
+
+        protected void ButtonShowCreatePanel_OnClick(object sender, EventArgs e)
+        {
+            this.PanelCreate.Visible = true;
+            this.TextBoxTitle.Focus();
+        }
+
         protected void LinkButtonCreate_OnClick(object sender, EventArgs e)
         {
             this.PanelCreate.Visible = false;
@@ -181,14 +180,14 @@
         protected void ListViewArticles_OnSorting(object sender, ListViewSortEventArgs e)
         {
             e.Cancel = true;
-            ViewState["OrderBy"] = e.SortExpression;
-            ViewState["IsSorting"] = true;
+            this.ViewState["OrderBy"] = e.SortExpression;
+            this.ViewState["IsSorting"] = true;
             this.ListViewArticles.DataBind();
         }
 
         protected void ListViewArticles_OnPagePropertiesChanging(object sender, PagePropertiesChangingEventArgs e)
         {
-            ViewState["IsSorting"] = false;
+            this.ViewState["IsSorting"] = false;
         }
     }
 }

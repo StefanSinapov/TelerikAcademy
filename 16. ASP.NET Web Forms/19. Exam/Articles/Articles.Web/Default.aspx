@@ -41,7 +41,7 @@
                 <div class="col-md-6">
                     <h3><%#: Item.Name %></h3>
                     <asp:ListView runat="server" ID="RepeaterCategoriesArticles"
-                        ItemType="Articles.Web.Models.Article" DataSource="<%# Item.Articles.Take(2) %>">
+                        ItemType="Articles.Web.Models.Article" DataSource="<%# Item.Articles.Take(3) %>">
                         <LayoutTemplate>
                             <ul>
                                 <asp:PlaceHolder runat="server" ID="itemPlaceHolder"></asp:PlaceHolder>

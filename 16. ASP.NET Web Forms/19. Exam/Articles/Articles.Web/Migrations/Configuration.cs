@@ -40,6 +40,9 @@ namespace Articles.Web.Migrations
 
             var user = new User() { UserName = "Anonimous" };
 
+            context.Categories.AddOrUpdate(this.Categories.ToArray());
+            context.SaveChanges();
+
             this.Articles = new List<Article>();
             this.Articles.Add(new Article()
             {

@@ -19,7 +19,7 @@
 
         public IQueryable<Category> Select()
         {
-            return this.context.Categories.OrderBy(c => c.Name);
+            return this.context.Categories.OrderBy(c => c.Id);
         }
 
         public void Delete(int id)
@@ -59,7 +59,6 @@
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
         protected void LinkButtonCreate_OnClick(object sender, EventArgs e)
