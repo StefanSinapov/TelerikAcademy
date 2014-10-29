@@ -11,12 +11,14 @@
                 DeleteMethod="Delete"
                 UpdateMethod="Update"
                 DataKeyNames="Id"
+                OnSorting="ListViewArticles_OnSorting"
+                OnPagePropertiesChanging="ListViewArticles_OnPagePropertiesChanging"
                 ItemType="Articles.Web.Models.Article">
                 <LayoutTemplate>
                     <div class="row">
                         <asp:LinkButton Text="Sort By Title" runat="server" ID="LinkButtonSortByTitle" CommandName="Sort" CommandArgument="Title" CssClass="btn btn-default" />
                         <asp:LinkButton Text="Sort By Date" runat="server" ID="LinkButtonSortByDate" CommandName="Sort" CommandArgument="DateCreated" CssClass="btn btn-default" />
-                        <asp:LinkButton Text="Sort By Category" runat="server" ID="LinkButtonSortByCategory" CommandName="Sort" CommandArgument="CategoryId" CssClass="btn btn-default" />
+                        <asp:LinkButton Text="Sort By Category" runat="server" ID="LinkButtonSortByCategory" CommandName="Sort" CommandArgument="Category.Name" CssClass="btn btn-default" />
                         <asp:LinkButton Text="Sort By Likes" runat="server" ID="LinkButtonSortByLikes" CommandName="Sort" CommandArgument="LikesCount" CssClass="btn btn-default" />
                     </div>
 

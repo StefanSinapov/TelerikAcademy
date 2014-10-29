@@ -1,13 +1,14 @@
 ﻿namespace Articles.Web.Admin
 {
     using System;
-    using System.Collections.Generic;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using System.Web.ModelBinding;
     using System.Web.UI;
     using System.Web.UI.WebControls;
 
     using Articles.Web.Controls.ErrorSuccessNotifier;
+    using Articles.Web.Extensions;
     using Articles.Web.Models;
 
     using Microsoft.AspNet.Identity;
@@ -32,9 +33,74 @@
             this.TextBoxTitle.Focus();
         }
 
-        public IQueryable<Article> Select()
+        public IQueryable<Article> Select([ViewState("OrderBy")]string OrderBy = null)
         {
-            return this.context.Articles.OrderBy(a => a.Id);
+            var list = this.context.Articles.AsQueryable();
+
+            if (OrderBy != null)
+            {
+                switch (this.SortDirection)
+                {
+                    case SortDirection.Ascending:
+                        list = list.OrderByDescending(OrderBy);
+                        break;
+                    case SortDirection.Descending:
+                        list = list.OrderBy(OrderBy);
+                        break;
+                    default:
+                        list = list.OrderByDescending(OrderBy);
+                        break;
+                }
+            }
+
+            return list;
+        }
+
+        public SortDirection SortDirection
+        {
+            get
+            {
+                if (this.ViewState["IsSorting"] != null)
+                {
+
+                    if ((bool)ViewState["IsSorting"] == false)
+                    {
+                        if (ViewState["sortdirection"] == null)
+                        {
+                            ViewState["sortdirection"] = SortDirection.Ascending;
+                            return SortDirection.Ascending;
+                        }
+                        else if ((SortDirection)ViewState["sortdirection"] == SortDirection.Ascending)
+                        {
+                            return SortDirection.Ascending;
+                        }
+                        else
+                        {
+                            return SortDirection.Descending;
+                        }
+                    }
+                }
+
+                if (ViewState["sortdirection"] == null)
+                {
+                    ViewState["sortdirection"] = SortDirection.Ascending;
+                    return SortDirection.Ascending;
+                }
+                else if ((SortDirection)ViewState["sortdirection"] == SortDirection.Ascending)
+                {
+                    ViewState["sortdirection"] = SortDirection.Descending;
+                    return SortDirection.Descending;
+                }
+                else
+                {
+                    ViewState["sortdirection"] = SortDirection.Ascending;
+                    return SortDirection.Ascending;
+                }
+            }
+            set
+            {
+                ViewState["sortdirection"] = value;
+            }
         }
 
         public void Delete(int id)
@@ -98,6 +164,7 @@
 
                 this.context.Articles.AddOrUpdate(article);
                 this.context.SaveChanges();
+                this.ListViewArticles.DataBind();
                 ErrorSuccessNotifier.AddSuccessMessage("Article created successfully.");
             }
             catch (Exception ex)
@@ -111,11 +178,17 @@
             this.PanelCreate.Visible = false;
         }
 
-       /* protected void ListViewArticles_OnSorting(object sender, ListViewSortEventArgs e)
+        protected void ListViewArticles_OnSorting(object sender, ListViewSortEventArgs e)
         {
             e.Cancel = true;
             ViewState["OrderBy"] = e.SortExpression;
+            ViewState["IsSorting"] = true;
             this.ListViewArticles.DataBind();
-        }*/
+        }
+
+        protected void ListViewArticles_OnPagePropertiesChanging(object sender, PagePropertiesChangingEventArgs e)
+        {
+            ViewState["IsSorting"] = false;
+        }
     }
 }
