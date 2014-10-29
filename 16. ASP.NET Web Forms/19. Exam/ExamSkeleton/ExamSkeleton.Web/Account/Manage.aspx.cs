@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Web;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
-using Owin;
-using ExamSkeleton.Web.Models;
-
-namespace ExamSkeleton.Web.Account
+﻿namespace Articles.Web.Account
 {
+    using System;
+    using System.Web;
+
+    using Articles.Web.Models;
+
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.Owin;
+
     public partial class Manage : System.Web.UI.Page
     {
         protected string SuccessMessage
@@ -22,7 +18,7 @@ namespace ExamSkeleton.Web.Account
 
         private bool HasPassword(ApplicationUserManager manager)
         {
-            return manager.HasPassword(User.Identity.GetUserId());
+            return manager.HasPassword(this.User.Identity.GetUserId());
         }
 
         public bool HasPhoneNumber { get; private set; }
@@ -35,47 +31,47 @@ namespace ExamSkeleton.Web.Account
 
         protected void Page_Load()
         {
-            var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            var manager = this.Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
 
-            HasPhoneNumber = String.IsNullOrEmpty(manager.GetPhoneNumber(User.Identity.GetUserId()));
+            this.HasPhoneNumber = String.IsNullOrEmpty(manager.GetPhoneNumber(this.User.Identity.GetUserId()));
 
             // Enable this after setting up two-factor authentientication
             //PhoneNumber.Text = manager.GetPhoneNumber(User.Identity.GetUserId()) ?? String.Empty;
 
-            TwoFactorEnabled = manager.GetTwoFactorEnabled(User.Identity.GetUserId());
+            this.TwoFactorEnabled = manager.GetTwoFactorEnabled(this.User.Identity.GetUserId());
 
-            LoginsCount = manager.GetLogins(User.Identity.GetUserId()).Count;
+            this.LoginsCount = manager.GetLogins(this.User.Identity.GetUserId()).Count;
 
             var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
 
-            if (!IsPostBack)
+            if (!this.IsPostBack)
             {
                 // Determine the sections to render
-                if (HasPassword(manager))
+                if (this.HasPassword(manager))
                 {
-                    ChangePassword.Visible = true;
+                    this.ChangePassword.Visible = true;
                 }
                 else
                 {
-                    CreatePassword.Visible = true;
-                    ChangePassword.Visible = false;
+                    this.CreatePassword.Visible = true;
+                    this.ChangePassword.Visible = false;
                 }
 
                 // Render success message
-                var message = Request.QueryString["m"];
+                var message = this.Request.QueryString["m"];
                 if (message != null)
                 {
                     // Strip the query string from action
-                    Form.Action = ResolveUrl("~/Account/Manage");
+                    this.Form.Action = this.ResolveUrl("~/Account/Manage");
 
-                    SuccessMessage =
+                    this.SuccessMessage =
                         message == "ChangePwdSuccess" ? "Your password has been changed."
                         : message == "SetPwdSuccess" ? "Your password has been set."
                         : message == "RemoveLoginSuccess" ? "The account was removed."
                         : message == "AddPhoneNumberSuccess" ? "Phone number has been added"
                         : message == "RemovePhoneNumberSuccess" ? "Phone number was removed"
                         : String.Empty;
-                    successMessage.Visible = !String.IsNullOrEmpty(SuccessMessage);
+                    this.successMessage.Visible = !String.IsNullOrEmpty(this.SuccessMessage);
                 }
             }
         }
@@ -85,43 +81,43 @@ namespace ExamSkeleton.Web.Account
         {
             foreach (var error in result.Errors)
             {
-                ModelState.AddModelError("", error);
+                this.ModelState.AddModelError("", error);
             }
         }
 
         // Remove phonenumber from user
         protected void RemovePhone_Click(object sender, EventArgs e)
         {
-            var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
-            var result = manager.SetPhoneNumber(User.Identity.GetUserId(), null);
+            var manager = this.Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            var result = manager.SetPhoneNumber(this.User.Identity.GetUserId(), null);
             if (!result.Succeeded)
             {
                 return;
             }
-            var user = manager.FindById(User.Identity.GetUserId());
+            var user = manager.FindById(this.User.Identity.GetUserId());
             if (user != null)
             {
                 IdentityHelper.SignIn(manager, user, isPersistent: false);
-                Response.Redirect("/Account/Manage?m=RemovePhoneNumberSuccess");
+                this.Response.Redirect("/Account/Manage?m=RemovePhoneNumberSuccess");
             }
         }
 
         // DisableTwoFactorAuthentication
         protected void TwoFactorDisable_Click(object sender, EventArgs e)
         {
-            var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
-            manager.SetTwoFactorEnabled(User.Identity.GetUserId(), false);
+            var manager = this.Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            manager.SetTwoFactorEnabled(this.User.Identity.GetUserId(), false);
 
-            Response.Redirect("/Account/Manage");
+            this.Response.Redirect("/Account/Manage");
         }
 
         //EnableTwoFactorAuthentication 
         protected void TwoFactorEnable_Click(object sender, EventArgs e)
         {
-            var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
-            manager.SetTwoFactorEnabled(User.Identity.GetUserId(), true);
+            var manager = this.Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            manager.SetTwoFactorEnabled(this.User.Identity.GetUserId(), true);
 
-            Response.Redirect("/Account/Manage");
+            this.Response.Redirect("/Account/Manage");
         }
     }
 }

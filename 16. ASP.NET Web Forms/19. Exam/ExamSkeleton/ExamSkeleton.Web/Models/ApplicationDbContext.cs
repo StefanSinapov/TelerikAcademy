@@ -1,8 +1,8 @@
-namespace ExamSkeleton.Web.Models
+namespace Articles.Web.Models
 {
     using System.Data.Entity;
 
-    using ExamSkeleton.Web.Migrations;
+    using Articles.Web.Migrations;
 
     using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -19,6 +19,10 @@ namespace ExamSkeleton.Web.Models
             return new ApplicationDbContext();
         }
 
-        // public IDbSet<Book> Books { get; set; }
+        public IDbSet<Category> Categories { get; set; }
+
+        public IDbSet<Article> Articles { get; set; }
+
+        public IDbSet<Like> Likes { get; set; }
     }
 }

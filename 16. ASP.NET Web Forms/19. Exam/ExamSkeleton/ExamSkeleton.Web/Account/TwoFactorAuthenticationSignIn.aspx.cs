@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using ExamSkeleton.Web.Models;
-
-namespace ExamSkeleton.Web.Account
+﻿namespace Articles.Web.Account
 {
+    using System;
+    using System.Linq;
+    using System.Web;
+
+    using Articles.Web.Models;
+
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.Owin;
+
     public partial class TwoFactorAuthenticationSignIn : System.Web.UI.Page
     {
         private ApplicationSignInManager signinManager;
@@ -18,60 +16,60 @@ namespace ExamSkeleton.Web.Account
 
         public TwoFactorAuthenticationSignIn()
         {
-            manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
-            signinManager = Context.GetOwinContext().GetUserManager<ApplicationSignInManager>();
+            this.manager = this.Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            this.signinManager = this.Context.GetOwinContext().GetUserManager<ApplicationSignInManager>();
         }
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            var userId = signinManager.GetVerifiedUserId<User, string>();
+            var userId = this.signinManager.GetVerifiedUserId<User, string>();
             if (userId == null)
             {
-                Response.Redirect("/Account/Error", true);
+                this.Response.Redirect("/Account/Error", true);
             }
-            var userFactors = manager.GetValidTwoFactorProviders(userId);
-            Providers.DataSource = userFactors.Select(x => x).ToList();
-            Providers.DataBind();            
+            var userFactors = this.manager.GetValidTwoFactorProviders(userId);
+            this.Providers.DataSource = userFactors.Select(x => x).ToList();
+            this.Providers.DataBind();            
         }
 
         protected void CodeSubmit_Click(object sender, EventArgs e)
         {
             bool rememberMe = false;
-            bool.TryParse(Request.QueryString["RememberMe"], out rememberMe);
+            bool.TryParse(this.Request.QueryString["RememberMe"], out rememberMe);
             
-            var result = signinManager.TwoFactorSignIn<User, string>(SelectedProvider.Value, Code.Text, isPersistent: rememberMe, rememberBrowser: RememberBrowser.Checked);
+            var result = this.signinManager.TwoFactorSignIn<User, string>(this.SelectedProvider.Value, this.Code.Text, isPersistent: rememberMe, rememberBrowser: this.RememberBrowser.Checked);
             switch (result)
             {
                 case SignInStatus.Success:
-                    IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                    IdentityHelper.RedirectToReturnUrl(this.Request.QueryString["ReturnUrl"], this.Response);
                     break;
                 case SignInStatus.LockedOut:
-                    Response.Redirect("/Account/Lockout");
+                    this.Response.Redirect("/Account/Lockout");
                     break;
                 case SignInStatus.Failure:
                 default:
-                    FailureText.Text = "Invalid code";
-                    ErrorMessage.Visible = true;
+                    this.FailureText.Text = "Invalid code";
+                    this.ErrorMessage.Visible = true;
                     break;
             }
         }
 
         protected void ProviderSubmit_Click(object sender, EventArgs e)
         {
-            if (!signinManager.SendTwoFactorCode(Providers.SelectedValue))
+            if (!this.signinManager.SendTwoFactorCode(this.Providers.SelectedValue))
             {
-                Response.Redirect("/Account/Error");
+                this.Response.Redirect("/Account/Error");
             }
 
-            var user = manager.FindById(signinManager.GetVerifiedUserId<User, string>());
+            var user = this.manager.FindById(this.signinManager.GetVerifiedUserId<User, string>());
             if (user != null)
             {
-                var code = manager.GenerateTwoFactorToken(user.Id, Providers.SelectedValue);
+                var code = this.manager.GenerateTwoFactorToken(user.Id, this.Providers.SelectedValue);
             }
 
-            SelectedProvider.Value = Providers.SelectedValue;
-            sendcode.Visible = false;
-            verifycode.Visible = true;
+            this.SelectedProvider.Value = this.Providers.SelectedValue;
+            this.sendcode.Visible = false;
+            this.verifycode.Visible = true;
         }
     }
 }

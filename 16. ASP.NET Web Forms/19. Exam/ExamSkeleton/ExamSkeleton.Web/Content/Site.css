@@ -36,3 +36,20 @@ input[type="select"] {
         padding: 0;
     }
 }
+
+
+/* additional CSS for the News Site */
+.like-control {
+    margin: 20px 0 0 0;
+}
+
+    .like-control .like-value {
+        font-size: 24px;
+        text-align: center;
+        width: 40px;
+        display: inline-block;
+    }	
+
+.row {
+    margin-top: 10px;
+}

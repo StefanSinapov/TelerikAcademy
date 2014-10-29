@@ -1,4 +1,4 @@
-﻿namespace ExamSkeleton.Web.Extensions
+﻿namespace Articles.Web.Extensions
 {
     public static class StringExtensions
     {

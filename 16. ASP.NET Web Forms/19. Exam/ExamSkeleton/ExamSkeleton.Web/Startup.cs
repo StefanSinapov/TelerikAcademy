@@ -1,12 +1,15 @@
-﻿using Microsoft.Owin;
-using Owin;
+﻿using Articles.Web;
 
-[assembly: OwinStartupAttribute(typeof(ExamSkeleton.Web.Startup))]
-namespace ExamSkeleton.Web
+using Microsoft.Owin;
+
+[assembly: OwinStartup(typeof(Startup))]
+namespace Articles.Web
 {
+    using Owin;
+
     public partial class Startup {
         public void Configuration(IAppBuilder app) {
-            ConfigureAuth(app);
+            this.ConfigureAuth(app);
         }
     }
 }

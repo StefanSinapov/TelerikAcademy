@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExamSkeleton.Web.Account {
+namespace Articles.Web.Account {
     
     
     public partial class Login {
@@ -73,6 +73,6 @@ namespace ExamSkeleton.Web.Account {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ExamSkeleton.Web.Account.OpenAuthProviders OpenAuthLogin;
+        protected global::Articles.Web.Account.OpenAuthProviders OpenAuthLogin;
     }
 }

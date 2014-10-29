@@ -1,13 +1,14 @@
-﻿using System;
-using System.Web;
-using System.Web.UI;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Owin;
-using ExamSkeleton.Web.Models;
-
-namespace ExamSkeleton.Web.Account
+﻿namespace Articles.Web.Account
 {
+    using System;
+    using System.Web;
+    using System.Web.UI;
+
+    using Articles.Web.Models;
+
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.Owin;
+
     public partial class Confirm : Page
     {
         protected string StatusMessage
@@ -18,20 +19,20 @@ namespace ExamSkeleton.Web.Account
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            string code = IdentityHelper.GetCodeFromRequest(Request);
-            string userId = IdentityHelper.GetUserIdFromRequest(Request);
+            string code = IdentityHelper.GetCodeFromRequest(this.Request);
+            string userId = IdentityHelper.GetUserIdFromRequest(this.Request);
             if (code != null && userId != null)
             {
-                var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+                var manager = this.Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
                 var result = manager.ConfirmEmail(userId, code);
                 if (result.Succeeded)
                 {
-                    successPanel.Visible = true;
+                    this.successPanel.Visible = true;
                     return;
                 }
             }
-            successPanel.Visible = false;
-            errorPanel.Visible = true;
+            this.successPanel.Visible = false;
+            this.errorPanel.Visible = true;
         }
     }
 }

@@ -1,9 +1,7 @@
-﻿namespace ExamSkeleton.Web
+﻿namespace Articles.Web.Models
 {
     using System;
     using System.Web;
-
-    using ExamSkeleton.Web.Models;
 
     using Microsoft.AspNet.Identity;
     using Microsoft.Owin.Security;

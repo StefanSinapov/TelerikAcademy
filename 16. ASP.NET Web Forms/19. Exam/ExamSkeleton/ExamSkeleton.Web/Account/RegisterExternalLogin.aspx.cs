@@ -1,104 +1,105 @@
-﻿using System;
-using System.Web;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
-using Owin;
-using ExamSkeleton.Web.Models;
-
-namespace ExamSkeleton.Web.Account
+﻿namespace Articles.Web.Account
 {
+    using System;
+    using System.Web;
+
+    using Articles.Web.Models;
+
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.Owin;
+    using Microsoft.Owin.Security;
+
     public partial class RegisterExternalLogin : System.Web.UI.Page
     {
         protected string ProviderName
         {
-            get { return (string)ViewState["ProviderName"] ?? String.Empty; }
-            private set { ViewState["ProviderName"] = value; }
+            get { return (string)this.ViewState["ProviderName"] ?? String.Empty; }
+            private set { this.ViewState["ProviderName"] = value; }
         }
 
         protected string ProviderAccountKey
         {
-            get { return (string)ViewState["ProviderAccountKey"] ?? String.Empty; }
-            private set { ViewState["ProviderAccountKey"] = value; }
+            get { return (string)this.ViewState["ProviderAccountKey"] ?? String.Empty; }
+            private set { this.ViewState["ProviderAccountKey"] = value; }
         }
 
         private void RedirectOnFail()
         {
-            Response.Redirect((User.Identity.IsAuthenticated) ? "~/Account/Manage" : "~/Account/Login");
+            this.Response.Redirect((this.User.Identity.IsAuthenticated) ? "~/Account/Manage" : "~/Account/Login");
         }
 
         protected void Page_Load()
         {
             // Process the result from an auth provider in the request
-            ProviderName = IdentityHelper.GetProviderNameFromRequest(Request);
-            if (String.IsNullOrEmpty(ProviderName))
+            this.ProviderName = IdentityHelper.GetProviderNameFromRequest(this.Request);
+            if (String.IsNullOrEmpty(this.ProviderName))
             {
-                RedirectOnFail();
+                this.RedirectOnFail();
                 return;
             }
-            if (!IsPostBack)
+            if (!this.IsPostBack)
             {
-                var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
-                var loginInfo = Context.GetOwinContext().Authentication.GetExternalLoginInfo();
+                var manager = this.Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+                var loginInfo = this.Context.GetOwinContext().Authentication.GetExternalLoginInfo();
                 if (loginInfo == null)
                 {
-                    RedirectOnFail();
+                    this.RedirectOnFail();
                     return;
                 }
                 var user = manager.Find(loginInfo.Login);
                 if (user != null)
                 {
                     IdentityHelper.SignIn(manager, user, isPersistent: false);
-                    IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                    IdentityHelper.RedirectToReturnUrl(this.Request.QueryString["ReturnUrl"], this.Response);
                 }
-                else if (User.Identity.IsAuthenticated)
+                else if (this.User.Identity.IsAuthenticated)
                 {
                     // Apply Xsrf check when linking
-                    var verifiedloginInfo = Context.GetOwinContext().Authentication.GetExternalLoginInfo(IdentityHelper.XsrfKey, User.Identity.GetUserId());
+                    var verifiedloginInfo = this.Context.GetOwinContext().Authentication.GetExternalLoginInfo(IdentityHelper.XsrfKey, this.User.Identity.GetUserId());
                     if (verifiedloginInfo == null)
                     {
-                        RedirectOnFail();
+                        this.RedirectOnFail();
                         return;
                     }
 
-                    var result = manager.AddLogin(User.Identity.GetUserId(), verifiedloginInfo.Login);
+                    var result = manager.AddLogin(this.User.Identity.GetUserId(), verifiedloginInfo.Login);
                     if (result.Succeeded)
                     {
-                        IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                        IdentityHelper.RedirectToReturnUrl(this.Request.QueryString["ReturnUrl"], this.Response);
                     }
                     else
                     {
-                        AddErrors(result);
+                        this.AddErrors(result);
                         return;
                     }
                 }
                 else
                 {
-                    email.Text = loginInfo.Email;
+                    this.email.Text = loginInfo.Email;
                 }
             }
         }        
         
         protected void LogIn_Click(object sender, EventArgs e)
         {
-            CreateAndLoginUser();
+            this.CreateAndLoginUser();
         }
 
         private void CreateAndLoginUser()
         {
-            if (!IsValid)
+            if (!this.IsValid)
             {
                 return;
             }
-            var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
-            var user = new User() { UserName = email.Text, Email = email.Text };
+            var manager = this.Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            var user = new User() { UserName = this.email.Text, Email = this.email.Text };
             IdentityResult result = manager.Create(user);
             if (result.Succeeded)
             {
-                var loginInfo = Context.GetOwinContext().Authentication.GetExternalLoginInfo();
+                var loginInfo = this.Context.GetOwinContext().Authentication.GetExternalLoginInfo();
                 if (loginInfo == null)
                 {
-                    RedirectOnFail();
+                    this.RedirectOnFail();
                     return;
                 }
                 result = manager.AddLogin(user.Id, loginInfo.Login);
@@ -110,18 +111,18 @@ namespace ExamSkeleton.Web.Account
                     // var code = manager.GenerateEmailConfirmationToken(user.Id);
                     // Send this link via email: IdentityHelper.GetUserConfirmationRedirectUrl(code, user.Id)
 
-                    IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                    IdentityHelper.RedirectToReturnUrl(this.Request.QueryString["ReturnUrl"], this.Response);
                     return;
                 }
             }
-            AddErrors(result);
+            this.AddErrors(result);
         }
 
         private void AddErrors(IdentityResult result) 
         {
             foreach (var error in result.Errors) 
             {
-                ModelState.AddModelError("", error);
+                this.ModelState.AddModelError("", error);
             }
         }
     }

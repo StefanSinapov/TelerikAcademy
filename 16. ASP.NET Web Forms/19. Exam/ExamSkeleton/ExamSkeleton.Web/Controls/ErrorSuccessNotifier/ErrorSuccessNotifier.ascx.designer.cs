@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Error_Handler_Control {
+namespace Articles.Web.Controls.ErrorSuccessNotifier {
     
     
     public partial class ErrorSuccessNotifier {

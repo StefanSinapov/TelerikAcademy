@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Web;
-using System.Linq;
-using System.Web.UI.WebControls;
-using System.Web.UI;
-using System.Text;
-
-namespace Error_Handler_Control
+﻿namespace Articles.Web.Controls.ErrorSuccessNotifier
 {
-	public enum MessageType
+    using System;
+    using System.Collections.Generic;
+    using System.Web;
+    using System.Web.UI;
+    using System.Web.UI.WebControls;
+
+    public enum MessageType
 	{
 		Success,
 		Info,
@@ -118,14 +116,14 @@ namespace Error_Handler_Control
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            ShowWaitingNotificationMessages();
+            this.ShowWaitingNotificationMessages();
         }
 
         protected void Page_PreRender(object sender, EventArgs e)
         {
             if (!ShowAfterRedirect)
             {
-                ShowWaitingNotificationMessages();
+                this.ShowWaitingNotificationMessages();
             }
         }
 
@@ -152,7 +150,7 @@ namespace Error_Handler_Control
                 }
                 ClearMessages();
 
-                IncludeTheCssAndJavaScript();
+                this.IncludeTheCssAndJavaScript();
             }
 
             ShowAfterRedirect = false;
@@ -160,7 +158,7 @@ namespace Error_Handler_Control
 
 		private void IncludeTheCssAndJavaScript()
 		{
-			ClientScriptManager cs = Page.ClientScript;
+			ClientScriptManager cs = this.Page.ClientScript;
 
 			// Include the jQuery library (if not already included)
 			string jqueryURL = this.TemplateSourceDirectory +

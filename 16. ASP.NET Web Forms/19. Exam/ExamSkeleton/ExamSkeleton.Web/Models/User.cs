@@ -1,12 +1,11 @@
-﻿using System.Security.Claims;
-using System.Threading.Tasks;
-
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNet.Identity.Owin;
-
-namespace ExamSkeleton.Web.Models
+﻿namespace Articles.Web.Models
 {
+    using System.Security.Claims;
+    using System.Threading.Tasks;
+
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.EntityFramework;
+
     // You can add User data for the user by adding more properties to your User class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class User : IdentityUser
     {
@@ -20,7 +19,7 @@ namespace ExamSkeleton.Web.Models
 
         public Task<ClaimsIdentity> GenerateUserIdentityAsync(ApplicationUserManager manager)
         {
-            return Task.FromResult(GenerateUserIdentity(manager));
+            return Task.FromResult(this.GenerateUserIdentity(manager));
         }
     }
 }

@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExamSkeleton.Web</RootNamespace>
-    <AssemblyName>ExamSkeleton.Web</AssemblyName>
+    <RootNamespace>Articles.Web</RootNamespace>
+    <AssemblyName>Articles.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -160,6 +160,8 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="Admin\EditArticles.aspx" />
+    <Content Include="Admin\EditCategories.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -171,6 +173,7 @@
     <Content Include="Controls\ErrorSuccessNotifier\Scripts\ErrorSuccessNotifier.js" />
     <Content Include="Controls\ErrorSuccessNotifier\Scripts\jquery-1.3.2.js" />
     <Content Include="Controls\ErrorSuccessNotifier\Styles\ErrorSuccessNotifier.css" />
+    <Content Include="Controls\LikeControl\LikeControl.ascx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -211,6 +214,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="ViewArticle.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -330,6 +334,20 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\EditArticles.aspx.cs">
+      <DependentUpon>EditArticles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditArticles.aspx.designer.cs">
+      <DependentUpon>EditArticles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditCategories.aspx.cs">
+      <DependentUpon>EditCategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditCategories.aspx.designer.cs">
+      <DependentUpon>EditCategories.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -340,6 +358,13 @@
     </Compile>
     <Compile Include="Controls\ErrorSuccessNotifier\ErrorSuccessNotifier.ascx.designer.cs">
       <DependentUpon>ErrorSuccessNotifier.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LikeControl\LikeControl.ascx.cs">
+      <DependentUpon>LikeControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LikeControl\LikeControl.ascx.designer.cs">
+      <DependentUpon>LikeControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -354,7 +379,10 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Article.cs" />
+    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\IdentityHelper.cs" />
+    <Compile Include="Models\Like.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -372,6 +400,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewArticle.aspx.cs">
+      <DependentUpon>ViewArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewArticle.aspx.designer.cs">
+      <DependentUpon>ViewArticle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

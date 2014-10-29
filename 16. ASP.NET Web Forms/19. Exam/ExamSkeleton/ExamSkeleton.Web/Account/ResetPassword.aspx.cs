@@ -1,14 +1,15 @@
-﻿using System;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Owin;
-using ExamSkeleton.Web.Models;
-
-namespace ExamSkeleton.Web.Account
+﻿namespace Articles.Web.Account
 {
+    using System;
+    using System.Linq;
+    using System.Web;
+    using System.Web.UI;
+
+    using Articles.Web.Models;
+
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.Owin;
+
     public partial class ResetPassword : Page
     {
         protected string StatusMessage
@@ -19,28 +20,28 @@ namespace ExamSkeleton.Web.Account
 
         protected void Reset_Click(object sender, EventArgs e)
         {
-            string code = IdentityHelper.GetCodeFromRequest(Request);
+            string code = IdentityHelper.GetCodeFromRequest(this.Request);
             if (code != null)
             {
-                var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+                var manager = this.Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
 
-                var user = manager.FindByName(Email.Text);
+                var user = manager.FindByName(this.Email.Text);
                 if (user == null)
                 {
-                    ErrorMessage.Text = "No user found";
+                    this.ErrorMessage.Text = "No user found";
                     return;
                 }
-                var result = manager.ResetPassword(user.Id, code, Password.Text);
+                var result = manager.ResetPassword(user.Id, code, this.Password.Text);
                 if (result.Succeeded)
                 {
-                    Response.Redirect("~/Account/ResetPasswordConfirmation");
+                    this.Response.Redirect("~/Account/ResetPasswordConfirmation");
                     return;
                 }
-                ErrorMessage.Text = result.Errors.FirstOrDefault();
+                this.ErrorMessage.Text = result.Errors.FirstOrDefault();
                 return;
             }
 
-            ErrorMessage.Text = "An error has occurred";
+            this.ErrorMessage.Text = "An error has occurred";
         }
     }
 }

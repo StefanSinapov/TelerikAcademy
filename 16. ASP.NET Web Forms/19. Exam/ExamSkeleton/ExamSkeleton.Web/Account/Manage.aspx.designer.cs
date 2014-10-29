@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExamSkeleton.Web.Account {
+namespace Articles.Web.Account {
     
     
     public partial class Manage {

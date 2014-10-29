@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExamSkeleton.Web {
+namespace Articles.Web {
     
     
     public partial class SiteMaster {
@@ -19,7 +19,7 @@ namespace ExamSkeleton.Web {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Error_Handler_Control.ErrorSuccessNotifier ErrorSuccessNotifier;
+        protected global::Articles.Web.Controls.ErrorSuccessNotifier.ErrorSuccessNotifier ErrorSuccessNotifier;
         
         /// <summary>
         /// MainContent control.

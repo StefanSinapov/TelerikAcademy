@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExamSkeleton.Web {
+namespace Articles.Web {
     
     
     public partial class Site_Mobile {
