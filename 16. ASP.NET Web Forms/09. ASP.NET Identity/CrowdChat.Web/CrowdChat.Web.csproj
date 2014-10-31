@@ -373,6 +373,10 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CrowdChat.Common\CrowdChat.Common.csproj">
+      <Project>{4fc6e20f-8ebd-4a3c-95c4-e9a7250981b0}</Project>
+      <Name>CrowdChat.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CrowdChat.Data\CrowdChat.Data.csproj">
       <Project>{E874770F-6BA9-49F6-AA04-10E85C3DEBAC}</Project>
       <Name>CrowdChat.Data</Name>
