@@ -6,11 +6,11 @@ Telerik Academy 2013-2014
 | [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |[Databases and SQL](#databases-and-sql-notes)           |
 | [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 |[Web Services and Cloud](#web-services-and-cloud)       |
 | [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) |[End-to-End Applications](#end-to-end-applications-mean)|
-| [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          |[ASP.NET Web Forms](#asp.net-web-forms)                 |
+| [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          |[ASP.NET Web Forms](#aspnet-web-forms)                  |
 | [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-oop-notes)                   |
 |                                                                           | [JavaScript Applications](#javascript-applications-notes) 
-|																			| [JavaScript SPA](#javascript-spa-notes)
-|                           												| 
+|																		                                      	| [JavaScript SPA](#javascript-spa-notes)
+|                           									                        			| 
 
 # Programming with C# 
 
