@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" %>
+
+<asp:Content runat="server" ID="Head" ContentPlaceHolderID="head"></asp:Content>
+<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="contentHolder">
+    <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+            <li>
+                <a href="~/German/Home.aspx" runat="server">Startseite</a>
+            </li>
+            <li>
+                <a href="~/German/About.aspx" runat="server">über</a>
+            </li>
+            <li>
+                <a runat="server" href="~/German/Contacts.aspx">Kontakte</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="contentWrapper" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" %>
+
+<asp:Content runat="server" ID="Head" ContentPlaceHolderID="head"></asp:Content>
+<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="contentHolder">
+    <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+            <li>
+                <a href="~/Bulgarian/Home.aspx" runat="server">Начало</a>
+            </li>
+            <li>
+                <a href="~/Bulgarian/About.aspx" runat="server">За нас</a>
+            </li>
+            <li>
+                <a runat="server" href="~/Bulgarian/Contacts.aspx">Контакти</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-9">
+        <asp:ContentPlaceHolder ID="bulgarianWrapper" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

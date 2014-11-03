@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="MasterPages.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Maser page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        /*sorry form this*/
+        body {
+            padding-top: 60px;
+            padding-bottom: 20px;
+        }
+
+        .body-content {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/Index.aspx">My App</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="~/PersonalInfo.aspx" runat="server">Personal Information</a>
+                        </li>
+                        <li>
+                            <a href="~/Friends.aspx" runat="server">Friends</a>
+                        </li>
+                        <li>
+                            <a runat="server" href="~/AdditionalInfo.aspx">Additional Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="contentHolder" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <footer class="panel-footer navbar-fixed-bottom">
+                <div class="text-center">
+                    &copy; 2014, Telerik Academy
+                </div>
+            </footer>
+            <script src="js/bootstrap.min.js"></script>
+        </div>
+    </form>
+
+</body>
+</html>

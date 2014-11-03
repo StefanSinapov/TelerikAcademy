@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowdChat.Web", "CrowdChat.Web\CrowdChat.Web.csproj", "{E4FEA736-3467-47CE-BA6D-4939C3B08A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowdChat.Models", "CrowdChat.Models\CrowdChat.Models.csproj", "{F5119EE7-59A3-4836-BF82-6284F968DDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowdChat.Data", "CrowdChat.Data\CrowdChat.Data.csproj", "{E874770F-6BA9-49F6-AA04-10E85C3DEBAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowdChat.Common", "CrowdChat.Common\CrowdChat.Common.csproj", "{4FC6E20F-8EBD-4A3C-95C4-E9A7250981B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4FEA736-3467-47CE-BA6D-4939C3B08A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FEA736-3467-47CE-BA6D-4939C3B08A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FEA736-3467-47CE-BA6D-4939C3B08A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FEA736-3467-47CE-BA6D-4939C3B08A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5119EE7-59A3-4836-BF82-6284F968DDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5119EE7-59A3-4836-BF82-6284F968DDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5119EE7-59A3-4836-BF82-6284F968DDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5119EE7-59A3-4836-BF82-6284F968DDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E874770F-6BA9-49F6-AA04-10E85C3DEBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E874770F-6BA9-49F6-AA04-10E85C3DEBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E874770F-6BA9-49F6-AA04-10E85C3DEBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E874770F-6BA9-49F6-AA04-10E85C3DEBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC6E20F-8EBD-4A3C-95C4-E9A7250981B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC6E20F-8EBD-4A3C-95C4-E9A7250981B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC6E20F-8EBD-4A3C-95C4-E9A7250981B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC6E20F-8EBD-4A3C-95C4-E9A7250981B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

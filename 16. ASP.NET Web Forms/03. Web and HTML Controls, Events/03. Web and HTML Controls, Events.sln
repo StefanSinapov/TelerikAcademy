@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. HTML Escaping", "03. HT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Registration Form", "04. Registration Form\04. Registration Form.csproj", "{64401E03-F615-4E24-9D33-2CD311AD6786}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Web Calculator", "06. Web Calculator\06. Web Calculator.csproj", "{7B79DB0D-D4E1-46F8-929D-44AE6C620C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Tic Tac Toe", "05. Tic Tac Toe\05. Tic Tac Toe.csproj", "{37CF06F2-D21E-4129-B799-DBB4E9809261}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{64401E03-F615-4E24-9D33-2CD311AD6786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64401E03-F615-4E24-9D33-2CD311AD6786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64401E03-F615-4E24-9D33-2CD311AD6786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B79DB0D-D4E1-46F8-929D-44AE6C620C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B79DB0D-D4E1-46F8-929D-44AE6C620C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B79DB0D-D4E1-46F8-929D-44AE6C620C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B79DB0D-D4E1-46F8-929D-44AE6C620C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CF06F2-D21E-4129-B799-DBB4E9809261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CF06F2-D21E-4129-B799-DBB4E9809261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CF06F2-D21E-4129-B799-DBB4E9809261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CF06F2-D21E-4129-B799-DBB4E9809261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
