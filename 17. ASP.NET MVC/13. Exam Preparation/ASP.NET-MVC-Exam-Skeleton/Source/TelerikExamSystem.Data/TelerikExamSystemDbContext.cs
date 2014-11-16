@@ -14,8 +14,8 @@
             : base("name=DefaultConnection(v11.0)", throwIfV1Schema: false)
 
             // : base("name=DefaultConnection(v12.0)", throwIfV1Schema: false)
-            // : base("name=TelerikExamSystemDatabase", throwIfV1Schema: false)
-            // See TelerikExamSystem.Web -> Web.config -> connectionStrings
+        // : base("name=DefaultConnection", throwIfV1Schema: false)
+        // See TelerikExamSystem.Web -> Web.config -> connectionStrings
         {
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<TelerikExamSystemDbContext, DefaultMigrationConfiguration>());
         }
@@ -26,7 +26,7 @@
         {
             return new TelerikExamSystemDbContext();
         }
- 
+
         public override int SaveChanges()
         {
             return base.SaveChanges();
@@ -36,7 +36,7 @@
         {
             return base.Set<T>();
         }
-    
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();

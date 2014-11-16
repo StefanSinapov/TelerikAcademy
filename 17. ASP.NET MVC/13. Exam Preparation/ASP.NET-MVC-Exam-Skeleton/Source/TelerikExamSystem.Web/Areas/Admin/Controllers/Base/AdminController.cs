@@ -1,6 +1,7 @@
-﻿namespace TicketingSystem.Web.Areas.Admin.Controllers.Base
+﻿namespace TelerikExamSystem.Web.Areas.Admin.Controllers.Base
 {
     using System.Web.Mvc;
+
     using TelerikExamSystem.Common;
     using TelerikExamSystem.Data.UnitOfWork;
     using TelerikExamSystem.Web.Controllers.Base;
@@ -8,7 +9,7 @@
     [Authorize(Roles = GlobalConstants.AdministratorRoleName)]
     public abstract class AdminController : BaseController
     {
-        public AdminController(ITelerikExamSystemData data)
+        protected AdminController(ITelerikExamSystemData data)
             : base(data)
         {
         }

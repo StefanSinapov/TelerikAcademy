@@ -11,6 +11,6 @@
 
         public const string AdministratorUserName = "admin@mail.com";
 
-        public const string AdministratorUserPassword = "administrator";
+        public const string AdministratorUserPassword = "admin@mail.com";
     }
 }

@@ -11,8 +11,6 @@
 
     using TelerikExamSystem.Data.UnitOfWork;
 
-    using TicketingSystem.Web.Areas.Admin.Controllers.Base;
-
     public abstract class KendoGridAdminController : AdminController
     {
         protected KendoGridAdminController(ITelerikExamSystemData data)
@@ -55,7 +53,7 @@
             if (model != null && this.ModelState.IsValid)
             {
                 var dataModel = this.GetById<TModel>(id);
-                Mapper.Map<TViewModel, TModel>(model, dataModel);
+                Mapper.Map(model, dataModel);
                 this.ChangeEntityStateAndSave(dataModel, EntityState.Modified);
             }
         }
