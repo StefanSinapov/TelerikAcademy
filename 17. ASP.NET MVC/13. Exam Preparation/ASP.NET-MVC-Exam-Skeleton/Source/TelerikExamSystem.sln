@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{DAF4341A-0AF8-4470-9696-080CE6B62380}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{726B6454-6332-419F-8937-0E24A4E145A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{D9FCB9AB-AE37-42A7-8C60-51B0BEF648FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikExamSystem.Common", "TelerikExamSystem.Common\TelerikExamSystem.Common.csproj", "{BCB3AB61-35E0-4016-9EB5-D5F2A497159D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikExamSystem.Data", "TelerikExamSystem.Data\TelerikExamSystem.Data.csproj", "{14371B11-3E2D-4377-B307-862A60EA5281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikExamSystem.Data.Models", "TelerikExamSystem.Data.Models\TelerikExamSystem.Data.Models.csproj", "{346EA8A3-6ECC-4A56-A6B4-68DC86DE369A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikExamSystem.Web", "TelerikExamSystem.Web\TelerikExamSystem.Web.csproj", "{C97172A0-B6F2-4740-8DD2-749D0130484D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCB3AB61-35E0-4016-9EB5-D5F2A497159D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB3AB61-35E0-4016-9EB5-D5F2A497159D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB3AB61-35E0-4016-9EB5-D5F2A497159D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB3AB61-35E0-4016-9EB5-D5F2A497159D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14371B11-3E2D-4377-B307-862A60EA5281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14371B11-3E2D-4377-B307-862A60EA5281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14371B11-3E2D-4377-B307-862A60EA5281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14371B11-3E2D-4377-B307-862A60EA5281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346EA8A3-6ECC-4A56-A6B4-68DC86DE369A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346EA8A3-6ECC-4A56-A6B4-68DC86DE369A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346EA8A3-6ECC-4A56-A6B4-68DC86DE369A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346EA8A3-6ECC-4A56-A6B4-68DC86DE369A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97172A0-B6F2-4740-8DD2-749D0130484D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97172A0-B6F2-4740-8DD2-749D0130484D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97172A0-B6F2-4740-8DD2-749D0130484D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97172A0-B6F2-4740-8DD2-749D0130484D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCB3AB61-35E0-4016-9EB5-D5F2A497159D} = {D9FCB9AB-AE37-42A7-8C60-51B0BEF648FD}
+		{14371B11-3E2D-4377-B307-862A60EA5281} = {DAF4341A-0AF8-4470-9696-080CE6B62380}
+		{346EA8A3-6ECC-4A56-A6B4-68DC86DE369A} = {DAF4341A-0AF8-4470-9696-080CE6B62380}
+		{C97172A0-B6F2-4740-8DD2-749D0130484D} = {726B6454-6332-419F-8937-0E24A4E145A8}
+	EndGlobalSection
+EndGlobal

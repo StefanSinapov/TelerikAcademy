@@ -1,0 +1,10 @@
+﻿@if (this.User.IsInRole(TelerikExamSystem.Common.GlobalConstants.AdministratorRoleName))
+{
+    <li>
+        Admin
+        <ul>
+            <li>@Html.ActionLink("Menu 1", "Index", "Home", new { Area = "Admin" }, null)</li>
+            <li>@Html.ActionLink("Menu 2", "Index", "Home", new { Area = "Admin" }, null)</li>
+        </ul>
+    </li>
+}
