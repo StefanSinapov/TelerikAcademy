@@ -1,0 +1,57 @@
+﻿@using LaptopSystem.Web.ViewModels.Laptops
+@model LaptopSystem.Web.Controllers.LaptopsController.SearchOptionsViewModel
+
+@{
+    ViewBag.Title = "All Laptops";
+}
+
+<h2>Laptops</h2>
+@using (Html.BeginForm("All", "Laptops", FormMethod.Get, new { @class = "form-horizontal" }))
+{
+    @(Html.Kendo().AutoComplete().Name("Model").HighlightFirst(true).Suggest(true).DataSource(dataSource => dataSource.Read("GetModels", "Laptops"))
+    )
+
+    @(Html.Kendo().DropDownList()
+        .Name("Manufacturer")
+        .AutoBind(true)
+        .Value("")
+        .DataSource(dataSource => dataSource.Read("GetManufacturers", "Laptops")
+            .ServerFiltering(true))
+    )
+
+    @(Html.Kendo().NumericTextBox().Name("Price").Min(0).Placeholder("300")
+    )
+
+    <input type="submit" class="btn btn-primary pull-right" value="Search" />
+
+
+    <br />
+    <br />
+
+    @(Html.Kendo().ListView<LaptopViewModel>()
+        .Name("laptops")
+        .TagName("div")
+        .Pageable()
+        .ClientTemplateId("laptops-template")
+        .DataSource(
+            dataSource => dataSource
+                .PageSize(5)
+                .ServerOperation(true)
+                .Read("GetLaptops", "Laptops", new { model = @Model.Model, manufacturer = @Model.Manufacturer, price = @Model.Price}))
+
+    )
+
+    <script id="laptops-template" type="text/x-kendo-tmpl">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="#= ImageUrl #" class="img-responsive" />
+            </div>
+            <div class="col-md-4">
+                #= ManufacturerName # #= Model #
+            </div>
+            <div class="col-md-4">
+                <a href="/Laptops/Details/#= Id #" class="btn btn-default">Price $#= Price #</a>
+            </div>
+        </div>
+    </script>
+}

@@ -1,0 +1,4 @@
+﻿@if (User.Identity.IsAuthenticated)
+{
+    <li>@Html.ActionLink("Laptops", "All", "Laptops", new { area = string.Empty }, null)</li>
+}

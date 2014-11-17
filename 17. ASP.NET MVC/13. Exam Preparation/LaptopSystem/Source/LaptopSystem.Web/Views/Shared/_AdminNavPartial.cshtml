@@ -1,0 +1,11 @@
+﻿@using LaptopSystem.Common
+@if (this.User.IsInRole(GlobalConstants.AdministratorRoleName))
+{
+    <li>
+        Admin
+        <ul>
+            <li>@Html.ActionLink("Manufacturers", "Index", "Manufacturers", new { Area = "Admin" }, null)</li>
+            <li>@Html.ActionLink("Laptops", "Index", "Laptops", new { Area = "Admin" }, null)</li>
+        </ul>
+    </li>
+}

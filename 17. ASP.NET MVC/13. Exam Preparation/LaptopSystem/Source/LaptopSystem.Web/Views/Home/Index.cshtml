@@ -1,0 +1,39 @@
+﻿@model IList<LaptopSystem.Web.ViewModels.Laptops.LaptopViewModel>
+@{
+    ViewBag.Title = "Home";
+}
+
+@{ var laptops = Model.Count / 3 == 0 ? Model.Count : Model.Count / 3; }
+
+
+@for (int i = 0; i < laptops; i++)
+{
+    <div class="row">
+        @for (int j = 0; j < 3; j++)
+        {
+            var current = 3 * i + j;
+            if (current == Model.Count)
+            {
+                break;
+            }
+            
+            <div class="col-md-4">
+                <div>
+                    <strong>
+                        @Model[current].ManufacturerName @Model[current].Model
+                    </strong>
+                </div>
+                <br />
+                <div>
+                    <img src="@Model[current].ImageUrl" class="img-responsive" alt="@Model[current].ManufacturerName" />
+                </div>
+                <br />
+                <div>
+                    <a href="@Url.Action("Details", "Laptops", new { id = @Model[current].Id })" class="btn btn-default">@Html.DisplayFor(m => m[current].Price)</a>
+                </div>
+                <br />
+                <br />
+            </div>
+        }
+    </div>
+}

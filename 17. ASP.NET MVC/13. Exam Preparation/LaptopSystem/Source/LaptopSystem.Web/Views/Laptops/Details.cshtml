@@ -1,0 +1,59 @@
+﻿@model LaptopSystem.Web.ViewModels.Laptops.LaptopDetailsViewModel
+
+@{
+    ViewBag.Title = "Laptop";
+}
+
+<h2>@Model.ManufacturerName @Model.Model</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <div>
+            <strong>Monitor:</strong> @Model.Monitor"
+        </div>
+        <div>
+            <strong>Ram:</strong> @Model.HardDisk GB
+        </div>
+        <div>
+            <strong>Price:</strong> @Html.DisplayFor(m => m.Price)
+        </div>
+    </div>
+    <div class="col-md-4">
+        <img src="@Model.ImageUrl" alt="@Model.ManufacturerName" class="img-responsive" />
+    </div>
+    <div class="col-md-4">
+        @if (Model.Weight != null)
+        {
+            <div>
+                <strong>Weight:</strong> @Model.Weight kg
+            </div>
+        }
+        @if (Model.AdditionalParts != null)
+        {
+            <div>
+                <strong>Additional parts:</strong> @Model.AdditionalParts
+            </div>
+        }
+        @if (Model.Description != null)
+        {
+            <div>
+                <strong>Description:</strong> @Model.Description
+            </div>
+        }
+    </div>
+</div>
+<br/>
+<div class="row">
+    
+</div>
+<div class="row">
+    @foreach (var comment in Model.Comments)
+    {
+        <div class="row" style="word-wrap: break-word">
+            <div class="col-md-6 well">
+                <div>Comment by <strong>@comment.UserName</strong></div>
+                <div>@comment.Content</div>
+            </div>
+        </div>
+    }
+</div>

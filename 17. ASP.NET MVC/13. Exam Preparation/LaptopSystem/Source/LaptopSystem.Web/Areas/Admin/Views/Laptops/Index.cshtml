@@ -1,0 +1,19 @@
+﻿@using LaptopSystem.Web.Areas.Admin.ViewModels.Laptops
+@using LaptopSystem.Web.Infrastructure.HtmlHelpers
+@model LaptopViewModel
+@{
+    const string ControllerName = "Laptops";
+    ViewBag.Title = ControllerName;
+}
+
+<h2>@ViewBag.Title</h2>
+@(Html.FullFeaturedGrid<LaptopViewModel>(ControllerName, m => m.Id,
+    cols =>
+        {
+            cols.Bound(m => m.Model);
+            cols.Bound(m => m.Price);
+            cols.Bound(m => m.Description);
+                    cols.Command(c => c.Edit());
+                    cols.Command(c => c.Destroy());
+                }
+))
