@@ -1,4 +1,4 @@
-﻿namespace TelerikExamSystem.Web.Services.Base
+﻿namespace TelerikExamSystem.Web.Infrastructure.Services.Base
 {
     using TelerikExamSystem.Data.UnitOfWork;
 
