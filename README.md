@@ -1,14 +1,14 @@
 Telerik Academy 2013-2014
 ========================
 
-| Programming with C#                                                       | Web Design & Development                                  |Software Technologies                                    |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------|---------------------------------------------------------|
-| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         | [Databases and SQL](#databases-and-sql-notes)           |
-| [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 | [Web Services and Cloud](#web-services-and-cloud)       |
-| [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) | [JavaScript SPA](#javascript-spa-notes)                 |
-| [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          | [End-to-End Applications](#end-to-end-applications-mean)|
-| [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-oop-notes)                   | [ASP.NET Web Forms](#aspnet-web-forms) 			      |
-|                                                                           | [JavaScript Applications](#javascript-applications-notes) | [ASP.NET MVC](#aspnet-mvc)							  |
+| Programming with C#                                                       | Web Design & Development                                   | Software Technologies                                    |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------|
+| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                          | [Databases and SQL](#databases-and-sql-notes)            |
+| [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                  | [Web Services and Cloud](#web-services-and-cloud)        |
+| [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes)  | [JavaScript SPA](#javascript-spa-notes)                  |
+| [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)           | [End-to-End Applications](#end-to-end-applications-mean) |
+| [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-oop-notes)                    | [ASP.NET Web Forms](#aspnet-web-forms) 			        |
+|                                                                           | [JavaScript Applications](#javascript-applications-notes)  | [ASP.NET MVC](#aspnet-mvc)							    |
 
 # Programming with C# 
 
