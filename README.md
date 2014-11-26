@@ -1,16 +1,14 @@
 Telerik Academy 2013-2014
 ========================
 
-| Programming with C#                                                       | Web Design & Development                                  |Software Technologies                                   |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------|--------------------------------------------------------|
-| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         |[Databases and SQL](#databases-and-sql-notes)           |
-| [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 |[Web Services and Cloud](#web-services-and-cloud)       |
-| [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) |[End-to-End Applications](#end-to-end-applications-mean)|
-| [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          |[ASP.NET Web Forms](#aspnet-web-forms)                  |
-| [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-oop-notes)                   |
-|                                                                           | [JavaScript Applications](#javascript-applications-notes) 
-|																		                                      	| [JavaScript SPA](#javascript-spa-notes)
-|                           									                        			| 
+| Programming with C#                                                       | Web Design & Development                                  |Software Technologies                                    |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------|---------------------------------------------------------|
+| [C# - Part I](#c---part-i-notes)                                          | [HTML Basics](#html-basics-notes)                         | [Databases and SQL](#databases-and-sql-notes)           |
+| [C# - Part II](#c---part-ii-notes)                                        | [CSS Styling](#css-notes)                                 | [Web Services and Cloud](#web-services-and-cloud)       |
+| [Object-Oriented Programming](#c---object-oriented-programming-notes)     | [JavaScript Fundamentals](#javascript-fundamentals-notes) | [JavaScript SPA](#javascript-spa-notes)                 |
+| [High-Quality Code](#high-quality-code-notes)                             | [JavaScript UI & DOM](#javascript-ui--dom-notes)          | [End-to-End Applications](#end-to-end-applications-mean)|
+| [Data Structures and Algorithms](#data-structures-and-algorithms-notes)   | [JavaScript OOP](#javascript-oop-notes)                   | [ASP.NET Web Forms](#aspnet-web-forms) 			      |
+|                                                                           | [JavaScript Applications](#javascript-applications-notes) | [ASP.NET MVC](#aspnet-mvc)							  |
 
 # Programming with C# 
 
@@ -33,17 +31,17 @@ Telerik Academy 2013-2014
 * [Strings and Text Processing](2.%20C%23%20програмиране%20-%20част%20II/Homework/8.StringsAndTextProcessing) 
 * [Teamwork - Console game](2.%20C%23%20програмиране%20-%20част%20II/Teamwork)
 
-## [C# - Object-Oriented Programming](3.%20Обектно-ориентирано%20програмиране%20(ООП)) ([notes](http://www.evernote.com/shard/s60/sh/dc761682-6944-40e5-875e-bb43594034b7/b3ba1767085ccb6c637f90ae9367b777))
-1. [Defining classes - Part I](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/1.%20Defining%20Classes%20Part%20I) 
-* [Defining classes - Part II](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/2.%20Defining%20Classes%20Part%20II) 
-* [Extension Methods, Delegates, Lambda and LINQ](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/3.ExtensionDelgatesLambdaLINQ) - ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/3.ExtensionDelgatesLambdaLINQ/README.md)) 
-* [OOP Fundamental Principles - Part I](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/4.%20OOP%20Principles%20Part%20I) - ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/4.%20OOP%20Principles%20Part%20I/README.md))
-* [OOP Fundamental Principles - Part II](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/5.%20OOP%20Principles%20Part%20II) - ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/5.%20OOP%20Principles%20Part%20II/README.md)) 
-* [Common Type System](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/6.CommonTypeSystem) - ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/6.CommonTypeSystem/README.md))
+## [C# - Object-Oriented Programming](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)) ([notes](http://www.evernote.com/shard/s60/sh/dc761682-6944-40e5-875e-bb43594034b7/b3ba1767085ccb6c637f90ae9367b777))
+1. [Defining classes - Part I](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/1.%20Defining%20Classes%20Part%20I) 
+* [Defining classes - Part II](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/2.%20Defining%20Classes%20Part%20II) 
+* [Extension Methods, Delegates, Lambda and LINQ](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/3.ExtensionDelgatesLambdaLINQ) - ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/3.ExtensionDelgatesLambdaLINQ/README.md)) 
+* [OOP Fundamental Principles - Part I](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/4.%20OOP%20Principles%20Part%20I) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/4.%20OOP%20Principles%20Part%20I/README.md))
+* [OOP Fundamental Principles - Part II](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/5.%20OOP%20Principles%20Part%20II) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/5.%20OOP%20Principles%20Part%20II/README.md)) 
+* [Common Type System](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/6.CommonTypeSystem) - ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/6.CommonTypeSystem/README.md))
 * ~~Design Patterns~~
-* [Workshop - Particle System](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/7.%20Workshop) ([conditions](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/7.%20Workshop/README.md)) 
+* [Workshop - Particle System](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/7.%20Workshop) ([conditions](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/7.%20Workshop	/README.md)) 
 * Teamwork - [RPG Game](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Teamwork/JackLondonTeam)
-* [Exam](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Exam/REAL) - [Preparation](3.%20Обектно-ориентирано%20програмиране%20(ООП)/Homework/0.%20ExamPreparation)
+* [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/Exam) - [Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/03.%20%D0%9E%D0%B1%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20(%D0%9E%D0%9E%D0%9F)/Homework/0.%20ExamPreparation)
 
 ## [High-Quality Code](https://github.com/StefanSinapov/TelerikAcademy/tree/master/7.%20High-Quality%20Code) ([notes]())
 1. What is High-Quality Programming Code?
@@ -242,3 +240,21 @@ Telerik Academy 2013-2014
 17. [Team Work](https://github.com/WebFormsTeamFyodorDostoevsky/ASP-NET-Web-Forms-Teamwork)
 18. [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/16.%20ASP.NET%20Web%20Forms/18.%20Exam%20preparation)
 19. [Exam](https://github.com/StefanSinapov/TelerikAcademy/tree/master/16.%20ASP.NET%20Web%20Forms/19.%20Exam)
+
+## [ASP.NET MVC](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+0. [Course Introduction](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+1. [Introduction to ASP.NET MVC](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+2. [ASP.NET MVC Essentials](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+3. [AJAX in ASP.NET MVC](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+4. [Web Security and ASP.NET](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+5. [Working with Data](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+6. [Kendo UI ASP.NET MVC Wrappers](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+7. [Caching Data](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+8. [IIS Deployment](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+9. [SignalR](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+10. [Bootstrap](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+11. [ASP.NET MVC Advanced Topics](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+12. [Project defense](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+13. [Exam Preparation](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+14. [Exam (17 November 2014)](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
+15. [ASP.NET vNext Seminar (22 November 2014)](https://github.com/StefanSinapov/TelerikAcademy/tree/master/17.%20ASP.NET%20MVC)
